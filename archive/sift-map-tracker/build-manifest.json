@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "product": "SIFT Map Tracker",
+  "version": "0.10.2",
+  "generatedAtUtc": "2026-08-21T05:33:04.6901211+00:00",
+  "runtime": "win-x64",
+  "client": {
+    "branch": "verify",
+    "commit": "76a91d15591e33f880abd7dccb39ab7706e97cb6"
+  },
+  "tracker": {
+    "branch": "verify",
+    "commit": "8749d444d0529f91875b6d99ac0c838c309ae473",
+    "defaultRouteSource": "1.示例跑图路线.json"
+  },
+  "siftProfiles": {
+    "standard220": {
+      "profileScale": 1.0,
+      "logicMapSha256": "213558f2d592610c0ec21edc7d891c18acdb232cb73fc223a360bf22b92e7585",
+      "cachePath": "sift-map-tracker/assets/SIFT_features.npz",
+      "cacheBytes": 80157992,
+      "cacheSha256": "bc15c922435d4b0f22f7c2f520a636fe9073a3c02a0bca0404512e2ffdc93186"
+    },
+    "compact165": {
+      "profileScale": 0.75,
+      "featureCount": 94992,
+      "logicMapSha256": "213558f2d592610c0ec21edc7d891c18acdb232cb73fc223a360bf22b92e7585",
+      "cachePath": "sift-map-tracker/assets/SIFT_features_075.npz",
+      "cacheBytes": 18903971,
+      "cacheSha256": "f6ce11cef1acc83e479884ec58cf1b2f08743ff104a76e21d8754c546bb70231",
+      "manifestPath": "sift-map-tracker/assets/SIFT_features_075.manifest.json"
+    }
+  },
+  "files": [
+    {
+      "path": "SiftMapTracker.Client.exe",
+      "bytes": 157916510,
+      "sha256": "b0a5f024facb49c8bb6b4754d0649e13a59a773b61faa59186aa56cb0a02b9be"
+    },
+    {
+      "path": "Resources/Sounds/item_alert.wav",
+      "bytes": 712782,
+      "sha256": "31e886f92863f4eb96d9ad77bb4a83ed068e9e3bfe9650749b7dcc59e6146f82"
+    },
+    {
+      "path": "sift-map-tracker/service/service.exe",
+      "bytes": 59505395,
+      "sha256": "d617c0eab03e82586b42d379641b4ca486a8a46ca7bb5598874cb25c5c8154cd"
+    },
+    {
+      "path": "screen-recognition/service/service.exe",
+      "bytes": 107936679,
+      "sha256": "0a31592b4bf944c24ecd071f8e763fec2025de61a75f675c0e337af2468d11c3"
+    },
+    {
+      "path": "screen-recognition/service/screen-recognition.manifest.json",
+      "bytes": 6924,
+      "sha256": "fb734a77ee592357227851853a9fc9ddeeedbc4340a9a7ff65fb4d4501c83727"
+    },
+    {
+      "path": "sift-map-tracker/settings.py",
+      "bytes": 1154,
+      "sha256": "4d405a75f6ca0b1ebed9fab97ccbdbba1959b360e3a2db7007dabbbef852a15d"
+    },
+    {
+      "path": "sift-map-tracker/assets/display_map.png",
+      "bytes": 73292633,
+      "sha256": "5befd308969cb33f895acf38c6f19cf82d95dd9afc102790caceab2e076c2813"
+    },
+    {
+      "path": "sift-map-tracker/assets/logic_map.png",
+      "bytes": 48600819,
+      "sha256": "213558f2d592610c0ec21edc7d891c18acdb232cb73fc223a360bf22b92e7585"
+    },
+    {
+      "path": "sift-map-tracker/assets/raw.png",
+      "bytes": 48600819,
+      "sha256": "213558f2d592610c0ec21edc7d891c18acdb232cb73fc223a360bf22b92e7585"
+    },
+    {
+      "path": "sift-map-tracker/assets/SIFT_features.npz",
+      "bytes": 80157992,
+      "sha256": "bc15c922435d4b0f22f7c2f520a636fe9073a3c02a0bca0404512e2ffdc93186"
+    },
+    {
+      "path": "sift-map-tracker/assets/SIFT_features_075.npz",
+      "bytes": 18903971,
+      "sha256": "f6ce11cef1acc83e479884ec58cf1b2f08743ff104a76e21d8754c546bb70231"
+    },
+    {
+      "path": "sift-map-tracker/assets/SIFT_features_075.manifest.json",
+      "bytes": 911,
+      "sha256": "5667b1bc07b3da974310f501eb90bb6d591d6f7e19dfe75bcc6c7e23b8d4113f"
+    },
+    {
+      "path": "sift-map-tracker/assets/item_siamese_v2.onnx",
+      "bytes": 1186251,
+      "sha256": "5780084551ad6e66d7e94158e6f9a4373e22127c5a7047727d8d7c0a60179e20"
+    },
+    {
+      "path": "sift-map-tracker/assets/item_siamese_v2.prototypes.npz",
+      "bytes": 81023,
+      "sha256": "b35549e48b3f93b269ed90079bcba643951f9fd1b0eda995c83358e4ff9c745b"
+    },
+    {
+      "path": "sift-map-tracker/assets/item_siamese_v2.manifest.json",
+      "bytes": 3291,
+      "sha256": "13fd77d2f9a53a77515c7527cfaf80721164524f286cef07283cf27241a2f534"
+    },
+    {
+      "path": "sift-map-tracker/assets/resource_catalog/config.json",
+      "bytes": 49301,
+      "sha256": "9831e22364c65b785fd76603fd26b71306c204fc6b11c14b55108caa2b00fafd"
+    },
+    {
+      "path": "sift-map-tracker/routes/default_route.json",
+      "bytes": 20024,
+      "sha256": "874df92c26c183fa743cdd61867993e03bf3265cc68b2268c61ab81fdcbc73cc"
+    }
+  ]
+}

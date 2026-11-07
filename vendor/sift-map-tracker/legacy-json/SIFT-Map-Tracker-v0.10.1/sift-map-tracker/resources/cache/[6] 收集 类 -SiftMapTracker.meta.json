@@ -1,0 +1,14 @@
+{
+  "cache_version": 2,
+  "source_file": "[6] \u6536\u96C6 \u7C7B -SiftMapTracker.json",
+  "source_sha256": "8E75B7F8C4538742C6DB3AE9881A08A8E304F008349CEF62CABA86153808F7FC",
+  "source_length": 150973,
+  "source_last_write_utc_ticks": 639197612353293016,
+  "resource_name": "[6] \u6536\u96C6 \u7C7B -\u6765\u81EA\u9879\u76EERocopath\u4F5C\u8005\u968F\u6211\u6240\u60F3",
+  "point_count": 504,
+  "map_width": 8192,
+  "map_height": 8192,
+  "generated_at_utc": "2026-07-16T09:59:20.2229247Z",
+  "full_image": "[6] \u6536\u96C6 \u7C7B -SiftMapTracker.full.png",
+  "nav_image": "[6] \u6536\u96C6 \u7C7B -SiftMapTracker.nav.png"
+}

@@ -1,0 +1,373 @@
+/* ==========================================================================
+   RocoFluent — rocogi UI v2 设计系统
+   骨架参考 Microsoft Fluent UI 2（布局 / 密度 / 层级 / 4px 网格）
+   皮肤参考 rocokingdom-ui 的视觉令牌（纸面 / 石材 / 金色 / 硬阴影）
+   仅引用公开的设计常量（色值 / 圆角 / 控件高度），全部 CSS 为原创实现，
+   不引入 rocokingdom-ui 运行时依赖（其为 React 库，且仓库未附顶层 LICENSE）。
+   框架无关：可在 rocogi/frontend (Vue 3) 中直接 import。
+   ========================================================================== */
+
+/* ---------- 1. 设计令牌 ---------- */
+:root {
+  /* 材料：纸面（浅色表面，取自 rocokingdom-ui paper 系） */
+  --rf-paper: #f4f0e8;
+  --rf-paper-soft: #fffaf2;
+  --rf-paper-muted: #e5dccd;
+  --rf-paper-strong: #cdbcaa;
+  /* 材料：石材（深色表面，取自 rocokingdom-ui stone 系） */
+  --rf-stone: #242628;
+  --rf-stone-soft: #393d40;
+  --rf-stone-muted: #4d5358;
+  --rf-stone-strong: #141719;
+  /* 主色：罗王国金（取自 rocokingdom-ui primary 系） */
+  --rf-primary: #ffc65f;
+  --rf-primary-soft: #fff1cf;
+  --rf-primary-muted: #f7d56f;
+  --rf-primary-strong: #d89522;
+  /* 语义色 */
+  --rf-success: #2f9e66;
+  --rf-danger: #d94b4b;
+  --rf-warning: #e8a13a;
+  --rf-info: #3d7fc4;
+  /* 前景色 */
+  --rf-on-paper: #222222;
+  --rf-on-stone: #f4f0e8;
+  --rf-on-primary: #242628;
+  --rf-text-secondary: rgba(34, 34, 34, 0.62);
+  --rf-text-disabled: rgba(34, 34, 34, 0.40);
+  --rf-on-stone-secondary: rgba(244, 240, 232, 0.66);
+  /* Fluent 派生描边 */
+  --rf-stroke: rgba(34, 34, 34, 0.10);
+  --rf-stroke-strong: rgba(34, 34, 34, 0.18);
+  /* 字体：Fluent 字型栈 + 等宽（日志/坐标） */
+  --rf-font: "Segoe UI", system-ui, "Microsoft YaHei UI", "PingFang SC", sans-serif;
+  --rf-mono: "Cascadia Code", Consolas, "JetBrains Mono", ui-monospace, monospace;
+  /* 字号阶梯（Fluent 2 type ramp，4px 网格） */
+  --rf-fs-caption: 12px;
+  --rf-fs-body: 13px;
+  --rf-fs-body-lg: 14px;
+  --rf-fs-subtitle: 16px;
+  --rf-fs-title: 20px;
+  --rf-fs-display: 28px;
+  /* 圆角（Fluent 2 比例 + rocokingdom --rk-radius: 8px） */
+  --rf-radius-sm: 4px;
+  --rf-radius-md: 6px;
+  --rf-radius-lg: 8px;
+  --rf-radius-pill: 999px;
+  /* 控件尺寸（rocokingdom 控件高度 24/32/40 == Fluent 密度三档） */
+  --rf-h-sm: 24px;
+  --rf-h-md: 32px;
+  --rf-h-lg: 40px;
+  /* 间距：4px 网格 */
+  --rf-s1: 4px;  --rf-s2: 8px;  --rf-s3: 12px; --rf-s4: 16px;
+  --rf-s5: 20px; --rf-s6: 24px; --rf-s8: 32px; --rf-s10: 40px;
+  /* 阴影：Fluent 柔和环境 + rocokingdom 游戏硬阴影 */
+  --rf-shadow-soft: 0 1px 2px rgb(36 38 40 / 0.08);
+  --rf-shadow-card: 0 1px 2px rgb(36 38 40 / 0.08), 0 2px 6px rgb(36 38 40 / 0.08);
+  --rf-shadow-flyout: 0 4px 8px rgb(36 38 40 / 0.14), 0 8px 24px rgb(36 38 40 / 0.14);
+  --rf-shadow-hard: 0 2px 0 rgb(36 38 40 / 0.32);
+  /* 焦点环（Fluent 双层 ring，金色） */
+  --rf-focus-ring: 0 0 0 2px var(--rf-paper), 0 0 0 4px var(--rf-primary-strong);
+  /* 侧栏（石材） */
+  --rf-rail-width: 232px;
+}
+
+/* ---------- 2. 基础 ---------- */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body.rf {
+  font-family: var(--rf-font);
+  font-size: var(--rf-fs-body);
+  color: var(--rf-on-paper);
+  background: var(--rf-paper);
+  -webkit-font-smoothing: antialiased;
+}
+body.rf :focus-visible { outline: none; box-shadow: var(--rf-focus-ring); border-radius: var(--rf-radius-sm); }
+::selection { background: var(--rf-primary-muted); color: var(--rf-on-paper); }
+
+/* ---------- 3. 应用骨架：Fluent 导航栏 × 石材皮肤 ---------- */
+.rf-shell { display: flex; min-height: 100vh; }
+
+.rf-rail {
+  width: var(--rf-rail-width);
+  flex: 0 0 auto;
+  background: var(--rf-stone);
+  color: var(--rf-on-stone);
+  display: flex;
+  flex-direction: column;
+  padding: var(--rf-s4) var(--rf-s3);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+.rf-rail-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--rf-s2);
+  padding: var(--rf-s2) var(--rf-s2) var(--rf-s4);
+}
+.rf-rail-brand .rf-logo {
+  width: 34px; height: 34px;
+  border-radius: var(--rf-radius-lg);
+  background: var(--rf-primary);
+  color: var(--rf-on-primary);
+  display: grid; place-items: center;
+  font-size: 17px;
+  box-shadow: var(--rf-shadow-hard);
+}
+.rf-rail-brand b { font-size: var(--rf-fs-subtitle); letter-spacing: 0.5px; }
+.rf-rail-brand small { display: block; font-size: var(--rf-fs-caption); color: var(--rf-on-stone-secondary); }
+.rf-rail-group { font-size: var(--rf-fs-caption); color: var(--rf-on-stone-secondary); padding: var(--rf-s3) var(--rf-s2) var(--rf-s1); text-transform: uppercase; letter-spacing: 1px; }
+.rf-rail-item {
+  display: flex; align-items: center; gap: var(--rf-s2);
+  padding: 0 var(--rf-s2);
+  height: var(--rf-h-md);
+  border-radius: var(--rf-radius-md);
+  color: var(--rf-on-stone);
+  text-decoration: none;
+  font-size: var(--rf-fs-body-lg);
+  cursor: pointer;
+  border: 0; background: transparent; width: 100%; text-align: left;
+}
+.rf-rail-item .rf-ico { width: 20px; text-align: center; opacity: 0.85; }
+.rf-rail-item:hover { background: var(--rf-stone-soft); }
+.rf-rail-item.is-active {
+  background: var(--rf-stone-muted);
+  box-shadow: inset 3px 0 0 var(--rf-primary);
+}
+.rf-rail-item .rf-pill-num { margin-left: auto; }
+
+.rf-main { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; }
+
+.rf-topbar {
+  display: flex; align-items: center; gap: var(--rf-s3);
+  padding: var(--rf-s2) var(--rf-s6);
+  height: 52px;
+  background: var(--rf-paper-soft);
+  border-bottom: 1px solid var(--rf-stroke);
+  position: sticky; top: 0; z-index: 10;
+}
+.rf-topbar h1 { font-size: var(--rf-fs-body-lg); font-weight: 600; margin: 0; }
+.rf-topbar .rf-spacer { flex: 1; }
+
+.rf-content { padding: var(--rf-s5) var(--rf-s6) var(--rf-s8); max-width: 1400px; width: 100%; margin: 0 auto; }
+.rf-page-title { font-size: var(--rf-fs-title); font-weight: 650; margin: 0 0 var(--rf-s1); }
+.rf-page-sub { color: var(--rf-text-secondary); margin: 0 0 var(--rf-s5); font-size: var(--rf-fs-body-lg); }
+
+/* 符文水印（rocokingdom RuneText 的装饰性用法：只做背景，不承载信息） */
+.rf-rune-bg {
+  position: relative; overflow: hidden;
+}
+.rf-rune-bg::before {
+  content: attr(data-rune);
+  position: absolute; right: var(--rf-s6); top: var(--rf-s1);
+  font-size: 64px; font-weight: 800; letter-spacing: 4px;
+  color: rgba(34, 34, 34, 0.05);
+  pointer-events: none; user-select: none; white-space: nowrap;
+}
+
+/* ---------- 4. 按钮 ---------- */
+.rf-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: var(--rf-s1);
+  height: var(--rf-h-md);
+  padding: 0 18px;
+  border-radius: var(--rf-radius-lg);
+  border: 1px solid var(--rf-stroke-strong);
+  background: var(--rf-paper-soft);
+  color: var(--rf-on-paper);
+  font-family: inherit; font-size: var(--rf-fs-body-lg); font-weight: 600;
+  cursor: pointer;
+  transition: background 0.12s ease, box-shadow 0.12s ease, transform 0.05s ease;
+}
+.rf-btn:hover { background: var(--rf-paper); }
+.rf-btn:active { transform: translateY(1px); }
+.rf-btn.sm { height: var(--rf-h-sm); padding: 0 14px; font-size: var(--rf-fs-body); }
+.rf-btn.lg { height: var(--rf-h-lg); padding: 0 22px; font-size: 15px; }
+.rf-btn.is-primary {
+  background: var(--rf-primary);
+  border-color: transparent;
+  color: var(--rf-on-primary);
+  box-shadow: var(--rf-shadow-hard);
+}
+.rf-btn.is-primary:hover { background: var(--rf-primary-muted); }
+.rf-btn.is-primary:active { background: var(--rf-primary-strong); box-shadow: none; transform: translateY(2px); }
+.rf-btn.is-stone { background: var(--rf-stone); border-color: transparent; color: var(--rf-on-stone); }
+.rf-btn.is-stone:hover { background: var(--rf-stone-soft); }
+.rf-btn.is-danger { background: var(--rf-danger); border-color: transparent; color: #fff6f4; }
+.rf-btn.is-outline { background: transparent; }
+.rf-btn.is-subtle { border-color: transparent; background: transparent; }
+.rf-btn.is-subtle:hover { background: rgba(34, 34, 34, 0.06); }
+.rf-btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; transform: none; }
+
+/* ---------- 5. 卡片与面板 ---------- */
+.rf-card {
+  background: var(--rf-paper-soft);
+  border: 1px solid var(--rf-stroke);
+  border-radius: var(--rf-radius-lg);
+  box-shadow: var(--rf-shadow-card);
+}
+.rf-card-head {
+  display: flex; align-items: center; gap: var(--rf-s2);
+  padding: var(--rf-s3) var(--rf-s4);
+  border-bottom: 1px solid var(--rf-stroke);
+}
+.rf-card-head h3 { margin: 0; font-size: var(--rf-fs-body-lg); font-weight: 650; }
+.rf-card-head .rf-spacer { flex: 1; }
+.rf-card-body { padding: var(--rf-s4); }
+.rf-grid { display: grid; gap: var(--rf-s4); }
+.rf-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.rf-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.rf-grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 1100px) { .rf-grid.cols-4, .rf-grid.cols-3 { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 720px)  { .rf-grid.cols-4, .rf-grid.cols-3, .rf-grid.cols-2 { grid-template-columns: 1fr; } }
+
+/* KPI 统计卡（Fluent Statistic × 金色强调） */
+.rf-stat { padding: var(--rf-s4); }
+.rf-stat .rf-stat-label { font-size: var(--rf-fs-caption); color: var(--rf-text-secondary); letter-spacing: 0.4px; }
+.rf-stat .rf-stat-value { font-size: var(--rf-fs-display); font-weight: 700; line-height: 1.2; margin-top: var(--rf-s1); }
+.rf-stat .rf-stat-value small { font-size: var(--rf-fs-body); font-weight: 500; color: var(--rf-text-secondary); margin-left: var(--rf-s1); }
+.rf-stat.is-gold .rf-stat-value { color: var(--rf-primary-strong); }
+
+/* ---------- 6. 表格（运行/工作流列表） ---------- */
+.rf-table { width: 100%; border-collapse: collapse; font-size: var(--rf-fs-body-lg); }
+.rf-table th {
+  text-align: left;
+  font-size: var(--rf-fs-caption);
+  font-weight: 600;
+  color: var(--rf-text-secondary);
+  letter-spacing: 0.4px;
+  padding: var(--rf-s2) var(--rf-s4);
+  border-bottom: 1px solid var(--rf-stroke-strong);
+  background: var(--rf-paper);
+  position: sticky; top: 0;
+}
+.rf-table td { padding: var(--rf-s2) var(--rf-s4); border-bottom: 1px solid var(--rf-stroke); vertical-align: middle; }
+.rf-table tbody tr:hover { background: rgba(255, 250, 242, 0.85); }
+.rf-table .rf-mono { font-family: var(--rf-mono); font-size: var(--rf-fs-body); }
+
+/* ---------- 7. 标签 / 徽章 ---------- */
+.rf-tag {
+  display: inline-flex; align-items: center; gap: 4px;
+  height: 22px; padding: 0 10px;
+  border-radius: var(--rf-radius-pill);
+  font-size: var(--rf-fs-caption); font-weight: 600;
+  background: var(--rf-paper-muted); color: var(--rf-on-paper);
+}
+.rf-tag.is-success { background: rgba(47, 158, 102, 0.14); color: #1d7a4c; }
+.rf-tag.is-danger  { background: rgba(217, 75, 75, 0.13);  color: #b03232; }
+.rf-tag.is-warning { background: rgba(232, 161, 58, 0.16); color: #9c6a14; }
+.rf-tag.is-gold    { background: var(--rf-primary-soft);   color: #8a5d10; }
+.rf-tag.is-stone   { background: var(--rf-stone);          color: var(--rf-on-stone); }
+.rf-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.rf-dot.is-success { background: var(--rf-success); box-shadow: 0 0 0 3px rgba(47, 158, 102, 0.18); }
+.rf-dot.is-danger  { background: var(--rf-danger);  box-shadow: 0 0 0 3px rgba(217, 75, 75, 0.16); }
+.rf-dot.is-warning { background: var(--rf-warning); }
+.rf-dot.is-idle    { background: var(--rf-stone-muted); }
+
+/* ---------- 8. 表单（Fluent 输入 × 金色焦点） ---------- */
+.rf-field { display: flex; flex-direction: column; gap: var(--rf-s1); margin-bottom: var(--rf-s4); }
+.rf-field > label { font-size: var(--rf-fs-caption); font-weight: 600; color: var(--rf-text-secondary); }
+.rf-input, .rf-select, .rf-textarea {
+  font-family: inherit; font-size: var(--rf-fs-body-lg); color: var(--rf-on-paper);
+  background: var(--rf-paper-soft);
+  border: 1px solid var(--rf-stroke-strong);
+  border-bottom-width: 2px;
+  border-radius: var(--rf-radius-md);
+  height: var(--rf-h-md);
+  padding: 0 var(--rf-s3);
+  outline: none;
+  transition: border-color 0.12s ease;
+}
+.rf-textarea { height: auto; padding: var(--rf-s2) var(--rf-s3); resize: vertical; }
+.rf-input:hover, .rf-select:hover, .rf-textarea:hover { background: var(--rf-paper); }
+.rf-input:focus, .rf-select:focus, .rf-textarea:focus { border-bottom-color: var(--rf-primary-strong); box-shadow: none; }
+.rf-input::placeholder { color: var(--rf-text-disabled); }
+.rf-input.mono { font-family: var(--rf-mono); }
+
+/* 开关（游戏拨杆 × Fluent 尺寸） */
+.rf-switch { position: relative; display: inline-flex; width: 44px; height: var(--rf-h-sm); border-radius: var(--rf-radius-pill); background: var(--rf-stone-muted); border: 1px solid transparent; cursor: pointer; transition: background 0.15s ease; flex: 0 0 auto; }
+.rf-switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: var(--rf-paper-soft); transition: left 0.15s ease; box-shadow: var(--rf-shadow-soft); }
+.rf-switch.is-on { background: var(--rf-primary-strong); }
+.rf-switch.is-on::after { left: 23px; }
+
+/* 复选 */
+.rf-check { display: inline-flex; align-items: center; gap: var(--rf-s2); cursor: pointer; font-size: var(--rf-fs-body-lg); }
+.rf-check input { width: 16px; height: 16px; accent-color: var(--rf-primary-strong); }
+
+/* ---------- 9. 进度条 ---------- */
+.rf-progress { height: 8px; border-radius: var(--rf-radius-pill); background: var(--rf-paper-muted); overflow: hidden; }
+.rf-progress > i { display: block; height: 100%; background: linear-gradient(90deg, var(--rf-primary), var(--rf-primary-strong)); border-radius: inherit; }
+
+/* ---------- 10. 标签页 ---------- */
+.rf-tabs { display: flex; gap: var(--rf-s1); border-bottom: 1px solid var(--rf-stroke); margin-bottom: var(--rf-s4); }
+.rf-tab {
+  appearance: none; background: transparent; border: 0; cursor: pointer;
+  font-family: inherit; font-size: var(--rf-fs-body-lg); color: var(--rf-text-secondary);
+  height: var(--rf-h-lg); padding: 0 var(--rf-s4);
+  border-bottom: 2px solid transparent;
+}
+.rf-tab:hover { color: var(--rf-on-paper); background: rgba(34, 34, 34, 0.04); }
+.rf-tab.is-active { color: var(--rf-on-paper); font-weight: 650; border-bottom-color: var(--rf-primary-strong); }
+
+/* ---------- 11. 对话框 / 抽屉 ---------- */
+.rf-scrim { position: fixed; inset: 0; background: rgba(20, 23, 25, 0.45); display: none; place-items: center; z-index: 50; }
+.rf-scrim.is-open { display: grid; }
+.rf-modal {
+  width: min(640px, calc(100vw - 48px));
+  max-height: min(80vh, 720px);
+  overflow: auto;
+  background: var(--rf-paper-soft);
+  border-radius: var(--rf-radius-lg);
+  box-shadow: var(--rf-shadow-flyout);
+  border: 1px solid var(--rf-stroke);
+}
+.rf-modal-head { display: flex; align-items: center; padding: var(--rf-s4) var(--rf-s5); border-bottom: 1px solid var(--rf-stroke); }
+.rf-modal-head h2 { margin: 0; font-size: var(--rf-fs-subtitle); font-weight: 650; }
+.rf-modal-head .rf-spacer { flex: 1; }
+.rf-modal-body { padding: var(--rf-s5); }
+.rf-modal-foot { display: flex; justify-content: flex-end; gap: var(--rf-s2); padding: var(--rf-s3) var(--rf-s5) var(--rf-s4); border-top: 1px solid var(--rf-stroke); }
+
+/* ---------- 12. 通知（toast） ---------- */
+.rf-toast-wrap { position: fixed; right: var(--rf-s5); bottom: var(--rf-s5); display: flex; flex-direction: column; gap: var(--rf-s2); z-index: 60; }
+.rf-toast {
+  display: flex; align-items: center; gap: var(--rf-s2);
+  background: var(--rf-stone); color: var(--rf-on-stone);
+  border-radius: var(--rf-radius-md);
+  padding: var(--rf-s2) var(--rf-s4);
+  box-shadow: var(--rf-shadow-flyout);
+  font-size: var(--rf-fs-body-lg);
+  animation: rf-toast-in 0.18s ease;
+}
+.rf-toast.is-success { box-shadow: var(--rf-shadow-flyout), inset 3px 0 0 var(--rf-success); }
+.rf-toast.is-gold { box-shadow: var(--rf-shadow-flyout), inset 3px 0 0 var(--rf-primary); }
+@keyframes rf-toast-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* ---------- 13. 运行时间线（run detail） ---------- */
+.rf-timeline { list-style: none; margin: 0; padding: 0; }
+.rf-timeline li { display: flex; gap: var(--rf-s3); position: relative; padding: 0 0 var(--rf-s4) 0; }
+.rf-timeline li::before { content: ""; position: absolute; left: 11px; top: 24px; bottom: 0; width: 2px; background: var(--rf-stroke-strong); }
+.rf-timeline li:last-child::before { display: none; }
+.rf-timeline .rf-tl-dot { width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: 11px; flex: 0 0 auto; background: var(--rf-paper-muted); color: var(--rf-on-paper); z-index: 1; }
+.rf-timeline li.is-success .rf-tl-dot { background: var(--rf-success); color: var(--rf-on-stone); }
+.rf-timeline li.is-danger  .rf-tl-dot { background: var(--rf-danger);  color: var(--rf-on-stone); }
+.rf-timeline li.is-running .rf-tl-dot { background: var(--rf-primary); color: var(--rf-on-primary); }
+.rf-timeline .rf-tl-body { flex: 1; min-width: 0; }
+.rf-timeline .rf-tl-title { font-weight: 600; font-size: var(--rf-fs-body-lg); }
+.rf-timeline .rf-tl-meta { font-size: var(--rf-fs-caption); color: var(--rf-text-secondary); font-family: var(--rf-mono); }
+
+/* ---------- 14. 空状态 ---------- */
+.rf-empty { text-align: center; padding: var(--rf-s10) var(--rf-s4); color: var(--rf-text-secondary); }
+.rf-empty .rf-empty-ico { font-size: 34px; margin-bottom: var(--rf-s2); }
+.rf-empty b { display: block; color: var(--rf-on-paper); margin-bottom: var(--rf-s1); font-size: var(--rf-fs-body-lg); }
+
+/* ---------- 15. 工具类 ---------- */
+.rf-row { display: flex; align-items: center; gap: var(--rf-s2); }
+.rf-row.between { justify-content: space-between; }
+.rf-spacer { flex: 1; }
+.rf-mono { font-family: var(--rf-mono); }
+.rf-muted { color: var(--rf-text-secondary); }
+.rf-cap { font-size: var(--rf-fs-caption); color: var(--rf-text-secondary); }
+.rf-mt2 { margin-top: var(--rf-s2); } .rf-mt4 { margin-top: var(--rf-s4); }
+.rf-mb4 { margin-bottom: var(--rf-s4); }
+.rf-hide { display: none !important; }

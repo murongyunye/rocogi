@@ -1,0 +1,114 @@
+{
+  "adapter": "rocokingdom_ui",
+  "repo": "rookie-orange-rocokingdom-ui",
+  "status": "blocked",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "rookie-orange-rocokingdom-ui"
+    },
+    {
+      "name": "workspace",
+      "ok": true,
+      "detail": "rocokingdom-ui-workspace"
+    },
+    {
+      "name": "package_manager",
+      "ok": true,
+      "detail": "pnpm@11.5.3"
+    },
+    {
+      "name": "packages",
+      "ok": true,
+      "detail": "icons, shared, tokens, ui, utils"
+    },
+    {
+      "name": "tokens",
+      "ok": true,
+      "detail": "39 个导出，31 个颜色/尺寸常量"
+    },
+    {
+      "name": "components",
+      "ok": true,
+      "detail": "214 个 .tsx / 64 个 .ts"
+    }
+  ],
+  "blockers": [
+    "缺 pnpm 11.5.3 且 catalog 依赖未联网安装；只做令牌/组件契约导出，不构建"
+  ],
+  "contract": {
+    "language": "TypeScript + TSX",
+    "engine_node": ">=22.12.0",
+    "package_manager": "pnpm@11.5.3",
+    "packages": [
+      "icons",
+      "shared",
+      "tokens",
+      "ui",
+      "utils"
+    ],
+    "tokens_exports": [
+      "paper",
+      "paperSoft",
+      "paperMuted",
+      "paperStrong",
+      "stone",
+      "stoneSoft",
+      "stoneMuted",
+      "stoneStrong",
+      "primary",
+      "primarySoft",
+      "primaryMuted",
+      "primaryStrong",
+      "success",
+      "danger",
+      "onPaper",
+      "onPaperSoft",
+      "onPaperMuted",
+      "onPaperStrong",
+      "onStone",
+      "onStoneSoft",
+      "onStoneMuted",
+      "onStoneStrong",
+      "onPrimary",
+      "onPrimarySoft",
+      "onPrimaryMuted",
+      "onPrimaryStrong",
+      "onSuccess",
+      "onDanger",
+      "shadowSoftColor",
+      "shadowColor",
+      "shadowStrongColor",
+      "colors",
+      "cssVariables",
+      "effects",
+      "effectVariables",
+      "ColorName",
+      "CssVariableName",
+      "EffectName",
+      "EffectVariableName"
+    ],
+    "token_values": 31,
+    "token_files": [
+      ".gitignore",
+      "README.md",
+      "index.test.ts",
+      "index.ts",
+      "package.json",
+      "tsconfig.json",
+      "vite.config.ts"
+    ],
+    "ui_package": "rocokingdom-ui",
+    "counts": {
+      "tsx": 214,
+      "ts": 64
+    },
+    "build_requirements": [
+      "Node >=22.12",
+      "pnpm 11.5.3",
+      "vite-plus catalog 依赖"
+    ],
+    "minimal_run_plan": "仅复用令牌时直接读 packages/tokens/src/index.ts；要跑站需 pnpm install + vp run website#dev"
+  }
+}

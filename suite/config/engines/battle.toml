@@ -1,0 +1,40 @@
+[engine]
+name = "battle"
+venv = "engines/battle/.venv"
+script = "engines/battle/engine_main.py"
+action = "responder"
+interval = 2.0
+startup_timeout_sec = 60
+
+[battle]
+db = "assets/db/nrc.db"
+# preferred battle knowledge base: BWIKI Lua modules (788 skills / 596 pets / type chart)
+bwiki_db = "datasets/bwiki/bwiki_battle.db"
+simulations = 50
+team = "a"
+random_seed = 20261105
+
+[pokedex]
+name = "水蓝蓝"
+
+[best_skill]
+pet = "水蓝蓝"
+enemy_types = []
+energy = 4
+
+[skills]
+category = "攻击"
+limit = 10
+
+[turn_state.observation]
+turn = 3
+aHpPct = [100, 82, 61]
+bHpPct = [73, 100, 44]
+
+# Battle HUD read: OCR lines come from the vision layer, geometry lives in hud.py.
+# ally panel top-left, enemy panel top-right, numbered skill column on the left,
+# options bottom-right (player-confirmed layout).
+[hud]
+lines = ".tmp/hud_lines.json"
+width = 1280
+height = 800

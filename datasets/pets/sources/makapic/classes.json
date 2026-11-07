@@ -1,0 +1,37 @@
+{
+  "$comment": "Makapic/RocoPilot 模型-类别映射 — 该上游按精灵分桶训练独立 1/2 类模型（datasets/{pet}/ 已 gitignore，仅模型+脚本入库）。推理输出内部 id 0（geli.pt 内部 2 类：0=hepingge, 1=juhuali），需按本表映射到统一 id。",
+  "source": "Makapic/RocoPilot@main scripts/train_*.py + LICENSE (MIT, c) 2026 yorusacri)",
+  "fetched": "2026-11-06",
+  "models": [
+    {
+      "file": "geli.pt",
+      "size_bytes": 22495203,
+      "dataset": "datasets/geli (gitignored, not in repo)",
+      "internal_classes": [
+        { "internal_id": 0, "name": "hepingge", "cn": "和平鸽", "maps_to_unified_id": 4 },
+        { "internal_id": 1, "name": "juhuali", "cn": "菊花梨", "maps_to_unified_id": 3 }
+      ],
+      "train_script": "tools/makapic/scripts/train_geli.py (base=yolo26s.pt, epochs=50, imgsz=640, device=0)"
+    },
+    {
+      "file": "huolong.pt",
+      "size_bytes": 20310974,
+      "internal_classes": [ { "internal_id": 0, "name": "huolong", "cn": "火龙", "maps_to_unified_id": 8 } ],
+      "train_script": "tools/makapic/scripts/train_huolong.py"
+    },
+    {
+      "file": "youyingshu.pt",
+      "size_bytes": 19161538,
+      "internal_classes": [ { "internal_id": 0, "name": "youyingshu", "cn": "幼婴鼠", "maps_to_unified_id": 9 } ],
+      "note": "ultralytics 8.4.56, trained 2026-05-30, AGPL license tag inside torch metadata"
+    },
+    {
+      "file": "xueren.pt",
+      "size_bytes": 20310974,
+      "internal_classes": [ { "internal_id": 0, "name": "xueren", "cn": "雪人", "maps_to_unified_id": 10 } ],
+      "warning": "DUPLICATE-OF-huolong.pt：本文件与 huolong.pt 字节级相同（sha256 110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223）。上游疑似未真正训练雪人模型，以 huolong 权重复件占位。**不可当作雪人模型使用**；雪人类（统一 id 10）需自采重训。merge_xueren.py 印证其数据集经历过合并/废弃流程。",
+      "note": "git-lfs stored; fetched via media.githubusercontent.com; sha256==LFS oid 已验证"
+    }
+  ],
+  "base_model": { "file": "yolo26s.pt", "size_bytes": 22588772, "note": "git-lfs stored; Makapic 训练用的基座权重" }
+}

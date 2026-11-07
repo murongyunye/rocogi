@@ -1,0 +1,32 @@
+{
+  "source": "rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\assets\\SIFT_features_075.npz",
+  "profile": "sift-map-tracker v0.10.2 / SIFT_features_075.npz",
+  "featureCount": 94992,
+  "descriptor": {
+    "path": "assets\\features\\sift_075_desc.f16",
+    "dtype": "float16",
+    "shape": [
+      94992,
+      128
+    ],
+    "bytes": 24317952
+  },
+  "keypoints": {
+    "path": "assets\\features\\sift_075_kp.f32",
+    "dtype": "float32",
+    "shape": [
+      94992,
+      7
+    ],
+    "bytes": 2659776
+  },
+  "map": {
+    "width": 8192,
+    "height": 8192,
+    "origin_x": -973,
+    "origin_y": -1585,
+    "space": "sift-map-tracker-8192"
+  },
+  "coordinateNote": "8192x8192 space with MAP_ORIGIN offset; NOT the canonical 6144x5888 space. Cross-space use requires 3-point affine calibration (see MERGE_MAP 3.2).",
+  "profileScale": 0.75
+}

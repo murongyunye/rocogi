@@ -1,0 +1,71 @@
+{
+  "adapter": "game_automation",
+  "repo": "SCH-CMYK-game-automation",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "SCH-CMYK-game-automation"
+    },
+    {
+      "name": "import_config",
+      "ok": true,
+      "detail": "MiningConfig 字段 28 个"
+    },
+    {
+      "name": "deps",
+      "ok": true,
+      "detail": "{'cv2': True, 'numpy': True, 'torch': False, 'ultralytics': False, 'customtkinter': False, 'mss': False, 'interception': True, 'win32api': False}"
+    },
+    {
+      "name": "dpi_normalized",
+      "ok": true,
+      "detail": "2560x1440 全屏 ROI -> 1920x1080 基准 = (0, 0, 1440, 810)"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoints": [
+      "main.py",
+      "run.bat",
+      "calibrate_escape.py",
+      "check_env.py"
+    ],
+    "modules": {
+      "input": "src/engine/controller.py",
+      "capture": "src/engine/screen_capture.py",
+      "vision": "src/engine/vision_engine.py",
+      "position": "src/engine/hybrid_positioner.py",
+      "route": "src/automation/route_planner.py"
+    },
+    "dependencies": {
+      "cv2": true,
+      "numpy": true,
+      "torch": false,
+      "ultralytics": false,
+      "customtkinter": false,
+      "mss": false,
+      "interception": true,
+      "win32api": false
+    },
+    "config": {
+      "walk_key": "w",
+      "max_lost_frames": 20,
+      "aim_align_window_px": 50,
+      "dead_zone_px": 5,
+      "scan_step_px": 350
+    },
+    "dpi_normalization": [
+      0,
+      0,
+      1440,
+      810
+    ],
+    "runtime_requirements": [
+      "interception.dll 已随仓库提供，但驱动未安装：默认走 SendInput",
+      "GPU 推理需 torch+ultralytics；本机未装，检测链路降级为 OpenCV 模板/轮廓"
+    ],
+    "vision_fallback": "opencv"
+  }
+}

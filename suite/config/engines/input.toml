@@ -1,0 +1,24 @@
+[engine]
+name = "input"
+venv = "engines/input/.venv"
+script = "engines/input/engine_main.py"
+action = "probe"
+interval = 1.0
+startup_timeout_sec = 20
+
+[input]
+# Injection backends: Interception (kernel) first, SendInput (software) fallback.
+# 2026-11-06 rev2: dual-backend per user directive; dispatch = first ready in
+# backend_preference, unhealthy backends fall through to the next.
+# (2026-11-06 22:10: temporarily true for supervised autonomous play session; REVERT AFTER)
+allow_injection = true
+# 2026-11-06 23:25: window lock (user directive: 只在游戏画面内操作).
+lock_to_window = true
+require_foreground = true
+window_title_keyword = "洛克王国：世界"
+min_client = [400, 300]
+probe_key = "f"
+hold = 0.08
+backend_preference = ["interception", "sendinput"]
+hotkey_vk = 0x46
+hotkey_modifiers = 3

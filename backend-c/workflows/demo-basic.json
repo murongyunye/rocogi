@@ -1,0 +1,13 @@
+{
+  "id": "demo-basic",
+  "name": "三步演示",
+  "nodes": [
+    { "id": "n1", "type": "start", "params": {} },
+    { "id": "n2", "type": "delay", "params": { "ms": 10 } },
+    { "id": "n3", "type": "click", "params": { "x": 100, "y": 200 } }
+  ],
+  "edges": [
+    { "from": "n1", "to": "n2" },
+    { "from": "n2", "to": "n3" }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "file_compare": {
+    "Adolph321-Adolph": {
+      "missing": [],
+      "extra": [],
+      "upstream": 269,
+      "vendor": 269
+    },
+    "ColinHong10-NRC_AI": {
+      "missing": [],
+      "extra": [],
+      "upstream": 478,
+      "vendor": 478
+    },
+    "ElliottZhao666666-rocom-codex-pets-gen": {
+      "missing": [],
+      "extra": [],
+      "upstream": 22,
+      "vendor": 22
+    },
+    "Makapic-RocoPilot": {
+      "missing": [],
+      "extra": [],
+      "upstream": 70,
+      "vendor": 70
+    },
+    "Pacific-shark-roco-balance-lab": {
+      "missing": [],
+      "extra": [],
+      "upstream": 67,
+      "vendor": 67
+    },
+    "SCH-CMYK-game-automation": {
+      "missing": [],
+      "extra": [],
+      "upstream": 48,
+      "vendor": 48
+    },
+    "Tsuann-RocoKingdom-AutoCapture": {
+      "missing": [],
+      "extra": [],
+      "upstream": 37,
+      "vendor": 37
+    },
+    "Wooziii-roco-map-tracker": {
+      "missing": [],
+      "extra": [],
+      "upstream": 649,
+      "vendor": 649
+    },
+    "babalae-better-genshin-impact": {
+      "missing": [],
+      "extra": [],
+      "upstream": 3109,
+      "vendor": 3109
+    },
+    "eachyczhang-RocoTools": {
+      "missing": [],
+      "extra": [],
+      "upstream": 247,
+      "vendor": 247
+    },
+    "oblitum-Interception": {
+      "missing": [],
+      "extra": [],
+      "upstream": 44,
+      "vendor": 44
+    },
+    "rookie-orange-rocokingdom-ui": {
+      "missing": [],
+      "extra": [],
+      "upstream": 439,
+      "vendor": 439
+    },
+    "sift-map-tracker": {
+      "missing": [],
+      "extra": [],
+      "upstream": 213,
+      "vendor": 213
+    },
+    "yorusacri-Auto-rocokingdom": {
+      "missing": [],
+      "extra": [],
+      "upstream": 50,
+      "vendor": 50
+    },
+    "yottaapp-yotta": {
+      "missing": [],
+      "extra": [],
+      "upstream": 1950,
+      "vendor": 1950
+    },
+    "zh19990906-luoke_location": {
+      "missing": [],
+      "extra": [],
+      "upstream": 1596,
+      "vendor": 1596
+    }
+  },
+  "licenses": {
+    "Adolph321-Adolph": [
+      "LICENSE"
+    ],
+    "ColinHong10-NRC_AI": [
+      "LICENSE"
+    ],
+    "ElliottZhao666666-rocom-codex-pets-gen": [
+      "LICENSE"
+    ],
+    "Makapic-RocoPilot": [
+      "LICENSE"
+    ],
+    "Pacific-shark-roco-balance-lab": [
+      "LICENSE"
+    ],
+    "SCH-CMYK-game-automation": [
+      "LICENSE"
+    ],
+    "Tsuann-RocoKingdom-AutoCapture": [],
+    "Wooziii-roco-map-tracker": [],
+    "babalae-better-genshin-impact": [
+      "LICENSE"
+    ],
+    "eachyczhang-RocoTools": [
+      "LICENSE"
+    ],
+    "oblitum-Interception": [
+      "licenses"
+    ],
+    "rookie-orange-rocokingdom-ui": [],
+    "sift-map-tracker": [],
+    "yorusacri-Auto-rocokingdom": [
+      "LICENSE"
+    ],
+    "yottaapp-yotta": [
+      "LICENSE"
+    ],
+    "zh19990906-luoke_location": []
+  },
+  "absolute_path_hits": [
+    "Wooziii-roco-map-tracker\\roco-map-tracker\\.learnings\\ERRORS.md",
+    "yottaapp-yotta\\scripts\\browser-cdp-smoke.ps1"
+  ],
+  "token_files": [],
+  "adapters": {
+    "rocopilot": {
+      "repo": "Makapic-RocoPilot",
+      "engine": "capture",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "Makapic-RocoPilot"
+        },
+        {
+          "name": "import_config",
+          "ok": true,
+          "detail": "config.py 导入成功（无第三方依赖）"
+        },
+        {
+          "name": "base_dir_redirect",
+          "ok": true,
+          "detail": "templates 基准目录 -> ."
+        },
+        {
+          "name": "templates",
+          "ok": true,
+          "detail": "9 个模板资源"
+        },
+        {
+          "name": "models",
+          "ok": true,
+          "detail": "4 个模型文件: geli.pt, huolong.pt, xueren.pt, youyingshu.pt"
+        }
+      ],
+      "blockers": []
+    },
+    "auto_rocokingdom": {
+      "repo": "yorusacri-Auto-rocokingdom",
+      "engine": "capture",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "yorusacri-Auto-rocokingdom"
+        },
+        {
+          "name": "import_config",
+          "ok": true,
+          "detail": "config.py 导入成功"
+        },
+        {
+          "name": "base_dir_redirect",
+          "ok": true,
+          "detail": "模板目录在 vendor 内解析"
+        },
+        {
+          "name": "core_modules",
+          "ok": true,
+          "detail": "11 个 core 模块"
+        },
+        {
+          "name": "templates",
+          "ok": true,
+          "detail": "9 个模板"
+        }
+      ],
+      "blockers": []
+    },
+    "luoke_location": {
+      "repo": "zh19990906-luoke_location",
+      "engine": "sift",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "zh19990906-luoke_location"
+        },
+        {
+          "name": "import_config",
+          "ok": true,
+          "detail": "config.py 导入成功"
+        },
+        {
+          "name": "minimap_present",
+          "ok": true,
+          "detail": "上游原始值 {'top': 292, 'left': 1853, 'width': 150, 'height': 150}"
+        },
+        {
+          "name": "minimap_normalized",
+          "ok": true,
+          "detail": "相对窗口 ROI=(1853, 292, 150, 150)；2560x1440->1920x1080 归一化=(1390, 219, 112, 112)"
+        },
+        {
+          "name": "points_data",
+          "ok": true,
+          "detail": "2469 个点位"
+        },
+        {
+          "name": "icons",
+          "ok": true,
+          "detail": "298 个图标"
+        },
+        {
+          "name": "map_config",
+          "ok": true,
+          "detail": "{\"x_min\": -12, \"y_min\": -11, \"tile_size\": 256, \"json_zoom\": 7, \"map_zoom\": 7}"
+        }
+      ],
+      "blockers": []
+    },
+    "roco_map_tracker": {
+      "repo": "Wooziii-roco-map-tracker",
+      "engine": "sift",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "Wooziii-roco-map-tracker"
+        },
+        {
+          "name": "import_models",
+          "ok": true,
+          "detail": "tracker.models 导入成功（纯标准库）"
+        },
+        {
+          "name": "import_route_planner",
+          "ok": true,
+          "detail": "route_planner 导入成功，可做最近邻路线"
+        },
+        {
+          "name": "cv2_available",
+          "ok": true,
+          "detail": "SIFTEngine 需要 cv2+numpy"
+        },
+        {
+          "name": "numpy_available",
+          "ok": true,
+          "detail": ""
+        },
+        {
+          "name": "import_sift_engine",
+          "ok": true,
+          "detail": "SIFTEngine"
+        },
+        {
+          "name": "affine_calibration",
+          "ok": true,
+          "detail": "{\"a\": 1.3333333333333333, \"b\": 0.0, \"c\": 0.0, \"d\": 0.0, \"e\": 1.391304347826087, \"f\": 0.0}"
+        },
+        {
+          "name": "affine_note",
+          "ok": true,
+          "detail": "平移/旋转场景必须显式给出 3 组物理对应点，不得用单点缩放替代"
+        },
+        {
+          "name": "point_data",
+          "ok": true,
+          "detail": "data/points.normalized.json / 2436 条点位"
+        }
+      ],
+      "blockers": []
+    },
+    "autocapture": {
+      "repo": "Tsuann-RocoKingdom-AutoCapture",
+      "engine": "scheduler",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "Tsuann-RocoKingdom-AutoCapture"
+        },
+        {
+          "name": "pyyaml_available",
+          "ok": true,
+          "detail": "读取 config.yaml 需要 PyYAML"
+        },
+        {
+          "name": "load_config",
+          "ok": true,
+          "detail": "7 个顶层配置段"
+        },
+        {
+          "name": "models",
+          "ok": true,
+          "detail": "models=['README.md', 'sprite_detector.onnx', 'sprite_detector.pt']"
+        },
+        {
+          "name": "platform_overrides",
+          "ok": true,
+          "detail": "{'capture.backend': 'windows-mss', 'capture.device': 0, 'detector.rknn_model': None, 'detector.onnx_model': 'models/sprite_detector.onnx', 'detector.conf_threshold': 0.16, 'capture.fps': 30}"
+        }
+      ],
+      "blockers": []
+    },
+    "game_automation": {
+      "repo": "SCH-CMYK-game-automation",
+      "engine": "scheduler",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "SCH-CMYK-game-automation"
+        },
+        {
+          "name": "import_config",
+          "ok": true,
+          "detail": "MiningConfig 字段 28 个"
+        },
+        {
+          "name": "deps",
+          "ok": true,
+          "detail": "{'cv2': True, 'numpy': True, 'torch': False, 'ultralytics': False, 'customtkinter': False, 'mss': False, 'interception': True, 'win32api': False}"
+        },
+        {
+          "name": "dpi_normalized",
+          "ok": true,
+          "detail": "2560x1440 全屏 ROI -> 1920x1080 基准 = (0, 0, 1440, 810)"
+        }
+      ],
+      "blockers": []
+    },
+    "nrc_ai": {
+      "repo": "ColinHong10-NRC_AI",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "ColinHong10-NRC_AI"
+        },
+        {
+          "name": "nrc_db",
+          "ok": true,
+          "detail": "1216.0 KB"
+        },
+        {
+          "name": "sqlite_readable",
+          "ok": true,
+          "detail": "4 张表"
+        },
+        {
+          "name": "pokemon_count",
+          "ok": true,
+          "detail": "pokemon=461"
+        },
+        {
+          "name": "src_modules",
+          "ok": true,
+          "detail": "14 个模块"
+        }
+      ],
+      "blockers": []
+    },
+    "pets_gen": {
+      "repo": "ElliottZhao666666-rocom-codex-pets-gen",
+      "engine": "vision",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "ElliottZhao666666-rocom-codex-pets-gen"
+        },
+        {
+          "name": "scripts",
+          "ok": true,
+          "detail": "7 个脚本"
+        },
+        {
+          "name": "import_validate_input",
+          "ok": true,
+          "detail": "validate_input 导入成功（纯标准库）"
+        },
+        {
+          "name": "public_functions",
+          "ok": true,
+          "detail": "validate_input/read_glb/require: validate_input, read_glb, require"
+        },
+        {
+          "name": "pillow",
+          "ok": true,
+          "detail": "render_source.py 需要 Pillow"
+        },
+        {
+          "name": "imageio_ffmpeg",
+          "ok": false,
+          "detail": "视频/帧处理可选依赖"
+        },
+        {
+          "name": "tests",
+          "ok": true,
+          "detail": "3 个测试文件"
+        }
+      ],
+      "blockers": [
+        "端到端运行需要外部资源目录 + rocom-pets 渲染器，仓库内不提供"
+      ]
+    },
+    "adolph_rules": {
+      "repo": "Adolph321-Adolph",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "Adolph321-Adolph"
+        },
+        {
+          "name": "bundle",
+          "ok": true,
+          "detail": "battle-rules-1-200-20261007/battle-rules-1-200"
+        },
+        {
+          "name": "node",
+          "ok": true,
+          "detail": "C:\\Users\\13005\\Downloads\\work\\rocogi\\.toolchain\\node\\node.exe"
+        },
+        {
+          "name": "verify_js",
+          "ok": true,
+          "detail": "Public bundle: numbered scope, trait bindings, runtime definitions and source hashes PASS"
+        },
+        {
+          "name": "pets",
+          "ok": true,
+          "detail": "200 条"
+        },
+        {
+          "name": "skills",
+          "ok": true,
+          "detail": "200 条"
+        },
+        {
+          "name": "traits",
+          "ok": true,
+          "detail": "65 条"
+        }
+      ],
+      "blockers": []
+    },
+    "sift_map_tracker": {
+      "repo": "sift-map-tracker",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "sift-map-tracker"
+        },
+        {
+          "name": "python_runtime_source",
+          "ok": false,
+          "detail": "仅 ['sift-map-tracker\\\\settings.py']（客户端设置导出，不是运行时源码）"
+        },
+        {
+          "name": "manifest_hash",
+          "ok": false,
+          "detail": "通过 16/17；缺失 1；哈希不符 0"
+        },
+        {
+          "name": "settings_parsed",
+          "ok": true,
+          "detail": "34 个常量"
+        },
+        {
+          "name": "param_mapping",
+          "ok": true,
+          "detail": "{'refresh_rate_ms': 50, 'clahe_limit': 3.0, 'match_ratio': 0.9, 'min_match_count': 6, 'ransac_threshold': 8.0, 'max_lost_frames': 600, 'local_search_radius': 280}"
+        }
+      ],
+      "blockers": [
+        "无运行时源码：算法只能通过 service.exe 外部进程调用，或改用 vendor 内 roco-map-tracker 的 SIFTEngine"
+      ]
+    },
+    "interception": {
+      "repo": "oblitum-Interception",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "oblitum-Interception"
+        },
+        {
+          "name": "header",
+          "ok": true,
+          "detail": "14 个导出函数"
+        },
+        {
+          "name": "enums",
+          "ok": true,
+          "detail": "InterceptionKeyState, InterceptionFilterKeyState, InterceptionMouseState, InterceptionFilterMouseState, InterceptionMouseFlag"
+        },
+        {
+          "name": "samples",
+          "ok": true,
+          "detail": "axes, cadstop, caps2esc, hardwareid, identify, mathpointer, x2y"
+        },
+        {
+          "name": "license",
+          "ok": true,
+          "detail": "licenses\\non-commercial-usage\\LGPL 3.0.txt"
+        }
+      ],
+      "blockers": [
+        "驱动安装需要管理员权限 + 重启 + 内核签名，本轮不执行；只导出 API 契约"
+      ]
+    },
+    "bettergi": {
+      "repo": "babalae-better-genshin-impact",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "babalae-better-genshin-impact"
+        },
+        {
+          "name": "Fischless.GameCapture",
+          "ok": true,
+          "detail": "17 个公开类型"
+        },
+        {
+          "name": "Fischless.HotkeyCapture",
+          "ok": true,
+          "detail": "4 个公开类型"
+        },
+        {
+          "name": "Fischless.WindowsInput",
+          "ok": true,
+          "detail": "11 个公开类型"
+        },
+        {
+          "name": "main_project",
+          "ok": true,
+          "detail": "1751 个 .cs"
+        },
+        {
+          "name": "viewmodels",
+          "ok": true,
+          "detail": "251 个 ViewModel 文件"
+        },
+        {
+          "name": "solution",
+          "ok": true,
+          "detail": "BetterGenshinImpact.sln"
+        }
+      ],
+      "blockers": [
+        "构建需 .NET 8 SDK + NuGet；本机仅有异常 dotnet，未执行构建，只导出契约"
+      ]
+    },
+    "yotta": {
+      "repo": "yottaapp-yotta",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "yottaapp-yotta"
+        },
+        {
+          "name": "node_contract_schema",
+          "ok": true,
+          "detail": "https://yottaapp.dev/contracts/node/v2/node-contract.schema.json"
+        },
+        {
+          "name": "builtin_nodes",
+          "ok": true,
+          "detail": "189 个内置节点"
+        },
+        {
+          "name": "go_sources",
+          "ok": true,
+          "detail": "1019 个 .go"
+        },
+        {
+          "name": "go_module",
+          "ok": true,
+          "detail": "github.com/yottaapp/yotta / go 1.25.13"
+        }
+      ],
+      "blockers": [
+        "本机无 Go 工具链，未构建；契约已完整导出，构建需安装 Go 1.22+ 与 Wails"
+      ]
+    },
+    "rocokingdom_ui": {
+      "repo": "rookie-orange-rocokingdom-ui",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "rookie-orange-rocokingdom-ui"
+        },
+        {
+          "name": "workspace",
+          "ok": true,
+          "detail": "rocokingdom-ui-workspace"
+        },
+        {
+          "name": "package_manager",
+          "ok": true,
+          "detail": "pnpm@11.5.3"
+        },
+        {
+          "name": "packages",
+          "ok": true,
+          "detail": "icons, shared, tokens, ui, utils"
+        },
+        {
+          "name": "tokens",
+          "ok": true,
+          "detail": "39 个导出，31 个颜色/尺寸常量"
+        },
+        {
+          "name": "components",
+          "ok": true,
+          "detail": "214 个 .tsx / 64 个 .ts"
+        }
+      ],
+      "blockers": [
+        "缺 pnpm 11.5.3 且 catalog 依赖未联网安装；只做令牌/组件契约导出，不构建"
+      ]
+    },
+    "rocotools": {
+      "repo": "eachyczhang-RocoTools",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 2,
+      "status": "blocked",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "eachyczhang-RocoTools"
+        },
+        {
+          "name": "data_present",
+          "ok": false,
+          "detail": "0 个数据文件（其余为 .gitkeep/文档）"
+        },
+        {
+          "name": "rest_routes",
+          "ok": true,
+          "detail": "eggs, elements, events, feedbacks, natures, pets, pika, seasons, skills"
+        },
+        {
+          "name": "sqlite_schema",
+          "ok": true,
+          "detail": "18 张表: elements, element_multipliers, skills, egg_groups, pets, pet_egg_groups, pet_details, pet_skills, variants_map, natures, seasons, season_events, pika_monthlies, pika_monthly_pets, fate_flower_skills, pet_achievements, nav_tabs, site_settings"
+        },
+        {
+          "name": "field_model",
+          "ok": true,
+          "detail": "FIELDS.md"
+        }
+      ],
+      "blockers": [
+        "缺实际图鉴数据（data 目录只有 .gitkeep），服务端无数据可导入"
+      ]
+    },
+    "balance_lab": {
+      "repo": "Pacific-shark-roco-balance-lab",
+      "engine": "portable",
+      "help_ok": true,
+      "exit_code": 0,
+      "status": "adapted",
+      "checks": [
+        {
+          "name": "repo",
+          "ok": true,
+          "detail": "Pacific-shark-roco-balance-lab"
+        },
+        {
+          "name": "node",
+          "ok": true,
+          "detail": "C:\\Users\\13005\\Downloads\\work\\rocogi\\.toolchain\\node\\node.exe"
+        },
+        {
+          "name": "engine_import",
+          "ok": true,
+          "detail": "{\"engine_exports\":[\"battle\",\"choose\",\"createFighter\",\"damage\",\"diagnose\",\"evaluate\",\"moveCost\",\"panel\",\"resolveRound\",\"takeAction\",\"validateEnv\",\"validatePatch\"],\"roster\":6,\"moves\":25,\"data_version\":\""
+        }
+      ],
+      "blockers": []
+    }
+  }
+}

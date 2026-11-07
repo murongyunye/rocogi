@@ -1,0 +1,1647 @@
+{
+ "generated_at": "2026-11-06",
+ "policy": "本地 vendor = 运行时子集；完整上游源码归档于 github.com/murongyunyeh/rocogi（文本白名单，二进制需回溯上游）",
+ "method": "import 闭包（suite/engines/*/engine_main.py）+ 配置真实读取路径（suite/config/**/*.toml、suite/assets/manifest.json、vendor/adapters/*/adapter.py）+ 许可证全保留；动态引用与 __file__ 相对读取按目录整体保留",
+ "keep_entry_note": "keep[] 的 path 可为精确相对路径或通配（dir/* 表示该目录直接子文件，**/*.ext 表示任意层级该扩展名）；files 为该条命中的实际数量",
+ "totals": {
+  "repos": 16,
+  "before_files": 59403,
+  "before_bytes": 3164800476,
+  "keep_files": 7283,
+  "keep_bytes": 245452900,
+  "drop_files": 52120,
+  "drop_bytes": 2919347576
+ },
+ "repos": {
+  "Adolph321-Adolph": {
+   "keep_count": 269,
+   "keep_bytes": 1372593,
+   "drop_count": 0,
+   "drop_bytes": 0,
+   "keep": [
+    {
+     "path": ".gitignore",
+     "bytes": 2392,
+     "reason": "rules-data"
+    },
+    {
+     "path": "battle-rules-1-200-20261007.zip",
+     "bytes": 219867,
+     "reason": "rules-data"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 35823,
+     "reason": "license"
+    },
+    {
+     "path": "README.md",
+     "bytes": 175,
+     "reason": "rules-data"
+    },
+    {
+     "path": "battle-rules-1-200-20261007/battle-rules-1-200/*",
+     "bytes": 643216,
+     "reason": "rules-data",
+     "files": 8
+    },
+    {
+     "path": "battle-rules-1-200-20261007/battle-rules-1-200/data/*.json",
+     "bytes": 229280,
+     "reason": "rules-data",
+     "files": 3
+    },
+    {
+     "path": "**/*.txt",
+     "bytes": 241840,
+     "reason": "rules-data",
+     "files": 254
+    }
+   ],
+   "keep_groups_cover_files": 269
+  },
+  "ElliottZhao666666-rocom-codex-pets-gen": {
+   "keep_count": 22,
+   "keep_bytes": 787161,
+   "drop_count": 2,
+   "drop_bytes": 40485,
+   "keep": [
+    {
+     "path": ".gitignore",
+     "bytes": 380,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 1095,
+     "reason": "license"
+    },
+    {
+     "path": "README.md",
+     "bytes": 10663,
+     "reason": "source"
+    },
+    {
+     "path": "requirements.txt",
+     "bytes": 35,
+     "reason": "source"
+    },
+    {
+     "path": "SKILL.md",
+     "bytes": 13315,
+     "reason": "source"
+    },
+    {
+     "path": "agents/openai.yaml",
+     "bytes": 410,
+     "reason": "source"
+    },
+    {
+     "path": "docs/resource-directory.md",
+     "bytes": 17987,
+     "reason": "source"
+    },
+    {
+     "path": "docs/images/*",
+     "bytes": 655086,
+     "reason": "source",
+     "files": 3
+    },
+    {
+     "path": "references/*.md",
+     "bytes": 11720,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "scripts/*.py",
+     "bytes": 58576,
+     "reason": "source",
+     "files": 7
+    },
+    {
+     "path": "tests/*.py",
+     "bytes": 17894,
+     "reason": "source",
+     "files": 3
+    }
+   ],
+   "keep_groups_cover_files": 22
+  },
+  "SCH-CMYK-game-automation": {
+   "keep_count": 48,
+   "keep_bytes": 3799333,
+   "drop_count": 5,
+   "drop_bytes": 23379,
+   "keep": [
+    {
+     "path": ".gitignore",
+     "bytes": 1067,
+     "reason": "source"
+    },
+    {
+     "path": "calibrate_escape.py",
+     "bytes": 2582,
+     "reason": "source"
+    },
+    {
+     "path": "check_env.py",
+     "bytes": 6101,
+     "reason": "source"
+    },
+    {
+     "path": "download_models.py",
+     "bytes": 4896,
+     "reason": "source"
+    },
+    {
+     "path": "interception.dll",
+     "bytes": 11264,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 19749,
+     "reason": "license"
+    },
+    {
+     "path": "main.py",
+     "bytes": 38614,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 6007,
+     "reason": "source"
+    },
+    {
+     "path": "requirements.txt",
+     "bytes": 972,
+     "reason": "source"
+    },
+    {
+     "path": "run.bat",
+     "bytes": 257,
+     "reason": "source"
+    },
+    {
+     "path": "run_collector.bat",
+     "bytes": 142,
+     "reason": "source"
+    },
+    {
+     "path": "setup.bat",
+     "bytes": 7146,
+     "reason": "source"
+    },
+    {
+     "path": "使用说明.md",
+     "bytes": 6630,
+     "reason": "source"
+    },
+    {
+     "path": "datasets/default/data.yaml",
+     "bytes": 106,
+     "reason": "source"
+    },
+    {
+     "path": "logs/.gitkeep",
+     "bytes": 5,
+     "reason": "source"
+    },
+    {
+     "path": "maps/big_map.png",
+     "bytes": 3458022,
+     "reason": "source"
+    },
+    {
+     "path": "models/*",
+     "bytes": 517,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "routes/diquluxian/1示例跑图路线.json",
+     "bytes": 844,
+     "reason": "source"
+    },
+    {
+     "path": "screenshots/.gitkeep",
+     "bytes": 5,
+     "reason": "source"
+    },
+    {
+     "path": "templates/*.png",
+     "bytes": 90463,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 143944,
+     "reason": "source",
+     "files": 26
+    }
+   ],
+   "keep_groups_cover_files": 48
+  },
+  "yorusacri-Auto-rocokingdom": {
+   "keep_count": 50,
+   "keep_bytes": 682266,
+   "drop_count": 4,
+   "drop_bytes": 25709,
+   "keep": [
+    {
+     "path": ".gitignore",
+     "bytes": 402,
+     "reason": "source"
+    },
+    {
+     "path": "auto-roco-client-full.spec",
+     "bytes": 1058,
+     "reason": "source"
+    },
+    {
+     "path": "auto-roco-client-lite.spec",
+     "bytes": 1125,
+     "reason": "source"
+    },
+    {
+     "path": "CHANGELOG.md",
+     "bytes": 12684,
+     "reason": "source"
+    },
+    {
+     "path": "CLAUDE.md",
+     "bytes": 7468,
+     "reason": "source"
+    },
+    {
+     "path": "client_main.py",
+     "bytes": 187,
+     "reason": "source"
+    },
+    {
+     "path": "config.py",
+     "bytes": 4023,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 1087,
+     "reason": "license"
+    },
+    {
+     "path": "main.py",
+     "bytes": 4177,
+     "reason": "source"
+    },
+    {
+     "path": "pyproject.toml",
+     "bytes": 724,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 4565,
+     "reason": "source"
+    },
+    {
+     "path": "uv.lock",
+     "bytes": 412427,
+     "reason": "source"
+    },
+    {
+     "path": ".github/workflows/release.yml",
+     "bytes": 3307,
+     "reason": "source"
+    },
+    {
+     "path": "templates/*.png",
+     "bytes": 93002,
+     "reason": "source",
+     "files": 9
+    },
+    {
+     "path": "web/*",
+     "bytes": 53007,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 83023,
+     "reason": "source",
+     "files": 26
+    }
+   ],
+   "keep_groups_cover_files": 50
+  },
+  "oblitum-Interception": {
+   "keep_count": 44,
+   "keep_bytes": 124255,
+   "drop_count": 0,
+   "drop_bytes": 0,
+   "keep": [
+    {
+     "path": ".gitignore",
+     "bytes": 4345,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 3289,
+     "reason": "source"
+    },
+    {
+     "path": "library/*",
+     "bytes": 21856,
+     "reason": "source",
+     "files": 7
+    },
+    {
+     "path": "licenses/commercial-usage/*.pdf",
+     "bytes": 57303,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "licenses/non-commercial-usage/LGPL 3.0.txt",
+     "bytes": 7816,
+     "reason": "source"
+    },
+    {
+     "path": "samples/*",
+     "bytes": 1764,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "samples/axes/*",
+     "bytes": 1922,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/cadstop/*",
+     "bytes": 3636,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/caps2esc/*",
+     "bytes": 4616,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/hardwareid/*",
+     "bytes": 1935,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/identify/*",
+     "bytes": 2052,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/mathpointer/*",
+     "bytes": 11712,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "samples/x2y/*",
+     "bytes": 1527,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "tools/*",
+     "bytes": 482,
+     "reason": "source",
+     "files": 2
+    }
+   ],
+   "keep_groups_cover_files": 44
+  },
+  "Tsuann-RocoKingdom-AutoCapture": {
+   "keep_count": 33,
+   "keep_bytes": 18888396,
+   "drop_count": 7,
+   "drop_bytes": 118292,
+   "keep": [
+    {
+     "path": "capture.py",
+     "bytes": 26548,
+     "reason": "source"
+    },
+    {
+     "path": "config.yaml",
+     "bytes": 7948,
+     "reason": "source"
+    },
+    {
+     "path": "controller.py",
+     "bytes": 42311,
+     "reason": "source"
+    },
+    {
+     "path": "detector.py",
+     "bytes": 30833,
+     "reason": "source"
+    },
+    {
+     "path": "diag_model.py",
+     "bytes": 6427,
+     "reason": "source"
+    },
+    {
+     "path": "diag_onnx.py",
+     "bytes": 6046,
+     "reason": "source"
+    },
+    {
+     "path": "hid_gadget.py",
+     "bytes": 6046,
+     "reason": "source"
+    },
+    {
+     "path": "main.py",
+     "bytes": 26230,
+     "reason": "source"
+    },
+    {
+     "path": "npu_inference.py",
+     "bytes": 8511,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 50675,
+     "reason": "source"
+    },
+    {
+     "path": "requirements.txt",
+     "bytes": 438,
+     "reason": "source"
+    },
+    {
+     "path": "setup_otg_guide.md",
+     "bytes": 5220,
+     "reason": "source"
+    },
+    {
+     "path": "state_machine.py",
+     "bytes": 36926,
+     "reason": "source"
+    },
+    {
+     "path": "tracker.py",
+     "bytes": 13028,
+     "reason": "source"
+    },
+    {
+     "path": "utils.py",
+     "bytes": 6711,
+     "reason": "source"
+    },
+    {
+     "path": "models/*",
+     "bytes": 18504448,
+     "reason": "asset",
+     "files": 3
+    },
+    {
+     "path": "scripts/record_region.ps1",
+     "bytes": 1720,
+     "reason": "import"
+    },
+    {
+     "path": "templates/README.md",
+     "bytes": 1899,
+     "reason": "import"
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 106431,
+     "reason": "import",
+     "files": 13
+    }
+   ],
+   "keep_groups_cover_files": 33
+  },
+  "Makapic-RocoPilot": {
+   "keep_count": 64,
+   "keep_bytes": 64156734,
+   "drop_count": 7,
+   "drop_bytes": 8534,
+   "keep": [
+    {
+     "path": "build.py",
+     "bytes": 4667,
+     "reason": "source"
+    },
+    {
+     "path": "config.py",
+     "bytes": 4253,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 1087,
+     "reason": "license"
+    },
+    {
+     "path": "main.py",
+     "bytes": 7221,
+     "reason": "source"
+    },
+    {
+     "path": "pyproject.toml",
+     "bytes": 682,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 12977,
+     "reason": "source"
+    },
+    {
+     "path": "uv.lock",
+     "bytes": 674127,
+     "reason": "source"
+    },
+    {
+     "path": ".github/workflows/release.yml",
+     "bytes": 1306,
+     "reason": "source"
+    },
+    {
+     "path": "luoke_location_src/*",
+     "bytes": 6679,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "luoke_location_src/out/*",
+     "bytes": 1115646,
+     "reason": "import",
+     "files": 4
+    },
+    {
+     "path": "models/*.pt",
+     "bytes": 61966720,
+     "reason": "asset",
+     "files": 4
+    },
+    {
+     "path": "templates/*.png",
+     "bytes": 92018,
+     "reason": "asset",
+     "files": 9
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 269351,
+     "reason": "import",
+     "files": 37
+    }
+   ],
+   "keep_groups_cover_files": 64
+  },
+  "babalae-better-genshin-impact": {
+   "keep_count": 2676,
+   "keep_bytes": 16787793,
+   "drop_count": 2903,
+   "drop_bytes": 1170901827,
+   "keep": [
+    {
+     "path": ".cnb.yml",
+     "bytes": 968,
+     "reason": "source"
+    },
+    {
+     "path": ".gitignore",
+     "bytes": 995,
+     "reason": "source"
+    },
+    {
+     "path": "AGENTS.md",
+     "bytes": 4330,
+     "reason": "source"
+    },
+    {
+     "path": "BetterGenshinImpact.sln",
+     "bytes": 6991,
+     "reason": "source"
+    },
+    {
+     "path": "BetterGenshinImpact.sln.DotSettings",
+     "bytes": 1178,
+     "reason": "source"
+    },
+    {
+     "path": "CodeMaid.config",
+     "bytes": 4220,
+     "reason": "source"
+    },
+    {
+     "path": "CONTEXT.md",
+     "bytes": 11244,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 35823,
+     "reason": "license"
+    },
+    {
+     "path": "README.md",
+     "bytes": 9688,
+     "reason": "source"
+    },
+    {
+     "path": "BetterGenshinImpact/*",
+     "bytes": 17284,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "BetterGenshinImpact/GameTask/Common/StateMachine/README.md",
+     "bytes": 16220,
+     "reason": "source"
+    },
+    {
+     "path": "BetterGenshinImpact/GameTask/GenshinAccountSwitch/Assets/README.md",
+     "bytes": 498,
+     "reason": "source"
+    },
+    {
+     "path": "Fischless.GameCapture/Fischless.GameCapture.csproj",
+     "bytes": 1252,
+     "reason": "source"
+    },
+    {
+     "path": "Fischless.HotkeyCapture/Fischless.HotkeyCapture.csproj",
+     "bytes": 495,
+     "reason": "source"
+    },
+    {
+     "path": "Fischless.WindowsInput/*",
+     "bytes": 649,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "**/*.cs",
+     "bytes": 11692712,
+     "reason": "source",
+     "files": 1786
+    },
+    {
+     "path": "**/*.json",
+     "bytes": 2138735,
+     "reason": "source",
+     "files": 724
+    },
+    {
+     "path": "**/*.xaml",
+     "bytes": 2844511,
+     "reason": "source",
+     "files": 149
+    }
+   ],
+   "keep_groups_cover_files": 2676
+  },
+  "ColinHong10-NRC_AI": {
+   "keep_count": 20,
+   "keep_bytes": 1793084,
+   "drop_count": 472,
+   "drop_bytes": 187535013,
+   "keep": [
+    {
+     "path": "LICENSE",
+     "bytes": 1087,
+     "reason": "license"
+    },
+    {
+     "path": "README.md",
+     "bytes": 3358,
+     "reason": "source"
+    },
+    {
+     "path": "requirements.txt",
+     "bytes": 72,
+     "reason": "source"
+    },
+    {
+     "path": "data/nrc.db",
+     "bytes": 1245184,
+     "reason": "asset"
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 543383,
+     "reason": "import",
+     "files": 16
+    }
+   ],
+   "keep_groups_cover_files": 20
+  },
+  "Pacific-shark-roco-balance-lab": {
+   "keep_count": 38,
+   "keep_bytes": 305063,
+   "drop_count": 29,
+   "drop_bytes": 16018888,
+   "keep": [
+    {
+     "path": "index.html",
+     "bytes": 545,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 1216,
+     "reason": "license"
+    },
+    {
+     "path": "NOTICE.md",
+     "bytes": 1657,
+     "reason": "license"
+    },
+    {
+     "path": "package.json",
+     "bytes": 717,
+     "reason": "source"
+    },
+    {
+     "path": "pnpm-lock.yaml",
+     "bytes": 15436,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 7644,
+     "reason": "source"
+    },
+    {
+     "path": "vite.config.js",
+     "bytes": 84,
+     "reason": "source"
+    },
+    {
+     "path": "scripts/*.py",
+     "bytes": 12436,
+     "reason": "import",
+     "files": 3
+    },
+    {
+     "path": "src/*",
+     "bytes": 151851,
+     "reason": "import",
+     "files": 8
+    },
+    {
+     "path": "**/*.mjs",
+     "bytes": 113477,
+     "reason": "import",
+     "files": 20
+    }
+   ],
+   "keep_groups_cover_files": 38
+  },
+  "Wooziii-roco-map-tracker": {
+   "keep_count": 512,
+   "keep_bytes": 74272914,
+   "drop_count": 151,
+   "drop_bytes": 73686547,
+   "keep": [
+    {
+     "path": "README.md",
+     "bytes": 4003,
+     "reason": "source"
+    },
+    {
+     "path": "roco-map-tracker/config.json",
+     "bytes": 3668,
+     "reason": "config"
+    },
+    {
+     "path": "roco-map-tracker/*",
+     "bytes": 662752,
+     "reason": "asset",
+     "files": 2
+    },
+    {
+     "path": "roco-map-tracker/*",
+     "bytes": 6045,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "roco-map-tracker/data/*",
+     "bytes": 6068739,
+     "reason": "asset",
+     "files": 6
+    },
+    {
+     "path": "roco-map-tracker/tracker/ui/web/*",
+     "bytes": 285107,
+     "reason": "import",
+     "files": 3
+    },
+    {
+     "path": "**/*.png",
+     "bytes": 66734055,
+     "reason": "asset",
+     "files": 448
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 508545,
+     "reason": "import",
+     "files": 49
+    }
+   ],
+   "keep_groups_cover_files": 512
+  },
+  "zh19990906-luoke_location": {
+   "keep_count": 327,
+   "keep_bytes": 4166251,
+   "drop_count": 1270,
+   "drop_bytes": 156908482,
+   "keep": [
+    {
+     "path": "config.py",
+     "bytes": 9393,
+     "reason": "import"
+    },
+    {
+     "path": "download_icon.py",
+     "bytes": 778,
+     "reason": "import"
+    },
+    {
+     "path": "download_map.py",
+     "bytes": 3085,
+     "reason": "import"
+    },
+    {
+     "path": "draw_markers.py",
+     "bytes": 220571,
+     "reason": "import"
+    },
+    {
+     "path": "main_ai.py",
+     "bytes": 10580,
+     "reason": "import"
+    },
+    {
+     "path": "main_sift.py",
+     "bytes": 60206,
+     "reason": "import"
+    },
+    {
+     "path": "map_mask.py",
+     "bytes": 6151,
+     "reason": "import"
+    },
+    {
+     "path": "README.md",
+     "bytes": 7319,
+     "reason": "source"
+    },
+    {
+     "path": "requirements.txt",
+     "bytes": 43,
+     "reason": "source"
+    },
+    {
+     "path": "screen_pick.py",
+     "bytes": 10918,
+     "reason": "import"
+    },
+    {
+     "path": "data/*",
+     "bytes": 824502,
+     "reason": "asset",
+     "files": 4
+    },
+    {
+     "path": "**/*.png",
+     "bytes": 2960349,
+     "reason": "asset",
+     "files": 298
+    },
+    {
+     "path": "**/*.py",
+     "bytes": 52356,
+     "reason": "import",
+     "files": 15
+    }
+   ],
+   "keep_groups_cover_files": 327
+  },
+  "eachyczhang-RocoTools": {
+   "keep_count": 772,
+   "keep_bytes": 18405305,
+   "drop_count": 65,
+   "drop_bytes": 526571,
+   "keep": [
+    {
+     "path": "CHANGELOG.md",
+     "bytes": 13572,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 2078,
+     "reason": "license"
+    },
+    {
+     "path": "nginx.conf",
+     "bytes": 6601,
+     "reason": "source"
+    },
+    {
+     "path": "nginx.prod.conf",
+     "bytes": 6173,
+     "reason": "source"
+    },
+    {
+     "path": "package.json",
+     "bytes": 287,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 13747,
+     "reason": "source"
+    },
+    {
+     "path": "app/*.md",
+     "bytes": 57535,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "app/client/*",
+     "bytes": 280537,
+     "reason": "import",
+     "files": 6
+    },
+    {
+     "path": "app/client/public/*",
+     "bytes": 19258,
+     "reason": "import",
+     "files": 4
+    },
+    {
+     "path": "app/client/src/styles/*",
+     "bytes": 16885,
+     "reason": "import",
+     "files": 3
+    },
+    {
+     "path": "app/server/*",
+     "bytes": 91121,
+     "reason": "import",
+     "files": 4
+    },
+    {
+     "path": "app/server/logs/.gitkeep",
+     "bytes": 0,
+     "reason": "import"
+    },
+    {
+     "path": "app/server/root-static/.gitkeep",
+     "bytes": 0,
+     "reason": "import"
+    },
+    {
+     "path": "app/server/src/db/*",
+     "bytes": 13391,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "data/*.md",
+     "bytes": 29421,
+     "reason": "asset",
+     "files": 2
+    },
+    {
+     "path": "data/eggs/*",
+     "bytes": 85872,
+     "reason": "asset",
+     "files": 2
+    },
+    {
+     "path": "data/elements/*",
+     "bytes": 44902,
+     "reason": "asset",
+     "files": 7
+    },
+    {
+     "path": "data/natures/*",
+     "bytes": 10654,
+     "reason": "asset",
+     "files": 2
+    },
+    {
+     "path": "data/pets/*",
+     "bytes": 587131,
+     "reason": "asset",
+     "files": 4
+    },
+    {
+     "path": "data/skills/*",
+     "bytes": 361291,
+     "reason": "asset",
+     "files": 4
+    },
+    {
+     "path": "scripts/*",
+     "bytes": 250159,
+     "reason": "source",
+     "files": 16
+    },
+    {
+     "path": "scripts/ability-icon-tool/*",
+     "bytes": 15796,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "scripts/ability-icon-tool/input/.gitkeep",
+     "bytes": 0,
+     "reason": "source"
+    },
+    {
+     "path": "scripts/ability-icon-tool/output/.gitkeep",
+     "bytes": 0,
+     "reason": "source"
+    },
+    {
+     "path": "scripts/git-hooks/*",
+     "bytes": 9527,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "scripts/skill-icon-tool/*",
+     "bytes": 16556,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "scripts/skill-icon-tool/input/.gitkeep",
+     "bytes": 0,
+     "reason": "source"
+    },
+    {
+     "path": "scripts/skill-icon-tool/output/.gitkeep",
+     "bytes": 0,
+     "reason": "source"
+    },
+    {
+     "path": "**/*.png",
+     "bytes": 15001966,
+     "reason": "asset",
+     "files": 571
+    },
+    {
+     "path": "**/*.js",
+     "bytes": 486087,
+     "reason": "import",
+     "files": 72
+    },
+    {
+     "path": "**/*.vue",
+     "bytes": 984758,
+     "reason": "import",
+     "files": 53
+    }
+   ],
+   "keep_groups_cover_files": 772
+  },
+  "rookie-orange-rocokingdom-ui": {
+   "keep_count": 369,
+   "keep_bytes": 19005059,
+   "drop_count": 23130,
+   "drop_bytes": 350417480,
+   "keep": [
+    {
+     "path": "AGENTS.md",
+     "bytes": 1057,
+     "reason": "source"
+    },
+    {
+     "path": "CLAUDE.md",
+     "bytes": 9,
+     "reason": "source"
+    },
+    {
+     "path": "package.json",
+     "bytes": 429,
+     "reason": "source"
+    },
+    {
+     "path": "pnpm-lock.yaml",
+     "bytes": 194002,
+     "reason": "source"
+    },
+    {
+     "path": "pnpm-workspace.yaml",
+     "bytes": 1265,
+     "reason": "source"
+    },
+    {
+     "path": "README 2.md",
+     "bytes": 321,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 2703,
+     "reason": "source"
+    },
+    {
+     "path": "tsconfig.json",
+     "bytes": 190,
+     "reason": "source"
+    },
+    {
+     "path": "vite.config.ts",
+     "bytes": 551,
+     "reason": "source"
+    },
+    {
+     "path": "apps/website/*",
+     "bytes": 663,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "apps/website/public/*",
+     "bytes": 6319,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "apps/website/src/assets/*.png",
+     "bytes": 8422219,
+     "reason": "import",
+     "files": 3
+    },
+    {
+     "path": "docs/superpowers/specs/2026-06-23-drawer-size-full-design.md",
+     "bytes": 3097,
+     "reason": "source"
+    },
+    {
+     "path": "packages/icons/dist/*",
+     "bytes": 3326,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/shared/*",
+     "bytes": 278,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/shared/dist/*",
+     "bytes": 178,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/tokens/*",
+     "bytes": 1010,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/tokens/dist/*",
+     "bytes": 7575,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/ui/*",
+     "bytes": 14121,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/ui/dist/*",
+     "bytes": 275309,
+     "reason": "import",
+     "files": 4
+    },
+    {
+     "path": "packages/ui/dist/fonts/*.ttf",
+     "bytes": 4578244,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/ui/src/fonts/*.ttf",
+     "bytes": 4578244,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/utils/*",
+     "bytes": 278,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "packages/utils/dist/*",
+     "bytes": 178,
+     "reason": "import",
+     "files": 2
+    },
+    {
+     "path": "**/*.css",
+     "bytes": 223262,
+     "reason": "import",
+     "files": 38
+    },
+    {
+     "path": "**/*.json",
+     "bytes": 11075,
+     "reason": "import",
+     "files": 13
+    },
+    {
+     "path": "**/*.ts",
+     "bytes": 270907,
+     "reason": "import",
+     "files": 63
+    },
+    {
+     "path": "**/*.tsx",
+     "bytes": 408249,
+     "reason": "import",
+     "files": 214
+    }
+   ],
+   "keep_groups_cover_files": 369
+  },
+  "yottaapp-yotta": {
+   "keep_count": 2032,
+   "keep_bytes": 20763632,
+   "drop_count": 23866,
+   "drop_bytes": 315579193,
+   "keep": [
+    {
+     "path": ".env.example",
+     "bytes": 755,
+     "reason": "source"
+    },
+    {
+     "path": ".env.online.example",
+     "bytes": 646,
+     "reason": "source"
+    },
+    {
+     "path": ".gitattributes",
+     "bytes": 510,
+     "reason": "source"
+    },
+    {
+     "path": ".gitignore",
+     "bytes": 1049,
+     "reason": "source"
+    },
+    {
+     "path": ".gitleaks.toml",
+     "bytes": 248,
+     "reason": "source"
+    },
+    {
+     "path": ".impeccable.md",
+     "bytes": 1409,
+     "reason": "source"
+    },
+    {
+     "path": ".node-version",
+     "bytes": 8,
+     "reason": "source"
+    },
+    {
+     "path": "AGENTS.md",
+     "bytes": 6084,
+     "reason": "source"
+    },
+    {
+     "path": "CONTEXT.md",
+     "bytes": 3454,
+     "reason": "source"
+    },
+    {
+     "path": "CONTRIBUTING.md",
+     "bytes": 2761,
+     "reason": "source"
+    },
+    {
+     "path": "deny.toml",
+     "bytes": 318,
+     "reason": "source"
+    },
+    {
+     "path": "go.mod",
+     "bytes": 2044,
+     "reason": "source"
+    },
+    {
+     "path": "go.sum",
+     "bytes": 12658,
+     "reason": "source"
+    },
+    {
+     "path": "LICENSE",
+     "bytes": 257,
+     "reason": "license"
+    },
+    {
+     "path": "main.go",
+     "bytes": 1924,
+     "reason": "source"
+    },
+    {
+     "path": "PRODUCT.md",
+     "bytes": 1532,
+     "reason": "source"
+    },
+    {
+     "path": "README.md",
+     "bytes": 7792,
+     "reason": "source"
+    },
+    {
+     "path": "README_EN.md",
+     "bytes": 7414,
+     "reason": "source"
+    },
+    {
+     "path": "RELEASING.md",
+     "bytes": 5128,
+     "reason": "source"
+    },
+    {
+     "path": "rust-toolchain.toml",
+     "bytes": 88,
+     "reason": "source"
+    },
+    {
+     "path": "SECURITY.md",
+     "bytes": 1198,
+     "reason": "source"
+    },
+    {
+     "path": "startup_error_other.go",
+     "bytes": 68,
+     "reason": "source"
+    },
+    {
+     "path": "startup_error_windows.go",
+     "bytes": 450,
+     "reason": "source"
+    },
+    {
+     "path": "startup_privilege_test.go",
+     "bytes": 2063,
+     "reason": "source"
+    },
+    {
+     "path": "Taskfile.yml",
+     "bytes": 15443,
+     "reason": "source"
+    },
+    {
+     "path": "THIRD_PARTY_NOTICES.txt",
+     "bytes": 905,
+     "reason": "source"
+    },
+    {
+     "path": "toolchains.json",
+     "bytes": 479,
+     "reason": "source"
+    },
+    {
+     "path": "VERSION",
+     "bytes": 14,
+     "reason": "source"
+    },
+    {
+     "path": ".github/dependabot.yml",
+     "bytes": 686,
+     "reason": "source"
+    },
+    {
+     "path": ".github/workflows/*.yml",
+     "bytes": 28542,
+     "reason": "source",
+     "files": 6
+    },
+    {
+     "path": "build/*",
+     "bytes": 62197,
+     "reason": "source",
+     "files": 4
+    },
+    {
+     "path": "contracts/plugin/v1/*",
+     "bytes": 4540,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "deploy/online-test/register-client.sql",
+     "bytes": 1745,
+     "reason": "source"
+    },
+    {
+     "path": "examples/plugins/wasm-minimal/plugin.c",
+     "bytes": 1147,
+     "reason": "source"
+    },
+    {
+     "path": "frontend/*",
+     "bytes": 246929,
+     "reason": "source",
+     "files": 5
+    },
+    {
+     "path": "frontend/src/style.css",
+     "bytes": 6051,
+     "reason": "source"
+    },
+    {
+     "path": "frontend/src/i18n/*",
+     "bytes": 11712,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "frontend/src/views/*.css",
+     "bytes": 10124,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "internal/desktopapp/storage_recovery_assets/*",
+     "bytes": 11955,
+     "reason": "source",
+     "files": 3
+    },
+    {
+     "path": "internal/storage/migrate/testdata/invalid-legacy-run/.yotta-run-store",
+     "bytes": 18,
+     "reason": "source"
+    },
+    {
+     "path": "native/capture_wgc/*",
+     "bytes": 5721,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "native/capture_wgc/src/lib.rs",
+     "bytes": 21598,
+     "reason": "source"
+    },
+    {
+     "path": "scripts/*.py",
+     "bytes": 8191,
+     "reason": "source",
+     "files": 3
+    },
+    {
+     "path": "sdk/plugin/templates/panel/cmd/companion/*.tmpl",
+     "bytes": 7988,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "sdk/plugin/templates/panel/cmd/package/panel.go.tmpl",
+     "bytes": 1334,
+     "reason": "source"
+    },
+    {
+     "path": "sdk/plugin/templates/panel/internal/paneldefinition/definition.go.tmpl",
+     "bytes": 831,
+     "reason": "source"
+    },
+    {
+     "path": "sdk/plugin/templates/process/*.tmpl",
+     "bytes": 7363,
+     "reason": "source",
+     "files": 5
+    },
+    {
+     "path": "sdk/plugin/templates/process/cmd/node/main.go.tmpl",
+     "bytes": 1199,
+     "reason": "source"
+    },
+    {
+     "path": "sdk/plugin/templates/process/cmd/package/*.tmpl",
+     "bytes": 4063,
+     "reason": "source",
+     "files": 2
+    },
+    {
+     "path": "**/*.go",
+     "bytes": 6443748,
+     "reason": "source",
+     "files": 1015
+    },
+    {
+     "path": "**/*.json",
+     "bytes": 7921528,
+     "reason": "source",
+     "files": 75
+    },
+    {
+     "path": "**/*.md",
+     "bytes": 1823482,
+     "reason": "source",
+     "files": 205
+    },
+    {
+     "path": "**/*.mjs",
+     "bytes": 45566,
+     "reason": "source",
+     "files": 13
+    },
+    {
+     "path": "**/*.ps1",
+     "bytes": 68406,
+     "reason": "source",
+     "files": 22
+    },
+    {
+     "path": "**/*.ts",
+     "bytes": 2544023,
+     "reason": "source",
+     "files": 471
+    },
+    {
+     "path": "**/*.vue",
+     "bytes": 1396246,
+     "reason": "source",
+     "files": 156
+    }
+   ],
+   "keep_groups_cover_files": 2032
+  },
+  "sift-map-tracker": {
+   "keep_count": 7,
+   "keep_bytes": 143061,
+   "drop_count": 209,
+   "drop_bytes": 647557176,
+   "keep": [
+    {
+     "path": "build-manifest.json",
+     "bytes": 4396,
+     "reason": "config"
+    },
+    {
+     "path": "screen-recognition/service/screen-recognition.manifest.json",
+     "bytes": 6924,
+     "reason": "asset"
+    },
+    {
+     "path": "sift-map-tracker/settings.py",
+     "bytes": 1154,
+     "reason": "import"
+    },
+    {
+     "path": "sift-map-tracker/assets/*.json",
+     "bytes": 4202,
+     "reason": "asset",
+     "files": 2
+    },
+    {
+     "path": "sift-map-tracker/assets/resource_catalog/config.json",
+     "bytes": 49301,
+     "reason": "asset"
+    },
+    {
+     "path": "sift-map-tracker/routes/default_route.json",
+     "bytes": 77084,
+     "reason": "asset"
+    }
+   ],
+   "keep_groups_cover_files": 7
+  }
+ }
+}

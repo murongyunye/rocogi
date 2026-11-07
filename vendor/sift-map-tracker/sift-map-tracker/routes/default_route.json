@@ -1,0 +1,3246 @@
+{
+  "format_version": "sift0.6",
+  "name": "默认采集路线-701",
+  "loop": false,
+  "notes": "由 vendor/adapters/sift_map_tracker/build_default_route.py 生成；来源：Wooziii-roco-map-tracker/data/points.normalized.json + tracker.route_planner；坐标为 8192 地图像素，仅用于截图识别导航。",
+  "points": [
+    {
+      "x": 2426,
+      "y": 4136,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2749,
+      "y": 3976,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2876,
+      "y": 4020,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3107,
+      "y": 3958,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3100,
+      "y": 3944,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3022,
+      "y": 3812,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3020,
+      "y": 3780,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3038,
+      "y": 3721,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3197,
+      "y": 3653,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3166,
+      "y": 3628,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3035,
+      "y": 3536,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3310,
+      "y": 3321,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3588,
+      "y": 3401,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3688,
+      "y": 3357,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3728,
+      "y": 3340,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3668,
+      "y": 3486,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3636,
+      "y": 3601,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3728,
+      "y": 3681,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3720,
+      "y": 3721,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3646,
+      "y": 3702,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3578,
+      "y": 3791,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3540,
+      "y": 3786,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3558,
+      "y": 3845,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3515,
+      "y": 3837,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3464,
+      "y": 3818,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3379,
+      "y": 3782,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3337,
+      "y": 3830,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3350,
+      "y": 3899,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3374,
+      "y": 3909,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3279,
+      "y": 4108,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3221,
+      "y": 4103,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3205,
+      "y": 3144,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3208,
+      "y": 3127,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3202,
+      "y": 3111,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3188,
+      "y": 3100,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2946,
+      "y": 3123,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2930,
+      "y": 3104,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2753,
+      "y": 3094,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2556,
+      "y": 2944,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2543,
+      "y": 2967,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2523,
+      "y": 2968,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2459,
+      "y": 3218,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2003,
+      "y": 2630,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2041,
+      "y": 2625,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2052,
+      "y": 2559,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2073,
+      "y": 2544,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2088,
+      "y": 2526,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2000,
+      "y": 2298,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2070,
+      "y": 2170,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2092,
+      "y": 2187,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2531,
+      "y": 2423,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2529,
+      "y": 2462,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2566,
+      "y": 2437,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2634,
+      "y": 2224,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2644,
+      "y": 2205,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2656,
+      "y": 2180,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2639,
+      "y": 2141,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2392,
+      "y": 1961,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2367,
+      "y": 1932,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2437,
+      "y": 1935,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2423,
+      "y": 1920,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2427,
+      "y": 1879,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2478,
+      "y": 1856,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2516,
+      "y": 1684,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2510,
+      "y": 1626,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2119,
+      "y": 1819,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2044,
+      "y": 1861,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1984,
+      "y": 1799,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1978,
+      "y": 1744,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2009,
+      "y": 1741,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2057,
+      "y": 1714,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2102,
+      "y": 1720,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2086,
+      "y": 1513,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2042,
+      "y": 1410,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2023,
+      "y": 1411,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2769,
+      "y": 1377,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2772,
+      "y": 1393,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2810,
+      "y": 1372,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3120,
+      "y": 1520,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3152,
+      "y": 1505,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3197,
+      "y": 1535,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3121,
+      "y": 1545,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3066,
+      "y": 1518,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2960,
+      "y": 1546,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2933,
+      "y": 1571,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2905,
+      "y": 1570,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2727,
+      "y": 1627,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2704,
+      "y": 1631,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2716,
+      "y": 1661,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2732,
+      "y": 2026,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2782,
+      "y": 2033,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2892,
+      "y": 2050,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2997,
+      "y": 1977,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3418,
+      "y": 1945,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3418,
+      "y": 1920,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3210,
+      "y": 2297,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3452,
+      "y": 2404,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3468,
+      "y": 2615,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3508,
+      "y": 2647,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3552,
+      "y": 2579,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3676,
+      "y": 2733,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4072,
+      "y": 2395,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3934,
+      "y": 2146,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 3916,
+      "y": 2083,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4212,
+      "y": 2411,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4228,
+      "y": 2388,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4309,
+      "y": 2410,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4488,
+      "y": 2576,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4663,
+      "y": 2679,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4665,
+      "y": 2791,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4645,
+      "y": 2795,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4631,
+      "y": 2809,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5016,
+      "y": 3054,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5037,
+      "y": 3058,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5217,
+      "y": 3075,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5251,
+      "y": 3080,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5226,
+      "y": 3105,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5147,
+      "y": 3274,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4946,
+      "y": 3254,
+      "label": "地下",
+      "radius": 30
+    },
+    {
+      "x": 4852,
+      "y": 3428,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4858,
+      "y": 3446,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 4933,
+      "y": 3501,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5548,
+      "y": 3463,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5556,
+      "y": 3483,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5602,
+      "y": 3127,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5628,
+      "y": 3109,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5616,
+      "y": 3066,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 5648,
+      "y": 3055,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2232,
+      "y": 3125,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2142,
+      "y": 3051,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 2107,
+      "y": 3116,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1989,
+      "y": 3123,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1800,
+      "y": 3216,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1771,
+      "y": 3206,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1758,
+      "y": 3130,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1595,
+      "y": 2736,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1567,
+      "y": 2722,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 999,
+      "y": 3202,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 999,
+      "y": 3187,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 989,
+      "y": 3170,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 992,
+      "y": 3160,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 882,
+      "y": 3068,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 860,
+      "y": 3079,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 707,
+      "y": 2893,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 704,
+      "y": 2863,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 622,
+      "y": 2830,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 607,
+      "y": 2813,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 959,
+      "y": 2017,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 924,
+      "y": 1981,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 900,
+      "y": 1927,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 861,
+      "y": 1969,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 482,
+      "y": 1736,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 400,
+      "y": 1859,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 396,
+      "y": 1876,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 392,
+      "y": 1891,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 384,
+      "y": 1913,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 496,
+      "y": 1934,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 415,
+      "y": 2120,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 439,
+      "y": 2230,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1271,
+      "y": 1688,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1240,
+      "y": 1626,
+      "label": "物资 701",
+      "radius": 30
+    },
+    {
+      "x": 1777,
+      "y": 944,
+      "label": "物资 701",
+      "radius": 30
+    }
+  ],
+  "nodes": [
+    {
+      "id": "0ec968264d1b5df29bc626437d8422ef",
+      "x": 2426,
+      "y": 4136,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9d6606df7e8058f6a0b879389135270c",
+      "x": 2749,
+      "y": 3976,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7b010a8493b65c1a8e80a1783831918e",
+      "x": 2876,
+      "y": 4020,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "6061cfb4536f5bbdba374d256e089f4e",
+      "x": 3107,
+      "y": 3958,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "6bebc716c40050029f27f59fe1cb8656",
+      "x": 3100,
+      "y": 3944,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "fbe35c74696f5e03b3efdca528cf249d",
+      "x": 3022,
+      "y": 3812,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3f846c5d05e855459d69fb625fc9e520",
+      "x": 3020,
+      "y": 3780,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "0251ac825c065af889ad2c9a8f6231b1",
+      "x": 3038,
+      "y": 3721,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9ab5832b903e517b92c0bef31f0ace86",
+      "x": 3197,
+      "y": 3653,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f136b10a723a5099b59698184d89c604",
+      "x": 3166,
+      "y": 3628,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "54c10c0896b253a8ba7d479171e11505",
+      "x": 3035,
+      "y": 3536,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7e78271bf152552e96804a3423461824",
+      "x": 3310,
+      "y": 3321,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f1ec7a7eb9b65bb993cddb660890a500",
+      "x": 3588,
+      "y": 3401,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9f621902cf0e5f2981855cf04542ecff",
+      "x": 3688,
+      "y": 3357,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "1437adeb5bd652e18a96a675f01e4944",
+      "x": 3728,
+      "y": 3340,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9c0732f275d056bca245a70f38d2374e",
+      "x": 3668,
+      "y": 3486,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ec807dfad7c55a2fb448a56d1b9105db",
+      "x": 3636,
+      "y": 3601,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "5f77db5c5aef5a5badbf52c44e4acbf7",
+      "x": 3728,
+      "y": 3681,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4c6413cdd06a5cad90e549ba11b21095",
+      "x": 3720,
+      "y": 3721,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "98644a59b98e50f0bef0619381bd6695",
+      "x": 3646,
+      "y": 3702,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "bce5583db3815994b19f036a9e605266",
+      "x": 3578,
+      "y": 3791,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "79c194e824845616b9552ac7b0b85ded",
+      "x": 3540,
+      "y": 3786,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "c684833109ef5fbd944801413cd651f5",
+      "x": 3558,
+      "y": 3845,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e24db5e589df5bb0a28f43f26ab7cde4",
+      "x": 3515,
+      "y": 3837,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "0577f145851b50c49d1a5b59b2ae9d22",
+      "x": 3464,
+      "y": 3818,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "38a6087c81a856d7802af8b786e4167b",
+      "x": 3379,
+      "y": 3782,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e341666d33a45ce7a6aa38748b93cfed",
+      "x": 3337,
+      "y": 3830,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "297f860433a1560e8b63b50c26750d77",
+      "x": 3350,
+      "y": 3899,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f3a9464fad5a52fb8262becaaa8c6721",
+      "x": 3374,
+      "y": 3909,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9cd48b700f815ab68bf49c32dae9e157",
+      "x": 3279,
+      "y": 4108,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "cf6a4aeec26f5890b52de4332d460f90",
+      "x": 3221,
+      "y": 4103,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9f48762ad9f45bf897565984f38354a8",
+      "x": 3205,
+      "y": 3144,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f8905ed5289d55d787c78a215f0f0b09",
+      "x": 3208,
+      "y": 3127,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f0e9acce52075c83b25283c9c63f9e2d",
+      "x": 3202,
+      "y": 3111,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "b10732e4c7fb5be29288fdeec8952cc3",
+      "x": 3188,
+      "y": 3100,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f75a63eadb485f3da182048666c6f200",
+      "x": 2946,
+      "y": 3123,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4da4338edba55836b2d8820c069e993f",
+      "x": 2930,
+      "y": 3104,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "b574206ef21e59f1b7ed9029690bb216",
+      "x": 2753,
+      "y": 3094,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e5bf1cee7a1a5ae69e01bce2b25282ed",
+      "x": 2556,
+      "y": 2944,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "d775d1a14d625372bba0912fd90ea7c0",
+      "x": 2543,
+      "y": 2967,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "dc26162f2f735582af21f8e356367838",
+      "x": 2523,
+      "y": 2968,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "0282b4e1dcbf5b6697136ee804125c4b",
+      "x": 2459,
+      "y": 3218,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3f75ca8f28cb5fff8145da042145a5ff",
+      "x": 2003,
+      "y": 2630,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "0c6ff169934e584fb71941e9e21b1485",
+      "x": 2041,
+      "y": 2625,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "d51893d116525a2a96b93635efc8f0e9",
+      "x": 2052,
+      "y": 2559,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "1b1189d510a557569f198fd3992b63d5",
+      "x": 2073,
+      "y": 2544,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "90b87de70599547eb9d80bd04302d0da",
+      "x": 2088,
+      "y": 2526,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "aaa0d3437c4353f39f11d9fbe549220d",
+      "x": 2000,
+      "y": 2298,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e0683aa8029d5ce1bd9457904a6754d6",
+      "x": 2070,
+      "y": 2170,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "19fb24278c11516583f2ef699b1bb88d",
+      "x": 2092,
+      "y": 2187,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3b7aad03300552629c3c21dcb894e7e4",
+      "x": 2531,
+      "y": 2423,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3e41a87b962d504ea421131e9aacb61d",
+      "x": 2529,
+      "y": 2462,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "8dfb2132be915e1796543a75acb8c13a",
+      "x": 2566,
+      "y": 2437,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "59800c9bca4d5298a1ef22044af86555",
+      "x": 2634,
+      "y": 2224,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "2055c2ecefec5b0d8125b87da188a2c6",
+      "x": 2644,
+      "y": 2205,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "201d96bf554551ddb374192da25e8eec",
+      "x": 2656,
+      "y": 2180,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "6bc211e826ac5713b01cf5fe907bf98d",
+      "x": 2639,
+      "y": 2141,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "c0171cbdc0d8592d933b5dba7e34d222",
+      "x": 2392,
+      "y": 1961,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "5a22ed6dd19c518a940a56ceca958a4b",
+      "x": 2367,
+      "y": 1932,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f776240295125c5b81d0f1726dc226eb",
+      "x": 2437,
+      "y": 1935,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "58996915afa25232baf48ae3739d792b",
+      "x": 2423,
+      "y": 1920,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e29faa02546e56dda9ce47ba187633cd",
+      "x": 2427,
+      "y": 1879,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7d789a7aca7d5b9ca52ecc58ecd127e8",
+      "x": 2478,
+      "y": 1856,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "94b2503e7b035c08b2ffebe230c204f6",
+      "x": 2516,
+      "y": 1684,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "2e10c8fa04ac54abafea2d5bde9a4795",
+      "x": 2510,
+      "y": 1626,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "bd8c48aaa754504eb68054d6988f86ca",
+      "x": 2119,
+      "y": 1819,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "43008082f05656b7a20ea117d7acb99a",
+      "x": 2044,
+      "y": 1861,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "2aa2e08d2c165b868c5e67fa6a983eb8",
+      "x": 1984,
+      "y": 1799,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3b7a3d0ee93c5df5abbeb9764102aa46",
+      "x": 1978,
+      "y": 1744,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "863f4527c39454de8d630e6865724ccb",
+      "x": 2009,
+      "y": 1741,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "b61c80d321c15a68a99ac6b5db702d9b",
+      "x": 2057,
+      "y": 1714,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "40297b20f9f45ea7be41e106c4ba198d",
+      "x": 2102,
+      "y": 1720,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "bde8a5cda620584a8263628f6580d360",
+      "x": 2086,
+      "y": 1513,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "89262b2adb035448996d225f9e5b4bab",
+      "x": 2042,
+      "y": 1410,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3aa54042bb605d91b6339739ae20efe9",
+      "x": 2023,
+      "y": 1411,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "66cdf148523653dfa70e26eec393d2ed",
+      "x": 2769,
+      "y": 1377,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "09236e5a580b529e848aa310d7769fe5",
+      "x": 2772,
+      "y": 1393,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "63a7ae24413153d7b4ca0c8c466d6d0c",
+      "x": 2810,
+      "y": 1372,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3b2acd16dc4a5eeea3dd4989e211f15c",
+      "x": 3120,
+      "y": 1520,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "8706c82294a65ecbb1722a7a8bbd8403",
+      "x": 3152,
+      "y": 1505,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ba2dccbed4595c47a2d42917ffdff0f9",
+      "x": 3197,
+      "y": 1535,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "fa20a61f93265610bbd2595f58d13c3e",
+      "x": 3121,
+      "y": 1545,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "d67d59ca57c453f3a724b19731055904",
+      "x": 3066,
+      "y": 1518,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e31691a9a32950869588c2b3e205709b",
+      "x": 2960,
+      "y": 1546,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "37c3df8115e65f1f92835d4e749898c5",
+      "x": 2933,
+      "y": 1571,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "cac15c4e48405f949de0facc7a87659b",
+      "x": 2905,
+      "y": 1570,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "157495d35401593ca785bc44d77f622e",
+      "x": 2727,
+      "y": 1627,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9eedba88d7905521932fdc38be3bdabe",
+      "x": 2704,
+      "y": 1631,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "50ff39d3f9525b848347bf7ce60e6b56",
+      "x": 2716,
+      "y": 1661,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "078b006d5bb657ac95ec30480895f7da",
+      "x": 2732,
+      "y": 2026,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "0dd0f56d22ee5804b73d26c97749aab4",
+      "x": 2782,
+      "y": 2033,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "76daf43f574951de8b8e6372d4944da7",
+      "x": 2892,
+      "y": 2050,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "54c8d137953c58e8ba7fb3b4edcfdc53",
+      "x": 2997,
+      "y": 1977,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "86d490d15753518883bf9bcde9e76614",
+      "x": 3418,
+      "y": 1945,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "8ce4ddbe55795ba7ab39a71edb512c9b",
+      "x": 3418,
+      "y": 1920,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4b3e4b6f621353cc85d92d51a43b70b3",
+      "x": 3210,
+      "y": 2297,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "cd04c3673b8650d8a78f55cb8f1ebe90",
+      "x": 3452,
+      "y": 2404,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "309536ccc78d534fa30b9c4867f0007b",
+      "x": 3468,
+      "y": 2615,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "3b2cc1e15e7a58309e113f27f0aa9fe0",
+      "x": 3508,
+      "y": 2647,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "a1df44bd60da509da721d927231b9564",
+      "x": 3552,
+      "y": 2579,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "d2ba58e4ea035963968993c8356928ab",
+      "x": 3676,
+      "y": 2733,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "74f2056f5b835e629fbab362defd5558",
+      "x": 4072,
+      "y": 2395,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "59e2354484be5d829e6ffba9305cd7c3",
+      "x": 3934,
+      "y": 2146,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "709724d47b1d5770a69c4ba162a86ae5",
+      "x": 3916,
+      "y": 2083,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "c4703cb2fe645b6296e44548148b3540",
+      "x": 4212,
+      "y": 2411,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "bdb4bfaa3cb15d0985da06726b2c791d",
+      "x": 4228,
+      "y": 2388,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ae1d95dd6eee59a8bedc8f49730e10c2",
+      "x": 4309,
+      "y": 2410,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "2046416e1132514996269720413fd0e2",
+      "x": 4488,
+      "y": 2576,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7e827c5ebdba5681904305f932e6bf7f",
+      "x": 4663,
+      "y": 2679,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "5d205c32fc735855a47aa16e70357bfb",
+      "x": 4665,
+      "y": 2791,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "6f3e354bb652591792c00afe475a4c21",
+      "x": 4645,
+      "y": 2795,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "89025610ee8752929204537cce334a8d",
+      "x": 4631,
+      "y": 2809,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ecd279f4b03758739ce48f7019411fb9",
+      "x": 5016,
+      "y": 3054,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "67e416069d0a5ac48ef6106dd3ade375",
+      "x": 5037,
+      "y": 3058,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "70df6d92032b5d12992ca668e8366cec",
+      "x": 5217,
+      "y": 3075,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "5d2feece3b0952c0922de1b82cf7ce0f",
+      "x": 5251,
+      "y": 3080,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "037f583c99a85ed69de950497b0cd27a",
+      "x": 5226,
+      "y": 3105,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "769d658a5f135201aa7ccef248d8527f",
+      "x": 5147,
+      "y": 3274,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9397bd450d7f5eed89e5582d9072797b",
+      "x": 4946,
+      "y": 3254,
+      "label": "地下",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "97124ada9980571fa8a67c63fd638a1a",
+      "x": 4852,
+      "y": 3428,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "2bb426b3e61e597e8daf83696ff99ca1",
+      "x": 4858,
+      "y": 3446,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "f37ad358c4d15db3b04f53847e6329c3",
+      "x": 4933,
+      "y": 3501,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4d3743f77b6c5495b0faabccbe8dc97a",
+      "x": 5548,
+      "y": 3463,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "210c5f66b3d55ddda62b972d5302f4b3",
+      "x": 5556,
+      "y": 3483,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "831fc67f353c5b8ca2dd18256f432a55",
+      "x": 5602,
+      "y": 3127,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "63523c910ac6542c88fb705101f48949",
+      "x": 5628,
+      "y": 3109,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4d3410a59deb50babc1b05e662e95e7b",
+      "x": 5616,
+      "y": 3066,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "fa7393ef590e52f38f0e470c6c50e954",
+      "x": 5648,
+      "y": 3055,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "23e597ecf0e85b898f9c59e5ce1567dd",
+      "x": 2232,
+      "y": 3125,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "5561b48c6b1f5b9aa01f779b19b8cc38",
+      "x": 2142,
+      "y": 3051,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "334aae9a789e52389931d41e7b2af610",
+      "x": 2107,
+      "y": 3116,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "adb0663732105d12b044fbd5ab58c311",
+      "x": 1989,
+      "y": 3123,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e1c7dd6abddb52ccb52b5b69119dd896",
+      "x": 1800,
+      "y": 3216,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "221dcae89f80580daf2639b75b8608f6",
+      "x": 1771,
+      "y": 3206,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7a9757075fea5099a8e8060291894767",
+      "x": 1758,
+      "y": 3130,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "aa3d1bb180ce5ba7aae25b333114eae8",
+      "x": 1595,
+      "y": 2736,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "eae648d07e1a5fd6aad960710e405e3a",
+      "x": 1567,
+      "y": 2722,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "965b40f83edf55dcb885880aedbe9a5e",
+      "x": 999,
+      "y": 3202,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "d0b65a8189c457b980367bf37ce9c1a7",
+      "x": 999,
+      "y": 3187,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "1d8defe04f1b54069f7143c24c67a080",
+      "x": 989,
+      "y": 3170,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4d9dcd4b15695e67bcba54b5b37fa8f2",
+      "x": 992,
+      "y": 3160,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "a3c699cb35d454cca68b15b13a25e3c7",
+      "x": 882,
+      "y": 3068,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "9dedad0cda2957b79d8043d2298793a8",
+      "x": 860,
+      "y": 3079,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "72ea0fe5a8f653e3a720edbfb3c83db7",
+      "x": 707,
+      "y": 2893,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "4e685100423a514fa397812928a4ce45",
+      "x": 704,
+      "y": 2863,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7490c4719b6856b5b1ce58346db69a03",
+      "x": 622,
+      "y": 2830,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "c41fa1070e175d7cb96ff65cf6f3c368",
+      "x": 607,
+      "y": 2813,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "be5a28f8685552789c57f56c8bb97ee5",
+      "x": 959,
+      "y": 2017,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e4c9e77b816153d49a0592480b4866b1",
+      "x": 924,
+      "y": 1981,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ef009c2ed39b5c8a941a82e72c6d49bf",
+      "x": 900,
+      "y": 1927,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "42a9f2cbb32f5f67983c5749aeeeb31b",
+      "x": 861,
+      "y": 1969,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7333e66912f8519fa3b087d36d1ddc24",
+      "x": 482,
+      "y": 1736,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7d691bc2e1b250fc9d9e2e203f91fcd2",
+      "x": 400,
+      "y": 1859,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "07f9cff71b5b5e2ba6f2932b711206f6",
+      "x": 396,
+      "y": 1876,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "320cfe76e40d518d95aa0bb2f9fa5e1b",
+      "x": 392,
+      "y": 1891,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e7cf77534e0d54dea30573148f245c3e",
+      "x": 384,
+      "y": 1913,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7fc6566a65725c9c81262eca61ccd876",
+      "x": 496,
+      "y": 1934,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "103bb16a1e1f5ce6867caf56943add99",
+      "x": 415,
+      "y": 2120,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "7f7d68ad69fc5351922fab9ead4f1c1d",
+      "x": 439,
+      "y": 2230,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "edca25635ab056688a92e88f41c8879e",
+      "x": 1271,
+      "y": 1688,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "1151d7b8f1f15d20bcca70afa802c76e",
+      "x": 1240,
+      "y": 1626,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "6af61894d51d5b0fb936c60debeb8dac",
+      "x": 1777,
+      "y": 944,
+      "label": "物资 701",
+      "radius": 30,
+      "node_type": "collect"
+    }
+  ],
+  "edges": [
+    {
+      "id": "595e0bc820374f3489b6bf208747106a",
+      "from": "0ec968264d1b5df29bc626437d8422ef",
+      "to": "9d6606df7e8058f6a0b879389135270c",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6f71299ad8094680872a9c2d701f2778",
+      "from": "9d6606df7e8058f6a0b879389135270c",
+      "to": "7b010a8493b65c1a8e80a1783831918e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ed0da9ee4a18410a84f172024ade86c6",
+      "from": "7b010a8493b65c1a8e80a1783831918e",
+      "to": "6061cfb4536f5bbdba374d256e089f4e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "51927eb2a6d74f02b0c792eabc74b797",
+      "from": "6061cfb4536f5bbdba374d256e089f4e",
+      "to": "6bebc716c40050029f27f59fe1cb8656",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b851a4f90a554a2eba913530e4715d88",
+      "from": "6bebc716c40050029f27f59fe1cb8656",
+      "to": "fbe35c74696f5e03b3efdca528cf249d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "20d1bf7f18d64a48ac315d3fdd9b7631",
+      "from": "fbe35c74696f5e03b3efdca528cf249d",
+      "to": "3f846c5d05e855459d69fb625fc9e520",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f4986bfd92cf48dc939ff70a107a00f4",
+      "from": "3f846c5d05e855459d69fb625fc9e520",
+      "to": "0251ac825c065af889ad2c9a8f6231b1",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6969468d804441a795ec17b2d9504574",
+      "from": "0251ac825c065af889ad2c9a8f6231b1",
+      "to": "9ab5832b903e517b92c0bef31f0ace86",
+      "edge_type": "normal"
+    },
+    {
+      "id": "fab79bdee45f429da90900a7ab52be35",
+      "from": "9ab5832b903e517b92c0bef31f0ace86",
+      "to": "f136b10a723a5099b59698184d89c604",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d60f9d64f5cc48b9abb9a02c81c74650",
+      "from": "f136b10a723a5099b59698184d89c604",
+      "to": "54c10c0896b253a8ba7d479171e11505",
+      "edge_type": "normal"
+    },
+    {
+      "id": "76a1056754164555a17eda6d7d400e83",
+      "from": "54c10c0896b253a8ba7d479171e11505",
+      "to": "7e78271bf152552e96804a3423461824",
+      "edge_type": "normal"
+    },
+    {
+      "id": "2726f563faf6447d895c55ca00126fa4",
+      "from": "7e78271bf152552e96804a3423461824",
+      "to": "f1ec7a7eb9b65bb993cddb660890a500",
+      "edge_type": "normal"
+    },
+    {
+      "id": "70c5ad54b0724b6d8e8c9a3957cc11f9",
+      "from": "f1ec7a7eb9b65bb993cddb660890a500",
+      "to": "9f621902cf0e5f2981855cf04542ecff",
+      "edge_type": "normal"
+    },
+    {
+      "id": "60710c6f1b2440aa90dbc764a4aeef25",
+      "from": "9f621902cf0e5f2981855cf04542ecff",
+      "to": "1437adeb5bd652e18a96a675f01e4944",
+      "edge_type": "normal"
+    },
+    {
+      "id": "c6a6e99b91914c949704cfccfb288ac4",
+      "from": "1437adeb5bd652e18a96a675f01e4944",
+      "to": "9c0732f275d056bca245a70f38d2374e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "4f304a214b514ccd8efeae39641e146a",
+      "from": "9c0732f275d056bca245a70f38d2374e",
+      "to": "ec807dfad7c55a2fb448a56d1b9105db",
+      "edge_type": "normal"
+    },
+    {
+      "id": "bcb62231620847dd88af1a98d116e226",
+      "from": "ec807dfad7c55a2fb448a56d1b9105db",
+      "to": "5f77db5c5aef5a5badbf52c44e4acbf7",
+      "edge_type": "normal"
+    },
+    {
+      "id": "905019cb4bb54f8c8061d67b17cd2631",
+      "from": "5f77db5c5aef5a5badbf52c44e4acbf7",
+      "to": "4c6413cdd06a5cad90e549ba11b21095",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f05701a2759f476288a0649b5bde1161",
+      "from": "4c6413cdd06a5cad90e549ba11b21095",
+      "to": "98644a59b98e50f0bef0619381bd6695",
+      "edge_type": "normal"
+    },
+    {
+      "id": "14addbe9f48f422ca0af57379d0b6e32",
+      "from": "98644a59b98e50f0bef0619381bd6695",
+      "to": "bce5583db3815994b19f036a9e605266",
+      "edge_type": "normal"
+    },
+    {
+      "id": "844fb411e1a24df88b920211becca39c",
+      "from": "bce5583db3815994b19f036a9e605266",
+      "to": "79c194e824845616b9552ac7b0b85ded",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8e3f5a834fad4f9899d54ee3702ffd62",
+      "from": "79c194e824845616b9552ac7b0b85ded",
+      "to": "c684833109ef5fbd944801413cd651f5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b479c04163eb459c87b36b4aa8ec63d7",
+      "from": "c684833109ef5fbd944801413cd651f5",
+      "to": "e24db5e589df5bb0a28f43f26ab7cde4",
+      "edge_type": "normal"
+    },
+    {
+      "id": "2cfe85bde3fb4947bd4579c02b2cf8af",
+      "from": "e24db5e589df5bb0a28f43f26ab7cde4",
+      "to": "0577f145851b50c49d1a5b59b2ae9d22",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b9b9d48b9d634c15a7995c792221ba61",
+      "from": "0577f145851b50c49d1a5b59b2ae9d22",
+      "to": "38a6087c81a856d7802af8b786e4167b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "cdf8b7f8586c403385771315281d78f2",
+      "from": "38a6087c81a856d7802af8b786e4167b",
+      "to": "e341666d33a45ce7a6aa38748b93cfed",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1493a1468e364000b18e179a83b1ea34",
+      "from": "e341666d33a45ce7a6aa38748b93cfed",
+      "to": "297f860433a1560e8b63b50c26750d77",
+      "edge_type": "normal"
+    },
+    {
+      "id": "90688ccac4a44a0293aded6f5d7d9cd8",
+      "from": "297f860433a1560e8b63b50c26750d77",
+      "to": "f3a9464fad5a52fb8262becaaa8c6721",
+      "edge_type": "normal"
+    },
+    {
+      "id": "08ef129c9fca4cfca2d7e88e30c0e34d",
+      "from": "f3a9464fad5a52fb8262becaaa8c6721",
+      "to": "9cd48b700f815ab68bf49c32dae9e157",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a40965f56fcb48449ef8c28f42149c7e",
+      "from": "9cd48b700f815ab68bf49c32dae9e157",
+      "to": "cf6a4aeec26f5890b52de4332d460f90",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6ee585723f784d0494d7946721529a5a",
+      "from": "cf6a4aeec26f5890b52de4332d460f90",
+      "to": "9f48762ad9f45bf897565984f38354a8",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d484ac4c5f004ea898c80d8981b0f846",
+      "from": "9f48762ad9f45bf897565984f38354a8",
+      "to": "f8905ed5289d55d787c78a215f0f0b09",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1b3967a6a0c2422ca7470862c914340b",
+      "from": "f8905ed5289d55d787c78a215f0f0b09",
+      "to": "f0e9acce52075c83b25283c9c63f9e2d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3a7a9e2de2e349a39513cf65806efb35",
+      "from": "f0e9acce52075c83b25283c9c63f9e2d",
+      "to": "b10732e4c7fb5be29288fdeec8952cc3",
+      "edge_type": "normal"
+    },
+    {
+      "id": "eceba2d75b9e48b4a8dd448efe77073a",
+      "from": "b10732e4c7fb5be29288fdeec8952cc3",
+      "to": "f75a63eadb485f3da182048666c6f200",
+      "edge_type": "normal"
+    },
+    {
+      "id": "76972edc338f44618ff8b483d716cddf",
+      "from": "f75a63eadb485f3da182048666c6f200",
+      "to": "4da4338edba55836b2d8820c069e993f",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d8eda0a5f17f45f996d759a1a815f56e",
+      "from": "4da4338edba55836b2d8820c069e993f",
+      "to": "b574206ef21e59f1b7ed9029690bb216",
+      "edge_type": "normal"
+    },
+    {
+      "id": "0c15bed6f5564056b671fa8f6dfc273d",
+      "from": "b574206ef21e59f1b7ed9029690bb216",
+      "to": "e5bf1cee7a1a5ae69e01bce2b25282ed",
+      "edge_type": "normal"
+    },
+    {
+      "id": "491b62ce64c648ad95afd93eea913d41",
+      "from": "e5bf1cee7a1a5ae69e01bce2b25282ed",
+      "to": "d775d1a14d625372bba0912fd90ea7c0",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b9b80065973544ef92229b93d5763a52",
+      "from": "d775d1a14d625372bba0912fd90ea7c0",
+      "to": "dc26162f2f735582af21f8e356367838",
+      "edge_type": "normal"
+    },
+    {
+      "id": "e57361fc2a0c45c9ae0358ebc47cb067",
+      "from": "dc26162f2f735582af21f8e356367838",
+      "to": "0282b4e1dcbf5b6697136ee804125c4b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1fb7b960d1d9443ab8124a06aa7e93ce",
+      "from": "0282b4e1dcbf5b6697136ee804125c4b",
+      "to": "3f75ca8f28cb5fff8145da042145a5ff",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3c16b32690734c8188b8ecbc4e9e19ee",
+      "from": "3f75ca8f28cb5fff8145da042145a5ff",
+      "to": "0c6ff169934e584fb71941e9e21b1485",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8645736b53bc42d8b956db2d895cfc6d",
+      "from": "0c6ff169934e584fb71941e9e21b1485",
+      "to": "d51893d116525a2a96b93635efc8f0e9",
+      "edge_type": "normal"
+    },
+    {
+      "id": "cee3eac87a6d48229f15e4b7a5dd03a9",
+      "from": "d51893d116525a2a96b93635efc8f0e9",
+      "to": "1b1189d510a557569f198fd3992b63d5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "de20a2d20e1c4b6a920cb6e0fe8dfe08",
+      "from": "1b1189d510a557569f198fd3992b63d5",
+      "to": "90b87de70599547eb9d80bd04302d0da",
+      "edge_type": "normal"
+    },
+    {
+      "id": "7bdefb8138c04715bce7f5e760e581f7",
+      "from": "90b87de70599547eb9d80bd04302d0da",
+      "to": "aaa0d3437c4353f39f11d9fbe549220d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "07ea6ad18cca436485eca73242092f84",
+      "from": "aaa0d3437c4353f39f11d9fbe549220d",
+      "to": "e0683aa8029d5ce1bd9457904a6754d6",
+      "edge_type": "normal"
+    },
+    {
+      "id": "fc43a6081a4b44b499d071f4e6d9544f",
+      "from": "e0683aa8029d5ce1bd9457904a6754d6",
+      "to": "19fb24278c11516583f2ef699b1bb88d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1a0d6188cd1e4b47989c94aaaba83666",
+      "from": "19fb24278c11516583f2ef699b1bb88d",
+      "to": "3b7aad03300552629c3c21dcb894e7e4",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8c0ddc6b3d4741e980919c3ef06baa9e",
+      "from": "3b7aad03300552629c3c21dcb894e7e4",
+      "to": "3e41a87b962d504ea421131e9aacb61d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "4eefd83ff77f4c3cb55c485c462f13d8",
+      "from": "3e41a87b962d504ea421131e9aacb61d",
+      "to": "8dfb2132be915e1796543a75acb8c13a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a5fe55a0727540ec9a4c2194ce1d2556",
+      "from": "8dfb2132be915e1796543a75acb8c13a",
+      "to": "59800c9bca4d5298a1ef22044af86555",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f11e9b6c3ef94447800778292ffa32f8",
+      "from": "59800c9bca4d5298a1ef22044af86555",
+      "to": "2055c2ecefec5b0d8125b87da188a2c6",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f6e597e826b946198eb2e2a5a637f782",
+      "from": "2055c2ecefec5b0d8125b87da188a2c6",
+      "to": "201d96bf554551ddb374192da25e8eec",
+      "edge_type": "normal"
+    },
+    {
+      "id": "184024c5218e4708bd9a83d8a4e9182a",
+      "from": "201d96bf554551ddb374192da25e8eec",
+      "to": "6bc211e826ac5713b01cf5fe907bf98d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f257d6c1e16441b6af68309dba49d436",
+      "from": "6bc211e826ac5713b01cf5fe907bf98d",
+      "to": "c0171cbdc0d8592d933b5dba7e34d222",
+      "edge_type": "normal"
+    },
+    {
+      "id": "de641ceca82a49248299fdefd86f0450",
+      "from": "c0171cbdc0d8592d933b5dba7e34d222",
+      "to": "5a22ed6dd19c518a940a56ceca958a4b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "4d503251c52d4d3f88425f5e6dbd1dbf",
+      "from": "5a22ed6dd19c518a940a56ceca958a4b",
+      "to": "f776240295125c5b81d0f1726dc226eb",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1d1450463142447880c5d4f49d081d13",
+      "from": "f776240295125c5b81d0f1726dc226eb",
+      "to": "58996915afa25232baf48ae3739d792b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "68d56f290429495eb6a124b5c74d891e",
+      "from": "58996915afa25232baf48ae3739d792b",
+      "to": "e29faa02546e56dda9ce47ba187633cd",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f9596c16b0374c9a99ff2869df1db933",
+      "from": "e29faa02546e56dda9ce47ba187633cd",
+      "to": "7d789a7aca7d5b9ca52ecc58ecd127e8",
+      "edge_type": "normal"
+    },
+    {
+      "id": "fac4af2ca93840cea33b7b70bdd1ebb8",
+      "from": "7d789a7aca7d5b9ca52ecc58ecd127e8",
+      "to": "94b2503e7b035c08b2ffebe230c204f6",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b3cafcd2ca184bc78ac767e8f9bef321",
+      "from": "94b2503e7b035c08b2ffebe230c204f6",
+      "to": "2e10c8fa04ac54abafea2d5bde9a4795",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8afe1961036c4119b76bd9bec0222d4a",
+      "from": "2e10c8fa04ac54abafea2d5bde9a4795",
+      "to": "bd8c48aaa754504eb68054d6988f86ca",
+      "edge_type": "normal"
+    },
+    {
+      "id": "f24b397cad264578b6028bbe0a1da7ad",
+      "from": "bd8c48aaa754504eb68054d6988f86ca",
+      "to": "43008082f05656b7a20ea117d7acb99a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "5df3d1315a8d4c0e861d6f0101eacac5",
+      "from": "43008082f05656b7a20ea117d7acb99a",
+      "to": "2aa2e08d2c165b868c5e67fa6a983eb8",
+      "edge_type": "normal"
+    },
+    {
+      "id": "c09b0843c15b4d2fae294d961e3dbfd9",
+      "from": "2aa2e08d2c165b868c5e67fa6a983eb8",
+      "to": "3b7a3d0ee93c5df5abbeb9764102aa46",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ca38c49326af4fc396def84da0a35b80",
+      "from": "3b7a3d0ee93c5df5abbeb9764102aa46",
+      "to": "863f4527c39454de8d630e6865724ccb",
+      "edge_type": "normal"
+    },
+    {
+      "id": "0d21fbc7e3634c2ca7ceae5cadc3a1b5",
+      "from": "863f4527c39454de8d630e6865724ccb",
+      "to": "b61c80d321c15a68a99ac6b5db702d9b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "4c950a7c94e748a6bb9c4715f26ed848",
+      "from": "b61c80d321c15a68a99ac6b5db702d9b",
+      "to": "40297b20f9f45ea7be41e106c4ba198d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "47a58e7b6d3140f895f9e73cb186a84b",
+      "from": "40297b20f9f45ea7be41e106c4ba198d",
+      "to": "bde8a5cda620584a8263628f6580d360",
+      "edge_type": "normal"
+    },
+    {
+      "id": "47961e316b304ac9b32c8461aed1fa55",
+      "from": "bde8a5cda620584a8263628f6580d360",
+      "to": "89262b2adb035448996d225f9e5b4bab",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8fe33da346d74d8b83bafc1de076b615",
+      "from": "89262b2adb035448996d225f9e5b4bab",
+      "to": "3aa54042bb605d91b6339739ae20efe9",
+      "edge_type": "normal"
+    },
+    {
+      "id": "9eae624b28454534a904e2c1ec92d3b5",
+      "from": "3aa54042bb605d91b6339739ae20efe9",
+      "to": "66cdf148523653dfa70e26eec393d2ed",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d998c70a13b648e98a82ba851d65bc35",
+      "from": "66cdf148523653dfa70e26eec393d2ed",
+      "to": "09236e5a580b529e848aa310d7769fe5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "9084acf4eb5f4638976d55c3ab630245",
+      "from": "09236e5a580b529e848aa310d7769fe5",
+      "to": "63a7ae24413153d7b4ca0c8c466d6d0c",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3a3fba26f9c74bf19fc226c082393360",
+      "from": "63a7ae24413153d7b4ca0c8c466d6d0c",
+      "to": "3b2acd16dc4a5eeea3dd4989e211f15c",
+      "edge_type": "normal"
+    },
+    {
+      "id": "df246236cc324bf690888865e05d9d51",
+      "from": "3b2acd16dc4a5eeea3dd4989e211f15c",
+      "to": "8706c82294a65ecbb1722a7a8bbd8403",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a83683aec9b74d12ae595aced2d524d3",
+      "from": "8706c82294a65ecbb1722a7a8bbd8403",
+      "to": "ba2dccbed4595c47a2d42917ffdff0f9",
+      "edge_type": "normal"
+    },
+    {
+      "id": "7fbf07deb9fb4dc5a29014683bb4597e",
+      "from": "ba2dccbed4595c47a2d42917ffdff0f9",
+      "to": "fa20a61f93265610bbd2595f58d13c3e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "9fc541924821471fb16f15efa0d5047e",
+      "from": "fa20a61f93265610bbd2595f58d13c3e",
+      "to": "d67d59ca57c453f3a724b19731055904",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3d15937929f342e3ab0dfa039fd409bb",
+      "from": "d67d59ca57c453f3a724b19731055904",
+      "to": "e31691a9a32950869588c2b3e205709b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "9fc3ea3579cd4a5dbe5edf179caf4dbc",
+      "from": "e31691a9a32950869588c2b3e205709b",
+      "to": "37c3df8115e65f1f92835d4e749898c5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "107ffdf3355a48aaac70f1b2433d8314",
+      "from": "37c3df8115e65f1f92835d4e749898c5",
+      "to": "cac15c4e48405f949de0facc7a87659b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "5633002cf74144f8ab9b4aed8a56e97d",
+      "from": "cac15c4e48405f949de0facc7a87659b",
+      "to": "157495d35401593ca785bc44d77f622e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "0f2e37d4474c4927ade420188eb9912b",
+      "from": "157495d35401593ca785bc44d77f622e",
+      "to": "9eedba88d7905521932fdc38be3bdabe",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d9f0e35525f04df0bd61546c4d3c4aef",
+      "from": "9eedba88d7905521932fdc38be3bdabe",
+      "to": "50ff39d3f9525b848347bf7ce60e6b56",
+      "edge_type": "normal"
+    },
+    {
+      "id": "30f840cb6e7c43a6abff2b6eb0aa16c9",
+      "from": "50ff39d3f9525b848347bf7ce60e6b56",
+      "to": "078b006d5bb657ac95ec30480895f7da",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6f31d6023c2e4c4492d5595131328c3d",
+      "from": "078b006d5bb657ac95ec30480895f7da",
+      "to": "0dd0f56d22ee5804b73d26c97749aab4",
+      "edge_type": "normal"
+    },
+    {
+      "id": "196f1a125c54477d8671c6edac773d95",
+      "from": "0dd0f56d22ee5804b73d26c97749aab4",
+      "to": "76daf43f574951de8b8e6372d4944da7",
+      "edge_type": "normal"
+    },
+    {
+      "id": "506cf710557f44e987a1296c54f0bc91",
+      "from": "76daf43f574951de8b8e6372d4944da7",
+      "to": "54c8d137953c58e8ba7fb3b4edcfdc53",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d18a5ec1a4414c08b1077bb92789049d",
+      "from": "54c8d137953c58e8ba7fb3b4edcfdc53",
+      "to": "86d490d15753518883bf9bcde9e76614",
+      "edge_type": "normal"
+    },
+    {
+      "id": "7fc7df02e1e64928bd24ac8c6bb92b91",
+      "from": "86d490d15753518883bf9bcde9e76614",
+      "to": "8ce4ddbe55795ba7ab39a71edb512c9b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6c8ac92b9a874d9b8ecb362ab7526e17",
+      "from": "8ce4ddbe55795ba7ab39a71edb512c9b",
+      "to": "4b3e4b6f621353cc85d92d51a43b70b3",
+      "edge_type": "normal"
+    },
+    {
+      "id": "499cc53b451c48d99cec19df25de9399",
+      "from": "4b3e4b6f621353cc85d92d51a43b70b3",
+      "to": "cd04c3673b8650d8a78f55cb8f1ebe90",
+      "edge_type": "normal"
+    },
+    {
+      "id": "aa020d9e443f4834a19c51789b727704",
+      "from": "cd04c3673b8650d8a78f55cb8f1ebe90",
+      "to": "309536ccc78d534fa30b9c4867f0007b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "5b25c1504fd745f7b60f87b65fe4287a",
+      "from": "309536ccc78d534fa30b9c4867f0007b",
+      "to": "3b2cc1e15e7a58309e113f27f0aa9fe0",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1a911fd388ac47b1b0a036f5f2dc3a42",
+      "from": "3b2cc1e15e7a58309e113f27f0aa9fe0",
+      "to": "a1df44bd60da509da721d927231b9564",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8ea3d5afad3f4e1dbdf8beb668db7280",
+      "from": "a1df44bd60da509da721d927231b9564",
+      "to": "d2ba58e4ea035963968993c8356928ab",
+      "edge_type": "normal"
+    },
+    {
+      "id": "74cf5867e6a04c04905481da3716f8d4",
+      "from": "d2ba58e4ea035963968993c8356928ab",
+      "to": "74f2056f5b835e629fbab362defd5558",
+      "edge_type": "normal"
+    },
+    {
+      "id": "c2426535791f4979b628cfb488654ffb",
+      "from": "74f2056f5b835e629fbab362defd5558",
+      "to": "59e2354484be5d829e6ffba9305cd7c3",
+      "edge_type": "normal"
+    },
+    {
+      "id": "72a0aca303464b7b9ce6ecc33be3bdd1",
+      "from": "59e2354484be5d829e6ffba9305cd7c3",
+      "to": "709724d47b1d5770a69c4ba162a86ae5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "92f67491fc1147d38c21ea5ee52722e9",
+      "from": "709724d47b1d5770a69c4ba162a86ae5",
+      "to": "c4703cb2fe645b6296e44548148b3540",
+      "edge_type": "normal"
+    },
+    {
+      "id": "476febdd8acc49a2b8aa9d39dbe164d7",
+      "from": "c4703cb2fe645b6296e44548148b3540",
+      "to": "bdb4bfaa3cb15d0985da06726b2c791d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "c8c2233ca8124e50862a0fa6a35f9413",
+      "from": "bdb4bfaa3cb15d0985da06726b2c791d",
+      "to": "ae1d95dd6eee59a8bedc8f49730e10c2",
+      "edge_type": "normal"
+    },
+    {
+      "id": "2f6af7bb171e43418aaa50310f4a62c8",
+      "from": "ae1d95dd6eee59a8bedc8f49730e10c2",
+      "to": "2046416e1132514996269720413fd0e2",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6784a0edc542465fa36a9f6bf737cfe0",
+      "from": "2046416e1132514996269720413fd0e2",
+      "to": "7e827c5ebdba5681904305f932e6bf7f",
+      "edge_type": "normal"
+    },
+    {
+      "id": "93aac152bc924afe99cb8b625beeed5a",
+      "from": "7e827c5ebdba5681904305f932e6bf7f",
+      "to": "5d205c32fc735855a47aa16e70357bfb",
+      "edge_type": "normal"
+    },
+    {
+      "id": "34ae5776c0324d6da5a58c3ab7569cc1",
+      "from": "5d205c32fc735855a47aa16e70357bfb",
+      "to": "6f3e354bb652591792c00afe475a4c21",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a0c5d6ac42414843891c0c75d8525db0",
+      "from": "6f3e354bb652591792c00afe475a4c21",
+      "to": "89025610ee8752929204537cce334a8d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "84fcb96390004ceebaff5ded9ba5763f",
+      "from": "89025610ee8752929204537cce334a8d",
+      "to": "ecd279f4b03758739ce48f7019411fb9",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a1a9c529ff6041f888f78c7e7d1c4aa1",
+      "from": "ecd279f4b03758739ce48f7019411fb9",
+      "to": "67e416069d0a5ac48ef6106dd3ade375",
+      "edge_type": "normal"
+    },
+    {
+      "id": "aa266a6d73f04a8e9e9b0dcc7b47ad3b",
+      "from": "67e416069d0a5ac48ef6106dd3ade375",
+      "to": "70df6d92032b5d12992ca668e8366cec",
+      "edge_type": "normal"
+    },
+    {
+      "id": "58364509db354a108ccfcc55be92d9f3",
+      "from": "70df6d92032b5d12992ca668e8366cec",
+      "to": "5d2feece3b0952c0922de1b82cf7ce0f",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ca3f740ed768451f8306619ac6bd8995",
+      "from": "5d2feece3b0952c0922de1b82cf7ce0f",
+      "to": "037f583c99a85ed69de950497b0cd27a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "abe76eabe5e345d6b49627ee698abb66",
+      "from": "037f583c99a85ed69de950497b0cd27a",
+      "to": "769d658a5f135201aa7ccef248d8527f",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1b48150edb414171a5667e5caa0ac0b9",
+      "from": "769d658a5f135201aa7ccef248d8527f",
+      "to": "9397bd450d7f5eed89e5582d9072797b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "98c99ba9909d42da9bbd13be0641c2b6",
+      "from": "9397bd450d7f5eed89e5582d9072797b",
+      "to": "97124ada9980571fa8a67c63fd638a1a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "69f38ce5e33b4032a09c0bdaa200a973",
+      "from": "97124ada9980571fa8a67c63fd638a1a",
+      "to": "2bb426b3e61e597e8daf83696ff99ca1",
+      "edge_type": "normal"
+    },
+    {
+      "id": "779d8e4577c4446db64547f8e9aa1366",
+      "from": "2bb426b3e61e597e8daf83696ff99ca1",
+      "to": "f37ad358c4d15db3b04f53847e6329c3",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ab340cc9e3524a7fbb3711601994f12c",
+      "from": "f37ad358c4d15db3b04f53847e6329c3",
+      "to": "4d3743f77b6c5495b0faabccbe8dc97a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ec05c24217304241b7cb1a017c6e0e50",
+      "from": "4d3743f77b6c5495b0faabccbe8dc97a",
+      "to": "210c5f66b3d55ddda62b972d5302f4b3",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b8f7e45ecf634e229474160a174a07d5",
+      "from": "210c5f66b3d55ddda62b972d5302f4b3",
+      "to": "831fc67f353c5b8ca2dd18256f432a55",
+      "edge_type": "normal"
+    },
+    {
+      "id": "9dda0d3fc373442bb56a9a604bd77a99",
+      "from": "831fc67f353c5b8ca2dd18256f432a55",
+      "to": "63523c910ac6542c88fb705101f48949",
+      "edge_type": "normal"
+    },
+    {
+      "id": "5735a6991c904f40995128abc8aa6f12",
+      "from": "63523c910ac6542c88fb705101f48949",
+      "to": "4d3410a59deb50babc1b05e662e95e7b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d82b650a385d4031976eff5703771967",
+      "from": "4d3410a59deb50babc1b05e662e95e7b",
+      "to": "fa7393ef590e52f38f0e470c6c50e954",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8466ddef489e487092b7471a8462a774",
+      "from": "fa7393ef590e52f38f0e470c6c50e954",
+      "to": "23e597ecf0e85b898f9c59e5ce1567dd",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3c16760889a24798b86946d6dbf1644d",
+      "from": "23e597ecf0e85b898f9c59e5ce1567dd",
+      "to": "5561b48c6b1f5b9aa01f779b19b8cc38",
+      "edge_type": "normal"
+    },
+    {
+      "id": "a7abdec655914cb4b244a11820436267",
+      "from": "5561b48c6b1f5b9aa01f779b19b8cc38",
+      "to": "334aae9a789e52389931d41e7b2af610",
+      "edge_type": "normal"
+    },
+    {
+      "id": "e7d7fd6b95654e10a65470d1fe73df97",
+      "from": "334aae9a789e52389931d41e7b2af610",
+      "to": "adb0663732105d12b044fbd5ab58c311",
+      "edge_type": "normal"
+    },
+    {
+      "id": "409663d7486a4c41a67c90ec2fae26fb",
+      "from": "adb0663732105d12b044fbd5ab58c311",
+      "to": "e1c7dd6abddb52ccb52b5b69119dd896",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1b282876cd19447f8fdd20c2897c243d",
+      "from": "e1c7dd6abddb52ccb52b5b69119dd896",
+      "to": "221dcae89f80580daf2639b75b8608f6",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8f0b8d4289124bd49a1d821ea4127c2f",
+      "from": "221dcae89f80580daf2639b75b8608f6",
+      "to": "7a9757075fea5099a8e8060291894767",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3f4c8c2a0e7248b09340c7693b6e9431",
+      "from": "7a9757075fea5099a8e8060291894767",
+      "to": "aa3d1bb180ce5ba7aae25b333114eae8",
+      "edge_type": "normal"
+    },
+    {
+      "id": "e8bfb5669d874bc39d6531b33c1e9ffc",
+      "from": "aa3d1bb180ce5ba7aae25b333114eae8",
+      "to": "eae648d07e1a5fd6aad960710e405e3a",
+      "edge_type": "normal"
+    },
+    {
+      "id": "2252880728874296be714b6618bc0899",
+      "from": "eae648d07e1a5fd6aad960710e405e3a",
+      "to": "965b40f83edf55dcb885880aedbe9a5e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "1709bc2b4abb4c538e0309cf3d8909f3",
+      "from": "965b40f83edf55dcb885880aedbe9a5e",
+      "to": "d0b65a8189c457b980367bf37ce9c1a7",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3c08ac1fe5a348748b5eb395edbb5860",
+      "from": "d0b65a8189c457b980367bf37ce9c1a7",
+      "to": "1d8defe04f1b54069f7143c24c67a080",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d8b4c66187fe47458cd5810c8c4066af",
+      "from": "1d8defe04f1b54069f7143c24c67a080",
+      "to": "4d9dcd4b15695e67bcba54b5b37fa8f2",
+      "edge_type": "normal"
+    },
+    {
+      "id": "d50229fec60b4d4581fe31ff475b2097",
+      "from": "4d9dcd4b15695e67bcba54b5b37fa8f2",
+      "to": "a3c699cb35d454cca68b15b13a25e3c7",
+      "edge_type": "normal"
+    },
+    {
+      "id": "c964adfc968349aa81ce069d075bd53a",
+      "from": "a3c699cb35d454cca68b15b13a25e3c7",
+      "to": "9dedad0cda2957b79d8043d2298793a8",
+      "edge_type": "normal"
+    },
+    {
+      "id": "b6144191f9e146b7b650176601cd1a5d",
+      "from": "9dedad0cda2957b79d8043d2298793a8",
+      "to": "72ea0fe5a8f653e3a720edbfb3c83db7",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ca06442ed95c4275bcba2df9febafcab",
+      "from": "72ea0fe5a8f653e3a720edbfb3c83db7",
+      "to": "4e685100423a514fa397812928a4ce45",
+      "edge_type": "normal"
+    },
+    {
+      "id": "88654d2d28844d30bb27cf3621e2c5f3",
+      "from": "4e685100423a514fa397812928a4ce45",
+      "to": "7490c4719b6856b5b1ce58346db69a03",
+      "edge_type": "normal"
+    },
+    {
+      "id": "faa1c97328be4e018d5585c8614bb654",
+      "from": "7490c4719b6856b5b1ce58346db69a03",
+      "to": "c41fa1070e175d7cb96ff65cf6f3c368",
+      "edge_type": "normal"
+    },
+    {
+      "id": "da7ca41e8bfc484da098ee4deb3c972d",
+      "from": "c41fa1070e175d7cb96ff65cf6f3c368",
+      "to": "be5a28f8685552789c57f56c8bb97ee5",
+      "edge_type": "normal"
+    },
+    {
+      "id": "907c8240589f49278b2aad9b2cc0279b",
+      "from": "be5a28f8685552789c57f56c8bb97ee5",
+      "to": "e4c9e77b816153d49a0592480b4866b1",
+      "edge_type": "normal"
+    },
+    {
+      "id": "975db2095b724d9ea90ca9f3191b6150",
+      "from": "e4c9e77b816153d49a0592480b4866b1",
+      "to": "ef009c2ed39b5c8a941a82e72c6d49bf",
+      "edge_type": "normal"
+    },
+    {
+      "id": "fa104d83314f4c5b85696114fe90844a",
+      "from": "ef009c2ed39b5c8a941a82e72c6d49bf",
+      "to": "42a9f2cbb32f5f67983c5749aeeeb31b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "5e0a8af7380a4f6cb7dda587ca3855e5",
+      "from": "42a9f2cbb32f5f67983c5749aeeeb31b",
+      "to": "7333e66912f8519fa3b087d36d1ddc24",
+      "edge_type": "normal"
+    },
+    {
+      "id": "8c014e9f435e4615ac57b0db428aac68",
+      "from": "7333e66912f8519fa3b087d36d1ddc24",
+      "to": "7d691bc2e1b250fc9d9e2e203f91fcd2",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ad8d573b5cb0462e90eb045d63a231bb",
+      "from": "7d691bc2e1b250fc9d9e2e203f91fcd2",
+      "to": "07f9cff71b5b5e2ba6f2932b711206f6",
+      "edge_type": "normal"
+    },
+    {
+      "id": "3c7f19f14dde43429ec3993cea46ef72",
+      "from": "07f9cff71b5b5e2ba6f2932b711206f6",
+      "to": "320cfe76e40d518d95aa0bb2f9fa5e1b",
+      "edge_type": "normal"
+    },
+    {
+      "id": "45b8a05f125048cca22e6c2c5d38aa3c",
+      "from": "320cfe76e40d518d95aa0bb2f9fa5e1b",
+      "to": "e7cf77534e0d54dea30573148f245c3e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "236924c95d734369b2c15978065d21da",
+      "from": "e7cf77534e0d54dea30573148f245c3e",
+      "to": "7fc6566a65725c9c81262eca61ccd876",
+      "edge_type": "normal"
+    },
+    {
+      "id": "021187ba0d824cec9ab0d3a5ca7842bd",
+      "from": "7fc6566a65725c9c81262eca61ccd876",
+      "to": "103bb16a1e1f5ce6867caf56943add99",
+      "edge_type": "normal"
+    },
+    {
+      "id": "6f69ccbbff15420c9f7ca783d76ae9c2",
+      "from": "103bb16a1e1f5ce6867caf56943add99",
+      "to": "7f7d68ad69fc5351922fab9ead4f1c1d",
+      "edge_type": "normal"
+    },
+    {
+      "id": "7407866dc98b47fe9aa088e5b6f1e3c2",
+      "from": "7f7d68ad69fc5351922fab9ead4f1c1d",
+      "to": "edca25635ab056688a92e88f41c8879e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "251cb8ef9f6242cd9b42d2abc4e306f6",
+      "from": "edca25635ab056688a92e88f41c8879e",
+      "to": "1151d7b8f1f15d20bcca70afa802c76e",
+      "edge_type": "normal"
+    },
+    {
+      "id": "ae3f3f5f005c4bd4a5905f517670da56",
+      "from": "1151d7b8f1f15d20bcca70afa802c76e",
+      "to": "6af61894d51d5b0fb936c60debeb8dac",
+      "edge_type": "normal"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "adapter": "rocopilot",
+  "repo": "Makapic-RocoPilot",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "Makapic-RocoPilot"
+    },
+    {
+      "name": "import_config",
+      "ok": true,
+      "detail": "config.py 导入成功（无第三方依赖）"
+    },
+    {
+      "name": "base_dir_redirect",
+      "ok": true,
+      "detail": "templates 基准目录 -> ."
+    },
+    {
+      "name": "templates",
+      "ok": true,
+      "detail": "9 个模板资源"
+    },
+    {
+      "name": "models",
+      "ok": true,
+      "detail": "4 个模型文件: geli.pt, huolong.pt, xueren.pt, youyingshu.pt"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoint": "main.py",
+    "base_dir": "vendor/Makapic-RocoPilot",
+    "templates": [
+      "capture.png",
+      "elf_P.png",
+      "exchange.png",
+      "map.png",
+      "missions.png",
+      "pollute_capture.png",
+      "qiudaidai.png",
+      "skill1.png",
+      "yes.png"
+    ],
+    "models": [
+      "geli.pt",
+      "huolong.pt",
+      "xueren.pt",
+      "youyingshu.pt"
+    ],
+    "dependencies": {
+      "cv2": true,
+      "numpy": true,
+      "mss": true,
+      "win32api": true,
+      "interception": true,
+      "keyboard": false
+    },
+    "path_policy": "所有相对路径由 config._base_dir() 解析，运行前把 cwd 固定到仓库根目录"
+  }
+}

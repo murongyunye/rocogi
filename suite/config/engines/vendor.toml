@@ -1,0 +1,14 @@
+[engine]
+name = "vendor"
+venv = "engines/vendor/.venv"
+script = "engines/vendor/engine_main.py"
+action = "status"
+interval = 5.0
+startup_timeout_sec = 60
+
+[vendor]
+# 16 repos imported under vendor/; adapters are the only entry used by the suite
+# (vendor/ is read-only: engines never write into it)
+adapters_root = "../vendor/adapters"
+# no patches applied to upstream sources; mechanism lives in vendor/patches/
+patches = 0

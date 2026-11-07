@@ -1,0 +1,19 @@
+=== elevated session === 
+Mandatory Label\High Mandatory Level Ѫǩ   S-1-16-12288                                                                                                                                            
+BUILTIN\Administrators               Ѱû   S-1-5-32-544                                                                                                  јШՄש, ƴӃӚĬȏ, ƴӃՄש, שՄ˹Ӑ՟
+=== installer === 
+
+Interception command line installation tool
+Copyright (C) 2008-2018 Francisco Lopes da Silva
+
+Interception successfully installed. You must reboot for it to take effect.
+INSTALLER_EXIT=0 
+[SC] EnumQueryServicesStatus:OpenService ʧМ 1060:
+
+ָ֨Մ׾αδвװc
+
+[SC] EnumQueryServicesStatus:OpenService ʧМ 1060:
+
+ָ֨Մ׾αδвװc
+
+keyboard.sys present 

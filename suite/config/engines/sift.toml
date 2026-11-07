@@ -1,0 +1,39 @@
+[engine]
+name = "sift"
+venv = "engines/sift/.venv"
+script = "engines/sift/engine_main.py"
+action = "locate"
+interval = 0.5
+startup_timeout_sec = 90
+
+[sift]
+logic_map = "assets/maps/big_map.png"
+# deterministic probe crop (canonical 6144x5888 space); contract check only, no accuracy claim
+probe_center = [3000, 2900]
+engine_repo = "../vendor/Wooziii-roco-map-tracker/roco-map-tracker"
+feature_asset = "assets/features/sift_075.meta.json"
+# 8192x8192 space is a DIFFERENT space (translation included) - never scaled across;
+# a 3-point affine calibration is required before either space can be cross-used.
+alternate_space = "assets/features/sift_6144_global_p05.npz"
+
+[minimap]
+active_profile = "162x162"
+
+
+# Suite-side overrides on the vendored tracker settings (no vendor file is edited).
+# The upstream gates (8 inliers / 0.35 ratio) are calibrated for full-size minimap
+# screenshots; a 162x162 HUD crop yields far fewer keypoints, so homographies that
+# are measurably correct (7 inliers / 0.226, centre within 10 px of ground truth)
+# were rejected.  Lowered here instead of patching third-party code.
+[sift.tuning]
+min_inlier_count = 5
+min_inlier_ratio = 0.18
+min_match_count = 5
+[minimap.profiles]
+"150x150" = [150, 150]
+"162x162" = [162, 162]
+"255x235" = [255, 235]
+
+[route]
+max_points = 100
+collectible_mark_types = [17310030002, 17310030004, 17310030032, 17310030033, 17310030034, 17310030035, 17310030036, 17310030047]

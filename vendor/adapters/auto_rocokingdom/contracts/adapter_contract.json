@@ -1,0 +1,65 @@
+{
+  "adapter": "auto_rocokingdom",
+  "repo": "yorusacri-Auto-rocokingdom",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "yorusacri-Auto-rocokingdom"
+    },
+    {
+      "name": "import_config",
+      "ok": true,
+      "detail": "config.py 导入成功"
+    },
+    {
+      "name": "base_dir_redirect",
+      "ok": true,
+      "detail": "模板目录在 vendor 内解析"
+    },
+    {
+      "name": "core_modules",
+      "ok": true,
+      "detail": "11 个 core 模块"
+    },
+    {
+      "name": "templates",
+      "ok": true,
+      "detail": "9 个模板"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoints": [
+      "main.py",
+      "client_main.py",
+      "core/gui.py"
+    ],
+    "modules": {
+      "capture": "core/capture.py",
+      "window": "core/window.py",
+      "vision": "core/vision.py",
+      "input": "core/input.py",
+      "engine": "core/engine.py"
+    },
+    "templates": [
+      "capture.png",
+      "elf_P.png",
+      "exchange.png",
+      "map.png",
+      "missions.png",
+      "pollute_capture.png",
+      "qiudaidai.png",
+      "skill1.png",
+      "yes.png"
+    ],
+    "dependencies": {
+      "cv2": true,
+      "numpy": true,
+      "mss": true,
+      "pygetwindow": false,
+      "win32gui": true
+    }
+  }
+}

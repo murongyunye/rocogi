@@ -1,0 +1,7 @@
+# 本项目不使用 Git LFS：克隆方不应被要求安装 git-lfs。
+#
+# 历史原因：上游 sift-map-tracker 发布包里有一个 LFS 指针文件
+# （archive/sift-map-tracker/SiftMapTracker.Client.exe，134 字节的指针，
+# 真身从未下载过，运行时用同目录的 service.exe）。早先这里有一条
+# `filter=lfs` 规则，导致任何没有 git-lfs 的机器 clone 时报
+# "smudge filter lfs failed" 而 checkout 失败。规则已移除。

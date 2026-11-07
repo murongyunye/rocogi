@@ -1,0 +1,75 @@
+{
+  "adapter": "interception",
+  "repo": "oblitum-Interception",
+  "status": "blocked",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "oblitum-Interception"
+    },
+    {
+      "name": "header",
+      "ok": true,
+      "detail": "14 个导出函数"
+    },
+    {
+      "name": "enums",
+      "ok": true,
+      "detail": "InterceptionKeyState, InterceptionFilterKeyState, InterceptionMouseState, InterceptionFilterMouseState, InterceptionMouseFlag"
+    },
+    {
+      "name": "samples",
+      "ok": true,
+      "detail": "axes, cadstop, caps2esc, hardwareid, identify, mathpointer, x2y"
+    },
+    {
+      "name": "license",
+      "ok": true,
+      "detail": "licenses\\non-commercial-usage\\LGPL 3.0.txt"
+    }
+  ],
+  "blockers": [
+    "驱动安装需要管理员权限 + 重启 + 内核签名，本轮不执行；只导出 API 契约"
+  ],
+  "contract": {
+    "exported_functions": [
+      "interception_create_context",
+      "interception_destroy_context",
+      "interception_get_filter",
+      "interception_get_hardware_id",
+      "interception_get_precedence",
+      "interception_is_invalid",
+      "interception_is_keyboard",
+      "interception_is_mouse",
+      "interception_receive",
+      "interception_send",
+      "interception_set_filter",
+      "interception_set_precedence",
+      "interception_wait",
+      "interception_wait_with_timeout"
+    ],
+    "enums": [
+      "InterceptionKeyState",
+      "InterceptionFilterKeyState",
+      "InterceptionMouseState",
+      "InterceptionFilterMouseState",
+      "InterceptionMouseFlag"
+    ],
+    "samples": [
+      "axes",
+      "cadstop",
+      "caps2esc",
+      "hardwareid",
+      "identify",
+      "mathpointer",
+      "x2y"
+    ],
+    "license": "LGPL-3.0（非商用）/ 商用需单独许可",
+    "build_requirements": [
+      ".NET Framework 4.x 或 MSVC + Windowed driver kit",
+      "WDK 签名与管理员安装"
+    ],
+    "integration_plan": "保留 C 头文件供 backend-c 动态加载 interception.dll；驱动未安装时回退 SendInput"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T21:09:41+0800",
+  "canonicalMap": {
+    "width": 6144,
+    "height": 5888,
+    "x_min": -12,
+    "y_min": -11,
+    "tile_size": 256,
+    "zoom": 7
+  },
+  "sources": {
+    "nrc_db": "rocogi\\vendor\\ColinHong10-NRC_AI\\data\\nrc.db",
+    "sift_npz": "rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\assets\\SIFT_features_075.npz",
+    "display_map": "rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\assets\\display_map.png",
+    "logic_map": "rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\assets\\logic_map.png",
+    "map_dir": "rocogi\\data\\map",
+    "templates_dir": "rocogi\\data\\templates",
+    "onnx": "rocogi\\vendor\\Tsuann-RocoKingdom-AutoCapture\\models\\sprite_detector.onnx"
+  },
+  "stats": {
+    "nrc_db": "assets/db/nrc.db",
+    "display_map": "assets/maps/display_map.png",
+    "logic_map": "assets/maps/logic_map.png",
+    "onnx": "assets/models/sprite_detector.onnx",
+    "base_map": "assets/maps/big_map.png",
+    "features": {
+      "featureCount": 94992,
+      "mapWidth": 8192,
+      "mapHeight": 8192,
+      "rawBytes": 26977728
+    },
+    "points": {
+      "pointCount": 9224,
+      "rawSources": {
+        "taptap.json": 5912,
+        "easy_roco.json": 3931
+      },
+      "markerTypes": 291,
+      "icons": 37
+    },
+    "templates": {
+      "templates": 9
+    }
+  },
+  "assets": [
+    {
+      "kind": "battle-db",
+      "path": "assets\\db\\nrc.db",
+      "bytes": 1245184,
+      "sha256": "bbeb189b240dada541922acbf45afa97daf30d99fd09e69f93e4eea1f6934416"
+    },
+    {
+      "kind": "map-display",
+      "path": "assets\\maps\\display_map.png",
+      "bytes": 73292633,
+      "sha256": "5befd308969cb33f895acf38c6f19cf82d95dd9afc102790caceab2e076c2813"
+    },
+    {
+      "kind": "map-logic",
+      "path": "assets\\maps\\logic_map.png",
+      "bytes": 48600819,
+      "sha256": "213558f2d592610c0ec21edc7d891c18acdb232cb73fc223a360bf22b92e7585"
+    },
+    {
+      "kind": "sprite-model",
+      "path": "assets\\models\\sprite_detector.onnx",
+      "bytes": 12265276,
+      "sha256": "235cd8734ee6da1cef0971d58ef9ef4571e2bfc6f8b782051d7ece723f7f88f6"
+    },
+    {
+      "kind": "map-base-6144",
+      "path": "assets\\maps\\big_map.png",
+      "bytes": 33595983,
+      "sha256": "d90e4f90474c2e5ff37fe85aa3854b6a9907f69f57e07e86ccb061e487c373a2"
+    },
+    {
+      "kind": "map-base-preview",
+      "path": "assets\\maps\\base_map.jpg",
+      "bytes": 708772,
+      "sha256": "e8629cfe338ad96c88ef73c9426bfd0776344a10fa7740133fa17a6d044711c6"
+    },
+    {
+      "kind": "sift-descriptor",
+      "path": "assets\\features\\sift_075_desc.f16",
+      "bytes": 24317952,
+      "sha256": "c3efb8a561a408476603709eddfdccf75c31999ba76af3f2461b0f01a486fe6c"
+    },
+    {
+      "kind": "sift-keypoints",
+      "path": "assets\\features\\sift_075_kp.f32",
+      "bytes": 2659776,
+      "sha256": "146e9c51f31e9747869b8da6c3a8a9606d89dd961be98338ecd2b2a903cf36e9"
+    },
+    {
+      "kind": "sift-meta",
+      "path": "assets\\features\\sift_075.meta.json",
+      "bytes": 876,
+      "sha256": "656e92ea0aa22281bf2f6cc64d5c7297c69b674b75046be3a189f3aede656074"
+    },
+    {
+      "kind": "points-sqlite",
+      "path": "assets\\map\\points.sqlite",
+      "bytes": 1302528,
+      "sha256": "b6a5a95f6de1a6a9889e0dbaa22670cd5af50fc425f6859067f6f37c0d8b734b"
+    },
+    {
+      "kind": "templates",
+      "path": "assets\\templates",
+      "bytes": 92018,
+      "count": 9
+    }
+  ]
+}

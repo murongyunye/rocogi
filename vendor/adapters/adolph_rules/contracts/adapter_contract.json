@@ -1,0 +1,71 @@
+{
+  "adapter": "adolph_rules",
+  "repo": "Adolph321-Adolph",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "Adolph321-Adolph"
+    },
+    {
+      "name": "bundle",
+      "ok": true,
+      "detail": "battle-rules-1-200-20261007/battle-rules-1-200"
+    },
+    {
+      "name": "node",
+      "ok": true,
+      "detail": "C:\\Users\\13005\\Downloads\\work\\rocogi\\.toolchain\\node\\node.exe"
+    },
+    {
+      "name": "verify_js",
+      "ok": true,
+      "detail": "Public bundle: numbered scope, trait bindings, runtime definitions and source hashes PASS"
+    },
+    {
+      "name": "pets",
+      "ok": true,
+      "detail": "200 条"
+    },
+    {
+      "name": "skills",
+      "ok": true,
+      "detail": "200 条"
+    },
+    {
+      "name": "traits",
+      "ok": true,
+      "detail": "65 条"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "bundle": "battle-rules-1-200-20261007/battle-rules-1-200",
+    "counts": {
+      "pets": 200,
+      "skills": 200,
+      "traits": 65
+    },
+    "rule_index_keys": [
+      "skills",
+      "traits"
+    ],
+    "schema": {
+      "pet": [
+        "attrMain",
+        "attrSub",
+        "id",
+        "name",
+        "trait"
+      ],
+      "skill": [
+        "catalog",
+        "catalogId",
+        "runtime"
+      ]
+    },
+    "license": "GPL-3.0",
+    "usage": "只作为 battle.damage_model 的规则数据源，按进程隔离使用，不与 GPL 代码静态链接"
+  }
+}

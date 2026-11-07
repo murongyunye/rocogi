@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>洛克工坊 · rocogi UI v2 设计演示（RocoFluent）</title>
+<link rel="stylesheet" href="./roco-fluent.css">
+<style>
+  /* 仅演示辅助：引擎行 / 捕获预览占位 */
+  .demo-engine { display: flex; align-items: center; gap: 12px; padding: 10px 16px; border-bottom: 1px solid var(--rf-stroke); }
+  .demo-engine:last-child { border-bottom: 0; }
+  .demo-engine b { width: 150px; font-size: var(--rf-fs-body-lg); }
+  .demo-cap {
+    height: 240px; border-radius: var(--rf-radius-lg); border: 1px solid var(--rf-stroke-strong);
+    background:
+      linear-gradient(135deg, rgba(255,198,95,.16), rgba(255,198,95,0) 55%),
+      repeating-linear-gradient(45deg, rgba(34,34,34,.028) 0 12px, transparent 12px 24px),
+      var(--rf-stone);
+    color: var(--rf-on-stone-secondary); display: grid; place-items: center;
+    font-family: var(--rf-mono); font-size: var(--rf-fs-caption); letter-spacing: 1px;
+  }
+</style>
+</head>
+<body class="rf">
+<div class="rf-shell">
+
+  <!-- 左侧导航：Fluent nav rail × 石材皮肤 -->
+  <nav class="rf-rail" aria-label="主导航">
+    <div class="rf-rail-brand">
+      <div class="rf-logo">洛</div>
+      <div><b>洛克工坊</b><small>rocogi · UI v2 预览</small></div>
+    </div>
+    <div class="rf-rail-group">自动化</div>
+    <button class="rf-rail-item is-active" data-page="dashboard"><span class="rf-ico">🏠</span>总览</button>
+    <button class="rf-rail-item" data-page="workflows"><span class="rf-ico">🧩</span>工作流</button>
+    <button class="rf-rail-item" data-page="runs"><span class="rf-ico">🏃</span>运行记录</button>
+    <button class="rf-rail-item" data-page="run"><span class="rf-ico">📊</span>运行详情</button>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">🐉</span>一条龙</button>
+    <div class="rf-rail-group">知识</div>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">📖</span>图鉴</button>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">⚔️</span>对战</button>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">🗺️</span>地图</button>
+    <div class="rf-rail-group">系统</div>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">⚙️</span>组件</button>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">📦</span>资源</button>
+    <button class="rf-rail-item" data-page="todo"><span class="rf-ico">🛠️</span>引擎</button>
+    <button class="rf-rail-item" data-page="todo" id="navSettings"><span class="rf-ico">🔧</span>设置</button>
+    <div class="rf-spacer"></div>
+    <div class="rf-cap" style="padding: 8px 8px 4px;">本地优先 · 不读内存</div>
+    <div class="rf-cap" style="padding: 0 8px 8px;">v0.4.1 · 设计演示</div>
+  </nav>
+
+  <div class="rf-main">
+    <!-- 顶栏：Fluent command bar × 金色状态 -->
+    <header class="rf-topbar">
+      <h1 id="pageTitle">总览</h1>
+      <span class="rf-tag is-success"><span class="rf-dot is-success"></span>后端已连接 · 127.0.0.1:8787</span>
+      <div class="rf-spacer"></div>
+      <span class="rf-cap rf-mono">F9 开始</span>
+      <span class="rf-cap rf-mono">F10 停止</span>
+      <span class="rf-cap rf-mono">F11 紧停</span>
+      <button class="rf-btn sm is-primary" onclick="toast('已向引擎发送 开始 指令（演示）','gold')">▶ 运行</button>
+      <button class="rf-btn sm" onclick="toast('已发送 停止 指令（演示）')">■ 停止</button>
+    </header>
+
+    <main class="rf-content">
+
+      <!-- ===== 页面：总览 ===== -->
+      <section id="page-dashboard" class="rf-page">
+        <div class="rf-rune-bg" data-rune="WORKBENCH">
+          <h2 class="rf-page-title">早上好，训练师</h2>
+          <p class="rf-page-sub">今天已经跑了 27 轮，成功 26 轮 —— 比昨天多钓了 3 条鱼。</p>
+        </div>
+        <div class="rf-grid cols-4">
+          <div class="rf-card rf-stat is-gold"><div class="rf-stat-label">运行中工作流</div><div class="rf-stat-value">1</div></div>
+          <div class="rf-card rf-stat"><div class="rf-stat-label">今日运行</div><div class="rf-stat-value">27</div></div>
+          <div class="rf-card rf-stat"><div class="rf-stat-label">成功率</div><div class="rf-stat-value">96.3<small>%</small></div></div>
+          <div class="rf-card rf-stat"><div class="rf-stat-label">活动引擎</div><div class="rf-stat-value">4<small>/7</small></div></div>
+        </div>
+        <div class="rf-grid cols-2 rf-mt4">
+          <div class="rf-card">
+            <div class="rf-card-head"><h3>引擎状态</h3><div class="rf-spacer"></div><span class="rf-cap">suite · 每引擎独立 venv</span></div>
+            <div>
+              <div class="demo-engine"><span class="rf-dot is-success"></span><b>battle 对战</b><span class="rf-tag is-gold">MCTS</span><div class="rf-spacer"></div><span class="rf-cap rf-mono">pid 14832</span></div>
+              <div class="demo-engine"><span class="rf-dot is-success"></span><b>capture 截捕</b><span class="rf-tag is-success">DXGI</span><div class="rf-spacer"></div><span class="rf-cap rf-mono">pid 9120</span></div>
+              <div class="demo-engine"><span class="rf-dot is-success"></span><b>vision 视觉</b><span class="rf-tag is-success">ONNX</span><div class="rf-spacer"></div><span class="rf-cap rf-mono">pid 20416</span></div>
+              <div class="demo-engine"><span class="rf-dot is-success"></span><b>sift 定位</b><span class="rf-tag is-success">SIFT</span><div class="rf-spacer"></div><span class="rf-cap rf-mono">pid 17744</span></div>
+              <div class="demo-engine"><span class="rf-dot is-warning"></span><b>scheduler 调度</b><span class="rf-tag is-warning">待命</span><div class="rf-spacer"></div><span class="rf-cap rf-mono">—</span></div>
+              <div class="demo-engine"><span class="rf-dot is-idle"></span><b>input 注入</b><span class="rf-tag">未启用</span><div class="rf-spacer"></div><span class="rf-cap">allow_injection=false</span></div>
+              <div class="demo-engine"><span class="rf-dot is-idle"></span><b>vendor 适配</b><span class="rf-tag">未启用</span><div class="rf-spacer"></div><span class="rf-cap">—</span></div>
+            </div>
+          </div>
+          <div class="rf-card">
+            <div class="rf-card-head"><h3>快速开始</h3></div>
+            <div class="rf-card-body">
+              <div class="rf-row" style="flex-wrap: wrap; gap: 10px;">
+                <button class="rf-btn is-primary" onclick="toast('已启动「刷野练级」工作流（演示）','gold')">▶ 启动「刷野练级」</button>
+                <button class="rf-btn" onclick="toast('已启动「日常一条龙」（演示）')">🐉 日常一条龙</button>
+                <button class="rf-btn is-outline" onclick="toast('实时追踪已打开（演示）')">实时追踪</button>
+                <button class="rf-btn is-danger" onclick="toast('已紧急停止全部引擎','gold')">紧急停止</button>
+              </div>
+              <p class="rf-cap rf-mt4">安全约定：本工具绝不读取游戏内存，全部动作基于屏幕截图与公开界面。</p>
+              <div class="rf-progress rf-mt4"><i style="width: 64%"></i></div>
+              <div class="rf-row between rf-mt2"><span class="rf-cap">当前工作流进度</span><span class="rf-cap rf-mono">64% · 21/33 步</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="rf-card rf-mt4">
+          <div class="rf-card-head"><h3>最近运行</h3><div class="rf-spacer"></div><button class="rf-btn sm is-subtle" onclick="go('runs')">全部记录 →</button></div>
+          <table class="rf-table">
+            <thead><tr><th>运行 ID</th><th>工作流</th><th>引擎</th><th>时长</th><th>状态</th></tr></thead>
+            <tbody>
+              <tr onclick="go('run')" style="cursor:pointer"><td class="rf-mono">run_194a3f2e</td><td>刷野练级 · 夜晚章节</td><td><span class="rf-tag is-gold">battle</span></td><td class="rf-mono">12m 41s</td><td><span class="rf-tag is-success">成功</span></td></tr>
+              <tr><td class="rf-mono">run_194a2c10</td><td>钓鱼挂机</td><td><span class="rf-tag">vision</span></td><td class="rf-mono">45m 03s</td><td><span class="rf-tag is-success">成功</span></td></tr>
+              <tr><td class="rf-mono">run_194a1b88</td><td>竞技场挑战</td><td><span class="rf-tag is-gold">battle</span></td><td class="rf-mono">3m 12s</td><td><span class="rf-tag is-danger">失败</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ===== 页面：工作流 ===== -->
+      <section id="page-workflows" class="rf-page rf-hide">
+        <div class="rf-row between rf-mb4">
+          <div>
+            <h2 class="rf-page-title">工作流</h2>
+            <p class="rf-page-sub" style="margin-bottom:0">33 组元 · 7 引擎 · DAG 步骤编排</p>
+          </div>
+          <div class="rf-row">
+            <input class="rf-input" style="width: 240px" placeholder="搜索工作流…">
+            <button class="rf-btn is-primary" onclick="toast('工作流编辑器（演示）','gold')">＋ 新建工作流</button>
+          </div>
+        </div>
+        <div class="rf-card">
+          <table class="rf-table">
+            <thead><tr><th>名称</th><th>步骤</th><th>动作数</th><th>最近运行</th><th>状态</th><th style="width:180px"></th></tr></thead>
+            <tbody>
+              <tr><td><b>刷野练级</b><div class="rf-cap">夜晚章节 · 自动战斗</div></td><td class="rf-mono">33</td><td class="rf-mono">33</td><td class="rf-mono">12 分钟前</td><td><span class="rf-tag is-success">已启用</span></td><td><div class="rf-row" style="justify-content:flex-end"><button class="rf-btn sm">编辑</button><button class="rf-btn sm is-primary" onclick="toast('已排队运行（演示）','gold')">运行</button></div></td></tr>
+              <tr><td><b>钓鱼挂机</b><div class="rf-cap">像素级浮标检测</div></td><td class="rf-mono">11</td><td class="rf-mono">14</td><td class="rf-mono">1 小时前</td><td><span class="rf-tag is-success">已启用</span></td><td><div class="rf-row" style="justify-content:flex-end"><button class="rf-btn sm">编辑</button><button class="rf-btn sm is-primary" onclick="toast('已排队运行（演示）','gold')">运行</button></div></td></tr>
+              <tr><td><b>竞技场挑战</b><div class="rf-cap">NRC_AI MCTS 决策</div></td><td class="rf-mono">7</td><td class="rf-mono">9</td><td class="rf-mono">2 小时前</td><td><span class="rf-tag is-warning">需标定</span></td><td><div class="rf-row" style="justify-content:flex-end"><button class="rf-btn sm">编辑</button><button class="rf-btn sm is-primary" onclick="toast('缺 3 点仿射标定，暂缓（演示）')">运行</button></div></td></tr>
+              <tr><td><b>日常一条龙</b><div class="rf-cap">调度引擎串联 5 段</div></td><td class="rf-mono">5</td><td class="rf-mono">52</td><td class="rf-mono">昨天</td><td><span class="rf-tag">草稿</span></td><td><div class="rf-row" style="justify-content:flex-end"><button class="rf-btn sm">编辑</button><button class="rf-btn sm" onclick="toast('草稿不能直接运行（演示）')">运行</button></div></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ===== 页面：运行记录 ===== -->
+      <section id="page-runs" class="rf-page rf-hide">
+        <h2 class="rf-page-title">运行记录</h2>
+        <p class="rf-page-sub">点击任意一行查看步骤时间线。</p>
+        <div class="rf-card">
+          <table class="rf-table">
+            <thead><tr><th>运行 ID</th><th>工作流</th><th>引擎</th><th>开始时间</th><th>时长</th><th>状态</th></tr></thead>
+            <tbody>
+              <tr onclick="go('run')" style="cursor:pointer"><td class="rf-mono">run_194a3f2e</td><td>刷野练级</td><td><span class="rf-tag is-gold">battle</span></td><td class="rf-mono">15:02:11</td><td class="rf-mono">12m 41s</td><td><span class="rf-tag is-success">成功</span></td></tr>
+              <tr onclick="go('run')" style="cursor:pointer"><td class="rf-mono">run_194a2c10</td><td>钓鱼挂机</td><td><span class="rf-tag">vision</span></td><td class="rf-mono">14:03:40</td><td class="rf-mono">45m 03s</td><td><span class="rf-tag is-success">成功</span></td></tr>
+              <tr onclick="go('run')" style="cursor:pointer"><td class="rf-mono">run_194a1b88</td><td>竞技场挑战</td><td><span class="rf-tag is-gold">battle</span></td><td class="rf-mono">13:58:02</td><td class="rf-mono">3m 12s</td><td><span class="rf-tag is-danger">失败</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ===== 页面：运行详情 ===== -->
+      <section id="page-run" class="rf-page rf-hide">
+        <div class="rf-row between rf-mb4">
+          <div>
+            <h2 class="rf-page-title rf-mono" style="font-size:var(--rf-fs-subtitle)">run_194a3f2e</h2>
+            <p class="rf-page-sub" style="margin-bottom:0">刷野练级 · battle 引擎 · 12m 41s</p>
+          </div>
+          <div class="rf-row">
+            <span class="rf-tag is-success"><span class="rf-dot is-success"></span>已完成</span>
+            <button class="rf-btn sm" onclick="toast('日志已导出（演示）')">导出日志</button>
+            <button class="rf-btn sm is-danger" onclick="toast('已终止（演示）')">终止</button>
+          </div>
+        </div>
+        <div class="rf-grid cols-2">
+          <div class="rf-card">
+            <div class="rf-card-head"><h3>步骤时间线</h3></div>
+            <div class="rf-card-body">
+              <ul class="rf-timeline">
+                <li class="is-success"><span class="rf-tl-dot">✓</span><div class="rf-tl-body"><div class="rf-tl-title">启动引擎 suite</div><div class="rf-tl-meta">15:02:11 · venv battle_3.12 · 8.2s</div></div></li>
+                <li class="is-success"><span class="rf-tl-dot">✓</span><div class="rf-tl-body"><div class="rf-tl-title">截捕窗口 6144×5888</div><div class="rf-tl-meta">15:02:20 · capture/DXGI · 41ms</div></div></li>
+                <li class="is-success"><span class="rf-tl-dot">✓</span><div class="rf-tl-body"><div class="rf-tl-title">场景匹配 主城广场</div><div class="rf-tl-meta">15:02:21 · 模板 temple_plaza · 0.93</div></div></li>
+                <li class="is-running"><span class="rf-tl-dot">▶</span><div class="rf-tl-body"><div class="rf-tl-title">遇战 → NRC_AI 决策</div><div class="rf-tl-meta">15:07:44 · MCTS 2400 sims · 出招「烈焰冲撞」</div></div></li>
+                <li><span class="rf-tl-dot">…</span><div class="rf-tl-body"><div class="rf-tl-title">返回主城</div><div class="rf-tl-meta">等待中</div></div></li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div class="rf-card">
+              <div class="rf-card-head"><h3>最近截图</h3><div class="rf-spacer"></div><span class="rf-tag">artifact</span></div>
+              <div class="rf-card-body"><div class="demo-cap">captures / run_194a3f2e / step_021.png</div></div>
+            </div>
+            <div class="rf-card rf-mt4">
+              <div class="rf-card-head"><h3>事件</h3><div class="rf-spacer"></div><span class="rf-tag is-warning">1 条警告</span></div>
+              <div class="rf-card-body">
+                <p class="rf-cap rf-mono">15:07:12 WARN 模板 grass_edge 置信度 0.71 &lt; 阈值 0.80，跳过</p>
+                <p class="rf-cap rf-mono">15:07:44 INFO encounter → battle 模块接管</p>
+                <p class="rf-cap rf-mono">15:02:21 INFO scene=temple_plaza fps=1.2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 占位页 ===== -->
+      <section id="page-todo" class="rf-page rf-hide">
+        <div class="rf-card"><div class="rf-empty">
+          <div class="rf-empty-ico">🥚</div>
+          <b>这一页留给完整实现</b>
+          <span>图鉴 / 对战 / 地图 / 组件 / 资源 / 引擎沿用同一套设计令牌与组件。</span>
+        </div></div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<!-- 设置弹窗（Fluent dialog × 石材遮罩） -->
+<div class="rf-scrim" id="scrim">
+  <div class="rf-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="rf-modal-head"><h2 id="modalTitle">设置</h2><div class="rf-spacer"></div><button class="rf-btn sm is-subtle" onclick="closeModal()">✕</button></div>
+    <div class="rf-modal-body">
+      <div class="rf-field"><label>开始热键（F9）</label><input class="rf-input mono" style="width:160px" value="f9"></div>
+      <div class="rf-field"><label>停止热键（F10）</label><input class="rf-input mono" style="width:160px" value="f10"></div>
+      <div class="rf-field"><label>紧急停止（F11）</label><input class="rf-input mono" style="width:160px" value="f11"></div>
+      <hr style="border:0;border-top:1px solid var(--rf-stroke);margin:20px 0">
+      <div class="rf-row between rf-mb4"><div><b style="font-size:var(--rf-fs-body-lg)">允许键鼠注入</b><div class="rf-cap">关闭时仅执行不按键的观测类工作流</div></div><button class="rf-switch" onclick="this.classList.toggle('is-on')" aria-label="允许键鼠注入"></button></div>
+      <div class="rf-row between rf-mb4"><div><b style="font-size:var(--rf-fs-body-lg)">开机自启 suite</b><div class="rf-cap">随 start-all.ps1 拉起全部引擎</div></div><button class="rf-switch is-on" onclick="this.classList.toggle('is-on')" aria-label="开机自启"></button></div>
+      <div class="rf-row between"><div><b style="font-size:var(--rf-fs-body-lg)">深色模式</b><div class="rf-cap">v2 路线图：石材全深主题</div></div><button class="rf-switch" onclick="toast('深色主题在 v2.1 提供（演示）')" aria-label="深色模式"></button></div>
+    </div>
+    <div class="rf-modal-foot">
+      <button class="rf-btn is-subtle" onclick="closeModal()">取消</button>
+      <button class="rf-btn is-primary" onclick="closeModal(); toast('设置已保存（演示）','gold')">保存</button>
+    </div>
+  </div>
+</div>
+
+<div class="rf-toast-wrap" id="toasts"></div>
+
+<script>
+  const titles = { dashboard: '总览', workflows: '工作流', runs: '运行记录', run: '运行详情', todo: ' rocogi UI v2' };
+  function go(page) {
+    document.querySelectorAll('.rf-page').forEach(p => p.classList.add('rf-hide'));
+    document.getElementById('page-' + page).classList.remove('rf-hide');
+    document.querySelectorAll('.rf-rail-item').forEach(b => b.classList.toggle('is-active', b.dataset.page === page));
+    document.getElementById('pageTitle').textContent = titles[page] || '洛克工坊';
+    window.scrollTo(0, 0);
+  }
+  document.querySelectorAll('.rf-rail-item').forEach(b => b.addEventListener('click', () => {
+    if (b.id === 'navSettings') { openModal(); return; }
+    go(b.dataset.page);
+  }));
+  function openModal() { document.getElementById('scrim').classList.add('is-open'); }
+  function closeModal() { document.getElementById('scrim').classList.remove('is-open'); }
+  document.getElementById('scrim').addEventListener('click', e => { if (e.target.id === 'scrim') closeModal(); });
+  function toast(msg, kind) {
+    const t = document.createElement('div');
+    t.className = 'rf-toast' + (kind ? ' is-' + kind : '');
+    t.textContent = msg;
+    document.getElementById('toasts').appendChild(t);
+    setTimeout(() => t.remove(), 3200);
+  }
+</script>
+</body>
+</html>

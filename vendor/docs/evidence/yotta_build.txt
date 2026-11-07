@@ -1,0 +1,8 @@
+﻿c:\Users\13005\Downloads\work\rocogi\.toolchain\build\yotta.exe: go1.25.13
+	path	github.com/yottaapp/yotta
+	mod	github.com/yottaapp/yotta	(devel)	
+	dep	github.com/adrg/xdg	v0.5.3	h1:xRnxJXne7+oWDatRhR1JLnvuccuIeCoBu2rtuLqQB78=
+	dep	github.com/bahlo/generic-list-go	v0.2.0	h1:5sz/EEAK+ls5wF+NeqDpk5+iNdMDXrh3z3nPnH1Wvgk=
+	dep	github.com/buger/jsonparser	v1.1.2	h1:frqHqw7otoVbk5M8LlE/L7HTnIq2v9RX6EJ48i9AxJk=
+	dep	github.com/coder/websocket	v1.8.14	h1:9L0p0iKiNOibykf283eHkKUHHrpG7f65OE3BhhO7v9g=
+	dep	github.com/cyberphone/json-canonicalization	v0.0.0-20241213102144-19d51d7fe467	h1:uX1JmpONuD549D73r6cgnxyUu18Zb7yHAy5AYU0Pm4Q=

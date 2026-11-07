@@ -1,0 +1,30 @@
+[suite]
+name = "rocogi-suite"
+version = "0.4.6"
+description = "Rocogi merged runtime: capture / vision / input / sift / battle / scheduler + vendor adapters"
+
+[paths]
+logs = "logs"
+runs = "runs"
+assets = "assets"
+
+[runtime]
+python = "../../.toolchain/python/cpython-3.12.16-windows-x86_64-none/python.exe"
+uv = "../../.toolchain/uv/uv.exe"
+startup_timeout_sec = 60
+restart_backoff_sec = 0.5
+max_restarts = 5
+poll_sec = 0.2
+
+[engines]
+order = ["capture", "vision", "input", "sift", "battle", "scheduler", "vendor"]
+
+[coordinate]
+canonical_map = [6144, 5888]
+sift_feature_space = [8192, 8192]
+note = "6144x5888 and 8192x8192 are different spaces with translation; never rescale across them, use 3-point affine calibration."
+
+[split_process]
+rknn = "Linux aarch64 only - not applicable on Windows"
+sift_service = "closed-source service.exe - run as separate process only"
+interception = "kernel driver + admin required - awaiting authorisation"

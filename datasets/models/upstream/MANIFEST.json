@@ -1,0 +1,312 @@
+{
+ "built": "2026-11-06",
+ "weights": [
+  {
+   "file": "sprite_detector.pt",
+   "bytes": 6237226,
+   "sha256": null,
+   "verify": "api-blob-size",
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "models/sprite_detector.pt",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "V4 精灵检测, 8类(id6已训, mAP50=0.994), ultralytics 8.4.60, 2026-06-03",
+   "sha256_actual": "23e185a7e0c1be7b30339e8cad8f73aa5dfd8c449eb842c8a7150d51f5d37cee"
+  },
+  {
+   "file": "geli.pt",
+   "bytes": 22495203,
+   "sha256": null,
+   "verify": "api-blob-size",
+   "repo": "Makapic/RocoPilot",
+   "path": "models/geli.pt",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "内部2类: 0=hepingge(和平鸽), 1=juhuali(菊花梨); 基座 yolo26s, epochs=50",
+   "sha256_actual": "0761cb048ae22aacc0824a8c9d395db078c61b48a0748656a7fda20e7d8b7ebd"
+  },
+  {
+   "file": "huolong.pt",
+   "bytes": 20310974,
+   "sha256": null,
+   "verify": "api-blob-size",
+   "repo": "Makapic/RocoPilot",
+   "path": "models/huolong.pt",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "1类: huolong(火龙)",
+   "sha256_actual": "110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223"
+  },
+  {
+   "file": "youyingshu.pt",
+   "bytes": 19160410,
+   "sha256": null,
+   "verify": "api-blob-size",
+   "repo": "Makapic/RocoPilot",
+   "path": "models/youyingshu.pt",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "1类: youyingshu(幼婴鼠); ultralytics 8.4.56, trained 2026-05-30",
+   "sha256_actual": "b712cb982630a8d0500b491ad783a3145490546c133b720271f30cac2b3bbf47"
+  },
+  {
+   "file": "xueren.pt",
+   "bytes": 20310974,
+   "sha256": "110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223",
+   "verify": "sha256==LFS-oid",
+   "repo": "Makapic/RocoPilot",
+   "path": "models/xueren.pt (git-lfs)",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "1类: xueren(雪人)",
+   "sha256_actual": "110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223"
+  },
+  {
+   "file": "yolo26s.pt",
+   "bytes": 22588772,
+   "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a",
+   "verify": "sha256==LFS-oid",
+   "repo": "Makapic/RocoPilot",
+   "path": "yolo26s.pt (git-lfs)",
+   "license": "Ultralytics AGPL-3.0 (weights)",
+   "desc": "Makapic 训练基座权重",
+   "sha256_actual": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a"
+  },
+  {
+   "file": "best_20260601.pt",
+   "bytes": 19161683,
+   "sha256": null,
+   "verify": "release-hardcoded-size",
+   "repo": "SCH-CMYK/game-automation",
+   "path": "release v1.0",
+   "license": "no LICENSE file (internal use only)",
+   "desc": "场景4类: ore/creature/obstacle/character",
+   "sha256_actual": "346ee3a82a9cf0efee572f0a995fcc419b97fed16535341287996b00e21d117f"
+  },
+  {
+   "file": "loftr_model.onnx",
+   "bytes": 39295679,
+   "sha256": null,
+   "verify": "release-hardcoded-size",
+   "repo": "SCH-CMYK/game-automation",
+   "path": "release v1.0",
+   "license": "academic weights (see upstream SDK)",
+   "desc": "LoFTR 图像定位模型",
+   "sha256_actual": "c96ab5a69bb9972651e4d6f060eaaa25da1fc18b4f6d1aeacc91b80824cf1531"
+  },
+  {
+   "file": "SIFT_features.npz",
+   "bytes": 80157992,
+   "sha256": "bc15c922435d4b0f22f7c2f520a636fe9073a3c02a0bca0404512e2ffdc93186",
+   "verify": "local-merged-zip (sha256 matches build-manifest.json standard220)",
+   "repo": "SIFT-Map-Tracker v0.10.2 merged (local zip 4ad3c401…)",
+   "path": "sift-map-tracker/assets/SIFT_features.npz",
+   "license": "see datasets/map/PROVENANCE (SIFT Map Tracker lineage)",
+   "desc": "标准档 SIFT 特征 (profileScale=1.0), 逻辑图 sha256 213558f2…",
+   "sha256_actual": "bc15c922435d4b0f22f7c2f520a636fe9073a3c02a0bca0404512e2ffdc93186"
+  },
+  {
+   "file": "item_siamese_v2.onnx",
+   "bytes": 1186251,
+   "sha256": "5780084551ad6e66d7e94158e6f9a4373e22127c5a7047727d8d7c0a60179e20",
+   "verify": "local-merged-zip",
+   "repo": "SIFT-Map-Tracker v0.10.2 merged",
+   "path": "sift-map-tracker/assets/item_siamese_v2.onnx",
+   "license": "see datasets/map/PROVENANCE",
+   "desc": "物品孪生匹配模型 (v2), 配合 map/icons/ 图形集",
+   "sha256_actual": "5780084551ad6e66d7e94158e6f9a4373e22127c5a7047727d8d7c0a60179e20"
+  }
+ ],
+ "scripts": [
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/augment_dataset.py",
+   "local": "tools/tsuann/scripts/augment_dataset.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/auto_label.py",
+   "local": "tools/tsuann/scripts/auto_label.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/capture_dataset.py",
+   "local": "tools/tsuann/scripts/capture_dataset.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/capture_screenshots.py",
+   "local": "tools/tsuann/scripts/capture_screenshots.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/crawl_sprites.py",
+   "local": "tools/tsuann/scripts/crawl_sprites.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/extract_frames.py",
+   "local": "tools/tsuann/scripts/extract_frames.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/fix_onnx_quant.py",
+   "local": "tools/tsuann/scripts/fix_onnx_quant.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/incremental_train.py",
+   "local": "tools/tsuann/scripts/incremental_train.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/label_tool.py",
+   "local": "tools/tsuann/scripts/label_tool.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/record_region.ps1",
+   "local": "tools/tsuann/scripts/record_region.ps1",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/split_output_convert.py",
+   "local": "tools/tsuann/scripts/split_output_convert.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Tsuann/RocoKingdom-AutoCapture",
+   "path": "scripts/train_model.py",
+   "local": "tools/tsuann/scripts/train_model.py",
+   "license": "NO-LICENSE-FILE (all-rights-reserved by default; internal use)",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/detect_geli.py",
+   "local": "tools/makapic/scripts/detect_geli.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/detect_huolong.py",
+   "local": "tools/makapic/scripts/detect_huolong.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/detect_xueren.py",
+   "local": "tools/makapic/scripts/detect_xueren.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/eval_geli.py",
+   "local": "tools/makapic/scripts/eval_geli.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/label_pets.py",
+   "local": "tools/makapic/scripts/label_pets.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/label_tool.py",
+   "local": "tools/makapic/scripts/label_tool.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/mark_align.py",
+   "local": "tools/makapic/scripts/mark_align.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/merge_xueren.py",
+   "local": "tools/makapic/scripts/merge_xueren.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/train_geli.py",
+   "local": "tools/makapic/scripts/train_geli.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/train_huolong.py",
+   "local": "tools/makapic/scripts/train_huolong.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "Makapic/RocoPilot",
+   "path": "scripts/train_xueren.py",
+   "local": "tools/makapic/scripts/train_xueren.py",
+   "license": "MIT (c) 2026 yorusacri",
+   "note": ""
+  },
+  {
+   "repo": "SCH-CMYK/game-automation",
+   "path": "src/training/label_tool.py",
+   "local": "tools/sch/label_tool.py",
+   "license": "see repo (no LICENSE file observed)",
+   "note": ""
+  },
+  {
+   "repo": "SCH-CMYK/game-automation",
+   "path": "src/training/trainer.py",
+   "local": "tools/sch/trainer.py",
+   "license": "see repo (no LICENSE file observed)",
+   "note": ""
+  },
+  {
+   "repo": "SCH-CMYK/game-automation",
+   "path": "download_models.py",
+   "local": "tools/sch/download_models.py",
+   "license": "see repo (no LICENSE file observed)",
+   "note": ""
+  },
+  {
+   "repo": "SCH-CMYK/game-automation",
+   "path": "datasets/default/data.yaml",
+   "local": "tools/sch/data.default.yaml",
+   "license": "see repo (no LICENSE file observed)",
+   "note": ""
+  }
+ ],
+ "mapArea": {
+  "added": "2026-11-06",
+  "source": "SIFT-Map-Tracker-v0.10.2-merged.zip (sha256 4ad3c40188ac998be3f6355fae0a26045df7ceea2c63c659f9bf6a7dc51b276c)",
+  "provenance": "datasets/map/PROVENANCE/{MERGE-REPORT.md, build-manifest.json}",
+  "dedupe": "display_map.png / logic_map.png / SIFT_features_075.npz 与部署树既有副本逐字节相同，未重复收录"
+ }
+}

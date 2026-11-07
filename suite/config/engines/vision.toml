@@ -1,0 +1,23 @@
+[engine]
+name = "vision"
+venv = "engines/vision/.venv"
+script = "engines/vision/engine_main.py"
+action = "template_match"
+interval = 1.0
+startup_timeout_sec = 30
+
+[frame]
+width = 2560
+height = 1600
+
+[roi]
+left = 0.5
+top = 0.5
+width = 0.5
+height = 0.5
+
+[sprite]
+model = "assets/models/sprite_detector.onnx"
+input_size = [640, 640]
+confidence = 0.35
+backend = "onnxruntime"

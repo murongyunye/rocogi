@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-08-21T05:32:55.8443412+00:00",
+  "protocolSchemaVersion": 2,
+  "engineAvailableAtBuild": true,
+  "dependencies": {
+    "pyinstaller": "6.19.0",
+    "rapidocr_onnxruntime": "1.4.4",
+    "onnxruntime": "1.26.0",
+    "pillow": "10.4.0"
+  },
+  "source": [
+    {
+      "path": "bloodline_recognition.py",
+      "bytes": 8563,
+      "sha256": "d6ca8eca0bb8ce32d8a110206ec8a64be1c3d35d4477cea26a2fc97bd69f9047"
+    },
+    {
+      "path": "capture.py",
+      "bytes": 5662,
+      "sha256": "0d702608d72314e97d526d1ef119f395d4347e5bded5703c58d8014d9acef486"
+    },
+    {
+      "path": "image_preprocess.py",
+      "bytes": 443,
+      "sha256": "d3d7d978f6d6e69199224cb364fcd4cf698cfc637a9373d9a1582b25ed2156bf"
+    },
+    {
+      "path": "ocr_engine.py",
+      "bytes": 2569,
+      "sha256": "452c53fb5cb2de4b4c693892f6935d1c73fd2cb7bbb5f9f1e8bd7bd4a28add4f"
+    },
+    {
+      "path": "protocol.py",
+      "bytes": 675,
+      "sha256": "05bafb197190bfc5e99ad64a5eb7e5dce34386b4e1b9b8e28af171d4a261093d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2140,
+      "sha256": "46839a144f22d6a066bd6bfd95bee776770cfeb5ae49334c3c484c47f3524bac"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 54,
+      "sha256": "2adae362c8ec1e33f2f2c6ade5e15cd1994b73f258811feb5ef0f157fde5b144"
+    },
+    {
+      "path": "service.py",
+      "bytes": 26170,
+      "sha256": "5f918ac197e50805af6c1af474b4059f4e45a0e66ed232060d3123bf61bcc25a"
+    },
+    {
+      "path": "tests/fixtures/egg-detail-dim-height.png",
+      "bytes": 704995,
+      "sha256": "d7a7d5b0bb0a6b299aec08a265c82fe4aee9df0490230636927839c91fb1c381"
+    },
+    {
+      "path": "tests/fixtures/egg-detail-panel-2560x1440.png",
+      "bytes": 139790,
+      "sha256": "d58565364f117711cde760f69e3c2502aa498e7c3eb62e5d61e3753e9276d723"
+    },
+    {
+      "path": "tests/fixtures/fairy-chromatic-prompt.png",
+      "bytes": 228197,
+      "sha256": "8c753ec4e227136e6f0c7679dcbd8234ef701421c77c680ca2936c3961276d52"
+    },
+    {
+      "path": "tests/fixtures/fairy-name-active.png",
+      "bytes": 103186,
+      "sha256": "4f4beecfdf8ae1738c76b7453330ba044a8bd761b0bb146f9afc45a9ae134380"
+    },
+    {
+      "path": "tests/fixtures/fairy-name-result.png",
+      "bytes": 96238,
+      "sha256": "91077823fa0be72e1329e9644fdbb6e308a12d9ef62633442ed48b3a5d2c1736"
+    },
+    {
+      "path": "tests/fixtures/fairy-result-banner.png",
+      "bytes": 155243,
+      "sha256": "2d929363f47a23f415cd96562730a71319c88a8d5b4ed37c63effd7bd5b4980c"
+    },
+    {
+      "path": "tests/fixtures/fairy-video-cases.json",
+      "bytes": 3498,
+      "sha256": "5dc039e5d1c0f8072909abfcea86b46637eea8f05de947c60bb273aba0981793"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/active-1-banner.png",
+      "bytes": 78508,
+      "sha256": "02348d2504b31efc411198dd3aabd656bbd9896d9c8e557421b4ed5b4dccf7a4"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/active-1-name.png",
+      "bytes": 77914,
+      "sha256": "221e39a9a9f56fcd56e2adc24a58208a18c5e5dc1959780672fef080be10aef6"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/active-2-banner.png",
+      "bytes": 81170,
+      "sha256": "849a0434139348a96b001eb7b0f78cf1d4b7f1f37f5a8f0b66b6675eb7933b46"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/active-2-name.png",
+      "bytes": 79921,
+      "sha256": "52d5f5aecc7ee0732c15ac12d147bd615e508277c36cfe4171fb2b577c33fbf8"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/result-1-banner.png",
+      "bytes": 84861,
+      "sha256": "16c2e3e30b500e25236561b558c555def0fc80c7776bcda6956836d8bafa7ab3"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/result-1-name.png",
+      "bytes": 73458,
+      "sha256": "93f7d36abcb3b20afe2172c5b01e83eaf471052ddcdb7bed8c20a39aad3a47c9"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/result-2-banner.png",
+      "bytes": 76814,
+      "sha256": "12c36e6d2541263d52a59bf5c2ce468e4a7a32b6db79641baed4eb760f0fc27e"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-hit-chaotic/result-2-name.png",
+      "bytes": 68033,
+      "sha256": "07e2287b31f993642cb435013208594ab08a78e707d0f20cf33bd0a4deba1974"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/active-1-banner.png",
+      "bytes": 50348,
+      "sha256": "938e6703d16a134572485c96788cb9fb14cb7a6f12ab92512933c2ba565a40cb"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/active-1-name.png",
+      "bytes": 52200,
+      "sha256": "20a02f0bdb54666435370dcc0a6543d0e787d443372cc5f9c10bdde280b61aa0"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/active-2-banner.png",
+      "bytes": 53558,
+      "sha256": "c5de5593db8a85411f774df10fc24bb3dca0c71931f55913f5b94edb6e23796b"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/active-2-name.png",
+      "bytes": 53014,
+      "sha256": "2e28a868046293879341fd438010a8fcac2c035759abe89be4ce4517f2753e5c"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/result-1-banner.png",
+      "bytes": 47951,
+      "sha256": "f281f969c100800bed17973f72c8a3d8110204eccba52429b299e52666dedcf8"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/result-1-name.png",
+      "bytes": 43109,
+      "sha256": "c547302ea37b0668d2db6267eb161cb7870cd1949e8edacce751be13837c2c3a"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/result-2-banner.png",
+      "bytes": 51117,
+      "sha256": "813ae39a68cfd421bbc2f37f09a11cd65883eca032c206a4b404031bec52ce86"
+    },
+    {
+      "path": "tests/fixtures/fairy-video/target-miss-strange/result-2-name.png",
+      "bytes": 45573,
+      "sha256": "7c88069ae23485ca7ee8e7113d64f0bb685b04a6dd1157759f1cc6ee556ec792"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "bytes": 1516,
+      "sha256": "32ffb097b575cd1eb836bdd8f66fe27ee03cc1c63ab33ba6625a6ed667af1221"
+    },
+    {
+      "path": "tests/test_service.py",
+      "bytes": 34398,
+      "sha256": "d4408b705a6ea496273f6191125eaa58bf98e6d1b82d67cca8e03ade704ff80f"
+    },
+    {
+      "path": "tools/replay_fairy_video.py",
+      "bytes": 8876,
+      "sha256": "cfd0653c7d0858b1129ecd8096a293d19c31b3a209dd3d0ce297f8e6f936a5ae"
+    }
+  ],
+  "package": [
+    {
+      "path": "requirements.txt",
+      "bytes": 54,
+      "sha256": "2adae362c8ec1e33f2f2c6ade5e15cd1994b73f258811feb5ef0f157fde5b144"
+    },
+    {
+      "path": "service.exe",
+      "bytes": 107936679,
+      "sha256": "0a31592b4bf944c24ecd071f8e763fec2025de61a75f675c0e337af2468d11c3"
+    }
+  ]
+}

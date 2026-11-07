@@ -1,0 +1,15 @@
+{
+  "$comment": "Tsuann/RocoKingdom-AutoCapture 原始 8 类表 verbatim — 来自 scripts/train_model.py DEFAULT_CLASSES / incremental_train.py ALL_CLASSES。此 id 映射被 sprite_detector.pt V4 权重锁定，永不改动。",
+  "source": "Tsuann/RocoKingdom-AutoCapture@main scripts/train_model.py",
+  "fetched": "2026-11-06",
+  "classes": [
+    { "id": 0, "name": "huzhu_quan", "cn": "护主犬", "alias_cn": "音速犬" },
+    { "id": 1, "name": "yibei_er", "cn": "伊贝儿" },
+    { "id": 2, "name": "emo_ding", "cn": "恶魔叮" },
+    { "id": 3, "name": "juhua_li", "cn": "菊花梨" },
+    { "id": 4, "name": "gongping_ge", "cn": "公平鸽" },
+    { "id": 5, "name": "ling_hu", "cn": "灵狐" },
+    { "id": 6, "name": "xiao_dujiaoshou", "cn": "小独角兽" },
+    { "id": 7, "name": "xiaoye_yifu", "cn": "小夜/朔夜伊芙" }
+  ]
+}

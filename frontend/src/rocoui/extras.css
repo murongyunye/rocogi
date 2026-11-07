@@ -1,0 +1,151 @@
+/*
+ * extras.css — components documented on https://rocokingdom-ui.vercel.app/docs but NOT
+ * shipped in rocokingdom-ui@0.0.1-beta.0 (Badge/Tag/Breadcrumb/Slider).
+ * Dependency-free approximations styled with the same --rk-* token set.
+ */
+
+/* ---------------- Badge ---------------- */
+.rk-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: calc(var(--rk-control-height-small, 24px) - 8px);
+  padding-inline: 8px;
+  border-radius: calc(var(--rk-radius, 8px) / 2 + 3px);
+  font-size: 12px;
+  font-weight: 600;
+  font-family: var(--rk-font-family-base, inherit);
+  line-height: 1;
+  white-space: nowrap;
+}
+.rk-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: currentColor;
+}
+.rk-badge-solid.rk-badge-primary { background: var(--rk-primary); color: var(--rk-on-primary); }
+.rk-badge-solid.rk-badge-success { background: var(--rk-success); color: var(--rk-on-success); }
+.rk-badge-solid.rk-badge-danger { background: var(--rk-danger); color: var(--rk-on-danger); }
+.rk-badge-solid.rk-badge-paper { background: var(--rk-paper); color: var(--rk-on-paper); }
+.rk-badge-solid.rk-badge-stone { background: var(--rk-stone); color: var(--rk-on-stone); }
+.rk-badge-outline.rk-badge-primary { background: transparent; color: var(--rk-primary); box-shadow: inset 0 0 0 1px var(--rk-primary); }
+.rk-badge-outline.rk-badge-success { background: transparent; color: var(--rk-success); box-shadow: inset 0 0 0 1px var(--rk-success); }
+.rk-badge-outline.rk-badge-danger { background: transparent; color: var(--rk-danger); box-shadow: inset 0 0 0 1px var(--rk-danger); }
+.rk-badge-outline.rk-badge-paper { background: transparent; color: var(--rk-on-paper); box-shadow: inset 0 0 0 1px var(--rk-paper-strong, var(--rk-on-paper)); }
+.rk-badge-outline.rk-badge-stone { background: transparent; color: var(--rk-on-paper); box-shadow: inset 0 0 0 1px var(--rk-stone-muted, var(--rk-on-paper)); }
+.rk-badge-text.rk-badge-primary { background: transparent; color: var(--rk-primary-strong, var(--rk-primary)); }
+.rk-badge-text.rk-badge-success { background: transparent; color: var(--rk-success); }
+.rk-badge-text.rk-badge-danger { background: transparent; color: var(--rk-danger); }
+.rk-badge-text.rk-badge-paper,
+.rk-badge-text.rk-badge-stone { background: transparent; color: var(--rk-on-paper-muted, var(--rk-on-paper)); }
+
+/* ---------------- Tag ---------------- */
+.rk-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: var(--rk-radius, 8px);
+  font-family: var(--rk-font-family-base, inherit);
+  line-height: 1;
+  white-space: nowrap;
+}
+.rk-tag-small { height: 20px; padding-inline: 8px; font-size: 11px; }
+.rk-tag-middle { height: 24px; padding-inline: 10px; font-size: 12px; }
+.rk-tag-label { display: inline-flex; align-items: center; }
+.rk-tag-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  margin-right: -4px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 999px;
+}
+.rk-tag-close:hover { opacity: 0.8; }
+
+/* ---------------- Breadcrumb ---------------- */
+.rk-breadcrumb {
+  font-family: var(--rk-font-family-base, inherit);
+  color: var(--rk-on-paper-muted, inherit);
+}
+.rk-breadcrumb-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.rk-breadcrumb-item { display: inline-flex; align-items: center; gap: 4px; }
+.rk-breadcrumb-link {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+.rk-breadcrumb-link:hover { color: var(--rk-primary-strong, var(--rk-primary)); }
+.rk-breadcrumb-item:last-child .rk-breadcrumb-link { color: var(--rk-on-paper); font-weight: 600; cursor: default; }
+.rk-breadcrumb-separator { color: var(--rk-on-paper-muted, inherit); opacity: 0.7; }
+
+/* ---------------- Slider ---------------- */
+.rk-slider { display: inline-flex; align-items: center; height: var(--rk-control-height-middle, 32px); }
+.rk-slider-input {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 180px;
+  height: 6px;
+  margin: 0;
+  border-radius: 999px;
+  background:
+    linear-gradient(
+      to right,
+      var(--rk-primary) 0 var(--rk-slider-fill-percent, 0%),
+      var(--rk-paper-strong, var(--rk-paper)) var(--rk-slider-fill-percent, 0%) 100%
+    );
+  outline: none;
+  cursor: pointer;
+}
+.rk-slider-input:disabled { cursor: not-allowed; opacity: 0.5; }
+.rk-slider-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--rk-paper);
+  box-shadow: 0 2px 0 var(--rk-shadow-strong-color);
+  transition: transform 120ms ease;
+}
+.rk-slider-input:active::-webkit-slider-thumb { transform: scale(1.08); }
+.rk-slider-input::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--rk-paper);
+  box-shadow: 0 2px 0 var(--rk-shadow-strong-color);
+}
+.rk-slider-input::-moz-range-track {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--rk-paper-strong, var(--rk-paper));
+}
+.rk-slider-input::-moz-range-progress {
+  height: 6px;
+  border-radius: 999px;
+  background: var(--rk-primary);
+}

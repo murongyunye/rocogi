@@ -1,0 +1,118 @@
+{
+  "adapter": "sift_map_tracker",
+  "repo": "sift-map-tracker",
+  "status": "blocked",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "sift-map-tracker"
+    },
+    {
+      "name": "python_runtime_source",
+      "ok": false,
+      "detail": "仅 ['sift-map-tracker\\\\settings.py']（客户端设置导出，不是运行时源码）"
+    },
+    {
+      "name": "manifest_hash",
+      "ok": false,
+      "detail": "通过 16/17；缺失 1；哈希不符 0"
+    },
+    {
+      "name": "settings_parsed",
+      "ok": true,
+      "detail": "34 个常量"
+    },
+    {
+      "name": "param_mapping",
+      "ok": true,
+      "detail": "{'refresh_rate_ms': 50, 'clahe_limit': 3.0, 'match_ratio': 0.9, 'min_match_count': 6, 'ransac_threshold': 8.0, 'max_lost_frames': 600, 'local_search_radius': 280}"
+    }
+  ],
+  "blockers": [
+    "无运行时源码：算法只能通过 service.exe 外部进程调用，或改用 vendor 内 roco-map-tracker 的 SIFTEngine"
+  ],
+  "contract": {
+    "runtime_source": false,
+    "python_files": [
+      "sift-map-tracker\\settings.py"
+    ],
+    "binaries": [
+      "SiftMapTracker.Client.exe",
+      "service.exe",
+      "service.exe"
+    ],
+    "declared_version": "0.10.2",
+    "tracker_commit": "8749d444d0529f91875b6d99ac0c838c309ae473",
+    "client_commit": "76a91d15591e33f880abd7dccb39ab7706e97cb6",
+    "missing_from_package": [
+      "sift-map-tracker/routes/default_route.json"
+    ],
+    "mismatched": [],
+    "settings": {
+      "MINIMAP_REGION": {
+        "top": 0,
+        "left": 0,
+        "width": 255,
+        "height": 235
+      },
+      "TRACKER_ALGORITHM": "sift",
+      "MAP_ORIGIN_X": -973,
+      "MAP_ORIGIN_Y": -1585,
+      "REFRESH_RATE_MS": 50,
+      "MAX_LOST_FRAMES": 600,
+      "CLAHE_LIMIT": 3.0,
+      "MATCH_RATIO": 0.9,
+      "MIN_MATCH_COUNT": 6,
+      "RANSAC_THRESHOLD": 8.0,
+      "LOCAL_SEARCH_RADIUS_PX": 280,
+      "LOCAL_LOCK_FAIL_THRESHOLD": 5,
+      "POSITION_SMOOTHING_ALPHA": 0.72,
+      "POSITION_SMOOTHING_ALPHA_LARGE_JUMP": 0.9,
+      "POSITION_LARGE_JUMP_DISTANCE": 42.0,
+      "ROUTE_SNAP_MAX_DISTANCE": 60.0,
+      "INERTIAL_PREDICTION_FRAMES": 4,
+      "INERTIAL_VELOCITY_DAMPING": 0.58,
+      "DISPLAY_STILL_THRESHOLD_PX": 2.0,
+      "ROTATION_CONFIDENCE_THRESHOLD": 0.25,
+      "MINIMAP_CIRCLE_CENTER_TOLERANCE_PX": 26,
+      "ROTATION_ALIGNMENT_PADDING_PX": 28,
+      "MINIMAP_CIRCLE_HOUGH_PARAM2": 22,
+      "TM_GLOBAL_DOWNSCALE": 8,
+      "TM_LOCAL_MIN_CONFIDENCE": 0.4,
+      "TM_GLOBAL_MIN_CONFIDENCE": 0.45,
+      "TM_LOCAL_PEAK_MARGIN": 0.05,
+      "TM_GLOBAL_PEAK_MARGIN": 0.08,
+      "TM_LOCAL_SEARCH_PADDING_PX": 200,
+      "TM_LOCAL_PADDING_STEP_PX": 120,
+      "TM_GLOBAL_AFTER_FAILS": 10,
+      "TM_GLOBAL_CANDIDATES": 5,
+      "TM_MAX_LOCAL_JUMP_PX": 250,
+      "TM_MIN_TEMPLATE_STDDEV": 10.0
+    },
+    "mapped_to_source_engine": {
+      "refresh_rate_ms": 50,
+      "clahe_limit": 3.0,
+      "match_ratio": 0.9,
+      "min_match_count": 6,
+      "ransac_threshold": 8.0,
+      "max_lost_frames": 600,
+      "local_search_radius": 280
+    },
+    "replacement_relation": {
+      "primary_source_engine": "vendor/Wooziii-roco-map-tracker/roco-map-tracker/tracker/engines/sift_engine.py",
+      "binary_package_role": "参数/资源基准 + 可选外部进程（service.exe）",
+      "differences": [
+        "二进制包只有 settings.py 与资产，无算法实现，无法在不调用 exe 的前提下复用逻辑",
+        "源码版 SIFTEngine 支持 hybrid/sift/sift_tracker/sift_v02 四种引擎，二进制包只暴露 sift",
+        "二进制包小地图 255x235 且带 150x150 旧档；源码版默认由调用方传入 ROI",
+        "二进制包的 local_search_radius=280、match_ratio=0.90，源码版默认 550、0.7x，需显式映射"
+      ]
+    },
+    "process_contract": {
+      "launch": "vendor/sift-map-tracker/sift-map-tracker/service/service.exe",
+      "client": "vendor/sift-map-tracker/SiftMapTracker.Client.exe",
+      "stdio": "JSON over stdin/stdout，UTF-8 字节级"
+    }
+  }
+}

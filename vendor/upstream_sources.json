@@ -1,0 +1,488 @@
+{
+ "generated_at": "2026-11-06",
+ "policy": "本地 vendor/<repo> 仅保留运行时子集；完整上游源码不本地常驻，按 commit 从上游重拉。sift-map-tracker 为发布包（非 git），归档在自有仓库 archive/sift-map-tracker/。",
+ "restore_root": "vendor/_restore",
+ "script": "vendor/tools/fetch-upstream.ps1",
+ "scope_of_record": "docs/VENDOR_RUNTIME_SCOPE.json",
+ "imported_copy_note": "imported_* 是 2026-11-05 采集副本的计数，可能包含解压/生成内容，不等同于上游 git 树；逐仓实测差异见 restore_note。",
+ "repos": [
+  {
+   "repo": "Adolph321-Adolph",
+   "source_type": "github",
+   "upstream_url": "https://github.com/Adolph321/-",
+   "commit": "f21516636c4ffd54389cfdaf430169f395b7e682",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "GPL-3.0",
+   "local_state": "runtime-subset",
+   "local_files": 269,
+   "local_bytes": 1372593,
+   "imported_files": 269,
+   "imported_bytes": 1372593,
+   "dropped_files": 0,
+   "dropped_bytes": 0,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.Adolph321-Adolph",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/Adolph321-Adolph",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo Adolph321-Adolph",
+    "archive_location": null
+   },
+   "restore_note": "实测：该仓 git 树只有 4 个文件（README/LICENSE/.gitignore/battle-rules-1-200-20261007.zip），采集副本的 269 个文件是解压该 zip 得到；重拉后需手动解压 zip 才能还原完整源码。",
+   "entrypoints": [
+    "battle-rules-1-200-20261007/battle-rules-1-200/verify.js",
+    "battle-rules-1-200-20261007/battle-rules-1-200/index.js"
+   ]
+  },
+  {
+   "repo": "ColinHong10-NRC_AI",
+   "source_type": "github",
+   "upstream_url": "https://github.com/ColinHong10/NRC_AI",
+   "commit": "9b5801b08d349c6505a233c513faa5075f427035",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "MIT",
+   "local_state": "runtime-subset",
+   "local_files": 20,
+   "local_bytes": 1793084,
+   "imported_files": 478,
+   "imported_bytes": 188790207,
+   "dropped_files": 472,
+   "dropped_bytes": 187535013,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.ColinHong10-NRC_AI",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/ColinHong10-NRC_AI",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo ColinHong10-NRC_AI",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "start.py",
+    "run_web.py",
+    "src/main.py",
+    "src/server.py"
+   ]
+  },
+  {
+   "repo": "ElliottZhao666666-rocom-codex-pets-gen",
+   "source_type": "github",
+   "upstream_url": "https://github.com/ElliottZhao666666/rocom-codex-pets-gen",
+   "commit": "4ccce5611db097d7ab083126260a59daaee9ea12",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "MIT",
+   "local_state": "runtime-subset",
+   "local_files": 22,
+   "local_bytes": 787161,
+   "imported_files": 22,
+   "imported_bytes": 787161,
+   "dropped_files": 2,
+   "dropped_bytes": 40485,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.ElliottZhao666666-rocom-codex-pets-gen",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/ElliottZhao666666-rocom-codex-pets-gen",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo ElliottZhao666666-rocom-codex-pets-gen",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "scripts/validate_input.py",
+    "scripts/render_source.py",
+    "scripts/normalize_frames.py"
+   ]
+  },
+  {
+   "repo": "Makapic-RocoPilot",
+   "source_type": "github",
+   "upstream_url": "https://github.com/Makapic/RocoPilot",
+   "commit": "5f3f76e8a029f9c6947e547fcf18b27696929305",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "MIT",
+   "local_state": "runtime-subset",
+   "local_files": 64,
+   "local_bytes": 64156734,
+   "imported_files": 70,
+   "imported_bytes": 64159289,
+   "dropped_files": 7,
+   "dropped_bytes": 8534,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.Makapic-RocoPilot",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/Makapic-RocoPilot",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo Makapic-RocoPilot",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main.py",
+    "config.py"
+   ]
+  },
+  {
+   "repo": "Pacific-shark-roco-balance-lab",
+   "source_type": "github",
+   "upstream_url": "https://github.com/Pacific-shark/roco-balance-lab",
+   "commit": "52f717d283198c8ea3348402564569db976b37a8",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "MIT",
+   "local_state": "runtime-subset",
+   "local_files": 38,
+   "local_bytes": 305063,
+   "imported_files": 67,
+   "imported_bytes": 16323951,
+   "dropped_files": 29,
+   "dropped_bytes": 16018888,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.Pacific-shark-roco-balance-lab",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/Pacific-shark-roco-balance-lab",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo Pacific-shark-roco-balance-lab",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "server.mjs",
+    "src/engine.mjs",
+    "scripts/experiment.mjs"
+   ]
+  },
+  {
+   "repo": "SCH-CMYK-game-automation",
+   "source_type": "github",
+   "upstream_url": "https://github.com/SCH-CMYK/game-automation",
+   "commit": "4247f18f44371c5f6ede0ce25a68f4b920571bc1",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "CC BY-NC 4.0",
+   "local_state": "runtime-subset",
+   "local_files": 48,
+   "local_bytes": 3799333,
+   "imported_files": 48,
+   "imported_bytes": 3799333,
+   "dropped_files": 5,
+   "dropped_bytes": 23379,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.SCH-CMYK-game-automation",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/SCH-CMYK-game-automation",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo SCH-CMYK-game-automation",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main.py",
+    "run.bat",
+    "src/engine/controller.py"
+   ]
+  },
+  {
+   "repo": "Tsuann-RocoKingdom-AutoCapture",
+   "source_type": "github",
+   "upstream_url": "https://github.com/Tsuann/RocoKingdom-AutoCapture",
+   "commit": "4045c88c09b090ade58658e7cf099a760543c909",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "未声明（仓库无 LICENSE 文件）",
+   "local_state": "runtime-subset",
+   "local_files": 33,
+   "local_bytes": 18888396,
+   "imported_files": 37,
+   "imported_bytes": 18902611,
+   "dropped_files": 7,
+   "dropped_bytes": 118292,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.Tsuann-RocoKingdom-AutoCapture",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/Tsuann-RocoKingdom-AutoCapture",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo Tsuann-RocoKingdom-AutoCapture",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main.py",
+    "config.yaml",
+    "models/sprite_detector.onnx"
+   ]
+  },
+  {
+   "repo": "Wooziii-roco-map-tracker",
+   "source_type": "github",
+   "upstream_url": "https://github.com/Wooziii/roco-map-tracker",
+   "commit": "6890ac69f216fbbf78f98b3282522248e864fca1",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "未声明（README 声明第三方地图/图标权利保留）",
+   "local_state": "runtime-subset",
+   "local_files": 512,
+   "local_bytes": 74272914,
+   "imported_files": 649,
+   "imported_bytes": 147771167,
+   "dropped_files": 151,
+   "dropped_bytes": 73686547,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.Wooziii-roco-map-tracker",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/Wooziii-roco-map-tracker",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo Wooziii-roco-map-tracker",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "roco-map-tracker/main.py",
+    "roco-map-tracker/service_main.py",
+    "roco-map-tracker/tracker/engines/sift_engine.py"
+   ]
+  },
+  {
+   "repo": "babalae-better-genshin-impact",
+   "source_type": "github",
+   "upstream_url": "https://github.com/babalae/better-genshin-impact",
+   "commit": "bcfacfb1de2439b006111cae643a620eac41a288",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "GPL-3.0（子项目 Fischless.WindowsInput 为 MIT）",
+   "local_state": "runtime-subset",
+   "local_files": 2676,
+   "local_bytes": 16787793,
+   "imported_files": 3109,
+   "imported_bytes": 29727050,
+   "dropped_files": 2903,
+   "dropped_bytes": 1170901827,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.babalae-better-genshin-impact",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/babalae-better-genshin-impact",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo babalae-better-genshin-impact",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "BetterGenshinImpact.sln",
+    "BetterGenshinImpact/Program.cs"
+   ]
+  },
+  {
+   "repo": "eachyczhang-RocoTools",
+   "source_type": "github",
+   "upstream_url": "https://github.com/eachyczhang/-RocoTools",
+   "commit": "c983c8e9bc3a731f25ad222f1b11b2c2c2b06f06",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "CC BY-NC-SA 4.0",
+   "local_state": "runtime-subset",
+   "local_files": 772,
+   "local_bytes": 18405305,
+   "imported_files": 247,
+   "imported_bytes": 2820453,
+   "dropped_files": 65,
+   "dropped_bytes": 526571,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.eachyczhang-RocoTools",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/eachyczhang-RocoTools",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo eachyczhang-RocoTools",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "app/server/src/index.js",
+    "app/client/src/main.js",
+    "crawler"
+   ]
+  },
+  {
+   "repo": "oblitum-Interception",
+   "source_type": "github",
+   "upstream_url": "https://github.com/oblitum/Interception",
+   "commit": "39eecbbc46a52e0402f783b872ef62b0254a896a",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "LGPL-3.0（非商用；商用需单独授权）",
+   "local_state": "runtime-subset",
+   "local_files": 44,
+   "local_bytes": 124255,
+   "imported_files": 44,
+   "imported_bytes": 124255,
+   "dropped_files": 0,
+   "dropped_bytes": 0,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.oblitum-Interception",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/oblitum-Interception",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo oblitum-Interception",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "library/interception.h",
+    "samples"
+   ]
+  },
+  {
+   "repo": "rookie-orange-rocokingdom-ui",
+   "source_type": "github",
+   "upstream_url": "https://github.com/rookie-orange/rocokingdom-ui",
+   "commit": "2c8a1f6b65b423be7799f3a9ce6b1182064622fe",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "未声明（仓库无 LICENSE 文件）",
+   "local_state": "runtime-subset",
+   "local_files": 369,
+   "local_bytes": 19005059,
+   "imported_files": 439,
+   "imported_bytes": 14280739,
+   "dropped_files": 23130,
+   "dropped_bytes": 350417480,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.rookie-orange-rocokingdom-ui",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/rookie-orange-rocokingdom-ui",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo rookie-orange-rocokingdom-ui",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "package.json",
+    "packages/tokens/src/index.ts",
+    "packages/ui/src/index.ts"
+   ]
+  },
+  {
+   "repo": "sift-map-tracker",
+   "source_type": "release-package",
+   "upstream_url": null,
+   "commit": null,
+   "commit_short": "v0.10.2",
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "未声明（仅发布二进制，无 LICENSE 文件）",
+   "local_state": "runtime-subset",
+   "local_files": 7,
+   "local_bytes": 143061,
+   "imported_files": 213,
+   "imported_bytes": 647621958,
+   "dropped_files": 209,
+   "dropped_bytes": 647557176,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.sift-map-tracker",
+   "restore": {
+    "method": "archived-github-path",
+    "destination": "vendor/_restore/sift-map-tracker",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo sift-map-tracker",
+    "archive_location": "github.com/murongyunyeh/rocogi:archive/sift-map-tracker/（B 阶段推送）"
+   },
+   "restore_note": "上游只发布二进制、无 git 仓。本地完整副本可从 release/rocogi-0.4.1-full.zip 抽取（203/216 文件，缺的 13 个是已记录的重复二进制/缓存/.orig 裁剪项）。原计划推到本仓库 archive/sift-map-tracker/，2026-11-06 实测令牌无写权限（push 403），尚未推送。",
+   "entrypoints": [
+    "SiftMapTracker.Client.exe",
+    "sift-map-tracker/service/service.exe",
+    "sift-map-tracker/settings.py"
+   ]
+  },
+  {
+   "repo": "yorusacri-Auto-rocokingdom",
+   "source_type": "github",
+   "upstream_url": "https://github.com/yorusacri/Auto-rocokingdom",
+   "commit": "a2589cd6850e14691e81d3d978899d58d3d7caa0",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "MIT",
+   "local_state": "runtime-subset",
+   "local_files": 50,
+   "local_bytes": 682266,
+   "imported_files": 50,
+   "imported_bytes": 682266,
+   "dropped_files": 4,
+   "dropped_bytes": 25709,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.yorusacri-Auto-rocokingdom",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/yorusacri-Auto-rocokingdom",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo yorusacri-Auto-rocokingdom",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main.py",
+    "client_main.py",
+    "core/engine.py"
+   ]
+  },
+  {
+   "repo": "yottaapp-yotta",
+   "source_type": "github",
+   "upstream_url": "https://github.com/yottaapp/yotta",
+   "commit": "b835686f15d1d2e364848e788626d54b45b7ad9b",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "自定义非商用许可（个人/教育/研究免费，商用禁止）",
+   "local_state": "runtime-subset",
+   "local_files": 2032,
+   "local_bytes": 20763632,
+   "imported_files": 1950,
+   "imported_bytes": 26394676,
+   "dropped_files": 23866,
+   "dropped_bytes": 315579193,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.yottaapp-yotta",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/yottaapp-yotta",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo yottaapp-yotta",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main.go",
+    "cmd/node-catalog/main.go",
+    "contracts/node/v2/builtin-catalog.json",
+    "frontend/package.json"
+   ]
+  },
+  {
+   "repo": "zh19990906-luoke_location",
+   "source_type": "github",
+   "upstream_url": "https://github.com/zh19990906/luoke_location",
+   "commit": "5650fe6af004702c6bd7651468cf58fb55a07b5a",
+   "commit_short": null,
+   "branch": null,
+   "branch_note": "采集时未固定分支名；复现只按 commit，不依赖分支",
+   "license": "未声明（README 要求遵守上游与原素材许可）",
+   "local_state": "runtime-subset",
+   "local_files": 327,
+   "local_bytes": 4166251,
+   "imported_files": 1596,
+   "imported_bytes": 161069181,
+   "dropped_files": 1270,
+   "dropped_bytes": 156908482,
+   "keep_scope": "docs/VENDOR_RUNTIME_SCOPE.json#repos.zh19990906-luoke_location",
+   "restore": {
+    "method": "git",
+    "destination": "vendor/_restore/zh19990906-luoke_location",
+    "command": "vendor\\tools\\fetch-upstream.ps1 -Repo zh19990906-luoke_location",
+    "archive_location": null
+   },
+   "restore_note": null,
+   "entrypoints": [
+    "main_sift.py",
+    "main_ai.py",
+    "data/points_data.json"
+   ]
+  }
+ ]
+}

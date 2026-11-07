@@ -1,0 +1,14 @@
+{
+  "$comment": "场景检测类别表 v1 — SCH-CMYK/game-automation datasets/default/data.yaml verbatim（ore/creature/obstacle/character 四类）。注意：creature(生物) 与 pets 数据集的精灵类是不同粒度（场景级 vs 战斗级），两套数据集物理分离、不合并类别空间。",
+  "version": 1,
+  "task": "detect",
+  "imgsz": 640,
+  "classes": [
+    { "id": 0, "name": "ore", "cn": "矿石", "source": "sch" },
+    { "id": 1, "name": "creature", "cn": "生物(场景级)", "source": "sch" },
+    { "id": 2, "name": "obstacle", "cn": "障碍物", "source": "sch" },
+    { "id": 3, "name": "character", "cn": "角色", "source": "sch" }
+  ],
+  "upstream_reference": "SCH-CMYK/game-automation datasets/default/data.yaml: names=[ore,creature,obstacle,character], nc=4, train=images/train, val=images/val",
+  "note": "上游仓库只提交了 data.yaml 骨架，images/ 未提交；训练数据需自采（raw/screenshots/ 经 capture 链路 1Hz 攒帧）。SCH 的 best_20260601.pt（19.2MB, release v1.0）即此 4 类模型。"
+}

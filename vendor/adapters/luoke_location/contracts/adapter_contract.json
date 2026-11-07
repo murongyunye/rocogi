@@ -1,0 +1,102 @@
+{
+  "adapter": "luoke_location",
+  "repo": "zh19990906-luoke_location",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "zh19990906-luoke_location"
+    },
+    {
+      "name": "import_config",
+      "ok": true,
+      "detail": "config.py 导入成功"
+    },
+    {
+      "name": "minimap_present",
+      "ok": true,
+      "detail": "上游原始值 {'top': 292, 'left': 1853, 'width': 150, 'height': 150}"
+    },
+    {
+      "name": "minimap_normalized",
+      "ok": true,
+      "detail": "相对窗口 ROI=(1853, 292, 150, 150)；2560x1440->1920x1080 归一化=(1390, 219, 112, 112)"
+    },
+    {
+      "name": "points_data",
+      "ok": true,
+      "detail": "2469 个点位"
+    },
+    {
+      "name": "icons",
+      "ok": true,
+      "detail": "298 个图标"
+    },
+    {
+      "name": "map_config",
+      "ok": true,
+      "detail": "{\"x_min\": -12, \"y_min\": -11, \"tile_size\": 256, \"json_zoom\": 7, \"map_zoom\": 7}"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoints": [
+      "main_sift.py",
+      "main_ai.py"
+    ],
+    "minimap_raw": {
+      "top": 292,
+      "left": 1853,
+      "width": 150,
+      "height": 150
+    },
+    "minimap_relative_roi": [
+      1853,
+      292,
+      150,
+      150
+    ],
+    "minimap_normalized_1920x1080": [
+      1390,
+      219,
+      112,
+      112
+    ],
+    "minimap_size_presets": {
+      "compact_150": [
+        150,
+        150
+      ],
+      "standard_162": [
+        162,
+        162
+      ],
+      "rounded_255x235": [
+        255,
+        235
+      ]
+    },
+    "dpi_injection": {
+      "win_origin": [
+        0,
+        0
+      ],
+      "dpi_scale": 1.0
+    },
+    "map_config": {
+      "x_min": -12,
+      "y_min": -11,
+      "tile_size": 256,
+      "json_zoom": 7,
+      "map_zoom": 7
+    },
+    "points": 2469,
+    "features": {
+      "SIFT_MAP_NFEATURES": 120000,
+      "SIFT_MINIMAP_MIN_KP": 8,
+      "SIFT_FORCE_FULLMAP_LOST_FRAMES": 10
+    },
+    "path_policy": "LOGIC_MAP_PATH / DISPLAY_MAP_PATH 均需指向 vendor 内 data 或 suite/assets，禁止写回 upstream"
+  }
+}

@@ -1,0 +1,5048 @@
+{
+  "format_version": "sift0.6",
+  "name": "[6] 收集 类 -来自项目Rocopath作者随我所想",
+  "map_path": "display_map.png",
+  "notes": "Category-only export from S3资源全集-启用: 收集.",
+  "items": [
+    {
+      "id": "800762",
+      "x": 1261,
+      "y": 2007,
+      "label": "眠枭之星（金色） 1",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800768",
+      "x": 2181,
+      "y": 1520,
+      "label": "眠枭之星（金色） 3",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800774",
+      "x": 844,
+      "y": 1691,
+      "label": "眠枭之星（金色） 4",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800776",
+      "x": 780,
+      "y": 820,
+      "label": "眠枭之星（金色） 5",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800932",
+      "x": 1776,
+      "y": 2210,
+      "label": "眠枭之星（金色） 7",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800942",
+      "x": 1668,
+      "y": 2167,
+      "label": "眠枭之星（金色） 8",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800944",
+      "x": 1383,
+      "y": 1778,
+      "label": "眠枭之星（金色） 9",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800951",
+      "x": 1701,
+      "y": 2444,
+      "label": "眠枭之星（金色） 10",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800982",
+      "x": 1813,
+      "y": 2891,
+      "label": "眠枭之星（金色） 11",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800996",
+      "x": 1780,
+      "y": 2108,
+      "label": "眠枭之星（金色） 12",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "800997",
+      "x": 1848,
+      "y": 2046,
+      "label": "眠枭之星（金色） 13",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "801148",
+      "x": 2057,
+      "y": 1780,
+      "label": "眠枭之星（金色） 14",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000180",
+      "x": 1715,
+      "y": 978,
+      "label": "眠枭之星（金色） 15",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000183",
+      "x": 1199,
+      "y": 1136,
+      "label": "眠枭之星（金色） 16",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000186",
+      "x": 1689,
+      "y": 730,
+      "label": "眠枭之星（金色） 17",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000187",
+      "x": 1057,
+      "y": 733,
+      "label": "眠枭之星（金色） 18",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000190",
+      "x": 298,
+      "y": 1602,
+      "label": "眠枭之星（金色） 19",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000193",
+      "x": 438,
+      "y": 957,
+      "label": "眠枭之星（金色） 20",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000195",
+      "x": 579,
+      "y": 1484,
+      "label": "眠枭之星（金色） 21",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000201",
+      "x": 326,
+      "y": 1952,
+      "label": "眠枭之星（金色） 22",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000206",
+      "x": 538,
+      "y": 1836,
+      "label": "眠枭之星（金色） 23",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1000209",
+      "x": 2177,
+      "y": 1291,
+      "label": "眠枭之星（金色） 24",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1001171",
+      "x": 2882,
+      "y": 1222,
+      "label": "眠枭之星（蓝色） 1",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001172",
+      "x": 3162,
+      "y": 1464,
+      "label": "眠枭之星（蓝色） 2",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001173",
+      "x": 2890,
+      "y": 3412,
+      "label": "眠枭之星（蓝色） 3",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001174",
+      "x": 2637,
+      "y": 3925,
+      "label": "眠枭之星（蓝色） 4",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001175",
+      "x": 3240,
+      "y": 3860,
+      "label": "眠枭之星（蓝色） 5",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001176",
+      "x": 3310,
+      "y": 3316,
+      "label": "眠枭之星（蓝色） 6",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001177",
+      "x": 3191,
+      "y": 2527,
+      "label": "眠枭之星（蓝色） 7",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001178",
+      "x": 3123,
+      "y": 3060,
+      "label": "眠枭之星（蓝色） 8",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001179",
+      "x": 4085,
+      "y": 3850,
+      "label": "眠枭之星（蓝色） 9",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001180",
+      "x": 4111,
+      "y": 4217,
+      "label": "眠枭之星（蓝色） 10",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001181",
+      "x": 4447,
+      "y": 4233,
+      "label": "眠枭之星（蓝色） 11",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001182",
+      "x": 4097,
+      "y": 3046,
+      "label": "眠枭之星（蓝色） 12",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001183",
+      "x": 4040,
+      "y": 2747,
+      "label": "眠枭之星（蓝色） 13",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001185",
+      "x": 4188,
+      "y": 3322,
+      "label": "眠枭之星（蓝色） 14",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001186",
+      "x": 4818,
+      "y": 3279,
+      "label": "眠枭之星（蓝色） 15",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001187",
+      "x": 5008,
+      "y": 2801,
+      "label": "眠枭之星（蓝色） 16",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001188",
+      "x": 5685,
+      "y": 3406,
+      "label": "眠枭之星（蓝色） 17",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001189",
+      "x": 2754,
+      "y": 1756,
+      "label": "眠枭之星（蓝色） 18",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001190",
+      "x": 2803,
+      "y": 1410,
+      "label": "眠枭之星（蓝色） 19",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001192",
+      "x": 2960,
+      "y": 1312,
+      "label": "眠枭之星（蓝色） 20",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001193",
+      "x": 2899,
+      "y": 3487,
+      "label": "眠枭之星（蓝色） 21",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001194",
+      "x": 2879,
+      "y": 3386,
+      "label": "眠枭之星（蓝色） 22",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001195",
+      "x": 2562,
+      "y": 4241,
+      "label": "眠枭之星（蓝色） 23",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001199",
+      "x": 3369,
+      "y": 3466,
+      "label": "眠枭之星（蓝色） 24",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001200",
+      "x": 3353,
+      "y": 3587,
+      "label": "眠枭之星（蓝色） 25",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001203",
+      "x": 3353,
+      "y": 2837,
+      "label": "眠枭之星（蓝色） 26",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001204",
+      "x": 4022,
+      "y": 3798,
+      "label": "眠枭之星（蓝色） 27",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001205",
+      "x": 4116,
+      "y": 4120,
+      "label": "眠枭之星（蓝色） 28",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001206",
+      "x": 3989,
+      "y": 4031,
+      "label": "眠枭之星（蓝色） 29",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001207",
+      "x": 4194,
+      "y": 4101,
+      "label": "眠枭之星（蓝色） 30",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001208",
+      "x": 3977,
+      "y": 2840,
+      "label": "眠枭之星（蓝色） 31",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001209",
+      "x": 3871,
+      "y": 2855,
+      "label": "眠枭之星（蓝色） 32",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001211",
+      "x": 4971,
+      "y": 3205,
+      "label": "眠枭之星（蓝色） 33",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001212",
+      "x": 5756,
+      "y": 2894,
+      "label": "眠枭之星（蓝色） 34",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001213",
+      "x": 5247,
+      "y": 2895,
+      "label": "眠枭之星（蓝色） 35",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1001214",
+      "x": 5530,
+      "y": 3552,
+      "label": "眠枭之星（蓝色） 36",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002040",
+      "x": 2644,
+      "y": 3921,
+      "label": "眠枭之星（蓝色） 37",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002041",
+      "x": 2644,
+      "y": 3913,
+      "label": "眠枭之星（蓝色） 38",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002042",
+      "x": 2636,
+      "y": 3909,
+      "label": "眠枭之星（蓝色） 39",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002043",
+      "x": 2629,
+      "y": 3912,
+      "label": "眠枭之星（蓝色） 40",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002044",
+      "x": 2629,
+      "y": 3920,
+      "label": "眠枭之星（蓝色） 41",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002045",
+      "x": 3295,
+      "y": 2836,
+      "label": "眠枭之星（蓝色） 42",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002046",
+      "x": 4084,
+      "y": 4116,
+      "label": "眠枭之星（蓝色） 43",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002047",
+      "x": 4205,
+      "y": 4253,
+      "label": "眠枭之星（蓝色） 44",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002048",
+      "x": 4905,
+      "y": 3864,
+      "label": "眠枭之星（蓝色） 45",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002049",
+      "x": 4106,
+      "y": 2550,
+      "label": "眠枭之星（蓝色） 46",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002050",
+      "x": 3278,
+      "y": 2555,
+      "label": "眠枭之星（蓝色） 47",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002051",
+      "x": 3577,
+      "y": 1646,
+      "label": "眠枭之星（蓝色） 48",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002052",
+      "x": 3551,
+      "y": 1598,
+      "label": "眠枭之星（蓝色） 49",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002053",
+      "x": 2959,
+      "y": 1771,
+      "label": "眠枭之星（蓝色） 50",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002054",
+      "x": 2800,
+      "y": 1412,
+      "label": "眠枭之星（蓝色） 51",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002055",
+      "x": 5522,
+      "y": 2046,
+      "label": "眠枭之星（蓝色） 52",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002056",
+      "x": 5520,
+      "y": 2050,
+      "label": "眠枭之星（蓝色） 53",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002057",
+      "x": 5520,
+      "y": 2043,
+      "label": "眠枭之星（蓝色） 54",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002058",
+      "x": 5517,
+      "y": 2043,
+      "label": "眠枭之星（蓝色） 55",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002059",
+      "x": 5516,
+      "y": 2046,
+      "label": "眠枭之星（蓝色） 56",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002060",
+      "x": 5517,
+      "y": 2050,
+      "label": "眠枭之星（蓝色） 57",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002061",
+      "x": 5014,
+      "y": 2411,
+      "label": "眠枭之星（蓝色） 58",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002062",
+      "x": 4767,
+      "y": 3076,
+      "label": "眠枭之星（蓝色） 59",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002063",
+      "x": 4108,
+      "y": 2994,
+      "label": "眠枭之星（蓝色） 60",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002064",
+      "x": 4073,
+      "y": 2968,
+      "label": "眠枭之星（蓝色） 61",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002065",
+      "x": 4027,
+      "y": 3050,
+      "label": "眠枭之星（蓝色） 62",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002066",
+      "x": 5450,
+      "y": 2046,
+      "label": "眠枭之星（蓝色） 63",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002067",
+      "x": 5092,
+      "y": 2230,
+      "label": "眠枭之星（蓝色） 64",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002068",
+      "x": 4885,
+      "y": 2311,
+      "label": "眠枭之星（蓝色） 65",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002069",
+      "x": 5453,
+      "y": 2280,
+      "label": "眠枭之星（蓝色） 66",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002070",
+      "x": 3850,
+      "y": 3418,
+      "label": "眠枭之星（蓝色） 67",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002071",
+      "x": 3541,
+      "y": 3345,
+      "label": "眠枭之星（蓝色） 68",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002072",
+      "x": 3285,
+      "y": 2814,
+      "label": "眠枭之星（蓝色） 69",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002073",
+      "x": 3204,
+      "y": 2881,
+      "label": "眠枭之星（蓝色） 70",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002074",
+      "x": 3312,
+      "y": 3176,
+      "label": "眠枭之星（蓝色） 71",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002075",
+      "x": 5169,
+      "y": 2426,
+      "label": "眠枭之星（蓝色） 72",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002076",
+      "x": 5505,
+      "y": 2195,
+      "label": "眠枭之星（蓝色） 73",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002077",
+      "x": 5480,
+      "y": 1965,
+      "label": "眠枭之星（蓝色） 74",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002415",
+      "x": 4971,
+      "y": 3205,
+      "label": "眠枭之星（蓝色） 75",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002481",
+      "x": 2969,
+      "y": 2469,
+      "label": "眠枭之星（蓝色） 76",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002503",
+      "x": 1910,
+      "y": 2458,
+      "label": "眠枭之星（金色） 25",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002505",
+      "x": 1346,
+      "y": 1760,
+      "label": "眠枭之星（金色） 26",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002506",
+      "x": 1319,
+      "y": 1550,
+      "label": "眠枭之星（金色） 27",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002507",
+      "x": 1319,
+      "y": 1550,
+      "label": "眠枭之星（金色） 28",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002513",
+      "x": 1136,
+      "y": 1829,
+      "label": "眠枭之星（金色） 29",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002517",
+      "x": 1536,
+      "y": 1430,
+      "label": "眠枭之星（金色） 30",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002519",
+      "x": 1461,
+      "y": 1445,
+      "label": "眠枭之星（金色） 31",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002520",
+      "x": 1790,
+      "y": 1916,
+      "label": "眠枭之星（金色） 32",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002521",
+      "x": 1963,
+      "y": 3701,
+      "label": "眠枭之星（金色） 33",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002522",
+      "x": 1633,
+      "y": 4070,
+      "label": "眠枭之星（金色） 34",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002523",
+      "x": 2066,
+      "y": 3829,
+      "label": "眠枭之星（金色） 35",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002524",
+      "x": 1777,
+      "y": 3898,
+      "label": "眠枭之星（金色） 36",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002525",
+      "x": 898,
+      "y": 3363,
+      "label": "眠枭之星（金色） 37",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002526",
+      "x": 1121,
+      "y": 3333,
+      "label": "眠枭之星（金色） 38",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002527",
+      "x": 1236,
+      "y": 3702,
+      "label": "眠枭之星（金色） 39",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002528",
+      "x": 1565,
+      "y": 3647,
+      "label": "眠枭之星（金色） 40",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002529",
+      "x": 1663,
+      "y": 3666,
+      "label": "眠枭之星（金色） 41",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002530",
+      "x": 1754,
+      "y": 3640,
+      "label": "眠枭之星（金色） 42",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002531",
+      "x": 1730,
+      "y": 3706,
+      "label": "眠枭之星（金色） 43",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002532",
+      "x": 1567,
+      "y": 3152,
+      "label": "眠枭之星（金色） 44",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002535",
+      "x": 1824,
+      "y": 3002,
+      "label": "眠枭之星（金色） 45",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002536",
+      "x": 1667,
+      "y": 2985,
+      "label": "眠枭之星（金色） 46",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002537",
+      "x": 2165,
+      "y": 2629,
+      "label": "眠枭之星（金色） 47",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002538",
+      "x": 2197,
+      "y": 2647,
+      "label": "眠枭之星（金色） 48",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002540",
+      "x": 2166,
+      "y": 2599,
+      "label": "眠枭之星（金色） 49",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002541",
+      "x": 2206,
+      "y": 3027,
+      "label": "眠枭之星（金色） 50",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002542",
+      "x": 2237,
+      "y": 3654,
+      "label": "眠枭之星（金色） 51",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002544",
+      "x": 2154,
+      "y": 2135,
+      "label": "眠枭之星（金色） 52",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002545",
+      "x": 1504,
+      "y": 1720,
+      "label": "眠枭之星（金色） 53",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002546",
+      "x": 2195,
+      "y": 1472,
+      "label": "眠枭之星（金色） 54",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002547",
+      "x": 1361,
+      "y": 2294,
+      "label": "眠枭之星（金色） 55",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002548",
+      "x": 1245,
+      "y": 2316,
+      "label": "眠枭之星（金色） 56",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002549",
+      "x": 690,
+      "y": 1279,
+      "label": "眠枭之星（金色） 57",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002550",
+      "x": 914,
+      "y": 2195,
+      "label": "眠枭之星（金色） 58",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002551",
+      "x": 320,
+      "y": 2264,
+      "label": "眠枭之星（金色） 59",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002552",
+      "x": 690,
+      "y": 2103,
+      "label": "眠枭之星（金色） 60",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002553",
+      "x": 297,
+      "y": 1606,
+      "label": "眠枭之星（金色） 61",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002554",
+      "x": 336,
+      "y": 1595,
+      "label": "眠枭之星（金色） 62",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002555",
+      "x": 267,
+      "y": 1600,
+      "label": "眠枭之星（金色） 63",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002556",
+      "x": 120,
+      "y": 1059,
+      "label": "眠枭之星（金色） 64",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002557",
+      "x": 284,
+      "y": 1219,
+      "label": "眠枭之星（金色） 65",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002558",
+      "x": 1387,
+      "y": 879,
+      "label": "眠枭之星（金色） 66",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002559",
+      "x": 1398,
+      "y": 967,
+      "label": "眠枭之星（金色） 67",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002560",
+      "x": 2169,
+      "y": 1913,
+      "label": "眠枭之星（金色） 68",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002561",
+      "x": 786,
+      "y": 2395,
+      "label": "眠枭之星（金色） 69",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002562",
+      "x": 806,
+      "y": 2371,
+      "label": "眠枭之星（金色） 70",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002563",
+      "x": 727,
+      "y": 2377,
+      "label": "眠枭之星（金色） 71",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002565",
+      "x": 669,
+      "y": 2631,
+      "label": "眠枭之星（金色） 72",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002566",
+      "x": 2887,
+      "y": 2935,
+      "label": "眠枭之星（蓝色） 77",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002567",
+      "x": 2753,
+      "y": 3413,
+      "label": "眠枭之星（蓝色） 78",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002568",
+      "x": 2769,
+      "y": 4230,
+      "label": "眠枭之星（蓝色） 79",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002569",
+      "x": 2751,
+      "y": 4129,
+      "label": "眠枭之星（蓝色） 80",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002570",
+      "x": 4508,
+      "y": 4084,
+      "label": "眠枭之星（蓝色） 81",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002571",
+      "x": 3955,
+      "y": 4722,
+      "label": "眠枭之星（蓝色） 82",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002572",
+      "x": 4991,
+      "y": 3551,
+      "label": "眠枭之星（蓝色） 83",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002573",
+      "x": 4960,
+      "y": 3371,
+      "label": "眠枭之星（蓝色） 84",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002574",
+      "x": 5033,
+      "y": 3136,
+      "label": "眠枭之星（蓝色） 85",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002575",
+      "x": 4718,
+      "y": 3335,
+      "label": "眠枭之星（蓝色） 86",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002576",
+      "x": 4528,
+      "y": 2806,
+      "label": "眠枭之星（蓝色） 87",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002577",
+      "x": 4325,
+      "y": 2217,
+      "label": "眠枭之星（蓝色） 88",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002578",
+      "x": 4748,
+      "y": 2390,
+      "label": "眠枭之星（蓝色） 89",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002579",
+      "x": 4808,
+      "y": 2296,
+      "label": "眠枭之星（蓝色） 90",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002581",
+      "x": 4956,
+      "y": 1967,
+      "label": "眠枭之星（蓝色） 91",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002582",
+      "x": 5034,
+      "y": 2193,
+      "label": "眠枭之星（蓝色） 92",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002583",
+      "x": 3997,
+      "y": 2302,
+      "label": "眠枭之星（蓝色） 93",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002584",
+      "x": 5646,
+      "y": 3016,
+      "label": "眠枭之星（蓝色） 94",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002585",
+      "x": 3409,
+      "y": 3015,
+      "label": "眠枭之星（蓝色） 95",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002586",
+      "x": 2720,
+      "y": 2437,
+      "label": "眠枭之星（蓝色） 96",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002587",
+      "x": 3637,
+      "y": 2604,
+      "label": "眠枭之星（蓝色） 97",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002588",
+      "x": 3634,
+      "y": 1836,
+      "label": "眠枭之星（蓝色） 98",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002589",
+      "x": 3081,
+      "y": 2375,
+      "label": "眠枭之星（蓝色） 99",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002590",
+      "x": 3147,
+      "y": 2241,
+      "label": "眠枭之星（蓝色） 100",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002591",
+      "x": 2679,
+      "y": 1264,
+      "label": "眠枭之星（蓝色） 101",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002592",
+      "x": 2596,
+      "y": 1284,
+      "label": "眠枭之星（蓝色） 102",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002593",
+      "x": 2825,
+      "y": 1308,
+      "label": "眠枭之星（蓝色） 103",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002594",
+      "x": 2515,
+      "y": 1325,
+      "label": "眠枭之星（蓝色） 104",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002595",
+      "x": 2497,
+      "y": 1555,
+      "label": "眠枭之星（蓝色） 105",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002596",
+      "x": 3082,
+      "y": 1327,
+      "label": "眠枭之星（蓝色） 106",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002597",
+      "x": 3528,
+      "y": 1521,
+      "label": "眠枭之星（蓝色） 107",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002598",
+      "x": 5377,
+      "y": 3195,
+      "label": "眠枭之星（蓝色） 108",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002599",
+      "x": 3949,
+      "y": 2822,
+      "label": "眠枭之星（蓝色） 109",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002600",
+      "x": 3840,
+      "y": 3082,
+      "label": "眠枭之星（蓝色） 110",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002601",
+      "x": 3997,
+      "y": 3081,
+      "label": "眠枭之星（蓝色） 111",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002606",
+      "x": 2549,
+      "y": 3121,
+      "label": "眠枭之星（蓝色） 112",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002607",
+      "x": 2723,
+      "y": 2914,
+      "label": "眠枭之星（蓝色） 113",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002609",
+      "x": 2722,
+      "y": 2646,
+      "label": "眠枭之星（蓝色） 114",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002610",
+      "x": 2636,
+      "y": 2732,
+      "label": "眠枭之星（蓝色） 115",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002611",
+      "x": 3081,
+      "y": 2852,
+      "label": "眠枭之星（蓝色） 116",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002612",
+      "x": 2978,
+      "y": 2405,
+      "label": "眠枭之星（蓝色） 117",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002613",
+      "x": 2971,
+      "y": 2520,
+      "label": "眠枭之星（蓝色） 118",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002614",
+      "x": 2971,
+      "y": 2520,
+      "label": "眠枭之星（蓝色） 119",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002615",
+      "x": 2971,
+      "y": 2520,
+      "label": "眠枭之星（蓝色） 120",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002616",
+      "x": 2631,
+      "y": 2312,
+      "label": "眠枭之星（蓝色） 121",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002617",
+      "x": 3408,
+      "y": 2767,
+      "label": "眠枭之星（蓝色） 122",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002618",
+      "x": 2968,
+      "y": 2357,
+      "label": "眠枭之星（蓝色） 123",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002619",
+      "x": 3504,
+      "y": 2829,
+      "label": "眠枭之星（蓝色） 124",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002620",
+      "x": 3512,
+      "y": 3590,
+      "label": "眠枭之星（蓝色） 125",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002621",
+      "x": 3268,
+      "y": 3498,
+      "label": "眠枭之星（蓝色） 126",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002622",
+      "x": 3546,
+      "y": 3283,
+      "label": "眠枭之星（蓝色） 127",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002623",
+      "x": 3362,
+      "y": 3100,
+      "label": "眠枭之星（蓝色） 128",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002624",
+      "x": 3460,
+      "y": 3052,
+      "label": "眠枭之星（蓝色） 129",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002625",
+      "x": 3066,
+      "y": 3319,
+      "label": "眠枭之星（蓝色） 130",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1002633",
+      "x": 1728,
+      "y": 4452,
+      "label": "眠枭之星（金色） 73",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002634",
+      "x": 1606,
+      "y": 4612,
+      "label": "眠枭之星（金色） 74",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1002635",
+      "x": 1664,
+      "y": 4574,
+      "label": "眠枭之星（金色） 75",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200915",
+      "x": 1515,
+      "y": 2804,
+      "label": "眠枭之星（金色） 76",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200916",
+      "x": 1720,
+      "y": 2773,
+      "label": "眠枭之星（金色） 77",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200918",
+      "x": 1742,
+      "y": 2127,
+      "label": "眠枭之星（金色） 78",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200922",
+      "x": 1216,
+      "y": 2418,
+      "label": "眠枭之星（金色） 79",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200923",
+      "x": 1319,
+      "y": 1550,
+      "label": "眠枭之星（金色） 80",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200939",
+      "x": 1395,
+      "y": 2826,
+      "label": "眠枭之星（金色） 81",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200941",
+      "x": 1568,
+      "y": 2514,
+      "label": "眠枭之星（金色） 82",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200943",
+      "x": 2016,
+      "y": 1843,
+      "label": "眠枭之星（金色） 83",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200946",
+      "x": 2172,
+      "y": 1310,
+      "label": "眠枭之星（金色） 84",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200947",
+      "x": 2173,
+      "y": 1332,
+      "label": "眠枭之星（金色） 85",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200951",
+      "x": 2073,
+      "y": 3391,
+      "label": "眠枭之星（金色） 86",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200953",
+      "x": 1300,
+      "y": 2928,
+      "label": "眠枭之星（金色） 87",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200965",
+      "x": 2022,
+      "y": 2454,
+      "label": "眠枭之星（金色） 88",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200969",
+      "x": 1176,
+      "y": 2597,
+      "label": "眠枭之星（金色） 89",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200970",
+      "x": 1573,
+      "y": 1372,
+      "label": "眠枭之星（金色） 90",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200972",
+      "x": 721,
+      "y": 2022,
+      "label": "眠枭之星（金色） 91",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200974",
+      "x": 123,
+      "y": 1809,
+      "label": "眠枭之星（金色） 92",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200980",
+      "x": 1620,
+      "y": 1127,
+      "label": "眠枭之星（金色） 93",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200986",
+      "x": 1809,
+      "y": 1096,
+      "label": "眠枭之星（金色） 94",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200987",
+      "x": 648,
+      "y": 948,
+      "label": "眠枭之星（金色） 95",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200989",
+      "x": 1778,
+      "y": 3691,
+      "label": "眠枭之星（金色） 96",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200990",
+      "x": 2207,
+      "y": 1493,
+      "label": "眠枭之星（金色） 97",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200991",
+      "x": 1956,
+      "y": 2861,
+      "label": "眠枭之星（金色） 98",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200992",
+      "x": 1778,
+      "y": 2694,
+      "label": "眠枭之星（金色） 99",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1200993",
+      "x": 955,
+      "y": 3378,
+      "label": "眠枭之星（金色） 100",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "1201072",
+      "x": 3892,
+      "y": 4845,
+      "label": "眠枭之星（蓝色） 131",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201073",
+      "x": 4483,
+      "y": 4249,
+      "label": "眠枭之星（蓝色） 132",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201077",
+      "x": 5618,
+      "y": 3662,
+      "label": "眠枭之星（蓝色） 133",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201078",
+      "x": 5201,
+      "y": 2883,
+      "label": "眠枭之星（蓝色） 134",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201079",
+      "x": 5037,
+      "y": 2793,
+      "label": "眠枭之星（蓝色） 135",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201080",
+      "x": 3912,
+      "y": 2014,
+      "label": "眠枭之星（蓝色） 136",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201084",
+      "x": 2944,
+      "y": 1529,
+      "label": "眠枭之星（蓝色） 137",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201085",
+      "x": 2576,
+      "y": 1292,
+      "label": "眠枭之星（蓝色） 138",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201087",
+      "x": 2917,
+      "y": 2114,
+      "label": "眠枭之星（蓝色） 139",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201088",
+      "x": 2790,
+      "y": 2666,
+      "label": "眠枭之星（蓝色） 140",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201091",
+      "x": 2556,
+      "y": 3187,
+      "label": "眠枭之星（蓝色） 141",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201097",
+      "x": 4495,
+      "y": 3280,
+      "label": "眠枭之星（蓝色） 142",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201100",
+      "x": 5171,
+      "y": 3363,
+      "label": "眠枭之星（蓝色） 143",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201103",
+      "x": 5357,
+      "y": 2528,
+      "label": "眠枭之星（蓝色） 144",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201106",
+      "x": 3794,
+      "y": 1774,
+      "label": "眠枭之星（蓝色） 145",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201107",
+      "x": 3635,
+      "y": 1696,
+      "label": "眠枭之星（蓝色） 146",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201122",
+      "x": 3849,
+      "y": 3059,
+      "label": "眠枭之星（蓝色） 147",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201123",
+      "x": 4118,
+      "y": 4498,
+      "label": "眠枭之星（蓝色） 148",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201124",
+      "x": 3979,
+      "y": 4249,
+      "label": "眠枭之星（蓝色） 149",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201126",
+      "x": 4489,
+      "y": 4203,
+      "label": "眠枭之星（蓝色） 150",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201127",
+      "x": 4191,
+      "y": 4091,
+      "label": "眠枭之星（蓝色） 151",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201128",
+      "x": 3996,
+      "y": 4021,
+      "label": "眠枭之星（蓝色） 152",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201130",
+      "x": 4225,
+      "y": 3219,
+      "label": "眠枭之星（蓝色） 153",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201133",
+      "x": 3453,
+      "y": 2463,
+      "label": "眠枭之星（蓝色） 154",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201135",
+      "x": 3376,
+      "y": 3603,
+      "label": "眠枭之星（蓝色） 155",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201136",
+      "x": 3946,
+      "y": 3235,
+      "label": "眠枭之星（蓝色） 156",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201138",
+      "x": 4071,
+      "y": 3005,
+      "label": "眠枭之星（蓝色） 157",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201139",
+      "x": 4055,
+      "y": 2972,
+      "label": "眠枭之星（蓝色） 158",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201142",
+      "x": 4178,
+      "y": 4325,
+      "label": "眠枭之星（蓝色） 159",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201143",
+      "x": 4077,
+      "y": 3845,
+      "label": "眠枭之星（蓝色） 160",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201144",
+      "x": 4027,
+      "y": 4190,
+      "label": "眠枭之星（蓝色） 161",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201145",
+      "x": 4175,
+      "y": 4266,
+      "label": "眠枭之星（蓝色） 162",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201146",
+      "x": 3867,
+      "y": 3037,
+      "label": "眠枭之星（蓝色） 163",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "1201149",
+      "x": 4757,
+      "y": 2395,
+      "label": "眠枭之星（蓝色） 164",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2701927",
+      "x": 1576,
+      "y": 4097,
+      "label": "眠枭之星（金色） 102",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2701931",
+      "x": 1757,
+      "y": 3625,
+      "label": "眠枭之星（金色） 103",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2701934",
+      "x": 1051,
+      "y": 3800,
+      "label": "眠枭之星（金色） 104",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2701939",
+      "x": 1154,
+      "y": 2159,
+      "label": "眠枭之星（金色） 106",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2701941",
+      "x": 1496,
+      "y": 2787,
+      "label": "眠枭之星（金色） 107",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702047",
+      "x": 1843,
+      "y": 3303,
+      "label": "眠枭之星（金色） 108",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702537",
+      "x": 1231,
+      "y": 760,
+      "label": "眠枭之星（金色） 109",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702538",
+      "x": 1703,
+      "y": 2306,
+      "label": "眠枭之星（金色） 110",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702539",
+      "x": 1145,
+      "y": 1791,
+      "label": "眠枭之星（金色） 111",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702540",
+      "x": 1827,
+      "y": 1992,
+      "label": "眠枭之星（金色） 112",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702541",
+      "x": 1460,
+      "y": 1995,
+      "label": "眠枭之星（金色） 113",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702542",
+      "x": 1838,
+      "y": 1713,
+      "label": "眠枭之星（金色） 114",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702543",
+      "x": 1629,
+      "y": 1589,
+      "label": "眠枭之星（金色） 115",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702544",
+      "x": 1714,
+      "y": 1793,
+      "label": "眠枭之星（金色） 116",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702546",
+      "x": 1957,
+      "y": 2154,
+      "label": "眠枭之星（金色） 117",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702547",
+      "x": 1400,
+      "y": 2351,
+      "label": "眠枭之星（金色） 118",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702548",
+      "x": 1169,
+      "y": 1901,
+      "label": "眠枭之星（金色） 119",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702549",
+      "x": 2184,
+      "y": 1763,
+      "label": "眠枭之星（金色） 120",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702551",
+      "x": 1825,
+      "y": 2245,
+      "label": "眠枭之星（金色） 121",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702552",
+      "x": 1809,
+      "y": 2246,
+      "label": "眠枭之星（金色） 122",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702553",
+      "x": 2052,
+      "y": 2013,
+      "label": "眠枭之星（金色） 123",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702554",
+      "x": 1310,
+      "y": 2313,
+      "label": "眠枭之星（金色） 124",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702555",
+      "x": 682,
+      "y": 1079,
+      "label": "眠枭之星（金色） 125",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702559",
+      "x": 669,
+      "y": 1885,
+      "label": "眠枭之星（金色） 126",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702560",
+      "x": 678,
+      "y": 1064,
+      "label": "眠枭之星（金色） 127",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702561",
+      "x": 680,
+      "y": 1087,
+      "label": "眠枭之星（金色） 128",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702562",
+      "x": 725,
+      "y": 2247,
+      "label": "眠枭之星（金色） 129",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702563",
+      "x": 979,
+      "y": 2179,
+      "label": "眠枭之星（金色） 130",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702564",
+      "x": 701,
+      "y": 701,
+      "label": "眠枭之星（金色） 131",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702566",
+      "x": 355,
+      "y": 2032,
+      "label": "眠枭之星（金色） 132",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702567",
+      "x": 880,
+      "y": 1839,
+      "label": "眠枭之星（金色） 133",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702568",
+      "x": 336,
+      "y": 2199,
+      "label": "眠枭之星（金色） 134",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702569",
+      "x": 701,
+      "y": 697,
+      "label": "眠枭之星（金色） 135",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702570",
+      "x": 858,
+      "y": 2126,
+      "label": "眠枭之星（金色） 136",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702571",
+      "x": 1334,
+      "y": 752,
+      "label": "眠枭之星（金色） 137",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702573",
+      "x": 1546,
+      "y": 844,
+      "label": "眠枭之星（金色） 138",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702574",
+      "x": 1167,
+      "y": 844,
+      "label": "眠枭之星（金色） 139",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702575",
+      "x": 2062,
+      "y": 1177,
+      "label": "眠枭之星（金色） 140",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702576",
+      "x": 1533,
+      "y": 1045,
+      "label": "眠枭之星（金色） 141",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702577",
+      "x": 1554,
+      "y": 1038,
+      "label": "眠枭之星（金色） 142",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702578",
+      "x": 945,
+      "y": 944,
+      "label": "眠枭之星（金色） 143",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702579",
+      "x": 1706,
+      "y": 713,
+      "label": "眠枭之星（金色） 144",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702581",
+      "x": 1688,
+      "y": 1371,
+      "label": "眠枭之星（金色） 145",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702583",
+      "x": 1687,
+      "y": 1359,
+      "label": "眠枭之星（金色） 146",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702584",
+      "x": 2134,
+      "y": 1195,
+      "label": "眠枭之星（金色） 147",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702585",
+      "x": 1015,
+      "y": 1938,
+      "label": "眠枭之星（金色） 148",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702587",
+      "x": 683,
+      "y": 1738,
+      "label": "眠枭之星（金色） 149",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702588",
+      "x": 2149,
+      "y": 3298,
+      "label": "眠枭之星（金色） 150",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702589",
+      "x": 2182,
+      "y": 2729,
+      "label": "眠枭之星（金色） 151",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702592",
+      "x": 2200,
+      "y": 2734,
+      "label": "眠枭之星（金色） 152",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702593",
+      "x": 1213,
+      "y": 2801,
+      "label": "眠枭之星（金色） 153",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702594",
+      "x": 1217,
+      "y": 2788,
+      "label": "眠枭之星（金色） 154",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702595",
+      "x": 1934,
+      "y": 2592,
+      "label": "眠枭之星（金色） 155",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702596",
+      "x": 1544,
+      "y": 2525,
+      "label": "眠枭之星（金色） 156",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702597",
+      "x": 969,
+      "y": 3193,
+      "label": "眠枭之星（金色） 157",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702601",
+      "x": 1418,
+      "y": 3229,
+      "label": "眠枭之星（金色） 158",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702604",
+      "x": 1327,
+      "y": 2524,
+      "label": "眠枭之星（金色） 159",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702605",
+      "x": 910,
+      "y": 2843,
+      "label": "眠枭之星（金色） 160",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702606",
+      "x": 902,
+      "y": 2844,
+      "label": "眠枭之星（金色） 161",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702607",
+      "x": 1251,
+      "y": 2645,
+      "label": "眠枭之星（金色） 162",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702608",
+      "x": 1186,
+      "y": 2480,
+      "label": "眠枭之星（金色） 163",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702609",
+      "x": 1588,
+      "y": 3149,
+      "label": "眠枭之星（金色） 164",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702610",
+      "x": 597,
+      "y": 2648,
+      "label": "眠枭之星（金色） 165",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702611",
+      "x": 522,
+      "y": 2184,
+      "label": "眠枭之星（金色） 166",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702612",
+      "x": 248,
+      "y": 1954,
+      "label": "眠枭之星（金色） 167",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702613",
+      "x": 249,
+      "y": 1957,
+      "label": "眠枭之星（金色） 168",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702614",
+      "x": 149,
+      "y": 1277,
+      "label": "眠枭之星（金色） 169",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702615",
+      "x": 478,
+      "y": 1336,
+      "label": "眠枭之星（金色） 170",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702616",
+      "x": 806,
+      "y": 888,
+      "label": "眠枭之星（金色） 171",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702617",
+      "x": 936,
+      "y": 804,
+      "label": "眠枭之星（金色） 172",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702618",
+      "x": 1108,
+      "y": 1373,
+      "label": "眠枭之星（金色） 173",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702628",
+      "x": 1470,
+      "y": 1673,
+      "label": "眠枭之星（金色） 174",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702629",
+      "x": 1263,
+      "y": 2145,
+      "label": "眠枭之星（金色） 175",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702631",
+      "x": 715,
+      "y": 1785,
+      "label": "眠枭之星（金色） 176",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702632",
+      "x": 135,
+      "y": 1285,
+      "label": "眠枭之星（金色） 177",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702633",
+      "x": 261,
+      "y": 1133,
+      "label": "眠枭之星（金色） 178",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702634",
+      "x": 1908,
+      "y": 1750,
+      "label": "眠枭之星（金色） 179",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702635",
+      "x": 1137,
+      "y": 979,
+      "label": "眠枭之星（金色） 180",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702636",
+      "x": 1736,
+      "y": 1088,
+      "label": "眠枭之星（金色） 181",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702637",
+      "x": 805,
+      "y": 1029,
+      "label": "眠枭之星（金色） 182",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702638",
+      "x": 1181,
+      "y": 2483,
+      "label": "眠枭之星（金色） 183",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702639",
+      "x": 2058,
+      "y": 2454,
+      "label": "眠枭之星（金色） 184",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702640",
+      "x": 2054,
+      "y": 2452,
+      "label": "眠枭之星（金色） 185",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702641",
+      "x": 2144,
+      "y": 3289,
+      "label": "眠枭之星（金色） 186",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702642",
+      "x": 2111,
+      "y": 3349,
+      "label": "眠枭之星（金色） 187",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702643",
+      "x": 925,
+      "y": 2484,
+      "label": "眠枭之星（金色） 188",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702644",
+      "x": 969,
+      "y": 2444,
+      "label": "眠枭之星（金色） 189",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702645",
+      "x": 994,
+      "y": 2920,
+      "label": "眠枭之星（金色） 190",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702646",
+      "x": 934,
+      "y": 2708,
+      "label": "眠枭之星（金色） 191",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702647",
+      "x": 701,
+      "y": 2817,
+      "label": "眠枭之星（金色） 192",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702648",
+      "x": 301,
+      "y": 1835,
+      "label": "眠枭之星（金色） 193",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702649",
+      "x": 575,
+      "y": 1009,
+      "label": "眠枭之星（金色） 194",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702650",
+      "x": 1811,
+      "y": 1026,
+      "label": "眠枭之星（金色） 195",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702651",
+      "x": 1201,
+      "y": 1307,
+      "label": "眠枭之星（金色） 196",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702652",
+      "x": 2131,
+      "y": 1213,
+      "label": "眠枭之星（金色） 197",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702653",
+      "x": 723,
+      "y": 2245,
+      "label": "眠枭之星（金色） 198",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702654",
+      "x": 2069,
+      "y": 3674,
+      "label": "眠枭之星（金色） 199",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702655",
+      "x": 1319,
+      "y": 3431,
+      "label": "眠枭之星（金色） 200",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702656",
+      "x": 1508,
+      "y": 2164,
+      "label": "眠枭之星（金色） 201",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702657",
+      "x": 973,
+      "y": 3198,
+      "label": "眠枭之星（金色） 202",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702729",
+      "x": 1053,
+      "y": 2317,
+      "label": "眠枭之星（金色） 203",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702744",
+      "x": 1640,
+      "y": 2832,
+      "label": "眠枭之星（金色） 204",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702745",
+      "x": 2065,
+      "y": 3294,
+      "label": "眠枭之星（金色） 205",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702746",
+      "x": 1815,
+      "y": 3453,
+      "label": "眠枭之星（金色） 206",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702747",
+      "x": 1397,
+      "y": 3508,
+      "label": "眠枭之星（金色） 207",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702748",
+      "x": 953,
+      "y": 3915,
+      "label": "眠枭之星（金色） 208",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702749",
+      "x": 2129,
+      "y": 3526,
+      "label": "眠枭之星（金色） 209",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "2702782",
+      "x": 2543,
+      "y": 2958,
+      "label": "眠枭之星（蓝色） 165",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702868",
+      "x": 2714,
+      "y": 2911,
+      "label": "眠枭之星（蓝色） 166",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702870",
+      "x": 2956,
+      "y": 2523,
+      "label": "眠枭之星（蓝色） 167",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702871",
+      "x": 2677,
+      "y": 2809,
+      "label": "眠枭之星（蓝色） 168",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702872",
+      "x": 2550,
+      "y": 3125,
+      "label": "眠枭之星（蓝色） 169",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702895",
+      "x": 2428,
+      "y": 2257,
+      "label": "眠枭之星（蓝色） 170",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702897",
+      "x": 2512,
+      "y": 2534,
+      "label": "眠枭之星（蓝色） 171",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702898",
+      "x": 2791,
+      "y": 2665,
+      "label": "眠枭之星（蓝色） 172",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702916",
+      "x": 3241,
+      "y": 1941,
+      "label": "眠枭之星（蓝色） 173",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702917",
+      "x": 3239,
+      "y": 1782,
+      "label": "眠枭之星（蓝色） 174",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702918",
+      "x": 2862,
+      "y": 1958,
+      "label": "眠枭之星（蓝色） 175",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702959",
+      "x": 3853,
+      "y": 2006,
+      "label": "眠枭之星（蓝色） 176",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702961",
+      "x": 3564,
+      "y": 1696,
+      "label": "眠枭之星（蓝色） 177",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702969",
+      "x": 3639,
+      "y": 1697,
+      "label": "眠枭之星（蓝色） 178",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702981",
+      "x": 3391,
+      "y": 2148,
+      "label": "眠枭之星（蓝色） 180",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702983",
+      "x": 3160,
+      "y": 2242,
+      "label": "眠枭之星（蓝色） 181",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2702997",
+      "x": 3786,
+      "y": 2494,
+      "label": "眠枭之星（蓝色） 182",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703011",
+      "x": 3648,
+      "y": 2397,
+      "label": "眠枭之星（蓝色） 183",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703012",
+      "x": 4326,
+      "y": 2619,
+      "label": "眠枭之星（蓝色） 184",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703045",
+      "x": 4752,
+      "y": 2393,
+      "label": "眠枭之星（蓝色） 185",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703046",
+      "x": 4645,
+      "y": 2647,
+      "label": "眠枭之星（蓝色） 186",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703047",
+      "x": 4726,
+      "y": 2433,
+      "label": "眠枭之星（蓝色） 187",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703066",
+      "x": 5047,
+      "y": 1964,
+      "label": "眠枭之星（蓝色） 188",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703067",
+      "x": 4186,
+      "y": 4161,
+      "label": "眠枭之星（蓝色） 189",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703099",
+      "x": 4958,
+      "y": 1887,
+      "label": "眠枭之星（蓝色） 190",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703100",
+      "x": 5312,
+      "y": 2234,
+      "label": "眠枭之星（蓝色） 191",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703101",
+      "x": 5323,
+      "y": 1920,
+      "label": "眠枭之星（蓝色） 192",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703102",
+      "x": 4947,
+      "y": 2093,
+      "label": "眠枭之星（蓝色） 193",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703103",
+      "x": 5092,
+      "y": 2141,
+      "label": "眠枭之星（蓝色） 194",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "2703129",
+      "x": 4947,
+      "y": 2354,
+      "label": "眠枭之星（蓝色） 195",
+      "resource_type_id": "5481",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（蓝色）",
+      "icon_file": "Fti5oosxpx9lvgxZhVaJARaZ0dOs.png"
+    },
+    {
+      "id": "5100163",
+      "x": 2005,
+      "y": 3946,
+      "label": "眠枭之星（金色） 221",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100164",
+      "x": 2057,
+      "y": 3079,
+      "label": "眠枭之星（金色） 222",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100383",
+      "x": 1128,
+      "y": 1684,
+      "label": "眠枭之星（金色） 224",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100384",
+      "x": 1047,
+      "y": 1934,
+      "label": "眠枭之星（金色） 225",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100386",
+      "x": 1480,
+      "y": 1837,
+      "label": "眠枭之星（金色） 227",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100387",
+      "x": 1772,
+      "y": 2867,
+      "label": "眠枭之星（金色） 228",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100391",
+      "x": 1356,
+      "y": 4178,
+      "label": "眠枭之星（金色） 229",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100392",
+      "x": 1542,
+      "y": 3763,
+      "label": "眠枭之星（金色） 230",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100394",
+      "x": 1545,
+      "y": 1117,
+      "label": "眠枭之星（金色） 231",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100398",
+      "x": 1274,
+      "y": 1975,
+      "label": "眠枭之星（金色） 233",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100399",
+      "x": 1248,
+      "y": 1977,
+      "label": "眠枭之星（金色） 234",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100400",
+      "x": 967,
+      "y": 3509,
+      "label": "眠枭之星（金色） 235",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100401",
+      "x": 1773,
+      "y": 3214,
+      "label": "眠枭之星（金色） 236",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100402",
+      "x": 1668,
+      "y": 3470,
+      "label": "眠枭之星（金色） 237",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100403",
+      "x": 2157,
+      "y": 2814,
+      "label": "眠枭之星（金色） 238",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100404",
+      "x": 1328,
+      "y": 2254,
+      "label": "眠枭之星（金色） 239",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100405",
+      "x": 995,
+      "y": 2147,
+      "label": "眠枭之星（金色） 240",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100409",
+      "x": 1593,
+      "y": 2183,
+      "label": "眠枭之星（金色） 241",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "id": "5100414",
+      "x": 1249,
+      "y": 4065,
+      "label": "眠枭之星（金色） 244",
+      "resource_type_id": "5480",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（金色）",
+      "icon_file": "Ft2YTUJYM9fu1a8Q_gu3PdxgxF9q.png"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "1012274",
+      "x": 4339,
+      "y": 965,
+      "label": "眠枭之星（紫色） S3-1012274"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461016",
+      "x": 4057,
+      "y": 1324,
+      "label": "眠枭之星（紫色） S3-5461016"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461017",
+      "x": 4052,
+      "y": 1314,
+      "label": "眠枭之星（紫色） S3-5461017"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461018",
+      "x": 4069,
+      "y": 1326,
+      "label": "眠枭之星（紫色） S3-5461018"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461019",
+      "x": 4071,
+      "y": 1305,
+      "label": "眠枭之星（紫色） S3-5461019"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461020",
+      "x": 4076,
+      "y": 1316,
+      "label": "眠枭之星（紫色） S3-5461020"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461021",
+      "x": 4060,
+      "y": 1303,
+      "label": "眠枭之星（紫色） S3-5461021"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461022",
+      "x": 4102,
+      "y": 865,
+      "label": "眠枭之星（紫色） S3-5461022"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461023",
+      "x": 4169,
+      "y": 1028,
+      "label": "眠枭之星（紫色） S3-5461023"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461078",
+      "x": 4882,
+      "y": 821,
+      "label": "眠枭之星（紫色） S3-5461078"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461079",
+      "x": 4886,
+      "y": 812,
+      "label": "眠枭之星（紫色） S3-5461079"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461080",
+      "x": 4802,
+      "y": 1162,
+      "label": "眠枭之星（紫色） S3-5461080"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461081",
+      "x": 4807,
+      "y": 1167,
+      "label": "眠枭之星（紫色） S3-5461081"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461082",
+      "x": 3543,
+      "y": 1467,
+      "label": "眠枭之星（紫色） S3-5461082"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461087",
+      "x": 4683,
+      "y": 977,
+      "label": "眠枭之星（紫色） S3-5461087"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461088",
+      "x": 4801,
+      "y": 1173,
+      "label": "眠枭之星（紫色） S3-5461088"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461089",
+      "x": 4864,
+      "y": 779,
+      "label": "眠枭之星（紫色） S3-5461089"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461090",
+      "x": 4811,
+      "y": 1168,
+      "label": "眠枭之星（紫色） S3-5461090"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461207",
+      "x": 4846,
+      "y": 1647,
+      "label": "眠枭之星（紫色） S3-5461207"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461209",
+      "x": 4661,
+      "y": 1486,
+      "label": "眠枭之星（紫色） S3-5461209"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461210",
+      "x": 4863,
+      "y": 1607,
+      "label": "眠枭之星（紫色） S3-5461210"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480010",
+      "x": 4031,
+      "y": 1644,
+      "label": "眠枭之星（紫色） S3-5480010"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480013",
+      "x": 4315,
+      "y": 1577,
+      "label": "眠枭之星（紫色） S3-5480013"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480015",
+      "x": 4243,
+      "y": 1412,
+      "label": "眠枭之星（紫色） S3-5480015"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480016",
+      "x": 4305,
+      "y": 1276,
+      "label": "眠枭之星（紫色） S3-5480016"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480021",
+      "x": 4153,
+      "y": 1785,
+      "label": "眠枭之星（紫色） S3-5480021"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480031",
+      "x": 4199,
+      "y": 1714,
+      "label": "眠枭之星（紫色） S3-5480031"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480036",
+      "x": 4077,
+      "y": 1343,
+      "label": "眠枭之星（紫色） S3-5480036"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480038",
+      "x": 4363,
+      "y": 1379,
+      "label": "眠枭之星（紫色） S3-5480038"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480042",
+      "x": 4282,
+      "y": 1688,
+      "label": "眠枭之星（紫色） S3-5480042"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481003",
+      "x": 4540,
+      "y": 1305,
+      "label": "眠枭之星（紫色） S3-5481003"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481004",
+      "x": 4324,
+      "y": 1529,
+      "label": "眠枭之星（紫色） S3-5481004"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481005",
+      "x": 4040,
+      "y": 1770,
+      "label": "眠枭之星（紫色） S3-5481005"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481006",
+      "x": 4149,
+      "y": 1781,
+      "label": "眠枭之星（紫色） S3-5481006"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481007",
+      "x": 4162,
+      "y": 1665,
+      "label": "眠枭之星（紫色） S3-5481007"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000948",
+      "x": 4207,
+      "y": 916,
+      "label": "眠枭之星（紫色） S3-6000948"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000949",
+      "x": 4005,
+      "y": 1021,
+      "label": "眠枭之星（紫色） S3-6000949"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000950",
+      "x": 4210,
+      "y": 1174,
+      "label": "眠枭之星（紫色） S3-6000950"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702705",
+      "x": 3265,
+      "y": 758,
+      "label": "眠枭之星（紫色） S3-6702705"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702706",
+      "x": 3526,
+      "y": 1003,
+      "label": "眠枭之星（紫色） S3-6702706"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702707",
+      "x": 3201,
+      "y": 786,
+      "label": "眠枭之星（紫色） S3-6702707"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702708",
+      "x": 3799,
+      "y": 899,
+      "label": "眠枭之星（紫色） S3-6702708"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702709",
+      "x": 3472,
+      "y": 842,
+      "label": "眠枭之星（紫色） S3-6702709"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702710",
+      "x": 3157,
+      "y": 805,
+      "label": "眠枭之星（紫色） S3-6702710"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702711",
+      "x": 3387,
+      "y": 856,
+      "label": "眠枭之星（紫色） S3-6702711"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702712",
+      "x": 3253,
+      "y": 877,
+      "label": "眠枭之星（紫色） S3-6702712"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702713",
+      "x": 3228,
+      "y": 832,
+      "label": "眠枭之星（紫色） S3-6702713"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702714",
+      "x": 3842,
+      "y": 153,
+      "label": "眠枭之星（紫色） S3-6702714"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702715",
+      "x": 3178,
+      "y": 804,
+      "label": "眠枭之星（紫色） S3-6702715"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702716",
+      "x": 3804,
+      "y": 203,
+      "label": "眠枭之星（紫色） S3-6702716"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702717",
+      "x": 3851,
+      "y": 868,
+      "label": "眠枭之星（紫色） S3-6702717"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702718",
+      "x": 3891,
+      "y": 394,
+      "label": "眠枭之星（紫色） S3-6702718"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702719",
+      "x": 3794,
+      "y": 706,
+      "label": "眠枭之星（紫色） S3-6702719"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702720",
+      "x": 3501,
+      "y": 806,
+      "label": "眠枭之星（紫色） S3-6702720"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702721",
+      "x": 3172,
+      "y": 1186,
+      "label": "眠枭之星（紫色） S3-6702721"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702722",
+      "x": 3371,
+      "y": 129,
+      "label": "眠枭之星（紫色） S3-6702722"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702723",
+      "x": 3541,
+      "y": 584,
+      "label": "眠枭之星（紫色） S3-6702723"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702724",
+      "x": 3635,
+      "y": 356,
+      "label": "眠枭之星（紫色） S3-6702724"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702725",
+      "x": 3356,
+      "y": 286,
+      "label": "眠枭之星（紫色） S3-6702725"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702726",
+      "x": 3384,
+      "y": 129,
+      "label": "眠枭之星（紫色） S3-6702726"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702727",
+      "x": 3331,
+      "y": 122,
+      "label": "眠枭之星（紫色） S3-6702727"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702728",
+      "x": 3376,
+      "y": 247,
+      "label": "眠枭之星（紫色） S3-6702728"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702729",
+      "x": 3473,
+      "y": 113,
+      "label": "眠枭之星（紫色） S3-6702729"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702730",
+      "x": 3394,
+      "y": 94,
+      "label": "眠枭之星（紫色） S3-6702730"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702731",
+      "x": 3349,
+      "y": 279,
+      "label": "眠枭之星（紫色） S3-6702731"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702732",
+      "x": 3443,
+      "y": 259,
+      "label": "眠枭之星（紫色） S3-6702732"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702733",
+      "x": 3440,
+      "y": 182,
+      "label": "眠枭之星（紫色） S3-6702733"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702734",
+      "x": 3356,
+      "y": 344,
+      "label": "眠枭之星（紫色） S3-6702734"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703657",
+      "x": 3246,
+      "y": 950,
+      "label": "眠枭之星（紫色） S3-6703657"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703658",
+      "x": 3827,
+      "y": 459,
+      "label": "眠枭之星（紫色） S3-6703658"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703659",
+      "x": 3705,
+      "y": 182,
+      "label": "眠枭之星（紫色） S3-6703659"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703660",
+      "x": 3681,
+      "y": 883,
+      "label": "眠枭之星（紫色） S3-6703660"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703661",
+      "x": 3836,
+      "y": 156,
+      "label": "眠枭之星（紫色） S3-6703661"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703662",
+      "x": 3376,
+      "y": 112,
+      "label": "眠枭之星（紫色） S3-6703662"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703663",
+      "x": 3477,
+      "y": 234,
+      "label": "眠枭之星（紫色） S3-6703663"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703664",
+      "x": 3369,
+      "y": 175,
+      "label": "眠枭之星（紫色） S3-6703664"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704142",
+      "x": 3383,
+      "y": 158,
+      "label": "眠枭之星（紫色） S3-6704142"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704143",
+      "x": 3409,
+      "y": 309,
+      "label": "眠枭之星（紫色） S3-6704143"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704144",
+      "x": 3383,
+      "y": 249,
+      "label": "眠枭之星（紫色） S3-6704144"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704145",
+      "x": 3274,
+      "y": 300,
+      "label": "眠枭之星（紫色） S3-6704145"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704146",
+      "x": 3437,
+      "y": 239,
+      "label": "眠枭之星（紫色） S3-6704146"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704147",
+      "x": 3303,
+      "y": 248,
+      "label": "眠枭之星（紫色） S3-6704147"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900001",
+      "x": 3374,
+      "y": -145,
+      "label": "眠枭之星（紫色） S3-7900001"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900002",
+      "x": 4643,
+      "y": 1853,
+      "label": "眠枭之星（紫色） S3-7900002"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900004",
+      "x": 4836,
+      "y": 1657,
+      "label": "眠枭之星（紫色） S3-7900004"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900036",
+      "x": 4112,
+      "y": 996,
+      "label": "眠枭之星（紫色） S3-7900036"
+    }
+  ]
+}

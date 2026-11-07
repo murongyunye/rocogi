@@ -1,0 +1,71 @@
+{
+  "adapter": "autocapture",
+  "repo": "Tsuann-RocoKingdom-AutoCapture",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "Tsuann-RocoKingdom-AutoCapture"
+    },
+    {
+      "name": "pyyaml_available",
+      "ok": true,
+      "detail": "读取 config.yaml 需要 PyYAML"
+    },
+    {
+      "name": "load_config",
+      "ok": true,
+      "detail": "7 个顶层配置段"
+    },
+    {
+      "name": "models",
+      "ok": true,
+      "detail": "models=['README.md', 'sprite_detector.onnx', 'sprite_detector.pt']"
+    },
+    {
+      "name": "platform_overrides",
+      "ok": true,
+      "detail": "{'capture.backend': 'windows-mss', 'capture.device': 0, 'detector.rknn_model': None, 'detector.onnx_model': 'models/sprite_detector.onnx', 'detector.conf_threshold': 0.16, 'capture.fps': 30}"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoints": [
+      "main.py"
+    ],
+    "modes": [
+      "debug",
+      "manual",
+      "auto"
+    ],
+    "modules": [
+      "capture.py",
+      "detector.py",
+      "controller.py",
+      "state_machine.py",
+      "tracker.py"
+    ],
+    "original_platform": "Linux RK3588 + HDMI /dev/video0 + USB HID gadget",
+    "windows_overrides": {
+      "capture.backend": "windows-mss",
+      "capture.device": 0,
+      "detector.rknn_model": null,
+      "detector.onnx_model": "models/sprite_detector.onnx",
+      "detector.conf_threshold": 0.16,
+      "capture.fps": 30
+    },
+    "models": [
+      "README.md",
+      "sprite_detector.onnx",
+      "sprite_detector.pt"
+    ],
+    "templates": [
+      "README.md"
+    ],
+    "runtime_requirements": [
+      "auto 模式在 Windows 上用 SendInput 替代 HID gadget",
+      "rv1106/RKNN 模型缺失时只走 onnxruntime CPU"
+    ]
+  }
+}

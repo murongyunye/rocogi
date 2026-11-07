@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Rocogi 套件控制台</title>
+<link rel="stylesheet" href="/app.css" />
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <div class="brand">
+      <span class="mark"></span>
+      <div>
+        <h1>ROCOGI</h1>
+        <p>工作流套件控制台</p>
+      </div>
+    </div>
+    <nav id="nav">
+      <button class="nav-item is-active" data-view="overview"><i>01</i><span>运行总览</span></button>
+      <button class="nav-item" data-view="workflow"><i>02</i><span>工作流视图</span></button>
+      <button class="nav-item" data-view="components"><i>03</i><span>组件图谱</span></button>
+      <button class="nav-item" data-view="evidence"><i>04</i><span>运行证据</span></button>
+      <button class="nav-item" data-view="assets"><i>05</i><span>资产校验</span></button>
+      <button class="nav-item" data-view="logs"><i>06</i><span>实时日志流</span></button>
+      <button class="nav-item" data-view="trigger"><i>07</i><span>链路触发</span></button>
+    </nav>
+    <footer class="rail-foot">
+      <div class="rail-line"><span>suite</span><b id="railSuite">0.1.0</b></div>
+      <div class="rail-line"><span>python</span><b id="railPy">—</b></div>
+      <div class="rail-line"><span>core</span><b id="railC">—</b></div>
+    </footer>
+  </aside>
+
+  <main>
+    <header class="statusbar">
+      <div class="run-head">
+        <span class="eyebrow">当前 run</span>
+        <b id="topRun">—</b>
+        <span id="topRunStatus" class="chip">待载入</span>
+      </div>
+      <div class="run-facts">
+        <span><i>耗时</i><b id="topDuration">—</b></span>
+        <span><i>事件</i><b id="topEvents">—</b></span>
+        <span><i>模式</i><b id="topMode">—</b></span>
+      </div>
+      <div class="backends">
+        <span class="dot-wrap" title="Python 后端 8787"><em id="dotPy"></em>8787 <b id="verPy">—</b></span>
+        <span class="dot-wrap" title="C 核心 8788"><em id="dotC"></em>8788 <b id="verC">—</b></span>
+        <button id="refresh" class="ghost">刷新</button>
+      </div>
+    </header>
+
+    <section class="view is-active" id="view-overview">
+      <div class="view-head">
+        <div>
+          <h2>运行总览</h2>
+          <p>七个独立引擎进程（含 vendor 适配）、55 个组件接线状态与最近的套件运行。</p>
+        </div>
+        <span class="stamp" id="overviewStamp"></span>
+      </div>
+      <div class="kpi-band" id="kpis"></div>
+      <div class="state-line" id="compSummary"></div>
+      <div class="split">
+        <div class="col">
+          <div class="block-head"><h3>引擎</h3><span id="engineSub"></span></div>
+          <div class="engine-list" id="engineList"></div>
+        </div>
+        <div class="col">
+          <div class="block-head"><h3>最近运行</h3><span>套件 runs/ 目录</span></div>
+          <div class="run-list" id="recentRuns"></div>
+        </div>
+      </div>
+      <div class="split lower">
+        <div class="col">
+          <div class="block-head"><h3>发布 · 0.4.0</h3><span id="releaseSub"></span></div>
+          <div class="release-grid" id="releaseGrid"></div>
+          <div class="notice-list" id="releaseNotes"></div>
+        </div>
+        <div class="col">
+          <div class="block-head"><h3>Vendor 适配</h3><span id="vendorSub"></span></div>
+          <div class="vendor-summary" id="vendorSummary"></div>
+          <div class="notice-list" id="vendorNotices"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-workflow">
+      <div class="view-head">
+        <div>
+          <h2>工作流视图</h2>
+          <p>来自 8787 <code>/api/workflows</code> 的真实 DAG。节点位置与连线按后端坐标还原。</p>
+        </div>
+        <div class="tabs" id="workflowTabs"></div>
+      </div>
+      <div class="workflow-stage">
+        <div class="canvas-wrap" id="canvasWrap">
+          <svg id="dag"></svg>
+          <div class="tooltip" id="dagTip" hidden></div>
+        </div>
+        <aside class="inspector" id="nodeInspector">
+          <div class="empty">选择一个节点查看类型、分类与配置。</div>
+        </aside>
+      </div>
+      <div class="legend" id="nodeLegend"></div>
+    </section>
+
+    <section class="view" id="view-components">
+      <div class="view-head">
+        <div>
+          <h2>组件图谱</h2>
+          <p>55 个组件按 7 个引擎分组；状态逐条取自 <code>config/components.toml</code>，四档不折叠。</p>
+        </div>
+        <div class="seg" id="compFilter">
+          <button class="is-on" data-filter="all">全部</button>
+          <button data-filter="issue">仅非 ready</button>
+        </div>
+      </div>
+      <div class="kpi-band compact" id="compKpis"></div>
+      <div class="state-badges" id="compStates"></div>
+      <div class="comp-grid" id="compGrid"></div>
+      <div class="block-head vendor-head"><h3>Vendor 仓适配</h3><span id="vendorPanelSub"></span></div>
+      <div class="vendor-note" id="vendorPanelNote"></div>
+      <div class="vendor-scroll"><table class="vendor-table" id="vendorPanel"></table></div>
+      <div class="notice-list" id="vendorPanelNotices"></div>
+    </section>
+
+    <section class="view" id="view-evidence">
+      <div class="view-head">
+        <div>
+          <h2>运行证据</h2>
+          <p>manifest、metrics 与合并事件流，直接读取 <code>runs/&lt;run_id&gt;/</code>。</p>
+        </div>
+        <select id="runSelect" class="select"></select>
+      </div>
+      <div class="evidence-grid">
+        <div class="col">
+          <div class="block-head"><h3>Manifest</h3><span id="manifestSub"></span></div>
+          <dl class="facts" id="manifestFacts"></dl>
+          <div class="block-head"><h3>引擎指标</h3></div>
+          <div class="metric-table" id="metricTable"></div>
+        </div>
+        <div class="col">
+          <div class="block-head"><h3>事件时间线</h3><span id="eventSub"></span></div>
+          <div class="chips" id="eventFilters"></div>
+          <div class="timeline" id="timeline"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="view" id="view-assets">
+      <div class="view-head">
+        <div>
+          <h2>资产校验</h2>
+          <p>哈希、点位总数、SIFT 特征数与 mmap 加载耗时。运行 <code>assets/verify.py</code> 得到。</p>
+        </div>
+        <button id="verifyAssets" class="primary">重新校验</button>
+      </div>
+      <div class="kpi-band" id="assetKpis"></div>
+      <div class="block-head"><h3>资产清单</h3><span id="assetSub"></span></div>
+      <div class="asset-table" id="assetTable"></div>
+    </section>
+
+    <section class="view" id="view-logs">
+      <div class="view-head">
+        <div>
+          <h2>实时日志流</h2>
+          <p>按字节偏移增量读取 <code>logs/&lt;run_id&gt;/&lt;engine&gt;.jsonl</code>，每秒轮询。</p>
+        </div>
+        <div class="log-controls">
+          <select id="logRun" class="select"></select>
+          <select id="logEngine" class="select"></select>
+          <button id="logToggle" class="primary">开始流式</button>
+          <button id="logClear" class="ghost">清屏</button>
+        </div>
+      </div>
+      <div class="log-status"><span id="logState">未开始</span><span id="logOffset"></span></div>
+      <div class="stream" id="stream"></div>
+    </section>
+
+    <section class="view" id="view-trigger">
+      <div class="view-head">
+        <div>
+          <h2>链路触发</h2>
+          <p>通过 <code>rocogi-suite call</code> 单次拉起引擎；完整 run 走 <code>run --once</code>。</p>
+        </div>
+        <button id="runSuite" class="primary">完整 run · 7 引擎</button>
+      </div>
+      <div class="chain-list" id="chainList"></div>
+      <div class="block-head"><h3>返回 JSON</h3><span id="triggerSub">等待触发</span></div>
+      <pre class="json" id="triggerJson">{}</pre>
+    </section>
+  </main>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

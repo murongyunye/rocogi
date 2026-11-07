@@ -1,0 +1,535 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-08",
+  "note": "本表只登记「从哪儿来、怎么验证」，不存内容。trace-assets.py 读它做现场探测。",
+  "entries": [
+    {
+      "name": "vendor/Adolph321-Adolph",
+      "kind": "git-repo",
+      "local": [
+        "vendor/Adolph321-Adolph"
+      ],
+      "source": {
+        "repo": "Adolph321/-",
+        "commit": "f21516636c4ffd54389cfdaf430169f395b7e682"
+      },
+      "license": "GPL-3.0",
+      "bytes": 1150334,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/ColinHong10-NRC_AI",
+      "kind": "git-repo",
+      "local": [
+        "vendor/ColinHong10-NRC_AI"
+      ],
+      "source": {
+        "repo": "ColinHong10/NRC_AI",
+        "commit": "9b5801b08d349c6505a233c513faa5075f427035"
+      },
+      "license": "MIT",
+      "bytes": 3172198,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/ElliottZhao666666-rocom-codex-pets-gen",
+      "kind": "git-repo",
+      "local": [
+        "vendor/ElliottZhao666666-rocom-codex-pets-gen"
+      ],
+      "source": {
+        "repo": "ElliottZhao666666/rocom-codex-pets-gen",
+        "commit": "4ccce5611db097d7ab083126260a59daaee9ea12"
+      },
+      "license": "MIT",
+      "bytes": 148398,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/Makapic-RocoPilot",
+      "kind": "git-repo",
+      "local": [
+        "vendor/Makapic-RocoPilot"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": "5f3f76e8a029f9c6947e547fcf18b27696929305"
+      },
+      "license": "MIT",
+      "bytes": 1429899,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/Pacific-shark-roco-balance-lab",
+      "kind": "git-repo",
+      "local": [
+        "vendor/Pacific-shark-roco-balance-lab"
+      ],
+      "source": {
+        "repo": "Pacific-shark/roco-balance-lab",
+        "commit": "52f717d283198c8ea3348402564569db976b37a8"
+      },
+      "license": "MIT",
+      "bytes": 909177,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/SCH-CMYK-game-automation",
+      "kind": "git-repo",
+      "local": [
+        "vendor/SCH-CMYK-game-automation"
+      ],
+      "source": {
+        "repo": "SCH-CMYK/game-automation",
+        "commit": "4247f18f44371c5f6ede0ce25a68f4b920571bc1"
+      },
+      "license": "CC BY-NC 4.0",
+      "bytes": 3731170,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/Tsuann-RocoKingdom-AutoCapture",
+      "kind": "git-repo",
+      "local": [
+        "vendor/Tsuann-RocoKingdom-AutoCapture"
+      ],
+      "source": {
+        "repo": "Tsuann/RocoKingdom-AutoCapture",
+        "commit": "4045c88c09b090ade58658e7cf099a760543c909"
+      },
+      "license": "未声明（仓库无 LICENSE 文件）",
+      "bytes": 12767264,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/Wooziii-roco-map-tracker",
+      "kind": "git-repo",
+      "local": [
+        "vendor/Wooziii-roco-map-tracker"
+      ],
+      "source": {
+        "repo": "Wooziii/roco-map-tracker",
+        "commit": "6890ac69f216fbbf78f98b3282522248e864fca1"
+      },
+      "license": "未声明（README 声明第三方地图/图标权利保留）",
+      "bytes": 38059971,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/babalae-better-genshin-impact",
+      "kind": "git-repo",
+      "local": [
+        "vendor/babalae-better-genshin-impact"
+      ],
+      "source": {
+        "repo": "babalae/better-genshin-impact",
+        "commit": "bcfacfb1de2439b006111cae643a620eac41a288"
+      },
+      "license": "GPL-3.0（子项目 Fischless.WindowsInput 为 MIT）",
+      "bytes": 16272116,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/eachyczhang-RocoTools",
+      "kind": "git-repo",
+      "local": [
+        "vendor/eachyczhang-RocoTools"
+      ],
+      "source": {
+        "repo": "eachyczhang/-RocoTools",
+        "commit": "c983c8e9bc3a731f25ad222f1b11b2c2c2b06f06"
+      },
+      "license": "CC BY-NC-SA 4.0",
+      "bytes": 3681362,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/oblitum-Interception",
+      "kind": "git-repo",
+      "local": [
+        "vendor/oblitum-Interception"
+      ],
+      "source": {
+        "repo": "oblitum/Interception",
+        "commit": "39eecbbc46a52e0402f783b872ef62b0254a896a"
+      },
+      "license": "LGPL-3.0（非商用；商用需单独授权）",
+      "bytes": 59236,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/rookie-orange-rocokingdom-ui",
+      "kind": "git-repo",
+      "local": [
+        "vendor/rookie-orange-rocokingdom-ui"
+      ],
+      "source": {
+        "repo": "rookie-orange/rocokingdom-ui",
+        "commit": "2c8a1f6b65b423be7799f3a9ce6b1182064622fe"
+      },
+      "license": "未声明（仓库无 LICENSE 文件）",
+      "bytes": 1240866,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/yorusacri-Auto-rocokingdom",
+      "kind": "git-repo",
+      "local": [
+        "vendor/yorusacri-Auto-rocokingdom"
+      ],
+      "source": {
+        "repo": "yorusacri/Auto-rocokingdom",
+        "commit": "a2589cd6850e14691e81d3d978899d58d3d7caa0"
+      },
+      "license": "MIT",
+      "bytes": 196558,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/yottaapp-yotta",
+      "kind": "git-repo",
+      "local": [
+        "vendor/yottaapp-yotta"
+      ],
+      "source": {
+        "repo": "yottaapp/yotta",
+        "commit": "b835686f15d1d2e364848e788626d54b45b7ad9b"
+      },
+      "license": "自定义非商用许可（个人/教育/研究免费，商用禁止）",
+      "bytes": 20677862,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "vendor/zh19990906-luoke_location",
+      "kind": "git-repo",
+      "local": [
+        "vendor/zh19990906-luoke_location"
+      ],
+      "source": {
+        "repo": "zh19990906/luoke_location",
+        "commit": "5650fe6af004702c6bd7651468cf58fb55a07b5a"
+      },
+      "license": "未声明（README 要求遵守上游与原素材许可）",
+      "bytes": 817468,
+      "fetched_by": "vendor/tools/fetch-upstream.ps1 -Repo <name>",
+      "notes": "runtime-subset"
+    },
+    {
+      "name": "archive/sift-map-tracker",
+      "kind": "rights-excluded",
+      "local": [
+        "archive/sift-map-tracker",
+        "vendor/sift-map-tracker"
+      ],
+      "source": {
+        "repo": null,
+        "commit": null,
+        "client_commit": "76a91d15591e33f880abd7dccb39ab7706e97cb6",
+        "tracker_commit": "8749d444d0529f91875b6d99ac0c838c309ae473",
+        "product_version": "0.10.2"
+      },
+      "license": "未声明（仅发布二进制，无 LICENSE）",
+      "bytes": 354902898,
+      "notes": "上游无公开源码仓，无 URL 可追溯；本地副本是唯一来源，因此保留"
+    },
+    {
+      "name": "datasets/models/upstream/sprite_detector.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/sprite_detector.pt"
+      ],
+      "source": {
+        "repo": "Tsuann/RocoKingdom-AutoCapture",
+        "commit": null,
+        "path": "models/sprite_detector.pt",
+        "sha256": "23e185a7e0c1be7b30339e8cad8f73aa5dfd8c449eb842c8a7150d51f5d37cee",
+        "bytes": 6237226
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 6237226,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "V4 精灵检测, 8类(id6已训, mAP50=0.994), ultralytics 8.4.60, 2026-06-03"
+    },
+    {
+      "name": "datasets/models/upstream/geli.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/geli.pt"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": null,
+        "path": "models/geli.pt",
+        "sha256": "0761cb048ae22aacc0824a8c9d395db078c61b48a0748656a7fda20e7d8b7ebd",
+        "bytes": 22495203
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 22495203,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "内部2类: 0=hepingge(和平鸽), 1=juhuali(菊花梨); 基座 yolo26s, epochs=50"
+    },
+    {
+      "name": "datasets/models/upstream/huolong.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/huolong.pt"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": null,
+        "path": "models/huolong.pt",
+        "sha256": "110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223",
+        "bytes": 20310974
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 20310974,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "1类: huolong(火龙)"
+    },
+    {
+      "name": "datasets/models/upstream/youyingshu.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/youyingshu.pt"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": null,
+        "path": "models/youyingshu.pt",
+        "sha256": "b712cb982630a8d0500b491ad783a3145490546c133b720271f30cac2b3bbf47",
+        "bytes": 19160410
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 19160410,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "1类: youyingshu(幼婴鼠); ultralytics 8.4.56, trained 2026-05-30"
+    },
+    {
+      "name": "datasets/models/upstream/xueren.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/xueren.pt"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": null,
+        "path": "models/xueren.pt",
+        "sha256": "110355639ab2beb96efe85b83d1cc058df9abf732ada3372d8e8bc0456af9223",
+        "bytes": 20310974
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 20310974,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "1类: xueren(雪人)"
+    },
+    {
+      "name": "datasets/models/upstream/yolo26s.pt",
+      "kind": "repo-file",
+      "local": [
+        "datasets/models/upstream/yolo26s.pt"
+      ],
+      "source": {
+        "repo": "Makapic/RocoPilot",
+        "commit": null,
+        "path": "yolo26s.pt",
+        "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a",
+        "bytes": 22588772
+      },
+      "license": "Ultralytics AGPL-3.0 (weights)",
+      "bytes": 22588772,
+      "fetched_by": "datasets/tools/fetch_upstream.py weights",
+      "notes": "Makapic 训练基座权重"
+    },
+    {
+      "name": "datasets/models/upstream/best_20260601.pt",
+      "kind": "local-only",
+      "local": [
+        "datasets/models/upstream/best_20260601.pt"
+      ],
+      "source": {
+        "repo": "SCH-CMYK/game-automation",
+        "commit": null,
+        "path": null,
+        "sha256": "346ee3a82a9cf0efee572f0a995fcc419b97fed16535341287996b00e21d117f",
+        "bytes": 19161683
+      },
+      "license": "no LICENSE file (internal use only)",
+      "bytes": 19161683,
+      "fetched_by": null,
+      "notes": "来自发布包 SCH-CMYK/game-automation，无公开源"
+    },
+    {
+      "name": "datasets/models/upstream/loftr_model.onnx",
+      "kind": "local-only",
+      "local": [
+        "datasets/models/upstream/loftr_model.onnx"
+      ],
+      "source": {
+        "repo": "SCH-CMYK/game-automation",
+        "commit": null,
+        "path": null,
+        "sha256": "c96ab5a69bb9972651e4d6f060eaaa25da1fc18b4f6d1aeacc91b80824cf1531",
+        "bytes": 39295679
+      },
+      "license": "academic weights (see upstream SDK)",
+      "bytes": 39295679,
+      "fetched_by": null,
+      "notes": "来自发布包 SCH-CMYK/game-automation，无公开源"
+    },
+    {
+      "name": "datasets/models/upstream/SIFT_features.npz",
+      "kind": "local-only",
+      "local": [
+        "datasets/models/upstream/SIFT_features.npz"
+      ],
+      "source": {
+        "repo": null,
+        "commit": null,
+        "path": null,
+        "sha256": "bc15c922435d4b0f22f7c2f520a636fe9073a3c02a0bca0404512e2ffdc93186",
+        "bytes": 80157992
+      },
+      "license": "see datasets/map/PROVENANCE (SIFT Map Tracker lineage)",
+      "bytes": 80157992,
+      "fetched_by": null,
+      "notes": "来自发布包 SIFT-Map-Tracker v0.10.2 merged (local zip 4ad3c401…)，无公开源"
+    },
+    {
+      "name": "datasets/models/upstream/item_siamese_v2.onnx",
+      "kind": "local-only",
+      "local": [
+        "datasets/models/upstream/item_siamese_v2.onnx"
+      ],
+      "source": {
+        "repo": null,
+        "commit": null,
+        "path": null,
+        "sha256": "5780084551ad6e66d7e94158e6f9a4373e22127c5a7047727d8d7c0a60179e20",
+        "bytes": 1186251
+      },
+      "license": "see datasets/map/PROVENANCE",
+      "bytes": 1186251,
+      "fetched_by": null,
+      "notes": "来自发布包 SIFT-Map-Tracker v0.10.2 merged，无公开源"
+    },
+    {
+      "name": "datasets/models/upstream/SIFT_features*.npz",
+      "kind": "local-only",
+      "local": [
+        "datasets/models/upstream/SIFT_features.npz",
+        "datasets/models/upstream/SIFT_features_075.npz"
+      ],
+      "source": {
+        "repo": null,
+        "commit": null,
+        "path": null
+      },
+      "license": "未声明（随 SIFT-Map-Tracker v0.10.2 发布包分发）",
+      "bytes": 0,
+      "notes": "特征缓存来自只发二进制的发布包；suite/assets/build.py 只做拷贝与清单，不能凭空重算"
+    },
+    {
+      "name": "archive/release",
+      "kind": "built-artifact",
+      "local": [
+        "archive/release"
+      ],
+      "source": {
+        "rebuild": "python scripts/package-release.py --all"
+      },
+      "license": "本项目构建产物",
+      "bytes": 0,
+      "notes": "0.4.1 的 full 包分片，纯历史构建，脚本可重出"
+    },
+    {
+      "name": "release/",
+      "kind": "built-artifact",
+      "local": [
+        "release"
+      ],
+      "source": {
+        "rebuild": "python scripts/package-release.py --mode lite"
+      },
+      "license": "本项目构建产物",
+      "bytes": 0
+    },
+    {
+      "name": "docs/screenshots",
+      "kind": "built-artifact",
+      "local": [
+        "docs/screenshots"
+      ],
+      "source": {
+        "rebuild": "node scripts/verify/make-shots.mjs"
+      },
+      "license": "截图内含游戏画面，只本地留存",
+      "bytes": 0
+    },
+    {
+      "name": "webui",
+      "kind": "generated",
+      "local": [
+        "webui"
+      ],
+      "source": {
+        "rebuild": "webui/index.html 静态文件，无构建步骤；server.py 直接托管"
+      },
+      "license": "本项目（配色参考 vendor/rookie-orange-rocokingdom-ui，代码独立）",
+      "bytes": 0
+    },
+    {
+      "name": "datasets/map/icons",
+      "kind": "rights-excluded",
+      "local": [
+        "datasets/map/icons",
+        "data/map/icons"
+      ],
+      "source": {
+        "rebuild": null
+      },
+      "license": "第三方",
+      "bytes": 0,
+      "notes": "游戏物品图标，权利不属本项目"
+    },
+    {
+      "name": "datasets/bwiki/*.db",
+      "kind": "rights-excluded",
+      "local": [
+        "datasets/bwiki"
+      ],
+      "source": {
+        "rebuild": null
+      },
+      "license": "第三方",
+      "bytes": 0,
+      "notes": "BWIKI 抓取数据，脚本可重建但不入库"
+    },
+    {
+      "name": "datasets/pvp/*.db",
+      "kind": "rights-excluded",
+      "local": [
+        "datasets/pvp"
+      ],
+      "source": {
+        "rebuild": null
+      },
+      "license": "第三方",
+      "bytes": 0,
+      "notes": "社区 PvP 数据集，脚本可重建但不入库"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "format_version": "sift0.6",
+  "name": "1.\u793A\u4F8B\u8DD1\u56FE\u8DEF\u7EBF",
+  "loop": false,
+  "notes": "\u8DEF\u7EBF\u5750\u6807\u57FA\u4E8E\u5730\u56FE\u50CF\u7D20\u5750\u6807\uFF0C\u4EC5\u7528\u4E8E\u622A\u56FE\u8BC6\u522B\u5BFC\u822A\uFF0C\u4E0D\u6D89\u53CA\u4EFB\u4F55\u6E38\u620F\u5185\u5B58\u8BFB\u53D6\u3002",
+  "points": [
+    {
+      "x": 1576,
+      "y": 3736,
+      "label": "\u8282\u70B9 1",
+      "radius": 30
+    },
+    {
+      "x": 1702,
+      "y": 3685,
+      "label": "\u8282\u70B9 2",
+      "radius": 30
+    },
+    {
+      "x": 1748,
+      "y": 3830,
+      "label": "\u8282\u70B9 3",
+      "radius": 30
+    },
+    {
+      "x": 1593,
+      "y": 4038,
+      "label": "\u8282\u70B9 4",
+      "radius": 30
+    },
+    {
+      "x": 1574,
+      "y": 4209,
+      "label": "\u8282\u70B9 5",
+      "radius": 30
+    }
+  ],
+  "nodes": [
+    {
+      "id": "babce331341f4c8b9ee1cf35ac5f1e51",
+      "x": 1576,
+      "y": 3736,
+      "label": "\u8282\u70B9 1",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "1513b4572f5d44ad891905a8fed57763",
+      "x": 1702,
+      "y": 3685,
+      "label": "\u8282\u70B9 2",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "e83d1c8414b545cfaa33844098e64a9c",
+      "x": 1748,
+      "y": 3830,
+      "label": "\u8282\u70B9 3",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "ec94fd17230d4cffa0cfe8da9c8e3935",
+      "x": 1593,
+      "y": 4038,
+      "label": "\u8282\u70B9 4",
+      "radius": 30,
+      "node_type": "collect"
+    },
+    {
+      "id": "782de15057144b9faeae006714ad910f",
+      "x": 1574,
+      "y": 4209,
+      "label": "\u8282\u70B9 5",
+      "radius": 30,
+      "node_type": "collect"
+    }
+  ],
+  "edges": [
+    {
+      "id": "b1a6d9cf9f2247bf8f5f2e1b909823e9",
+      "from": "babce331341f4c8b9ee1cf35ac5f1e51",
+      "to": "1513b4572f5d44ad891905a8fed57763",
+      "edge_type": "normal"
+    },
+    {
+      "id": "469f9254753b4005bcaa651e25096020",
+      "from": "1513b4572f5d44ad891905a8fed57763",
+      "to": "e83d1c8414b545cfaa33844098e64a9c",
+      "edge_type": "normal"
+    },
+    {
+      "id": "44621c6ad78a4647ae97e07fd2f5c536",
+      "from": "e83d1c8414b545cfaa33844098e64a9c",
+      "to": "ec94fd17230d4cffa0cfe8da9c8e3935",
+      "edge_type": "normal"
+    },
+    {
+      "id": "78f4517929dc406f8cdd29e0cdf74d2a",
+      "from": "ec94fd17230d4cffa0cfe8da9c8e3935",
+      "to": "782de15057144b9faeae006714ad910f",
+      "edge_type": "normal"
+    }
+  ]
+}

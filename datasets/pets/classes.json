@@ -1,0 +1,24 @@
+{
+  "$comment": "统一精灵检测类别表 v1 — id 0-7 与 Tsuann/RocoKingdom-AutoCapture sprite_detector.pt V4 严格一致（增量训练类别兼容），8-10 为 Makapic/RocoPilot 模型补充。geli.pt=和平鸽+菊花梨 组合模型，映射回 id 4/3，不设独立类。",
+  "version": 1,
+  "task": "detect",
+  "imgsz": 640,
+  "classes": [
+    { "id": 0, "name": "huzhu_quan", "cn": "护主犬(音速犬)", "source": "tsuann", "trained": false },
+    { "id": 1, "name": "yibei_er", "cn": "伊贝儿", "source": "tsuann", "trained": false },
+    { "id": 2, "name": "emo_ding", "cn": "恶魔叮", "source": "tsuann", "trained": false },
+    { "id": 3, "name": "juhua_li", "cn": "菊花梨", "source": "tsuann", "trained": false, "aliases": ["juhuali(makapic)"] },
+    { "id": 4, "name": "gongping_ge", "cn": "公平鸽(和平鸽)", "source": "tsuann", "trained": false, "aliases": ["hepingge(makapic)"] },
+    { "id": 5, "name": "ling_hu", "cn": "灵狐", "source": "tsuann", "trained": false },
+    { "id": 6, "name": "xiao_dujiaoshou", "cn": "小独角兽", "source": "tsuann", "trained": true, "note": "V4 mAP50=0.994, 2 视频+19 图" },
+    { "id": 7, "name": "xiaoye_yifu", "cn": "小夜/朔夜伊芙", "source": "tsuann", "trained": false },
+    { "id": 8, "name": "huolong", "cn": "火龙", "source": "makapic", "trained": true, "note": "makapic huolong.pt 独立 1 类模型(内部 id 0)" },
+    { "id": 9, "name": "youyingshu", "cn": "幼婴鼠", "source": "makapic", "trained": true, "note": "makapic youyingshu.pt 独立 1 类模型(内部 id 0), ultralytics 8.4.56, 2026-05-30" },
+    { "id": 10, "name": "xueren", "cn": "雪人", "source": "makapic", "trained": false, "note": "上游 xueren.pt 是 huolong.pt 的字节级复件（占位），无真权重；需自采重训" }
+  ],
+  "upstream_references": {
+    "tsuann": "scripts/train_model.py DEFAULT_CLASSES 8 类 id0-7 verbatim",
+    "makapic": "独立模型: geli.pt(hepingge+juhuali), huolong.pt, youyingshu.pt, xueren.pt; 基座 yolo26s.pt"
+  },
+  "merge_rule": "Tsuann id 0-7 永久冻结；新物种一律从 id 11 起追加。Makapic 独立模型推理时输出其内部 id 0，需按模型名映射到本表 id。"
+}

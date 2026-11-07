@@ -1,0 +1,31 @@
+﻿
+Area         Item                          Result Detail                                                                                                   
+----         ----                          ------ ------                                                                                                   
+Interception keyboard UpperFilters         PASS   当前: keyboard,kbdclass                                                                                    
+Interception keyboard.sys 文件               PASS   C:\Windows\System32\drivers\keyboard.sys                                                                 
+Interception keyboard 驱动状态                 FAIL   State=NotPresent                                                                                         
+Interception mouse UpperFilters            PASS   当前: mouse,mouclass                                                                                       
+Interception mouse.sys 文件                  PASS   C:\Windows\System32\drivers\mouse.sys                                                                    
+Interception mouse 驱动状态                    FAIL   State=NotPresent                                                                                         
+Interception interception_create_context() FAIL   返回 NULL，Win32Error=6（驱动未运行/未重启最常见）                                                                       
+Ports        8787                          PASS   TCP 可连接                                                                                                  
+Ports        8788                          PASS   TCP 可连接                                                                                                  
+Ports        5173                          PASS   TCP 可连接                                                                                                  
+Ports        8800                          PASS   TCP 可连接                                                                                                  
+Toolchain    Go                            PASS   go version go1.25.13 windows/amd64                                                                       
+Toolchain    Node 24                       PASS   v24.18.0                                                                                                 
+Toolchain    Node 22                       PASS   v22.23.4                                                                                                 
+Toolchain    dotnet8                       PASS   8.0.427                                                                                                  
+Toolchain    dotnet10                      PASS   10.0.403                                                                                                 
+Toolchain    Python                        PASS   Python 3.12.16                                                                                           
+Toolchain    Git                           PASS   git version 2.56.0.windows.4                                                                             
+Toolchain    Wails3                        PASS   mod	github.com/wailsapp/wails/v3	v3.0.0-beta.6	h1:k9FHF/T39EyTZNCHweRrLt1c6dwV3R3A+r1oCNiPB8I=           
+Toolchain    pnpm                          PASS   11.5.3                                                                                                   
+Toolchain    rocom-pets 1.14.2             PASS   C:\Users\13005\Downloads\work\rocogi\.toolchain\rocom-pets\rocom-pets-1.14.2-windows-x64.exe             
+Artifacts    yotta.exe                     PASS   C:\Users\13005\Downloads\work\rocogi\.toolchain\build\yotta.exe                                          
+Artifacts    BetterGI Release 产物           PASS   C:\Users\13005\Downloads\work\rocogi\vendor\babalae-better-genshin-impact\BetterGenshinImpact\bin\Release
+
+
+
+汇总: PASS=20  FAIL=3  (本脚本不会重启系统；FAIL 项见上表 Detail)
+提示: 若刚完成驱动安装，请先手动重启一次，再运行本脚本。

@@ -1,0 +1,529 @@
+# 55 components of the merged suite (39 native + 16 vendor). Every component has an owning engine, an entry command,
+# a config file, a dependency list, a status and an `implemented` flag.
+# status       = ready | not-wired | blocked-vendor | skipped | missing-deps (+reason)
+# blocked-vendor = the upstream source is imported and its contract is exported, but it
+#                  cannot run end-to-end without an external prerequisite (driver/SDK/data)
+# implemented  = the entry really executes code for this component (not a placeholder)
+# "rocogi-suite engines --verify" runs every distinct entry and requires structured output.
+
+[[components]]
+id = "capture.mock_window"
+engine = "capture"
+entry = "rocogi-suite call capture capture"
+config = "config/engines/capture.toml"
+deps = ["numpy", "opencv-python-headless", "pywin32", "mss"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "capture.windows_window"
+engine = "capture"
+entry = "rocogi-suite call capture capture"
+config = "config/engines/capture.toml"
+deps = ["pywin32", "Auto-rocokingdom core/capture.py"]
+status = "ready"
+implemented = true
+note = "real PrintWindow branch gated by window.enable_real_capture=false; game-window identification not validated"
+
+[[components]]
+id = "capture.frame_digest"
+engine = "capture"
+entry = "rocogi-suite call capture capture"
+config = "config/engines/capture.toml"
+deps = ["numpy"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "capture.scene_switch"
+engine = "capture"
+entry = "rocogi-suite call capture capture"
+config = "config/engines/capture.toml"
+deps = ["Auto-rocokingdom core/capture.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "capture.foreground"
+engine = "capture"
+entry = "rocogi-suite call capture capture"
+config = "config/engines/capture.toml"
+deps = ["pywin32"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.template_match"
+engine = "vision"
+entry = "rocogi-suite call vision template_match"
+config = "config/engines/vision.toml"
+deps = ["numpy", "opencv-python-headless", "Auto-rocokingdom core/vision.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.edge_preprocess"
+engine = "vision"
+entry = "rocogi-suite call vision edge_preprocess"
+config = "config/engines/vision.toml"
+deps = ["numpy", "opencv-python-headless"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.scene_classify"
+engine = "vision"
+entry = "rocogi-suite call vision scene_classify"
+config = "config/engines/vision.toml"
+deps = ["numpy", "opencv-python-headless"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.roi"
+engine = "vision"
+entry = "rocogi-suite call vision roi"
+config = "config/engines/vision.toml"
+deps = ["numpy"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.sprite_detector"
+engine = "vision"
+entry = "rocogi-suite call vision sprite_detector"
+config = "config/engines/vision.toml"
+deps = ["onnxruntime", "AutoCapture detector.py", "assets/models/sprite_detector.onnx"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "vision.ocr"
+engine = "vision"
+entry = "rocogi-suite call vision ocr"
+config = "config/engines/vision.toml"
+deps = ["tesseract | easyocr (not installed)"]
+status = "skipped"
+implemented = false
+reason = "no OCR backend in engine venv; template/ROI paths still available"
+
+[[components]]
+id = "input.mock"
+engine = "input"
+entry = "rocogi-suite call input probe"
+config = "config/engines/input.toml"
+deps = ["stdlib"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "input.sendinput"
+engine = "input"
+entry = "rocogi-suite call input probe"
+config = "config/engines/input.toml"
+deps = ["ctypes (user32)"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "input.interception"
+engine = "input"
+entry = "rocogi-suite call input probe"
+config = "config/engines/input.toml"
+deps = ["vendor/oblitum-Interception source", "vendor/adapters/interception", "admin"]
+status = "blocked-vendor"
+implemented = false
+reason = "source fully imported (44 files, 14 C API + 5 enums contract exported); installer returned 0 at 17:34 CST with keyboard.sys present, driver activates only after reboot (services still 1060); pending reboot by user decision, SendInput fallback remains active"
+
+[[components]]
+id = "input.key_queue"
+engine = "input"
+entry = "rocogi-suite call input queue"
+config = "config/engines/input.toml"
+deps = ["stdlib"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "input.hotkey"
+engine = "input"
+entry = "rocogi-suite call input hotkey"
+config = "config/engines/input.toml"
+deps = ["ctypes user32 RegisterHotKey"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.minimap_region"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["numpy", "opencv-python-headless"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.features"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["opencv SIFT", "assets/maps/big_map.png"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.anchor_index"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["roco-map-tracker SIFTEngine"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.homography"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["opencv findHomography (RANSAC)"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.trajectory"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["roco-map-tracker SIFTEngine"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.kalman_tracker"
+engine = "sift"
+entry = "rocogi-suite call sift locate"
+config = "config/engines/sift.toml"
+deps = ["roco-map-tracker SIFTEngine"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.route_plan"
+engine = "sift"
+entry = "rocogi-suite call sift route"
+config = "config/engines/sift.toml"
+deps = ["assets/map/points.sqlite", "roco-map route_planner.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "sift.external_tracker"
+engine = "sift"
+entry = "rocogi-suite call sift meta"
+config = "config/engines/sift.toml"
+deps = ["vendor/sift-map-tracker (binary package)", "vendor/Wooziii-roco-map-tracker SIFTEngine"]
+status = "blocked-vendor"
+implemented = false
+reason = "package fully imported but has no runtime source (settings.py only); algorithm runs from vendor SIFTEngine, service.exe stays an optional external process and is never launched"
+
+[[components]]
+id = "battle.dataset"
+engine = "battle"
+entry = "rocogi-suite call battle dataset"
+config = "config/engines/battle.toml"
+deps = ["sqlite3", "assets/db/nrc.db"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "battle.team_builder"
+engine = "battle"
+entry = "rocogi-suite call battle team"
+config = "config/engines/battle.toml"
+deps = ["NRC_AI src/team_builder.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "battle.mcts"
+engine = "battle"
+entry = "rocogi-suite call battle responder"
+config = "config/engines/battle.toml"
+deps = ["NRC_AI src/mcts.py"]
+status = "ready"
+implemented = true
+note = "stdlib RNG seeded from battle.random_seed for deterministic runs"
+
+[[components]]
+id = "battle.damage_model"
+engine = "battle"
+entry = "rocogi-suite call battle damage"
+config = "config/engines/battle.toml"
+deps = ["NRC_AI src/battle.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "battle.turn_state"
+engine = "battle"
+entry = "rocogi-suite call battle turn_state"
+config = "config/engines/battle.toml"
+deps = ["NRC_AI src/models.py BattleState"]
+status = "ready"
+implemented = true
+note = "schema side wired here; HUD/OCR extraction stays in the backend adapter"
+
+[[components]]
+id = "battle.responder"
+engine = "battle"
+entry = "rocogi-suite call battle responder"
+config = "config/engines/battle.toml"
+deps = ["NRC_AI src/battle.py get_actions"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.dag"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler dag"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi backend/app/engine/compiler.py"]
+status = "ready"
+implemented = true
+note = "imports app.nodes before compile; source/target mapped to from/to; non-empty issues => failed"
+
+[[components]]
+id = "scheduler.executor"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler executor"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi backend/app/engine/runtime.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.branch"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler flow"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi flow.branch node"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.foreach"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler flow"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi flow.foreach node (added, loops a subgraph)"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.subgraph"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler flow"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi flow.subgraph node"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.event_bus"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler events"
+config = "config/engines/scheduler.toml"
+deps = ["stdlib", "runs/<run_id>/events.jsonl"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.session_loop"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler session"
+config = "config/engines/scheduler.toml"
+deps = ["AutoCapture state_machine.py"]
+status = "not-wired"
+implemented = false
+reason = "only a static stage table; the real loop is driven by scheduler.capture_fsm + dag until a timer is wired"
+
+[[components]]
+id = "scheduler.capture_fsm"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler fsm"
+config = "config/engines/scheduler.toml"
+deps = ["AutoCapture state_machine.py"]
+status = "ready"
+implemented = true
+
+[[components]]
+id = "scheduler.onedragon_plan"
+engine = "scheduler"
+entry = "rocogi-suite call scheduler onedragon"
+config = "config/engines/scheduler.toml"
+deps = ["Rocogi DAG", "yotta schema only"]
+status = "ready"
+implemented = true
+
+# ---------------------------------------------------------------------------
+# vendor-derived components (source fully imported under vendor/, 0 patches)
+# ---------------------------------------------------------------------------
+[[components]]
+id = "vendor.rocopilot"
+engine = "vendor"
+entry = "rocogi-suite call vendor rocopilot"
+config = "config/engines/vendor.toml"
+deps = ["vendor/Makapic-RocoPilot", "vendor/adapters/rocopilot", "cv2/numpy/mss/pywin32"]
+status = "ready"
+implemented = true
+note = "MIT; adapter re-points config/templates/models at vendor; SendInput fallback declared when the driver is absent"
+
+[[components]]
+id = "vendor.auto_rocokingdom"
+engine = "vendor"
+entry = "rocogi-suite call vendor auto_rocokingdom"
+config = "config/engines/vendor.toml"
+deps = ["vendor/yorusacri-Auto-rocokingdom", "vendor/adapters/auto_rocokingdom"]
+status = "ready"
+implemented = true
+note = "MIT; 11 core modules + 9 templates; capture/vision engines now import this vendor copy"
+
+[[components]]
+id = "vendor.luoke_location"
+engine = "vendor"
+entry = "rocogi-suite call vendor luoke_location"
+config = "config/engines/vendor.toml"
+deps = ["vendor/zh19990906-luoke_location", "vendor/adapters/luoke_location", "cv2/numpy"]
+status = "ready"
+implemented = true
+note = "license undeclared upstream; adapter exports 2469 points / 298 icons and 3-point ROI normalisation"
+
+[[components]]
+id = "vendor.roco_map_tracker"
+engine = "vendor"
+entry = "rocogi-suite call vendor roco_map_tracker"
+config = "config/engines/vendor.toml"
+deps = ["vendor/Wooziii-roco-map-tracker", "vendor/adapters/roco_map_tracker", "cv2/numpy"]
+status = "ready"
+implemented = true
+note = "license undeclared upstream; SIFTEngine + route_planner + 3-point 6144x5888<->8192x8192 affine; point.json is unusable HTML"
+
+[[components]]
+id = "vendor.autocapture"
+engine = "vendor"
+entry = "rocogi-suite call vendor autocapture"
+config = "config/engines/vendor.toml"
+deps = ["vendor/Tsuann-RocoKingdom-AutoCapture", "vendor/adapters/autocapture", "PyYAML"]
+status = "ready"
+implemented = true
+note = "license undeclared upstream; Linux/RKNN config rewritten to Windows mss + ONNX; sprite_detector.onnx present"
+
+[[components]]
+id = "vendor.game_automation"
+engine = "vendor"
+entry = "rocogi-suite call vendor game_automation"
+config = "config/engines/vendor.toml"
+deps = ["vendor/SCH-CMYK-game-automation", "vendor/adapters/game_automation", "cv2/numpy"]
+status = "ready"
+implemented = true
+note = "CC BY-NC 4.0; MiningConfig (28 fields) imported; torch/ultralytics downgraded to OpenCV; DPI normalised to 1920x1080"
+
+[[components]]
+id = "vendor.nrc_ai"
+engine = "vendor"
+entry = "rocogi-suite call vendor nrc_ai"
+config = "config/engines/vendor.toml"
+deps = ["vendor/ColinHong10-NRC_AI", "vendor/adapters/nrc_ai", "sqlite3 readonly"]
+status = "ready"
+implemented = true
+note = "MIT; read-only sqlite contract: pokemon 461 / skill 491 / pokemon_skill 20433 / evolution 206"
+
+[[components]]
+id = "vendor.adolph_rules"
+engine = "vendor"
+entry = "rocogi-suite call vendor adolph_rules"
+config = "config/engines/vendor.toml"
+deps = ["vendor/Adolph321-Adolph", "vendor/adapters/adolph_rules", "node"]
+status = "ready"
+implemented = true
+note = "GPL-3.0; verify.js runs in a separate Node process (process isolation, no static linking); 200 pets / 200 skills / 65 traits"
+
+[[components]]
+id = "vendor.balance_lab"
+engine = "vendor"
+entry = "rocogi-suite call vendor balance_lab"
+config = "config/engines/vendor.toml"
+deps = ["vendor/Pacific-shark-roco-balance-lab", "vendor/adapters/balance_lab", "node"]
+status = "ready"
+implemented = true
+note = "MIT; Node imports src/engine.mjs directly: 12 exports, 6 roster / 25 moves"
+
+[[components]]
+id = "vendor.pets_gen"
+engine = "vendor"
+entry = "rocogi-suite call vendor blocked"
+config = "config/engines/vendor.toml"
+deps = ["vendor/ElliottZhao666666-rocom-codex-pets-gen", "vendor/adapters/pets_gen"]
+status = "blocked-vendor"
+implemented = false
+reason = "source fully imported (7 scripts + 3 tests, validate_input imports cleanly); rocom-pets 1.14.2 Windows x64 renderer is now present, but the single-entity resource directory (model.glb/anim.rka/textures) is proprietary and must be exported interactively with the rocom-pets GUI; only remaining partial item"
+
+[[components]]
+id = "vendor.sift_map_tracker"
+engine = "vendor"
+entry = "rocogi-suite call vendor status"
+config = "config/engines/vendor.toml"
+deps = ["vendor/sift-map-tracker", "vendor/adapters/sift_map_tracker"]
+status = "not-wired"
+implemented = false
+reason = "resolved by toolchain line at 18:22 CST: generated routes/default_route.json (162 nodes / 161 edges) from Wooziii mark_type 701, region {0,0,255,235} in runtime/settings_override.json; probe_service.py 76 frames / 74 found, center=(3123,2511), tracking_source=global_relocate (vendor/docs/evidence/sift_route_probe.json); service.exe is an optional external process, suite runtime still uses Wooziii SIFTEngine"
+
+[[components]]
+id = "vendor.interception"
+engine = "vendor"
+entry = "rocogi-suite call vendor blocked"
+config = "config/engines/vendor.toml"
+deps = ["vendor/oblitum-Interception", "vendor/adapters/interception"]
+status = "blocked-vendor"
+implemented = false
+reason = "LGPL-3.0 non-commercial; 14 C APIs + 5 enums exported; installer completed 17:34 CST (keyboard.sys/mouse.sys present, UpperFilters written) but activation requires reboot; pre-reboot check 24 pass / 3 fail, post-reboot-check.ps1 ready; runtime stays on SendInput until reboot"
+
+[[components]]
+id = "vendor.bettergi"
+engine = "vendor"
+entry = "rocogi-suite call vendor status"
+config = "config/engines/vendor.toml"
+deps = ["vendor/babalae-better-genshin-impact", "vendor/adapters/bettergi", ".NET 10 SDK"]
+status = "not-wired"
+implemented = false
+reason = "GPL-3.0; upstream targets net10.0-windows (not .NET 8); built 0 errors with portable .NET 10 SDK (555 warnings); runnable entry BetterGI.exe + BetterGI.dll packaged at artifacts/bettergi/; WPF UI intentionally not run"
+
+[[components]]
+id = "vendor.yotta"
+engine = "vendor"
+entry = "rocogi-suite call vendor status"
+config = "config/engines/vendor.toml"
+deps = ["vendor/yottaapp-yotta", "vendor/adapters/yotta", "Go 1.25 + Wails v3"]
+status = "not-wired"
+implemented = false
+reason = "source-available custom non-commercial; 189 builtin node contracts exported; built with portable Go 1.25.13 + Wails v3.0.0-beta.6 (60.7 MB yotta.exe packaged at artifacts/yotta/); GUI not started, not wired into suite runtime"
+
+[[components]]
+id = "vendor.rocokingdom_ui"
+engine = "vendor"
+entry = "rocogi-suite call vendor status"
+config = "config/engines/vendor.toml"
+deps = ["vendor/rookie-orange-rocokingdom-ui", "vendor/adapters/rocokingdom_ui", "pnpm 11.5.3"]
+status = "not-wired"
+implemented = false
+reason = "license undeclared upstream; tokens and 214 tsx components exported; pnpm 11.5.3 workspace built (exit 0), dist 49 files / 14.0 MB stays under vendor/apps/website/dist in the full package; static UI not served by the suite"
+
+[[components]]
+id = "vendor.rocotools"
+engine = "vendor"
+entry = "rocogi-suite call vendor status"
+config = "config/engines/vendor.toml"
+deps = ["vendor/eachyczhang-RocoTools", "vendor/adapters/rocotools"]
+status = "not-wired"
+implemented = false
+reason = "CC BY-NC-SA 4.0; 18 table schemas + 9 REST routes exported; crawler populated 594 pets / 553 skills / 571 icons (16 MB) under vendor/data; REST service not started (no node_modules), not wired into suite"

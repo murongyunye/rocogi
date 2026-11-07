@@ -1,0 +1,76 @@
+.venv/
+__pycache__/
+*.pyc
+*.db-shm
+*.db-wal
+.pytest_cache/
+runtime/
+frontend/node_modules/
+frontend/dist/
+dist/
+build/
+release/
+references/
+optional/
+.DS_Store
+webui/
+.toolchain/
+# P0 source import drop (owned by a separate line); shipped via release packaging only
+/vendor/
+
+# suite runtime artifacts
+suite/engines/*/.venv/
+suite/logs/
+suite/runs/
+suite/logs-round*.txt
+suite/probes/auto-rocokingdom/
+suite/.live/
+# large imported binaries: rebuilt by suite/assets/build.py, shipped inside the release zip only
+suite/assets/maps/
+suite/assets/features/
+suite/assets/models/
+suite/assets/db/
+# generated at runtime from datasets/map + vendor assets (same rule as above)
+suite/assets/map/
+suite/assets/templates/
+suite/probes/interception/
+*.zip
+
+# C core build output (built by scripts/build-engines.ps1, see docs/PUBLISH_SCOPE.md)
+backend-c/build2/
+
+# start-all/stop-all logs and ad-hoc dumps
+logs/
+
+# pytest tmp_path sandboxes (backend/tests writes backend/pytest-of-<user>/)
+backend/pytest-of-*/
+
+# scratch: uv package cache, downloaded upstream zips, wiki fetch cache, local probes
+.cache/
+.tmp/
+
+# local release archive (1.8 GB of merge parts + unpacked SIFT package)
+archive/
+
+# upstream model weights/DB: re-fetched by datasets/tools/fetch_upstream.py (sha256 in MANIFEST.json)
+datasets/models/upstream/*.pt
+datasets/models/upstream/*.onnx
+datasets/models/upstream/*.npz
+# per-model manifests belong to the fetched weights, not to the repo
+datasets/models/upstream/*.manifest.json
+# rendered POI previews are build products of the map pipeline
+datasets/map/render/
+# community PvP downloads: fetch_pvp.py re-creates them from pinned commits
+datasets/pvp/.cache/
+# Third-party game data and art are NOT redistributed: fetch_bwiki.py / fetch_pvp.py /
+# datasets/map 的图标抓取脚本会在本机重新生成，仓库只保留工具与出处说明（PROVENANCE.md）。
+datasets/bwiki/*.db
+datasets/bwiki/*.json
+datasets/bwiki/raw/
+datasets/bwiki/wiki/
+datasets/pvp/*.db
+datasets/map/icons/
+# in-game screenshots used by the docs: regenerate locally with scripts/verify/make-shots.mjs
+docs/screenshots/*.png
+# game map icons used by the resource map overlay (redistributed only locally)
+data/map/icons/

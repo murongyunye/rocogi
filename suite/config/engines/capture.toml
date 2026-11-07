@@ -1,0 +1,32 @@
+[engine]
+name = "capture"
+venv = "engines/capture/.venv"
+script = "engines/capture/engine_main.py"
+action = "capture"
+interval = 1.0
+startup_timeout_sec = 30
+
+[window]
+title_keyword = "洛克王国：世界"
+# enabled 2026-11-06: real PrintWindow capture validated locally (see 部署验证报告)
+enable_real_capture = true
+# 2026-11-06: D3D titles return a frozen/blank surface on the window DC
+# (measured: 10 min identical frames, process at 123% CPU). "auto" tries
+# printwindow, rejects an almost-black result, then falls back to the desktop
+# DC cropped to the client rect (live). Force with "printwindow" / "screen".
+backend = "auto"
+min_client = [400, 300]
+
+[minimap]
+# measured in-game sizes; must stay configurable, never hardcode one size
+active_profile = "162x162"
+
+[minimap.profiles]
+"150x150" = [150, 150]
+"162x162" = [162, 162]
+"255x235" = [255, 235]
+
+[frame]
+width = 2560
+height = 1600
+# capture mock frames read this size (previously hardcoded 1920x1080)

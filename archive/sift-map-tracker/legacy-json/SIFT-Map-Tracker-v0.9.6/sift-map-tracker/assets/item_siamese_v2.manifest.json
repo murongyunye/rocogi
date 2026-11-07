@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "release": "s3",
+  "modelFile": "item_siamese_v2.onnx",
+  "promotedFrom": "item_siamese_v2_s3_candidate.onnx",
+  "sha256": "0EE750F266C39CF735E966F062D11131A7DC845807F705AE57FF4458E6931836",
+  "inputSize": 64,
+  "runtimeThreshold": 0.8,
+  "prototypeKinds": [
+    "heibai",
+    "season_xuancai",
+    "season_yise_xuancai",
+    "xuancai",
+    "yise",
+    "yise_heibai",
+    "yise_xuancai"
+  ],
+  "s3Icons": [
+    {
+      "file": "S3赛季野生炫彩.png",
+      "kind": "season_xuancai",
+      "sha256": "3AA11EC3D11CDBE2B351EA19C12AD697688B399516E74E52D891B4A041E531FF",
+      "prototypeScore": 0.945538
+    },
+    {
+      "file": "S3赛季野生炫彩异色.png",
+      "kind": "season_yise_xuancai",
+      "sha256": "64A27F107640C731A8CBE9EA70B186D91185ADF2742C083F08CF8C73F723C47C",
+      "prototypeScore": 0.989291
+    }
+  ],
+  "onnxParity": {
+    "sampleCount": 80,
+    "bestKindMismatchCount": 0,
+    "maxFinalScoreAbsoluteError": 0.000000686
+  }
+}

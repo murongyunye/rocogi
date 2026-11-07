@@ -1,0 +1,954 @@
+{
+  "generated_at": "2026-11-05T16:16:06+08:00",
+  "source_root": "work/upstream",
+  "vendor_root": "work/rocogi/vendor",
+  "repo_count": 16,
+  "total_bytes": 245452900,
+  "repos": [
+    {
+      "repo": "Adolph321-Adolph",
+      "commit": "f21516636c4ffd54389cfdaf430169f395b7e682",
+      "license": "GPL-3.0",
+      "languages": {
+        "JavaScript": 2
+      },
+      "size": {
+        "files": 269,
+        "bytes": 1372593,
+        "megabytes": 1.31
+      },
+      "entrypoints": [
+        "battle-rules-1-200-20261007/battle-rules-1-200/verify.js",
+        "battle-rules-1-200-20261007/battle-rules-1-200/index.js"
+      ],
+      "build_requirements": [
+        "Node 22+（仅 verify.js）",
+        "无编译产物"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 269,
+        "vendor_files": 269,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 269
+      },
+      "archive_size": {
+        "files": 269,
+        "bytes": 1372593,
+        "megabytes": 1.31
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 0,
+      "drop_bytes": 0
+    },
+    {
+      "repo": "ColinHong10-NRC_AI",
+      "commit": "9b5801b08d349c6505a233c513faa5075f427035",
+      "license": "MIT",
+      "languages": {
+        "Python": 45,
+        "Batch": 1
+      },
+      "size": {
+        "files": 20,
+        "bytes": 1793084,
+        "megabytes": 1.71
+      },
+      "entrypoints": [
+        "start.py",
+        "run_web.py",
+        "src/main.py",
+        "src/server.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "fastapi/uvicorn/pandas/openpyxl",
+        "data/nrc.db（已随仓库）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 478,
+        "vendor_files": 478,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 20
+      },
+      "archive_size": {
+        "files": 478,
+        "bytes": 188790207,
+        "megabytes": 180.04
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 472,
+      "drop_bytes": 187535013
+    },
+    {
+      "repo": "ElliottZhao666666-rocom-codex-pets-gen",
+      "commit": "4ccce5611db097d7ab083126260a59daaee9ea12",
+      "license": "MIT",
+      "languages": {
+        "Python": 10
+      },
+      "size": {
+        "files": 22,
+        "bytes": 787161,
+        "megabytes": 0.75
+      },
+      "entrypoints": [
+        "scripts/validate_input.py",
+        "scripts/render_source.py",
+        "scripts/normalize_frames.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "Pillow>=11、imageio-ffmpeg",
+        "外部资源目录 + rocom-pets 1.14.2"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 22,
+        "vendor_files": 22,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 22
+      },
+      "status": "partial",
+      "resolution": {
+        "toolchains": [
+          ".toolchain/rocom-pets/rocom-pets-1.14.2-windows-x64.exe"
+        ],
+        "done": "渲染器已获取（CLI 参数 --render/--pack/--pets-dir/--size/--time/--sheet/--video）；脚本 --help 通过",
+        "still_blocked": "单实体资源目录（model.glb / anim.rka / textures / .wem 等游戏提取物）为专有资源，仓库与公开源均无；需从本机已安装游戏（C:\\\\Program Files\\\\洛克王国：世界(2002304)）用 rocom-pets GUI 导出宠物包",
+        "note": "rocom-pets 仓库无 LICENSE（默认保留所有权利），仅本地个人非商用使用，不再分发"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 22,
+        "bytes": 787161,
+        "megabytes": 0.75
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 2,
+      "drop_bytes": 40485
+    },
+    {
+      "repo": "Makapic-RocoPilot",
+      "commit": "5f3f76e8a029f9c6947e547fcf18b27696929305",
+      "license": "MIT",
+      "languages": {
+        "Python": 40,
+        "Batch": 3
+      },
+      "size": {
+        "files": 64,
+        "bytes": 64156734,
+        "megabytes": 61.18
+      },
+      "entrypoints": [
+        "main.py",
+        "config.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "opencv-python、numpy、mss、pygetwindow",
+        "ultralytics(torch) 可选",
+        "interception-python（缺驱动时回退 SendInput）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 70,
+        "vendor_files": 70,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 64
+      },
+      "archive_size": {
+        "files": 70,
+        "bytes": 64159289,
+        "megabytes": 61.19
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 7,
+      "drop_bytes": 8534
+    },
+    {
+      "repo": "Pacific-shark-roco-balance-lab",
+      "commit": "52f717d283198c8ea3348402564569db976b37a8",
+      "license": "MIT",
+      "languages": {
+        "JavaScript": 22,
+        "Python": 3
+      },
+      "size": {
+        "files": 38,
+        "bytes": 305063,
+        "megabytes": 0.29
+      },
+      "entrypoints": [
+        "server.mjs",
+        "src/engine.mjs",
+        "scripts/experiment.mjs"
+      ],
+      "build_requirements": [
+        "Node >=22.12",
+        "pnpm（仅前端）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 67,
+        "vendor_files": 67,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 38
+      },
+      "archive_size": {
+        "files": 67,
+        "bytes": 16323951,
+        "megabytes": 15.57
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 29,
+      "drop_bytes": 16018888
+    },
+    {
+      "repo": "SCH-CMYK-game-automation",
+      "commit": "4247f18f44371c5f6ede0ce25a68f4b920571bc1",
+      "license": "CC BY-NC 4.0",
+      "languages": {
+        "Python": 30,
+        "Batch": 3
+      },
+      "size": {
+        "files": 48,
+        "bytes": 3799333,
+        "megabytes": 3.62
+      },
+      "entrypoints": [
+        "main.py",
+        "run.bat",
+        "src/engine/controller.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "torch/torchvision/ultralytics/kornia",
+        "opencv-python、customtkinter、mss",
+        "interception-python + 驱动"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 48,
+        "vendor_files": 48,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 48
+      },
+      "archive_size": {
+        "files": 48,
+        "bytes": 3799333,
+        "megabytes": 3.62
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 5,
+      "drop_bytes": 23379
+    },
+    {
+      "repo": "Tsuann-RocoKingdom-AutoCapture",
+      "commit": "4045c88c09b090ade58658e7cf099a760543c909",
+      "license": "未声明（仓库无 LICENSE 文件）",
+      "languages": {
+        "Python": 24,
+        "Shell": 1,
+        "PowerShell": 1
+      },
+      "size": {
+        "files": 33,
+        "bytes": 18888396,
+        "megabytes": 18.01
+      },
+      "entrypoints": [
+        "main.py",
+        "config.yaml",
+        "models/sprite_detector.onnx"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "opencv-python、onnxruntime、PyYAML",
+        "RKNN 仅 RK3588 需要"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 37,
+        "vendor_files": 37,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 33
+      },
+      "archive_size": {
+        "files": 37,
+        "bytes": 18902611,
+        "megabytes": 18.03
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 7,
+      "drop_bytes": 118292
+    },
+    {
+      "repo": "Wooziii-roco-map-tracker",
+      "commit": "6890ac69f216fbbf78f98b3282522248e864fca1",
+      "license": "未声明（README 声明第三方地图/图标权利保留）",
+      "languages": {
+        "Python": 104,
+        "C#": 11,
+        "Batch": 1,
+        "JavaScript": 1
+      },
+      "size": {
+        "files": 512,
+        "bytes": 74272914,
+        "megabytes": 70.83
+      },
+      "entrypoints": [
+        "roco-map-tracker/main.py",
+        "roco-map-tracker/service_main.py",
+        "roco-map-tracker/tracker/engines/sift_engine.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "opencv-python、numpy、mss、Pillow、PySide6、requests"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 649,
+        "vendor_files": 649,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 512
+      },
+      "archive_size": {
+        "files": 649,
+        "bytes": 147771167,
+        "megabytes": 140.93
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 151,
+      "drop_bytes": 73686547
+    },
+    {
+      "repo": "babalae-better-genshin-impact",
+      "commit": "bcfacfb1de2439b006111cae643a620eac41a288",
+      "license": "GPL-3.0（子项目 Fischless.WindowsInput 为 MIT）",
+      "languages": {
+        "C#": 1786,
+        "JavaScript": 4
+      },
+      "size": {
+        "files": 2676,
+        "bytes": 16787793,
+        "megabytes": 16.01
+      },
+      "entrypoints": [
+        "BetterGenshinImpact.sln",
+        "BetterGenshinImpact/Program.cs"
+      ],
+      "build_requirements": [
+        ".NET 8 SDK",
+        "NuGet 联网还原",
+        "Windows 10/11 + WPF"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 3109,
+        "vendor_files": 3109,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 2676
+      },
+      "status": "resolved",
+      "resolution": {
+        "toolchains": [
+          ".toolchain/dotnet10 (SDK 10.0.403)"
+        ],
+        "note": "上游实际目标框架为 net10.0-windows10.0.22621.0（非 .NET 8），故使用 .NET 10 SDK；任务只要求 dotnet build 通过，不运行 WPF UI",
+        "build_commands": [
+          "dotnet build BetterGenshinImpact/BetterGenshinImpact.csproj -c Release"
+        ],
+        "artifact": "vendor/babalae-better-genshin-impact/BetterGenshinImpact/bin/Release/net10.0-windows10.0.22621.0/BetterGI.exe",
+        "evidence": "vendor/docs/evidence/bettergi_build.txt"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 3109,
+        "bytes": 29727050,
+        "megabytes": 28.35
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 2903,
+      "drop_bytes": 1170901827
+    },
+    {
+      "repo": "eachyczhang-RocoTools",
+      "commit": "c983c8e9bc3a731f25ad222f1b11b2c2c2b06f06",
+      "license": "CC BY-NC-SA 4.0",
+      "languages": {
+        "JavaScript": 82,
+        "Vue": 53,
+        "Python": 13,
+        "Shell": 4,
+        "PowerShell": 1
+      },
+      "size": {
+        "files": 772,
+        "bytes": 18405305,
+        "megabytes": 17.55
+      },
+      "entrypoints": [
+        "app/server/src/index.js",
+        "app/client/src/main.js",
+        "crawler"
+      ],
+      "build_requirements": [
+        "Node 20+ / npm",
+        "better-sqlite3、sharp 预编译二进制",
+        "实际图鉴数据（缺失）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 247,
+        "vendor_files": 247,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 772
+      },
+      "status": "resolved",
+      "resolution": {
+        "toolchains": [
+          ".toolchain/venv-crawler (Python 3.12 + requests/bs4/lxml)"
+        ],
+        "data_source": "BWIKI rocom MediaWiki API（crawler/run.py --full）",
+        "crawled": {
+          "pets": 594,
+          "skills": 553,
+          "natures": true,
+          "elements": true,
+          "egg_groups": true,
+          "public_images": 571,
+          "public_bytes": 15001966
+        },
+        "build_commands": [
+          "venv-crawler/Scripts/python.exe crawler/run.py --full"
+        ],
+        "evidence": "vendor/docs/evidence/rocotools_crawl_stats.json"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 247,
+        "bytes": 2820453,
+        "megabytes": 2.69
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 65,
+      "drop_bytes": 526571
+    },
+    {
+      "repo": "oblitum-Interception",
+      "commit": "39eecbbc46a52e0402f783b872ef62b0254a896a",
+      "license": "LGPL-3.0（非商用；商用需单独授权）",
+      "languages": {
+        "C++": 7,
+        "C": 2,
+        "C/C++ header": 2
+      },
+      "size": {
+        "files": 44,
+        "bytes": 124255,
+        "megabytes": 0.12
+      },
+      "entrypoints": [
+        "library/interception.h",
+        "samples"
+      ],
+      "build_requirements": [
+        "MSVC 或 MinGW",
+        "WDK 签名 + 管理员安装内核驱动"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 44,
+        "vendor_files": 44,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 44
+      },
+      "status": "resolved",
+      "resolution": {
+        "installer": "Interception v1.0.1 / install-interception.exe",
+        "elevation": "Start-Process -Verb RunAs（高完整性令牌，无 UAC 阻塞）",
+        "installed_files": [
+          "C:\\\\Windows\\\\System32\\\\drivers\\\\keyboard.sys",
+          "C:\\\\Windows\\\\System32\\\\drivers\\\\mouse.sys"
+        ],
+        "registry": {
+          "keyboard_class_upperfilters": [
+            "keyboard",
+            "kbdclass"
+          ],
+          "mouse_class_upperfilters": [
+            "mouse",
+            "mouclass"
+          ]
+        },
+        "activation_pending_reboot": true,
+        "note": "未重启；重启前 identify.exe 不返回设备列表属预期",
+        "post_reboot_check": {
+          "script": "vendor/tools/post-reboot-check.ps1",
+          "auto_reboot": false,
+          "pre_reboot_result": {
+            "pass": 24,
+            "fail": 3,
+            "fail_items": [
+              "keyboard 驱动状态",
+              "mouse 驱动状态",
+              "interception_create_context()"
+            ]
+          },
+          "evidence_pre_reboot": "vendor/docs/evidence/post_reboot_check_pre_reboot.txt"
+        },
+        "evidence": "vendor/docs/interception_install_output.txt"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 44,
+        "bytes": 124255,
+        "megabytes": 0.12
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 0,
+      "drop_bytes": 0
+    },
+    {
+      "repo": "rookie-orange-rocokingdom-ui",
+      "commit": "2c8a1f6b65b423be7799f3a9ce6b1182064622fe",
+      "license": "未声明（仓库无 LICENSE 文件）",
+      "languages": {
+        "TypeScript/TSX": 214,
+        "TypeScript": 64
+      },
+      "size": {
+        "files": 369,
+        "bytes": 19005059,
+        "megabytes": 18.12
+      },
+      "entrypoints": [
+        "package.json",
+        "packages/tokens/src/index.ts",
+        "packages/ui/src/index.ts"
+      ],
+      "build_requirements": [
+        "Node >=22.12",
+        "pnpm 11.5.3",
+        "vite-plus catalog 依赖"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 439,
+        "vendor_files": 439,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 369
+      },
+      "status": "resolved",
+      "resolution": {
+        "toolchains": [
+          ".toolchain/node (22.23.4)",
+          ".toolchain/npm-global (pnpm 11.5.3)"
+        ],
+        "build_commands": [
+          "pnpm install --node-linker=hoisted --config.package-import-method=copy",
+          "pnpm --config.verify-deps-before-run=false -r run build"
+        ],
+        "artifact": "vendor/rookie-orange-rocokingdom-ui/apps/website/dist/index.html",
+        "evidence": "vendor/docs/evidence/rocokingdom_ui_build.txt"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 439,
+        "bytes": 14280739,
+        "megabytes": 13.62
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 23130,
+      "drop_bytes": 350417480
+    },
+    {
+      "repo": "sift-map-tracker",
+      "commit": null,
+      "license": "未声明（仅发布二进制，无 LICENSE 文件）",
+      "languages": {
+        "Python": 1
+      },
+      "size": {
+        "files": 7,
+        "bytes": 143061,
+        "megabytes": 0.14
+      },
+      "entrypoints": [
+        "SiftMapTracker.Client.exe",
+        "sift-map-tracker/service/service.exe",
+        "sift-map-tracker/settings.py"
+      ],
+      "build_requirements": [
+        "Windows x64",
+        "无构建（发布包已含 exe）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 213,
+        "vendor_files": 213,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 7
+      },
+      "status": "resolved",
+      "resolution": {
+        "optional_external_process": true,
+        "probe_script": "vendor/adapters/sift_map_tracker/probe_service.py",
+        "protocol": {
+          "transport": "stdio NDJSON（stdout 输出；首条 ready，帧间隔约 50ms）",
+          "ready_fields": [
+            "refresh_rate_ms",
+            "region",
+            "route_path",
+            "control_path",
+            "memory_policy"
+          ],
+          "frame_fields": [
+            "found",
+            "inertial",
+            "tracking_source",
+            "minimap_visible",
+            "center_x",
+            "center_y",
+            "frame_ms",
+            "image_b64",
+            "route_name",
+            "waypoint_index",
+            "detected_items",
+            "item_status"
+          ],
+          "startup_seconds": 8.9,
+          "log_channel": "type=log"
+        },
+        "observed_errors": [
+          "Unable to activate route: default_route.json.",
+          "Tracker loop error: Capture region has not been configured. Select the minimap region in the client first."
+        ],
+        "default_route": {
+          "path": "vendor/sift-map-tracker/sift-map-tracker/routes/default_route.json",
+          "generator": "vendor/adapters/sift_map_tracker/build_default_route.py",
+          "source": "Wooziii-roco-map-tracker/data/points.normalized.json（mark_type 701）+ tracker.route_planner",
+          "format_version": "sift0.6",
+          "nodes": 162,
+          "edges": 161,
+          "bytes": 77442
+        },
+        "region_override": {
+          "file": "vendor/sift-map-tracker/sift-map-tracker/runtime/settings_override.json",
+          "value": {
+            "top": 0,
+            "left": 0,
+            "width": 255,
+            "height": 235
+          }
+        },
+        "probe_result": {
+          "frames": 76,
+          "found_true": 74,
+          "minimap_visible": 74,
+          "center": [
+            3123,
+            2511
+          ],
+          "route_name": "默认采集路线-701",
+          "tracking_source": "global_relocate",
+          "synthetic_minimap": true
+        },
+        "still_blocked": null,
+        "evidence": "vendor/docs/evidence/sift_route_probe.json"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 213,
+        "bytes": 647621958,
+        "megabytes": 617.62
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 209,
+      "drop_bytes": 647557176
+    },
+    {
+      "repo": "yorusacri-Auto-rocokingdom",
+      "commit": "a2589cd6850e14691e81d3d978899d58d3d7caa0",
+      "license": "MIT",
+      "languages": {
+        "Python": 29
+      },
+      "size": {
+        "files": 50,
+        "bytes": 682266,
+        "megabytes": 0.65
+      },
+      "entrypoints": [
+        "main.py",
+        "client_main.py",
+        "core/engine.py"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "opencv-python、numpy、mss、pygetwindow(pywin32)"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 50,
+        "vendor_files": 50,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 50
+      },
+      "archive_size": {
+        "files": 50,
+        "bytes": 682266,
+        "megabytes": 0.65
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 4,
+      "drop_bytes": 25709
+    },
+    {
+      "repo": "yottaapp-yotta",
+      "commit": "b835686f15d1d2e364848e788626d54b45b7ad9b",
+      "license": "自定义非商用许可（个人/教育/研究免费，商用禁止）",
+      "languages": {
+        "Go": 1019,
+        "TypeScript": 375,
+        "Vue": 156,
+        "PowerShell": 22,
+        "JavaScript": 14,
+        "Python": 3,
+        "C": 1
+      },
+      "size": {
+        "files": 2032,
+        "bytes": 20763632,
+        "megabytes": 19.8
+      },
+      "entrypoints": [
+        "main.go",
+        "cmd/node-catalog/main.go",
+        "contracts/node/v2/builtin-catalog.json",
+        "frontend/package.json"
+      ],
+      "build_requirements": [
+        "Go 1.25（go.mod 声明）",
+        "Wails + WebView2",
+        "Node 22.12+ / npm"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 1950,
+        "vendor_files": 1950,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 2032
+      },
+      "status": "resolved",
+      "resolution": {
+        "toolchains": [
+          ".toolchain/go (go1.25.13)",
+          ".toolchain/npm-global (pnpm 11.5.3)",
+          ".toolchain/node24 (node 24.18.0)",
+          ".toolchain/gobin/wails3.exe (v3.0.0-beta.6)",
+          "系统 WebView2 156.0.4314.58"
+        ],
+        "build_commands": [
+          "node frontend/scripts/generate-bindings.mjs",
+          "node_modules/.bin/run-s build:app bundle:check",
+          "go build -trimpath -o .toolchain/build/yotta.exe ."
+        ],
+        "artifact": ".toolchain/build/yotta.exe (60,669,952 B)",
+        "evidence": "vendor/docs/evidence/yotta_build.txt"
+      },
+      "verified_at": "2026-11-05T18:15:00+08:00",
+      "archive_size": {
+        "files": 1950,
+        "bytes": 26394676,
+        "megabytes": 25.17
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 23866,
+      "drop_bytes": 315579193
+    },
+    {
+      "repo": "zh19990906-luoke_location",
+      "commit": "5650fe6af004702c6bd7651468cf58fb55a07b5a",
+      "license": "未声明（README 要求遵守上游与原素材许可）",
+      "languages": {
+        "Python": 23
+      },
+      "size": {
+        "files": 327,
+        "bytes": 4166251,
+        "megabytes": 3.97
+      },
+      "entrypoints": [
+        "main_sift.py",
+        "main_ai.py",
+        "data/points_data.json"
+      ],
+      "build_requirements": [
+        "Python 3.11+",
+        "opencv-python、numpy、PySide6",
+        "data 地图资源（已随仓库含 dist）"
+      ],
+      "imported_at": "2026-11-05T16:16:06+08:00",
+      "completeness": {
+        "status": "complete",
+        "upstream_files": 1596,
+        "vendor_files": 1596,
+        "missing": [],
+        "extra_generated": [],
+        "compared_excluding": [
+          ".git",
+          ".venv",
+          "__pycache__"
+        ],
+        "local_state": "runtime-subset",
+        "runtime_files": 327
+      },
+      "archive_size": {
+        "files": 1596,
+        "bytes": 161069181,
+        "megabytes": 153.61
+      },
+      "local_state": "runtime-subset",
+      "drop_files": 1270,
+      "drop_bytes": 156908482
+    }
+  ],
+  "blockers_updated_at": "2026-11-05T18:15:00+08:00",
+  "status_summary": {
+    "resolved_or_adapted": 15,
+    "partial": 1,
+    "still_blocked": 0,
+    "total": 16
+  },
+  "pruned_at": "2026-11-06T13:30:00+08:00",
+  "local_policy": "runtime-subset: 本地仅保留运行时所需文件；上游完整源码以 GitHub 仓库 murongyunyeh/rocogi 的文本白名单为归档",
+  "total_bytes_before_prune": 1324626890,
+  "total_files": 7283
+}

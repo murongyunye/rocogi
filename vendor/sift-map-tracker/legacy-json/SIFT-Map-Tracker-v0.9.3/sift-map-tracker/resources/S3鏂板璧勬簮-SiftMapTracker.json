@@ -1,0 +1,2628 @@
+{
+  "format_version": "sift0.6",
+  "map_path": "display_map.png",
+  "notes": "结晶花、美愿结晶和紫色眠枭均按 MODEL_CONF 模型路径识别，并按地图坐标去重。",
+  "name": "S3新增资源-启用",
+  "items": [
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012126",
+      "x": 4798,
+      "y": 1215,
+      "label": "美愿结晶 S3-1012126"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012128",
+      "x": 4797,
+      "y": 1215,
+      "label": "美愿结晶 S3-1012128"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012129",
+      "x": 4798,
+      "y": 1216,
+      "label": "美愿结晶 S3-1012129"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012130",
+      "x": 4845,
+      "y": 1175,
+      "label": "美愿结晶 S3-1012130"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012131",
+      "x": 4773,
+      "y": 1146,
+      "label": "美愿结晶 S3-1012131"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012132",
+      "x": 4781,
+      "y": 1186,
+      "label": "美愿结晶 S3-1012132"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012133",
+      "x": 4781,
+      "y": 1185,
+      "label": "美愿结晶 S3-1012133"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012134",
+      "x": 4769,
+      "y": 1148,
+      "label": "美愿结晶 S3-1012134"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012135",
+      "x": 4788,
+      "y": 1145,
+      "label": "美愿结晶 S3-1012135"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012136",
+      "x": 4844,
+      "y": 1154,
+      "label": "美愿结晶 S3-1012136"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012137",
+      "x": 4845,
+      "y": 1153,
+      "label": "美愿结晶 S3-1012137"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012138",
+      "x": 4845,
+      "y": 1190,
+      "label": "美愿结晶 S3-1012138"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012139",
+      "x": 4845,
+      "y": 1191,
+      "label": "美愿结晶 S3-1012139"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012140",
+      "x": 4837,
+      "y": 1211,
+      "label": "美愿结晶 S3-1012140"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012141",
+      "x": 4835,
+      "y": 1211,
+      "label": "美愿结晶 S3-1012141"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012142",
+      "x": 4836,
+      "y": 1210,
+      "label": "美愿结晶 S3-1012142"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012143",
+      "x": 4843,
+      "y": 1153,
+      "label": "美愿结晶 S3-1012143"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012144",
+      "x": 4768,
+      "y": 1148,
+      "label": "美愿结晶 S3-1012144"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012145",
+      "x": 4778,
+      "y": 1183,
+      "label": "美愿结晶 S3-1012145"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012146",
+      "x": 4784,
+      "y": 1131,
+      "label": "美愿结晶 S3-1012146"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012149",
+      "x": 4799,
+      "y": 1215,
+      "label": "美愿结晶 S3-1012149"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012150",
+      "x": 4821,
+      "y": 1215,
+      "label": "美愿结晶 S3-1012150"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012151",
+      "x": 4779,
+      "y": 1185,
+      "label": "美愿结晶 S3-1012151"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012152",
+      "x": 4772,
+      "y": 1149,
+      "label": "美愿结晶 S3-1012152"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012153",
+      "x": 4787,
+      "y": 1195,
+      "label": "美愿结晶 S3-1012153"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012154",
+      "x": 4782,
+      "y": 1130,
+      "label": "美愿结晶 S3-1012154"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012155",
+      "x": 4793,
+      "y": 1128,
+      "label": "美愿结晶 S3-1012155"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012156",
+      "x": 4841,
+      "y": 1150,
+      "label": "美愿结晶 S3-1012156"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012157",
+      "x": 4844,
+      "y": 1176,
+      "label": "美愿结晶 S3-1012157"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012158",
+      "x": 4839,
+      "y": 1202,
+      "label": "美愿结晶 S3-1012158"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "1012274",
+      "x": 4339,
+      "y": 965,
+      "label": "眠枭之星（紫色） S3-1012274"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012361",
+      "x": 4787,
+      "y": 1148,
+      "label": "美愿结晶 S3-1012361"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012362",
+      "x": 4786,
+      "y": 1148,
+      "label": "美愿结晶 S3-1012362"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012363",
+      "x": 4825,
+      "y": 1145,
+      "label": "美愿结晶 S3-1012363"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012364",
+      "x": 4827,
+      "y": 1145,
+      "label": "美愿结晶 S3-1012364"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012365",
+      "x": 4827,
+      "y": 1144,
+      "label": "美愿结晶 S3-1012365"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012366",
+      "x": 4788,
+      "y": 1193,
+      "label": "美愿结晶 S3-1012366"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012367",
+      "x": 4774,
+      "y": 1148,
+      "label": "美愿结晶 S3-1012367"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012368",
+      "x": 4774,
+      "y": 1149,
+      "label": "美愿结晶 S3-1012368"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012369",
+      "x": 4795,
+      "y": 1126,
+      "label": "美愿结晶 S3-1012369"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012370",
+      "x": 4847,
+      "y": 1178,
+      "label": "美愿结晶 S3-1012370"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012372",
+      "x": 4773,
+      "y": 1155,
+      "label": "美愿结晶 S3-1012372"
+    },
+    {
+      "resource_type_id": "101003",
+      "resource_group_id": "144",
+      "resource_title": "美愿结晶",
+      "icon_file": "101003.png",
+      "id": "1012373",
+      "x": 4823,
+      "y": 1145,
+      "label": "美愿结晶 S3-1012373"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5200515",
+      "x": 4594,
+      "y": 776,
+      "label": "结晶花 S3-5200515"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461016",
+      "x": 4057,
+      "y": 1324,
+      "label": "眠枭之星（紫色） S3-5461016"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461017",
+      "x": 4052,
+      "y": 1314,
+      "label": "眠枭之星（紫色） S3-5461017"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461018",
+      "x": 4069,
+      "y": 1326,
+      "label": "眠枭之星（紫色） S3-5461018"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461019",
+      "x": 4071,
+      "y": 1305,
+      "label": "眠枭之星（紫色） S3-5461019"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461020",
+      "x": 4076,
+      "y": 1316,
+      "label": "眠枭之星（紫色） S3-5461020"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461021",
+      "x": 4060,
+      "y": 1303,
+      "label": "眠枭之星（紫色） S3-5461021"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461022",
+      "x": 4102,
+      "y": 865,
+      "label": "眠枭之星（紫色） S3-5461022"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461023",
+      "x": 4169,
+      "y": 1028,
+      "label": "眠枭之星（紫色） S3-5461023"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461078",
+      "x": 4882,
+      "y": 821,
+      "label": "眠枭之星（紫色） S3-5461078"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461079",
+      "x": 4886,
+      "y": 812,
+      "label": "眠枭之星（紫色） S3-5461079"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461080",
+      "x": 4802,
+      "y": 1162,
+      "label": "眠枭之星（紫色） S3-5461080"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461081",
+      "x": 4807,
+      "y": 1167,
+      "label": "眠枭之星（紫色） S3-5461081"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461082",
+      "x": 3543,
+      "y": 1467,
+      "label": "眠枭之星（紫色） S3-5461082"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461087",
+      "x": 4683,
+      "y": 977,
+      "label": "眠枭之星（紫色） S3-5461087"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461088",
+      "x": 4801,
+      "y": 1173,
+      "label": "眠枭之星（紫色） S3-5461088"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461089",
+      "x": 4864,
+      "y": 779,
+      "label": "眠枭之星（紫色） S3-5461089"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461090",
+      "x": 4811,
+      "y": 1168,
+      "label": "眠枭之星（紫色） S3-5461090"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461207",
+      "x": 4846,
+      "y": 1647,
+      "label": "眠枭之星（紫色） S3-5461207"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461209",
+      "x": 4661,
+      "y": 1486,
+      "label": "眠枭之星（紫色） S3-5461209"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5461210",
+      "x": 4863,
+      "y": 1607,
+      "label": "眠枭之星（紫色） S3-5461210"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480010",
+      "x": 4031,
+      "y": 1644,
+      "label": "眠枭之星（紫色） S3-5480010"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480013",
+      "x": 4315,
+      "y": 1577,
+      "label": "眠枭之星（紫色） S3-5480013"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480015",
+      "x": 4243,
+      "y": 1412,
+      "label": "眠枭之星（紫色） S3-5480015"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480016",
+      "x": 4305,
+      "y": 1276,
+      "label": "眠枭之星（紫色） S3-5480016"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480021",
+      "x": 4153,
+      "y": 1785,
+      "label": "眠枭之星（紫色） S3-5480021"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480031",
+      "x": 4199,
+      "y": 1714,
+      "label": "眠枭之星（紫色） S3-5480031"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480036",
+      "x": 4077,
+      "y": 1343,
+      "label": "眠枭之星（紫色） S3-5480036"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480038",
+      "x": 4363,
+      "y": 1379,
+      "label": "眠枭之星（紫色） S3-5480038"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5480042",
+      "x": 4282,
+      "y": 1688,
+      "label": "眠枭之星（紫色） S3-5480042"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481003",
+      "x": 4540,
+      "y": 1305,
+      "label": "眠枭之星（紫色） S3-5481003"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481004",
+      "x": 4324,
+      "y": 1529,
+      "label": "眠枭之星（紫色） S3-5481004"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481005",
+      "x": 4040,
+      "y": 1770,
+      "label": "眠枭之星（紫色） S3-5481005"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481006",
+      "x": 4149,
+      "y": 1781,
+      "label": "眠枭之星（紫色） S3-5481006"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "5481007",
+      "x": 4162,
+      "y": 1665,
+      "label": "眠枭之星（紫色） S3-5481007"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481215",
+      "x": 4744,
+      "y": 1371,
+      "label": "结晶花 S3-5481215"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481216",
+      "x": 4704,
+      "y": 1297,
+      "label": "结晶花 S3-5481216"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481217",
+      "x": 4784,
+      "y": 1190,
+      "label": "结晶花 S3-5481217"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481218",
+      "x": 4806,
+      "y": 1198,
+      "label": "结晶花 S3-5481218"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481219",
+      "x": 4863,
+      "y": 1266,
+      "label": "结晶花 S3-5481219"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481220",
+      "x": 4908,
+      "y": 1118,
+      "label": "结晶花 S3-5481220"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481221",
+      "x": 5045,
+      "y": 1156,
+      "label": "结晶花 S3-5481221"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481222",
+      "x": 5036,
+      "y": 1234,
+      "label": "结晶花 S3-5481222"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481223",
+      "x": 5009,
+      "y": 1262,
+      "label": "结晶花 S3-5481223"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481224",
+      "x": 5084,
+      "y": 1190,
+      "label": "结晶花 S3-5481224"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481225",
+      "x": 5101,
+      "y": 1254,
+      "label": "结晶花 S3-5481225"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481226",
+      "x": 5096,
+      "y": 1201,
+      "label": "结晶花 S3-5481226"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481227",
+      "x": 5031,
+      "y": 1413,
+      "label": "结晶花 S3-5481227"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481228",
+      "x": 5028,
+      "y": 1419,
+      "label": "结晶花 S3-5481228"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481229",
+      "x": 5058,
+      "y": 1386,
+      "label": "结晶花 S3-5481229"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481230",
+      "x": 5046,
+      "y": 1153,
+      "label": "结晶花 S3-5481230"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481231",
+      "x": 4913,
+      "y": 1112,
+      "label": "结晶花 S3-5481231"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481232",
+      "x": 4922,
+      "y": 960,
+      "label": "结晶花 S3-5481232"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481233",
+      "x": 4913,
+      "y": 1038,
+      "label": "结晶花 S3-5481233"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481234",
+      "x": 5012,
+      "y": 1021,
+      "label": "结晶花 S3-5481234"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481235",
+      "x": 4891,
+      "y": 968,
+      "label": "结晶花 S3-5481235"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481236",
+      "x": 4921,
+      "y": 882,
+      "label": "结晶花 S3-5481236"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481237",
+      "x": 4808,
+      "y": 906,
+      "label": "结晶花 S3-5481237"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481238",
+      "x": 4840,
+      "y": 803,
+      "label": "结晶花 S3-5481238"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481239",
+      "x": 4834,
+      "y": 728,
+      "label": "结晶花 S3-5481239"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481240",
+      "x": 4869,
+      "y": 743,
+      "label": "结晶花 S3-5481240"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481241",
+      "x": 4856,
+      "y": 777,
+      "label": "结晶花 S3-5481241"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481242",
+      "x": 4475,
+      "y": 788,
+      "label": "结晶花 S3-5481242"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481243",
+      "x": 4414,
+      "y": 791,
+      "label": "结晶花 S3-5481243"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481244",
+      "x": 4450,
+      "y": 839,
+      "label": "结晶花 S3-5481244"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481245",
+      "x": 4375,
+      "y": 787,
+      "label": "结晶花 S3-5481245"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481246",
+      "x": 4428,
+      "y": 620,
+      "label": "结晶花 S3-5481246"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481247",
+      "x": 4309,
+      "y": 438,
+      "label": "结晶花 S3-5481247"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481248",
+      "x": 4360,
+      "y": 458,
+      "label": "结晶花 S3-5481248"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481249",
+      "x": 4389,
+      "y": 477,
+      "label": "结晶花 S3-5481249"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481250",
+      "x": 4279,
+      "y": 484,
+      "label": "结晶花 S3-5481250"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481251",
+      "x": 4215,
+      "y": 442,
+      "label": "结晶花 S3-5481251"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481252",
+      "x": 4176,
+      "y": 475,
+      "label": "结晶花 S3-5481252"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481253",
+      "x": 4148,
+      "y": 514,
+      "label": "结晶花 S3-5481253"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481254",
+      "x": 4113,
+      "y": 538,
+      "label": "结晶花 S3-5481254"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481255",
+      "x": 4122,
+      "y": 478,
+      "label": "结晶花 S3-5481255"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481256",
+      "x": 4045,
+      "y": 633,
+      "label": "结晶花 S3-5481256"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481257",
+      "x": 4051,
+      "y": 688,
+      "label": "结晶花 S3-5481257"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481258",
+      "x": 4135,
+      "y": 784,
+      "label": "结晶花 S3-5481258"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481259",
+      "x": 4240,
+      "y": 790,
+      "label": "结晶花 S3-5481259"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481260",
+      "x": 4297,
+      "y": 795,
+      "label": "结晶花 S3-5481260"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481261",
+      "x": 4238,
+      "y": 845,
+      "label": "结晶花 S3-5481261"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481262",
+      "x": 4121,
+      "y": 835,
+      "label": "结晶花 S3-5481262"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481263",
+      "x": 4117,
+      "y": 891,
+      "label": "结晶花 S3-5481263"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "5481264",
+      "x": 4085,
+      "y": 1004,
+      "label": "结晶花 S3-5481264"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000948",
+      "x": 4207,
+      "y": 916,
+      "label": "眠枭之星（紫色） S3-6000948"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000949",
+      "x": 4005,
+      "y": 1021,
+      "label": "眠枭之星（紫色） S3-6000949"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6000950",
+      "x": 4210,
+      "y": 1174,
+      "label": "眠枭之星（紫色） S3-6000950"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001102",
+      "x": 3964,
+      "y": 1006,
+      "label": "结晶花 S3-6001102"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001103",
+      "x": 3909,
+      "y": 1106,
+      "label": "结晶花 S3-6001103"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001104",
+      "x": 4081,
+      "y": 1229,
+      "label": "结晶花 S3-6001104"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001105",
+      "x": 4018,
+      "y": 1274,
+      "label": "结晶花 S3-6001105"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001106",
+      "x": 4008,
+      "y": 1311,
+      "label": "结晶花 S3-6001106"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001107",
+      "x": 4011,
+      "y": 1299,
+      "label": "结晶花 S3-6001107"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001108",
+      "x": 4062,
+      "y": 1364,
+      "label": "结晶花 S3-6001108"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001109",
+      "x": 4097,
+      "y": 1368,
+      "label": "结晶花 S3-6001109"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001110",
+      "x": 4152,
+      "y": 1360,
+      "label": "结晶花 S3-6001110"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001111",
+      "x": 4144,
+      "y": 1289,
+      "label": "结晶花 S3-6001111"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001112",
+      "x": 4110,
+      "y": 1294,
+      "label": "结晶花 S3-6001112"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001113",
+      "x": 3943,
+      "y": 1184,
+      "label": "结晶花 S3-6001113"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001114",
+      "x": 3884,
+      "y": 1101,
+      "label": "结晶花 S3-6001114"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001115",
+      "x": 4217,
+      "y": 1150,
+      "label": "结晶花 S3-6001115"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001116",
+      "x": 4192,
+      "y": 1128,
+      "label": "结晶花 S3-6001116"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001117",
+      "x": 4095,
+      "y": 1150,
+      "label": "结晶花 S3-6001117"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001118",
+      "x": 4325,
+      "y": 1114,
+      "label": "结晶花 S3-6001118"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001119",
+      "x": 4334,
+      "y": 1045,
+      "label": "结晶花 S3-6001119"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001170",
+      "x": 4766,
+      "y": 1422,
+      "label": "结晶花 S3-6001170"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001171",
+      "x": 4791,
+      "y": 1336,
+      "label": "结晶花 S3-6001171"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001172",
+      "x": 4773,
+      "y": 1347,
+      "label": "结晶花 S3-6001172"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001173",
+      "x": 5049,
+      "y": 1491,
+      "label": "结晶花 S3-6001173"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001174",
+      "x": 5031,
+      "y": 1475,
+      "label": "结晶花 S3-6001174"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001175",
+      "x": 4941,
+      "y": 1213,
+      "label": "结晶花 S3-6001175"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001176",
+      "x": 4922,
+      "y": 1215,
+      "label": "结晶花 S3-6001176"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001177",
+      "x": 4818,
+      "y": 1194,
+      "label": "结晶花 S3-6001177"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001178",
+      "x": 4727,
+      "y": 1262,
+      "label": "结晶花 S3-6001178"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001179",
+      "x": 4734,
+      "y": 1230,
+      "label": "结晶花 S3-6001179"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001180",
+      "x": 4751,
+      "y": 1141,
+      "label": "结晶花 S3-6001180"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001181",
+      "x": 4818,
+      "y": 1081,
+      "label": "结晶花 S3-6001181"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001182",
+      "x": 4830,
+      "y": 1028,
+      "label": "结晶花 S3-6001182"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001183",
+      "x": 4751,
+      "y": 842,
+      "label": "结晶花 S3-6001183"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001184",
+      "x": 4798,
+      "y": 740,
+      "label": "结晶花 S3-6001184"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001185",
+      "x": 4824,
+      "y": 692,
+      "label": "结晶花 S3-6001185"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001186",
+      "x": 4793,
+      "y": 634,
+      "label": "结晶花 S3-6001186"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001187",
+      "x": 4605,
+      "y": 766,
+      "label": "结晶花 S3-6001187"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001188",
+      "x": 4572,
+      "y": 852,
+      "label": "结晶花 S3-6001188"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001189",
+      "x": 4652,
+      "y": 1034,
+      "label": "结晶花 S3-6001189"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001190",
+      "x": 4621,
+      "y": 1022,
+      "label": "结晶花 S3-6001190"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001191",
+      "x": 4732,
+      "y": 1084,
+      "label": "结晶花 S3-6001191"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001192",
+      "x": 4700,
+      "y": 1054,
+      "label": "结晶花 S3-6001192"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001193",
+      "x": 4399,
+      "y": 909,
+      "label": "结晶花 S3-6001193"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001194",
+      "x": 4362,
+      "y": 900,
+      "label": "结晶花 S3-6001194"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001195",
+      "x": 4347,
+      "y": 824,
+      "label": "结晶花 S3-6001195"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001196",
+      "x": 4315,
+      "y": 808,
+      "label": "结晶花 S3-6001196"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001197",
+      "x": 4230,
+      "y": 825,
+      "label": "结晶花 S3-6001197"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001198",
+      "x": 4285,
+      "y": 891,
+      "label": "结晶花 S3-6001198"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001199",
+      "x": 4159,
+      "y": 922,
+      "label": "结晶花 S3-6001199"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001200",
+      "x": 4194,
+      "y": 980,
+      "label": "结晶花 S3-6001200"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001201",
+      "x": 4105,
+      "y": 841,
+      "label": "结晶花 S3-6001201"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001202",
+      "x": 4204,
+      "y": 382,
+      "label": "结晶花 S3-6001202"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001203",
+      "x": 4356,
+      "y": 583,
+      "label": "结晶花 S3-6001203"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001230",
+      "x": 4788,
+      "y": 1040,
+      "label": "结晶花 S3-6001230"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001231",
+      "x": 4758,
+      "y": 1051,
+      "label": "结晶花 S3-6001231"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001232",
+      "x": 4749,
+      "y": 1034,
+      "label": "结晶花 S3-6001232"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001233",
+      "x": 4754,
+      "y": 1024,
+      "label": "结晶花 S3-6001233"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001314",
+      "x": 4783,
+      "y": 885,
+      "label": "结晶花 S3-6001314"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001315",
+      "x": 4771,
+      "y": 866,
+      "label": "结晶花 S3-6001315"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001316",
+      "x": 4806,
+      "y": 882,
+      "label": "结晶花 S3-6001316"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001317",
+      "x": 4832,
+      "y": 851,
+      "label": "结晶花 S3-6001317"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001318",
+      "x": 4839,
+      "y": 863,
+      "label": "结晶花 S3-6001318"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001319",
+      "x": 4778,
+      "y": 738,
+      "label": "结晶花 S3-6001319"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001320",
+      "x": 4784,
+      "y": 809,
+      "label": "结晶花 S3-6001320"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001321",
+      "x": 4732,
+      "y": 835,
+      "label": "结晶花 S3-6001321"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001322",
+      "x": 4740,
+      "y": 856,
+      "label": "结晶花 S3-6001322"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001514",
+      "x": 4460,
+      "y": 587,
+      "label": "结晶花 S3-6001514"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001515",
+      "x": 4575,
+      "y": 572,
+      "label": "结晶花 S3-6001515"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001516",
+      "x": 4583,
+      "y": 589,
+      "label": "结晶花 S3-6001516"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001517",
+      "x": 4654,
+      "y": 602,
+      "label": "结晶花 S3-6001517"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001518",
+      "x": 4671,
+      "y": 632,
+      "label": "结晶花 S3-6001518"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001519",
+      "x": 5038,
+      "y": 1025,
+      "label": "结晶花 S3-6001519"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001520",
+      "x": 5048,
+      "y": 1062,
+      "label": "结晶花 S3-6001520"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001521",
+      "x": 5020,
+      "y": 1063,
+      "label": "结晶花 S3-6001521"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001522",
+      "x": 4837,
+      "y": 676,
+      "label": "结晶花 S3-6001522"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001523",
+      "x": 4384,
+      "y": 437,
+      "label": "结晶花 S3-6001523"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001524",
+      "x": 4328,
+      "y": 413,
+      "label": "结晶花 S3-6001524"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001525",
+      "x": 4325,
+      "y": 507,
+      "label": "结晶花 S3-6001525"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001565",
+      "x": 4807,
+      "y": 706,
+      "label": "结晶花 S3-6001565"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001566",
+      "x": 4807,
+      "y": 709,
+      "label": "结晶花 S3-6001566"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001567",
+      "x": 4810,
+      "y": 710,
+      "label": "结晶花 S3-6001567"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001568",
+      "x": 4814,
+      "y": 708,
+      "label": "结晶花 S3-6001568"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001569",
+      "x": 4813,
+      "y": 704,
+      "label": "结晶花 S3-6001569"
+    },
+    {
+      "resource_type_id": "101005",
+      "resource_group_id": "152",
+      "resource_title": "结晶花",
+      "icon_file": "101005.png",
+      "id": "6001570",
+      "x": 4810,
+      "y": 703,
+      "label": "结晶花 S3-6001570"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702705",
+      "x": 3265,
+      "y": 758,
+      "label": "眠枭之星（紫色） S3-6702705"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702706",
+      "x": 3526,
+      "y": 1003,
+      "label": "眠枭之星（紫色） S3-6702706"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702707",
+      "x": 3201,
+      "y": 786,
+      "label": "眠枭之星（紫色） S3-6702707"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702708",
+      "x": 3799,
+      "y": 899,
+      "label": "眠枭之星（紫色） S3-6702708"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702709",
+      "x": 3472,
+      "y": 842,
+      "label": "眠枭之星（紫色） S3-6702709"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702710",
+      "x": 3157,
+      "y": 805,
+      "label": "眠枭之星（紫色） S3-6702710"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702711",
+      "x": 3387,
+      "y": 856,
+      "label": "眠枭之星（紫色） S3-6702711"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702712",
+      "x": 3253,
+      "y": 877,
+      "label": "眠枭之星（紫色） S3-6702712"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702713",
+      "x": 3228,
+      "y": 832,
+      "label": "眠枭之星（紫色） S3-6702713"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702714",
+      "x": 3842,
+      "y": 153,
+      "label": "眠枭之星（紫色） S3-6702714"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702715",
+      "x": 3178,
+      "y": 804,
+      "label": "眠枭之星（紫色） S3-6702715"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702716",
+      "x": 3804,
+      "y": 203,
+      "label": "眠枭之星（紫色） S3-6702716"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702717",
+      "x": 3851,
+      "y": 868,
+      "label": "眠枭之星（紫色） S3-6702717"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702718",
+      "x": 3891,
+      "y": 394,
+      "label": "眠枭之星（紫色） S3-6702718"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702719",
+      "x": 3794,
+      "y": 706,
+      "label": "眠枭之星（紫色） S3-6702719"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702720",
+      "x": 3501,
+      "y": 806,
+      "label": "眠枭之星（紫色） S3-6702720"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702721",
+      "x": 3172,
+      "y": 1186,
+      "label": "眠枭之星（紫色） S3-6702721"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702722",
+      "x": 3371,
+      "y": 129,
+      "label": "眠枭之星（紫色） S3-6702722"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702723",
+      "x": 3541,
+      "y": 584,
+      "label": "眠枭之星（紫色） S3-6702723"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702724",
+      "x": 3635,
+      "y": 356,
+      "label": "眠枭之星（紫色） S3-6702724"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702725",
+      "x": 3356,
+      "y": 286,
+      "label": "眠枭之星（紫色） S3-6702725"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702726",
+      "x": 3384,
+      "y": 129,
+      "label": "眠枭之星（紫色） S3-6702726"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702727",
+      "x": 3331,
+      "y": 122,
+      "label": "眠枭之星（紫色） S3-6702727"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702728",
+      "x": 3376,
+      "y": 247,
+      "label": "眠枭之星（紫色） S3-6702728"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702729",
+      "x": 3473,
+      "y": 113,
+      "label": "眠枭之星（紫色） S3-6702729"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702730",
+      "x": 3394,
+      "y": 94,
+      "label": "眠枭之星（紫色） S3-6702730"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702731",
+      "x": 3349,
+      "y": 279,
+      "label": "眠枭之星（紫色） S3-6702731"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702732",
+      "x": 3443,
+      "y": 259,
+      "label": "眠枭之星（紫色） S3-6702732"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702733",
+      "x": 3440,
+      "y": 182,
+      "label": "眠枭之星（紫色） S3-6702733"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6702734",
+      "x": 3356,
+      "y": 344,
+      "label": "眠枭之星（紫色） S3-6702734"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703657",
+      "x": 3246,
+      "y": 950,
+      "label": "眠枭之星（紫色） S3-6703657"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703658",
+      "x": 3827,
+      "y": 459,
+      "label": "眠枭之星（紫色） S3-6703658"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703659",
+      "x": 3705,
+      "y": 182,
+      "label": "眠枭之星（紫色） S3-6703659"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703660",
+      "x": 3681,
+      "y": 883,
+      "label": "眠枭之星（紫色） S3-6703660"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703661",
+      "x": 3836,
+      "y": 156,
+      "label": "眠枭之星（紫色） S3-6703661"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703662",
+      "x": 3376,
+      "y": 112,
+      "label": "眠枭之星（紫色） S3-6703662"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703663",
+      "x": 3477,
+      "y": 234,
+      "label": "眠枭之星（紫色） S3-6703663"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6703664",
+      "x": 3369,
+      "y": 175,
+      "label": "眠枭之星（紫色） S3-6703664"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704142",
+      "x": 3383,
+      "y": 158,
+      "label": "眠枭之星（紫色） S3-6704142"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704143",
+      "x": 3409,
+      "y": 309,
+      "label": "眠枭之星（紫色） S3-6704143"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704144",
+      "x": 3383,
+      "y": 249,
+      "label": "眠枭之星（紫色） S3-6704144"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704145",
+      "x": 3274,
+      "y": 300,
+      "label": "眠枭之星（紫色） S3-6704145"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704146",
+      "x": 3437,
+      "y": 239,
+      "label": "眠枭之星（紫色） S3-6704146"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "6704147",
+      "x": 3303,
+      "y": 248,
+      "label": "眠枭之星（紫色） S3-6704147"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900001",
+      "x": 3374,
+      "y": -145,
+      "label": "眠枭之星（紫色） S3-7900001"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900002",
+      "x": 4643,
+      "y": 1853,
+      "label": "眠枭之星（紫色） S3-7900002"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900004",
+      "x": 4836,
+      "y": 1657,
+      "label": "眠枭之星（紫色） S3-7900004"
+    },
+    {
+      "resource_type_id": "101006",
+      "resource_group_id": "143",
+      "resource_title": "眠枭之星（紫色）",
+      "icon_file": "sleepingstar.png",
+      "id": "7900036",
+      "x": 4112,
+      "y": 996,
+      "label": "眠枭之星（紫色） S3-7900036"
+    }
+  ]
+}

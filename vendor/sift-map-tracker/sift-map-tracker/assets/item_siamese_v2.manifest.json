@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "release": "windows-v0.9.8",
+  "modelFile": "item_siamese_v2.onnx",
+  "sha256": "5780084551AD6E66D7E94158E6F9A4373E22127C5A7047727D8D7C0A60179E20",
+  "prototypeBank": {
+    "file": "item_siamese_v2.prototypes.npz",
+    "sha256": "B35549E48B3F93B269ED90079BCBA643951F9FD1B0EDA995C83358E4FF9C745B",
+    "sourceDataSha256": "24C34F044A444B3250EA7949F7B3FBF28319243DF0CDE9C33131F38C94E3EC88",
+    "counts": {
+      "heibai": 48,
+      "season_xuancai": 48,
+      "season_yise_xuancai": 48,
+      "xuancai": 48,
+      "yise": 48,
+      "yise_heibai": 48,
+      "yise_xuancai": 48
+    }
+  },
+  "inputSize": 64,
+  "runtimeThreshold": 0.8,
+  "prototypeKinds": [
+    "heibai",
+    "season_xuancai",
+    "season_yise_xuancai",
+    "xuancai",
+    "yise",
+    "yise_heibai",
+    "yise_xuancai"
+  ],
+  "selectedCandidate": "v3_final48_hard_positive_epoch14",
+  "training": {
+    "parameters": {
+      "epochs": 20,
+      "seed": 521,
+      "batchSize": 128,
+      "device": "cuda",
+      "runtimeStyleLoss": true,
+      "binaryTargetMode": false,
+      "positiveCorrectSimilarityTarget": 0.9,
+      "hardPositiveFraction": 0.1,
+      "negativeMaxSimilarityTarget": 0.2,
+      "targetKindMargin": 0.15,
+      "realHardNegativeWeight": 3.0,
+      "syntheticHardNegativeWeight": 2.0,
+      "learningRate": 0.0003,
+      "resumeFrom": "v3_final48_runtime_selected/siamese_icon_best_runtime.pt"
+    },
+    "records": 43386,
+    "epochs": 20,
+    "elapsedSeconds": 1101.1453430652618,
+    "datasetSha256": "3BD00CBF2964160C3EB989B81578BCB33238B5D6E44C90BC644B91B138373E19",
+    "realPositiveSamplesAvailable": false,
+    "positiveGateBasis": "deterministic synthetic train + val_unseen; no real positive samples available"
+  },
+  "runtimeGate": {
+    "overallRecall": 0.9994344531161633,
+    "kindAccuracy": 0.9994344531161633,
+    "perKind": {
+      "heibai": {
+        "count": 2341,
+        "recall_at_threshold": 1.0,
+        "correct_at_threshold": 1.0
+      },
+      "season_xuancai": {
+        "count": 2341,
+        "recall_at_threshold": 0.9987184963690731,
+        "correct_at_threshold": 0.9987184963690731
+      },
+      "season_yise_xuancai": {
+        "count": 2341,
+        "recall_at_threshold": 1.0,
+        "correct_at_threshold": 1.0
+      },
+      "xuancai": {
+        "count": 3638,
+        "recall_at_threshold": 0.9991753710830127,
+        "correct_at_threshold": 0.9991753710830127
+      },
+      "yise": {
+        "count": 2341,
+        "recall_at_threshold": 0.9995728321230244,
+        "correct_at_threshold": 0.9995728321230244
+      },
+      "yise_heibai": {
+        "count": 2340,
+        "recall_at_threshold": 0.9995726495726496,
+        "correct_at_threshold": 0.9995726495726496
+      },
+      "yise_xuancai": {
+        "count": 2340,
+        "recall_at_threshold": 0.9991452991452991,
+        "correct_at_threshold": 0.9991452991452991
+      }
+    },
+    "negativeCount": 6903,
+    "negativeMaxScore": 0.6175940632820129,
+    "negativeFalsePositiveCount": 0
+  },
+  "onnxParity": {
+    "sampleCount": 120,
+    "bestKindMismatchCount": 0,
+    "maxFinalScoreAbsoluteError": 8.717179298400879e-07,
+    "embeddingCosineMinimum": 0.9999998807907247
+  }
+}

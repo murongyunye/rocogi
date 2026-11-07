@@ -1,0 +1,14 @@
+{
+  "cache_version": 2,
+  "source_file": "Z-\u5168\u90E8\u8D44\u6E90 -SiftMapTracker.json",
+  "source_sha256": "06FEDE40E866359764E9AEBA87EED38D393C2A4E74C0830B6B24873D743EA209",
+  "source_length": 1703439,
+  "source_last_write_utc_ticks": 639197610147970452,
+  "resource_name": "S3\u8D44\u6E90\u5168\u96C6-\u542F\u7528",
+  "point_count": 6177,
+  "map_width": 8192,
+  "map_height": 8192,
+  "generated_at_utc": "2026-07-19T17:41:46.9545813Z",
+  "full_image": "Z-\u5168\u90E8\u8D44\u6E90 -SiftMapTracker.full.png",
+  "nav_image": "Z-\u5168\u90E8\u8D44\u6E90 -SiftMapTracker.nav.png"
+}

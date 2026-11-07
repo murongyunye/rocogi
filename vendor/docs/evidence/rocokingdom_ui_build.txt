@@ -1,0 +1,12 @@
+﻿apps/website build: dist/assets/toggle-group-BDJYp2IH.js                       3.24 kB │ gzip:   1.49 kB
+apps/website build: dist/assets/docs-BpIlglAP.js                               4.91 kB │ gzip:   2.06 kB
+apps/website build: dist/assets/docs.index-Boew8BKi.js                         5.44 kB │ gzip:   2.33 kB
+apps/website build: dist/assets/routes-BHcnzfh6.js                             9.51 kB │ gzip:   3.36 kB
+apps/website build: dist/assets/input-BJai5n_i.js                             11.63 kB │ gzip:   4.37 kB
+apps/website build: dist/assets/docs.overview.components-BmOEATeu.js          11.99 kB │ gzip:   4.44 kB
+apps/website build: dist/assets/jsx-runtime-BPFVTeSb.js                       12.75 kB │ gzip:   4.58 kB
+apps/website build: dist/assets/radio-group-IpKkk9HR.js                      142.30 kB │ gzip:  45.60 kB
+apps/website build: dist/assets/index-7Rv9nnlE.js                            326.24 kB │ gzip: 101.47 kB
+apps/website build: dist/assets/components-DvJ2V7IG.js                       406.58 kB │ gzip: 113.10 kB
+apps/website build: [32m✓ built in 1.81s[39m
+apps/website build: Done

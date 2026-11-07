@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 2,
+  "databaseSeason": "S3",
+  "databaseSha256": "05b649ee99c5cc9d743b72ec3a31949c6b1e58dee555fa1e6deb7fd258bf339b",
+  "selectedTargetId": null,
+  "lastAppliedSequence": 0,
+  "targets": {}
+}

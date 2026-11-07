@@ -1,0 +1,13 @@
+# scene/data.yaml — SCH 场景 4 类训练配置模板
+# 上游原文: SCH-CMYK/game-automation datasets/default/data.yaml (path: .)
+
+path: <绝对路径>/rocogi/datasets/scene/yolo_format
+train: images/train
+val: images/val
+
+nc: 4
+names:
+  0: ore
+  1: creature
+  2: obstacle
+  3: character

@@ -1,0 +1,3938 @@
+{
+  "format_version": "sift0.6",
+  "name": "[5] 战斗 类",
+  "map_path": "display_map.png",
+  "notes": "Category-only export from S3资源全集-启用: 战斗.",
+  "items": [
+    {
+      "id": "800771",
+      "x": 1614,
+      "y": 1478,
+      "label": "S1赛季对战 1",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800773",
+      "x": 1034,
+      "y": 1907,
+      "label": "S1赛季对战 2",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800781",
+      "x": 786,
+      "y": 1804,
+      "label": "S1赛季对战 3",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800782",
+      "x": 878,
+      "y": 1528,
+      "label": "S1赛季对战 4",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800808",
+      "x": 1236,
+      "y": 2317,
+      "label": "S1赛季对战 5",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800809",
+      "x": 1110,
+      "y": 1967,
+      "label": "S1赛季对战 6",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800810",
+      "x": 1018,
+      "y": 1928,
+      "label": "S1赛季对战 7",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800812",
+      "x": 840,
+      "y": 1691,
+      "label": "S1赛季对战 8",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800834",
+      "x": 1091,
+      "y": 2352,
+      "label": "S1赛季对战 9",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800839",
+      "x": 963,
+      "y": 1624,
+      "label": "S1赛季对战 10",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800850",
+      "x": 1031,
+      "y": 1762,
+      "label": "S1赛季对战 11",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800861",
+      "x": 1011,
+      "y": 1656,
+      "label": "S1赛季对战 12",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800875",
+      "x": 625,
+      "y": 1757,
+      "label": "S1赛季对战 13",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800881",
+      "x": 2188,
+      "y": 1601,
+      "label": "S1赛季对战 14",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800882",
+      "x": 2187,
+      "y": 1524,
+      "label": "S1赛季对战 15",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800890",
+      "x": 1916,
+      "y": 1866,
+      "label": "S1赛季对战 16",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800901",
+      "x": 1894,
+      "y": 1800,
+      "label": "S1赛季对战 17",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800904",
+      "x": 2209,
+      "y": 1504,
+      "label": "S1赛季对战 18",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800905",
+      "x": 1863,
+      "y": 1419,
+      "label": "S1赛季对战 19",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800910",
+      "x": 2250,
+      "y": 1211,
+      "label": "S1赛季对战 20",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "800918",
+      "x": 2135,
+      "y": 1805,
+      "label": "S1赛季对战 21",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801012",
+      "x": 1795,
+      "y": 1601,
+      "label": "S1赛季对战 22",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801014",
+      "x": 1896,
+      "y": 1732,
+      "label": "S1赛季对战 23",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801029",
+      "x": 1192,
+      "y": 2138,
+      "label": "S1赛季对战 24",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801051",
+      "x": 785,
+      "y": 1428,
+      "label": "S1赛季对战 25",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801054",
+      "x": 704,
+      "y": 1165,
+      "label": "S1赛季对战 26",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801056",
+      "x": 656,
+      "y": 939,
+      "label": "S1赛季对战 27",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801058",
+      "x": 687,
+      "y": 945,
+      "label": "S1赛季对战 28",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "801173",
+      "x": 1780,
+      "y": 1251,
+      "label": "S1赛季对战 29",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000219",
+      "x": 1548,
+      "y": 947,
+      "label": "S1赛季对战 30",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000220",
+      "x": 1099,
+      "y": 1181,
+      "label": "S1赛季对战 31",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000221",
+      "x": 213,
+      "y": 1167,
+      "label": "S1赛季对战 32",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000222",
+      "x": 181,
+      "y": 1374,
+      "label": "S1赛季对战 33",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000223",
+      "x": 304,
+      "y": 1609,
+      "label": "S1赛季对战 34",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000224",
+      "x": 377,
+      "y": 1642,
+      "label": "S1赛季对战 35",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000225",
+      "x": 265,
+      "y": 2127,
+      "label": "S1赛季对战 36",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000226",
+      "x": 299,
+      "y": 2242,
+      "label": "S1赛季对战 37",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000227",
+      "x": 244,
+      "y": 2082,
+      "label": "S1赛季对战 38",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000229",
+      "x": 2106,
+      "y": 972,
+      "label": "S1赛季对战 40",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000231",
+      "x": 1705,
+      "y": 712,
+      "label": "S1赛季对战 41",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000232",
+      "x": 1361,
+      "y": 1229,
+      "label": "S1赛季对战 42",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000233",
+      "x": 867,
+      "y": 1020,
+      "label": "S1赛季对战 43",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000236",
+      "x": 578,
+      "y": 1382,
+      "label": "S1赛季对战 45",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000237",
+      "x": 140,
+      "y": 1305,
+      "label": "S1赛季对战 46",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000238",
+      "x": 209,
+      "y": 1379,
+      "label": "S1赛季对战 47",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000239",
+      "x": 485,
+      "y": 968,
+      "label": "S1赛季对战 48",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000240",
+      "x": 351,
+      "y": 1376,
+      "label": "S1赛季对战 49",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000241",
+      "x": 509,
+      "y": 1669,
+      "label": "S1赛季对战 50",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000242",
+      "x": 639,
+      "y": 1848,
+      "label": "S1赛季对战 51",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000243",
+      "x": 693,
+      "y": 2096,
+      "label": "S1赛季对战 52",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000244",
+      "x": 308,
+      "y": 2191,
+      "label": "S1赛季对战 53",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000245",
+      "x": 193,
+      "y": 1959,
+      "label": "S1赛季对战 54",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000246",
+      "x": 205,
+      "y": 1790,
+      "label": "S1赛季对战 55",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000247",
+      "x": 526,
+      "y": 2018,
+      "label": "S1赛季对战 56",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000248",
+      "x": 1663,
+      "y": 1310,
+      "label": "S1赛季对战 57",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000249",
+      "x": 1902,
+      "y": 1283,
+      "label": "S1赛季对战 58",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000250",
+      "x": 1918,
+      "y": 1011,
+      "label": "S1赛季对战 59",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000251",
+      "x": 2014,
+      "y": 1021,
+      "label": "S1赛季对战 60",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000252",
+      "x": 1856,
+      "y": 1115,
+      "label": "S1赛季对战 61",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000797",
+      "x": 194,
+      "y": 1458,
+      "label": "S1赛季对战 62",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000798",
+      "x": 156,
+      "y": 1008,
+      "label": "S1赛季对战 63",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000799",
+      "x": 226,
+      "y": 1091,
+      "label": "S1赛季对战 64",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000800",
+      "x": 523,
+      "y": 1318,
+      "label": "S1赛季对战 65",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000801",
+      "x": 587,
+      "y": 1880,
+      "label": "S1赛季对战 66",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000802",
+      "x": 356,
+      "y": 2192,
+      "label": "S1赛季对战 67",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000803",
+      "x": 118,
+      "y": 1811,
+      "label": "S1赛季对战 68",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000804",
+      "x": 483,
+      "y": 1818,
+      "label": "S1赛季对战 69",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000805",
+      "x": 301,
+      "y": 1793,
+      "label": "S1赛季对战 70",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000806",
+      "x": 1862,
+      "y": 1234,
+      "label": "S1赛季对战 71",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000807",
+      "x": 2042,
+      "y": 1015,
+      "label": "S1赛季对战 72",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000808",
+      "x": 2228,
+      "y": 1404,
+      "label": "S1赛季对战 73",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000809",
+      "x": 160,
+      "y": 1572,
+      "label": "S1赛季对战 74",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000810",
+      "x": 182,
+      "y": 1214,
+      "label": "S1赛季对战 75",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000811",
+      "x": 368,
+      "y": 1038,
+      "label": "S1赛季对战 76",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000812",
+      "x": 598,
+      "y": 838,
+      "label": "S1赛季对战 77",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000813",
+      "x": 308,
+      "y": 2172,
+      "label": "S1赛季对战 78",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000814",
+      "x": 325,
+      "y": 2051,
+      "label": "S1赛季对战 79",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000815",
+      "x": 155,
+      "y": 1929,
+      "label": "S1赛季对战 80",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000816",
+      "x": 1383,
+      "y": 1313,
+      "label": "S1赛季对战 81",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1000817",
+      "x": 2081,
+      "y": 1187,
+      "label": "S1赛季对战 82",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001314",
+      "x": 2595,
+      "y": 1578,
+      "label": "S1赛季对战 83",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001315",
+      "x": 2750,
+      "y": 1312,
+      "label": "S1赛季对战 84",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001316",
+      "x": 2890,
+      "y": 1445,
+      "label": "S1赛季对战 85",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001317",
+      "x": 2970,
+      "y": 1306,
+      "label": "S1赛季对战 86",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001318",
+      "x": 2886,
+      "y": 1690,
+      "label": "S1赛季对战 87",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001319",
+      "x": 3388,
+      "y": 1570,
+      "label": "S1赛季对战 88",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001321",
+      "x": 3012,
+      "y": 3542,
+      "label": "S1赛季对战 89",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001322",
+      "x": 2615,
+      "y": 3658,
+      "label": "S1赛季对战 90",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001323",
+      "x": 2616,
+      "y": 4265,
+      "label": "S1赛季对战 91",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001324",
+      "x": 2853,
+      "y": 4079,
+      "label": "S1赛季对战 92",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001325",
+      "x": 3894,
+      "y": 4854,
+      "label": "S1赛季对战 93",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001326",
+      "x": 3088,
+      "y": 2836,
+      "label": "S1赛季对战 94",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001327",
+      "x": 3167,
+      "y": 2618,
+      "label": "S1赛季对战 95",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001328",
+      "x": 3256,
+      "y": 3180,
+      "label": "S1赛季对战 96",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001329",
+      "x": 3585,
+      "y": 3082,
+      "label": "S1赛季对战 97",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001331",
+      "x": 3156,
+      "y": 3549,
+      "label": "S1赛季对战 98",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001332",
+      "x": 3207,
+      "y": 3492,
+      "label": "S1赛季对战 99",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001333",
+      "x": 3484,
+      "y": 2957,
+      "label": "S1赛季对战 100",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001334",
+      "x": 4372,
+      "y": 2793,
+      "label": "S1赛季对战 101",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001335",
+      "x": 4057,
+      "y": 2477,
+      "label": "S1赛季对战 102",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001336",
+      "x": 3962,
+      "y": 3280,
+      "label": "S1赛季对战 103",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001337",
+      "x": 4238,
+      "y": 3384,
+      "label": "S1赛季对战 104",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001338",
+      "x": 4641,
+      "y": 3425,
+      "label": "S1赛季对战 105",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001339",
+      "x": 4411,
+      "y": 3157,
+      "label": "S1赛季对战 106",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001340",
+      "x": 3996,
+      "y": 3088,
+      "label": "S1赛季对战 107",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001341",
+      "x": 5197,
+      "y": 3451,
+      "label": "S1赛季对战 108",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001342",
+      "x": 5200,
+      "y": 3301,
+      "label": "S1赛季对战 109",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001343",
+      "x": 4565,
+      "y": 2986,
+      "label": "S1赛季对战 110",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001344",
+      "x": 4555,
+      "y": 3187,
+      "label": "S1赛季对战 111",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001345",
+      "x": 4898,
+      "y": 3261,
+      "label": "S1赛季对战 112",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001346",
+      "x": 5536,
+      "y": 3040,
+      "label": "S1赛季对战 113",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001347",
+      "x": 5419,
+      "y": 2729,
+      "label": "S1赛季对战 114",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001348",
+      "x": 5497,
+      "y": 3176,
+      "label": "S1赛季对战 115",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001349",
+      "x": 5629,
+      "y": 2761,
+      "label": "S1赛季对战 116",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001350",
+      "x": 5566,
+      "y": 3694,
+      "label": "S1赛季对战 117",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001351",
+      "x": 5597,
+      "y": 3476,
+      "label": "S1赛季对战 118",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001352",
+      "x": 5769,
+      "y": 3140,
+      "label": "S1赛季对战 119",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001353",
+      "x": 2477,
+      "y": 1433,
+      "label": "S1赛季对战 120",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001354",
+      "x": 2547,
+      "y": 1310,
+      "label": "S1赛季对战 121",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001355",
+      "x": 2784,
+      "y": 1304,
+      "label": "S1赛季对战 122",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001356",
+      "x": 2533,
+      "y": 1346,
+      "label": "S1赛季对战 123",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001357",
+      "x": 3423,
+      "y": 1477,
+      "label": "S1赛季对战 124",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001358",
+      "x": 3195,
+      "y": 1393,
+      "label": "S1赛季对战 125",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001359",
+      "x": 2840,
+      "y": 3507,
+      "label": "S1赛季对战 126",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001360",
+      "x": 2992,
+      "y": 3411,
+      "label": "S1赛季对战 127",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001361",
+      "x": 3149,
+      "y": 3938,
+      "label": "S1赛季对战 128",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001362",
+      "x": 3024,
+      "y": 3764,
+      "label": "S1赛季对战 129",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001363",
+      "x": 3161,
+      "y": 3768,
+      "label": "S1赛季对战 130",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001364",
+      "x": 2860,
+      "y": 3976,
+      "label": "S1赛季对战 131",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001365",
+      "x": 2644,
+      "y": 4184,
+      "label": "S1赛季对战 132",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001366",
+      "x": 2571,
+      "y": 4216,
+      "label": "S1赛季对战 133",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001367",
+      "x": 3170,
+      "y": 2810,
+      "label": "S1赛季对战 134",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001368",
+      "x": 3376,
+      "y": 3076,
+      "label": "S1赛季对战 135",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001369",
+      "x": 3420,
+      "y": 2818,
+      "label": "S1赛季对战 136",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001370",
+      "x": 3069,
+      "y": 3322,
+      "label": "S1赛季对战 137",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001371",
+      "x": 3527,
+      "y": 3314,
+      "label": "S1赛季对战 138",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001372",
+      "x": 3216,
+      "y": 3902,
+      "label": "S1赛季对战 139",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001373",
+      "x": 3738,
+      "y": 3261,
+      "label": "S1赛季对战 140",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001374",
+      "x": 3385,
+      "y": 3559,
+      "label": "S1赛季对战 141",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001375",
+      "x": 3239,
+      "y": 3639,
+      "label": "S1赛季对战 142",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001376",
+      "x": 3491,
+      "y": 3248,
+      "label": "S1赛季对战 143",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001377",
+      "x": 3517,
+      "y": 3385,
+      "label": "S1赛季对战 144",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001378",
+      "x": 3248,
+      "y": 2772,
+      "label": "S1赛季对战 145",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001379",
+      "x": 3215,
+      "y": 2907,
+      "label": "S1赛季对战 146",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001380",
+      "x": 3535,
+      "y": 3078,
+      "label": "S1赛季对战 147",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001381",
+      "x": 3291,
+      "y": 3089,
+      "label": "S1赛季对战 148",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001382",
+      "x": 4142,
+      "y": 2560,
+      "label": "S1赛季对战 149",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001383",
+      "x": 4041,
+      "y": 2575,
+      "label": "S1赛季对战 150",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001384",
+      "x": 4097,
+      "y": 3046,
+      "label": "S1赛季对战 151",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001385",
+      "x": 4342,
+      "y": 3158,
+      "label": "S1赛季对战 152",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001386",
+      "x": 4340,
+      "y": 3305,
+      "label": "S1赛季对战 153",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001387",
+      "x": 4326,
+      "y": 3453,
+      "label": "S1赛季对战 154",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001388",
+      "x": 4503,
+      "y": 3158,
+      "label": "S1赛季对战 155",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001389",
+      "x": 4944,
+      "y": 3697,
+      "label": "S1赛季对战 156",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001390",
+      "x": 4946,
+      "y": 3546,
+      "label": "S1赛季对战 157",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001391",
+      "x": 4700,
+      "y": 3196,
+      "label": "S1赛季对战 158",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001392",
+      "x": 4685,
+      "y": 3335,
+      "label": "S1赛季对战 159",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001393",
+      "x": 4665,
+      "y": 3027,
+      "label": "S1赛季对战 160",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001394",
+      "x": 4815,
+      "y": 3338,
+      "label": "S1赛季对战 161",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001395",
+      "x": 4786,
+      "y": 3411,
+      "label": "S1赛季对战 162",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001396",
+      "x": 4792,
+      "y": 3204,
+      "label": "S1赛季对战 163",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001397",
+      "x": 4706,
+      "y": 3058,
+      "label": "S1赛季对战 164",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001398",
+      "x": 5243,
+      "y": 2877,
+      "label": "S1赛季对战 165",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001399",
+      "x": 5222,
+      "y": 2911,
+      "label": "S1赛季对战 166",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001400",
+      "x": 5417,
+      "y": 3156,
+      "label": "S1赛季对战 167",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001401",
+      "x": 5735,
+      "y": 3010,
+      "label": "S1赛季对战 168",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001402",
+      "x": 5503,
+      "y": 3542,
+      "label": "S1赛季对战 169",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001403",
+      "x": 5663,
+      "y": 3047,
+      "label": "S1赛季对战 170",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001404",
+      "x": 5752,
+      "y": 2895,
+      "label": "S1赛季对战 171",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001405",
+      "x": 5756,
+      "y": 3537,
+      "label": "S1赛季对战 172",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001566",
+      "x": 3190,
+      "y": 1545,
+      "label": "S1赛季对战 173",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001567",
+      "x": 2934,
+      "y": 1236,
+      "label": "S1赛季对战 174",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001571",
+      "x": 4407,
+      "y": 3061,
+      "label": "S1赛季对战 175",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001574",
+      "x": 4168,
+      "y": 3451,
+      "label": "S1赛季对战 176",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001577",
+      "x": 4798,
+      "y": 3660,
+      "label": "S1赛季对战 177",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001578",
+      "x": 4889,
+      "y": 3411,
+      "label": "S1赛季对战 178",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001579",
+      "x": 5005,
+      "y": 3569,
+      "label": "S1赛季对战 179",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001581",
+      "x": 5383,
+      "y": 2982,
+      "label": "S1赛季对战 180",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001800",
+      "x": 578,
+      "y": 1382,
+      "label": "S1赛季对战 181",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001801",
+      "x": 1614,
+      "y": 1478,
+      "label": "S1赛季对战 182",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001802",
+      "x": 1091,
+      "y": 2352,
+      "label": "S1赛季对战 183",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001803",
+      "x": 1362,
+      "y": 2458,
+      "label": "S1赛季对战 184",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001804",
+      "x": 2807,
+      "y": 3032,
+      "label": "S1赛季对战 185",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001805",
+      "x": 2278,
+      "y": 2375,
+      "label": "S1赛季对战 186",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001806",
+      "x": 3208,
+      "y": 1977,
+      "label": "S1赛季对战 187",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001807",
+      "x": 3847,
+      "y": 2040,
+      "label": "S1赛季对战 188",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001808",
+      "x": 3651,
+      "y": 2748,
+      "label": "S1赛季对战 189",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001809",
+      "x": 1856,
+      "y": 1115,
+      "label": "S1赛季对战 190",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001810",
+      "x": 1548,
+      "y": 947,
+      "label": "S1赛季对战 191",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001811",
+      "x": 2890,
+      "y": 1445,
+      "label": "S1赛季对战 192",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001812",
+      "x": 3484,
+      "y": 2957,
+      "label": "S1赛季对战 193",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001813",
+      "x": 3535,
+      "y": 3078,
+      "label": "S1赛季对战 194",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001814",
+      "x": 5417,
+      "y": 3156,
+      "label": "S1赛季对战 195",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001815",
+      "x": 4786,
+      "y": 3411,
+      "label": "S1赛季对战 196",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1001816",
+      "x": 5197,
+      "y": 3451,
+      "label": "S1赛季对战 197",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002267",
+      "x": 2635,
+      "y": 2731,
+      "label": "S1赛季对战 198",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002269",
+      "x": 2489,
+      "y": 2465,
+      "label": "S1赛季对战 199",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002270",
+      "x": 2994,
+      "y": 2100,
+      "label": "S1赛季对战 200",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002271",
+      "x": 3650,
+      "y": 1654,
+      "label": "S1赛季对战 201",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002272",
+      "x": 4034,
+      "y": 2068,
+      "label": "S1赛季对战 202",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002291",
+      "x": 3255,
+      "y": 1943,
+      "label": "S1赛季对战 203",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002326",
+      "x": 2496,
+      "y": 3269,
+      "label": "S1赛季对战 204",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002327",
+      "x": 2543,
+      "y": 3284,
+      "label": "S1赛季对战 205",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002330",
+      "x": 2854,
+      "y": 2948,
+      "label": "S1赛季对战 206",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002332",
+      "x": 2940,
+      "y": 3282,
+      "label": "S1赛季对战 207",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002334",
+      "x": 2789,
+      "y": 4266,
+      "label": "S1赛季对战 208",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002348",
+      "x": 3322,
+      "y": 3491,
+      "label": "S1赛季对战 209",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002349",
+      "x": 3445,
+      "y": 3416,
+      "label": "S1赛季对战 210",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002357",
+      "x": 4926,
+      "y": 3802,
+      "label": "S1赛季对战 211",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002358",
+      "x": 4916,
+      "y": 3422,
+      "label": "S1赛季对战 212",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002359",
+      "x": 4846,
+      "y": 3286,
+      "label": "S1赛季对战 213",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002365",
+      "x": 4297,
+      "y": 2181,
+      "label": "S1赛季对战 214",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002392",
+      "x": 5533,
+      "y": 3343,
+      "label": "S1赛季对战 215",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002403",
+      "x": 5197,
+      "y": 2466,
+      "label": "S1赛季对战 216",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002407",
+      "x": 4821,
+      "y": 2933,
+      "label": "S1赛季对战 217",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002412",
+      "x": 4936,
+      "y": 3274,
+      "label": "S1赛季对战 218",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002417",
+      "x": 5139,
+      "y": 3156,
+      "label": "S1赛季对战 219",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002419",
+      "x": 4966,
+      "y": 3653,
+      "label": "S1赛季对战 220",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002420",
+      "x": 4849,
+      "y": 3489,
+      "label": "S1赛季对战 221",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002423",
+      "x": 4321,
+      "y": 3297,
+      "label": "S1赛季对战 222",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002471",
+      "x": 3404,
+      "y": 3642,
+      "label": "S1赛季对战 223",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002488",
+      "x": 2838,
+      "y": 2059,
+      "label": "S1赛季对战 224",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002493",
+      "x": 2636,
+      "y": 1460,
+      "label": "S1赛季对战 225",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002494",
+      "x": 3148,
+      "y": 2615,
+      "label": "S1赛季对战 226",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1002496",
+      "x": 2825,
+      "y": 2807,
+      "label": "S1赛季对战 227",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "1200498",
+      "x": 1195,
+      "y": 785,
+      "label": "黑衣人 1",
+      "resource_type_id": "5488",
+      "resource_group_id": "145",
+      "resource_title": "黑衣人",
+      "icon_file": "Fs4PJRnT1Ek-9z_hfARfrbn_0ezw.png"
+    },
+    {
+      "id": "2701967",
+      "x": 1903,
+      "y": 3898,
+      "label": "S1赛季对战 228",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701970",
+      "x": 1330,
+      "y": 3768,
+      "label": "S1赛季对战 229",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701971",
+      "x": 1530,
+      "y": 4125,
+      "label": "S1赛季对战 230",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701972",
+      "x": 1361,
+      "y": 3536,
+      "label": "S1赛季对战 231",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701973",
+      "x": 1825,
+      "y": 3540,
+      "label": "S1赛季对战 232",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701979",
+      "x": 1362,
+      "y": 2458,
+      "label": "S1赛季对战 233",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701980",
+      "x": 1298,
+      "y": 2404,
+      "label": "S1赛季对战 234",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701993",
+      "x": 1170,
+      "y": 2676,
+      "label": "S1赛季对战 235",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2701996",
+      "x": 1343,
+      "y": 2635,
+      "label": "S1赛季对战 236",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702035",
+      "x": 2201,
+      "y": 3086,
+      "label": "S1赛季对战 240",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702038",
+      "x": 2084,
+      "y": 3157,
+      "label": "S1赛季对战 241",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702619",
+      "x": 1177,
+      "y": 3507,
+      "label": "S1赛季对战 242",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702620",
+      "x": 912,
+      "y": 3602,
+      "label": "S1赛季对战 243",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702621",
+      "x": 928,
+      "y": 3508,
+      "label": "S1赛季对战 244",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702622",
+      "x": 848,
+      "y": 3355,
+      "label": "S1赛季对战 245",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702696",
+      "x": 957,
+      "y": 3781,
+      "label": "S1赛季对战 246",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702697",
+      "x": 928,
+      "y": 2901,
+      "label": "S1赛季对战 247",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702699",
+      "x": 1319,
+      "y": 2952,
+      "label": "S1赛季对战 248",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702700",
+      "x": 1400,
+      "y": 2517,
+      "label": "S1赛季对战 249",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702701",
+      "x": 1599,
+      "y": 3237,
+      "label": "S1赛季对战 250",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702702",
+      "x": 1659,
+      "y": 3093,
+      "label": "S1赛季对战 251",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702703",
+      "x": 1896,
+      "y": 3211,
+      "label": "S1赛季对战 252",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702704",
+      "x": 1958,
+      "y": 3794,
+      "label": "S1赛季对战 253",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702707",
+      "x": 2065,
+      "y": 3633,
+      "label": "S1赛季对战 254",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702710",
+      "x": 2215,
+      "y": 3339,
+      "label": "S1赛季对战 255",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702712",
+      "x": 2223,
+      "y": 2901,
+      "label": "S1赛季对战 256",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702714",
+      "x": 1029,
+      "y": 3105,
+      "label": "S1赛季对战 257",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702715",
+      "x": 937,
+      "y": 2990,
+      "label": "S1赛季对战 258",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702716",
+      "x": 981,
+      "y": 3283,
+      "label": "S1赛季对战 259",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702718",
+      "x": 1715,
+      "y": 3367,
+      "label": "S1赛季对战 260",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702719",
+      "x": 1958,
+      "y": 3445,
+      "label": "S1赛季对战 261",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702720",
+      "x": 1566,
+      "y": 4111,
+      "label": "S1赛季对战 262",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702722",
+      "x": 1535,
+      "y": 3957,
+      "label": "S1赛季对战 263",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702723",
+      "x": 1691,
+      "y": 3982,
+      "label": "S1赛季对战 264",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702730",
+      "x": 1657,
+      "y": 3353,
+      "label": "S1赛季对战 265",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702734",
+      "x": 2034,
+      "y": 3485,
+      "label": "S1赛季对战 266",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702846",
+      "x": 2813,
+      "y": 2808,
+      "label": "S1赛季对战 267",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702848",
+      "x": 2574,
+      "y": 3212,
+      "label": "S1赛季对战 268",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702851",
+      "x": 2747,
+      "y": 3288,
+      "label": "S1赛季对战 269",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702856",
+      "x": 2807,
+      "y": 3032,
+      "label": "S1赛季对战 270",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702858",
+      "x": 2421,
+      "y": 2833,
+      "label": "S1赛季对战 271",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702859",
+      "x": 2444,
+      "y": 2691,
+      "label": "S1赛季对战 272",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702865",
+      "x": 2883,
+      "y": 2496,
+      "label": "S1赛季对战 273",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702903",
+      "x": 2278,
+      "y": 2375,
+      "label": "S1赛季对战 274",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702904",
+      "x": 3074,
+      "y": 2478,
+      "label": "S1赛季对战 275",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702905",
+      "x": 2614,
+      "y": 2195,
+      "label": "S1赛季对战 276",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702934",
+      "x": 3208,
+      "y": 1977,
+      "label": "S1赛季对战 277",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702935",
+      "x": 2713,
+      "y": 2917,
+      "label": "S1赛季对战 278",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702938",
+      "x": 2910,
+      "y": 2109,
+      "label": "S1赛季对战 279",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702943",
+      "x": 3084,
+      "y": 1787,
+      "label": "S1赛季对战 280",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702948",
+      "x": 3422,
+      "y": 1623,
+      "label": "S1赛季对战 281",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702974",
+      "x": 3749,
+      "y": 1846,
+      "label": "S1赛季对战 282",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702975",
+      "x": 3847,
+      "y": 2040,
+      "label": "S1赛季对战 283",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2702979",
+      "x": 3919,
+      "y": 1960,
+      "label": "S1赛季对战 284",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703000",
+      "x": 3869,
+      "y": 2422,
+      "label": "S1赛季对战 285",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703001",
+      "x": 3651,
+      "y": 2748,
+      "label": "S1赛季对战 286",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703018",
+      "x": 3926,
+      "y": 2264,
+      "label": "S1赛季对战 287",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703041",
+      "x": 4361,
+      "y": 2657,
+      "label": "S1赛季对战 288",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703063",
+      "x": 4477,
+      "y": 2635,
+      "label": "S1赛季对战 289",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703164",
+      "x": 3090,
+      "y": 2445,
+      "label": "S1赛季对战 290",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2703686",
+      "x": 3068,
+      "y": 2186,
+      "label": "S1赛季对战 291",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "2704329",
+      "x": 3967,
+      "y": 2047,
+      "label": "S1赛季对战 292",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100100",
+      "x": 2240,
+      "y": 1878,
+      "label": "S1赛季对战 293",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100101",
+      "x": 1648,
+      "y": 1597,
+      "label": "S1赛季对战 294",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100103",
+      "x": 1761,
+      "y": 2413,
+      "label": "S1赛季对战 295",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100104",
+      "x": 2163,
+      "y": 2675,
+      "label": "S1赛季对战 296",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100105",
+      "x": 1996,
+      "y": 2418,
+      "label": "S1赛季对战 297",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100107",
+      "x": 1601,
+      "y": 2232,
+      "label": "S1赛季对战 298",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100108",
+      "x": 1587,
+      "y": 2325,
+      "label": "S1赛季对战 299",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100109",
+      "x": 1867,
+      "y": 2783,
+      "label": "S1赛季对战 300",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100110",
+      "x": 1786,
+      "y": 2788,
+      "label": "S1赛季对战 301",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100111",
+      "x": 1637,
+      "y": 2551,
+      "label": "S1赛季对战 302",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100113",
+      "x": 1983,
+      "y": 2776,
+      "label": "S1赛季对战 303",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100114",
+      "x": 1781,
+      "y": 2369,
+      "label": "S1赛季对战 304",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100117",
+      "x": 1803,
+      "y": 2241,
+      "label": "S1赛季对战 305",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100118",
+      "x": 1882,
+      "y": 2522,
+      "label": "S1赛季对战 306",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100119",
+      "x": 1856,
+      "y": 2128,
+      "label": "S1赛季对战 307",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100121",
+      "x": 2134,
+      "y": 2053,
+      "label": "S1赛季对战 308",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100122",
+      "x": 2114,
+      "y": 2330,
+      "label": "S1赛季对战 309",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100123",
+      "x": 1633,
+      "y": 2307,
+      "label": "S1赛季对战 310",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100124",
+      "x": 1686,
+      "y": 2248,
+      "label": "S1赛季对战 311",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100125",
+      "x": 1826,
+      "y": 2095,
+      "label": "S1赛季对战 312",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100144",
+      "x": 1512,
+      "y": 1745,
+      "label": "S1赛季对战 313",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100147",
+      "x": 1375,
+      "y": 2147,
+      "label": "S1赛季对战 314",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100148",
+      "x": 1142,
+      "y": 1727,
+      "label": "S1赛季对战 315",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100162",
+      "x": 1391,
+      "y": 1878,
+      "label": "S1赛季对战 316",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100201",
+      "x": 1398,
+      "y": 2028,
+      "label": "S1赛季对战 317",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100202",
+      "x": 1528,
+      "y": 2001,
+      "label": "S1赛季对战 318",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100211",
+      "x": 1496,
+      "y": 1670,
+      "label": "S1赛季对战 319",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100212",
+      "x": 1358,
+      "y": 1498,
+      "label": "S1赛季对战 320",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100216",
+      "x": 1171,
+      "y": 1658,
+      "label": "S1赛季对战 321",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100218",
+      "x": 1133,
+      "y": 1952,
+      "label": "S1赛季对战 322",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100219",
+      "x": 1385,
+      "y": 1999,
+      "label": "S1赛季对战 323",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100222",
+      "x": 1763,
+      "y": 1712,
+      "label": "S1赛季对战 324",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100225",
+      "x": 1414,
+      "y": 2019,
+      "label": "S1赛季对战 325",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100227",
+      "x": 1681,
+      "y": 2121,
+      "label": "S1赛季对战 326",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5100230",
+      "x": 1587,
+      "y": 1657,
+      "label": "S1赛季对战 327",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5400059",
+      "x": 2138,
+      "y": 1813,
+      "label": "S1赛季对战 328",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490015",
+      "x": 4396,
+      "y": 1634,
+      "label": "S1赛季对战 S3-5490015",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490016",
+      "x": 4473,
+      "y": 1623,
+      "label": "S1赛季对战 S3-5490016",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490017",
+      "x": 4267,
+      "y": 1671,
+      "label": "S1赛季对战 S3-5490017",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490021",
+      "x": 4147,
+      "y": 1670,
+      "label": "S1赛季对战 S3-5490021",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490026",
+      "x": 4148,
+      "y": 1950,
+      "label": "S1赛季对战 S3-5490026",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490029",
+      "x": 3744,
+      "y": 1613,
+      "label": "S1赛季对战 S3-5490029",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490038",
+      "x": 4305,
+      "y": 1525,
+      "label": "S1赛季对战 S3-5490038",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490040",
+      "x": 3810,
+      "y": 1614,
+      "label": "S1赛季对战 S3-5490040",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490048",
+      "x": 3854,
+      "y": 1542,
+      "label": "S1赛季对战 S3-5490048",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490056",
+      "x": 4328,
+      "y": 1728,
+      "label": "S1赛季对战 S3-5490056",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490058",
+      "x": 4121,
+      "y": 1715,
+      "label": "S1赛季对战 S3-5490058",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490063",
+      "x": 4302,
+      "y": 1676,
+      "label": "S1赛季对战 S3-5490063",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490069",
+      "x": 3990,
+      "y": 1304,
+      "label": "S1赛季对战 S3-5490069",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490071",
+      "x": 4156,
+      "y": 1258,
+      "label": "S1赛季对战 S3-5490071",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490072",
+      "x": 4098,
+      "y": 1383,
+      "label": "S1赛季对战 S3-5490072",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490073",
+      "x": 4005,
+      "y": 1339,
+      "label": "S1赛季对战 S3-5490073",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490087",
+      "x": 4218,
+      "y": 830,
+      "label": "S1赛季对战 S3-5490087",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490088",
+      "x": 4536,
+      "y": 898,
+      "label": "S1赛季对战 S3-5490088",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490089",
+      "x": 4146,
+      "y": 978,
+      "label": "S1赛季对战 S3-5490089",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490090",
+      "x": 3909,
+      "y": 499,
+      "label": "S1赛季对战 S3-5490090",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490091",
+      "x": 3972,
+      "y": 926,
+      "label": "S1赛季对战 S3-5490091",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490092",
+      "x": 4081,
+      "y": 1031,
+      "label": "S1赛季对战 S3-5490092",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490093",
+      "x": 4371,
+      "y": 616,
+      "label": "S1赛季对战 S3-5490093",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490094",
+      "x": 4407,
+      "y": 562,
+      "label": "S1赛季对战 S3-5490094",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490095",
+      "x": 4331,
+      "y": 547,
+      "label": "S1赛季对战 S3-5490095",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490096",
+      "x": 4114,
+      "y": 582,
+      "label": "S1赛季对战 S3-5490096",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490097",
+      "x": 4507,
+      "y": 1302,
+      "label": "S1赛季对战 S3-5490097",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490102",
+      "x": 3146,
+      "y": 1139,
+      "label": "S1赛季对战 S3-5490102",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490112",
+      "x": 4172,
+      "y": 328,
+      "label": "S1赛季对战 S3-5490112",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490122",
+      "x": 4481,
+      "y": 925,
+      "label": "S1赛季对战 S3-5490122",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490149",
+      "x": 4874,
+      "y": 808,
+      "label": "S1赛季对战 S3-5490149",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490150",
+      "x": 4939,
+      "y": 1576,
+      "label": "S1赛季对战 S3-5490150",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490151",
+      "x": 3160,
+      "y": 1204,
+      "label": "S1赛季对战 S3-5490151",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490152",
+      "x": 4296,
+      "y": 2059,
+      "label": "S1赛季对战 S3-5490152",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490153",
+      "x": 4676,
+      "y": 851,
+      "label": "S1赛季对战 S3-5490153",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "5490154",
+      "x": 2925,
+      "y": 988,
+      "label": "S1赛季对战 S3-5490154",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703778",
+      "x": 3330,
+      "y": 763,
+      "label": "S1赛季对战 S3-6703778",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703779",
+      "x": 3544,
+      "y": 739,
+      "label": "S1赛季对战 S3-6703779",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703780",
+      "x": 3390,
+      "y": 911,
+      "label": "S1赛季对战 S3-6703780",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703781",
+      "x": 3426,
+      "y": 1062,
+      "label": "S1赛季对战 S3-6703781",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703782",
+      "x": 3485,
+      "y": 910,
+      "label": "S1赛季对战 S3-6703782",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703783",
+      "x": 3660,
+      "y": 946,
+      "label": "S1赛季对战 S3-6703783",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703784",
+      "x": 3634,
+      "y": 1271,
+      "label": "S1赛季对战 S3-6703784",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703785",
+      "x": 3411,
+      "y": 1366,
+      "label": "S1赛季对战 S3-6703785",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703786",
+      "x": 3456,
+      "y": 1314,
+      "label": "S1赛季对战 S3-6703786",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703787",
+      "x": 3731,
+      "y": 829,
+      "label": "S1赛季对战 S3-6703787",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703788",
+      "x": 3771,
+      "y": 860,
+      "label": "S1赛季对战 S3-6703788",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703789",
+      "x": 3865,
+      "y": 823,
+      "label": "S1赛季对战 S3-6703789",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703790",
+      "x": 3876,
+      "y": 805,
+      "label": "S1赛季对战 S3-6703790",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703791",
+      "x": 3706,
+      "y": 742,
+      "label": "S1赛季对战 S3-6703791",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703793",
+      "x": 3751,
+      "y": 675,
+      "label": "S1赛季对战 S3-6703793",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703794",
+      "x": 3861,
+      "y": 619,
+      "label": "S1赛季对战 S3-6703794",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703795",
+      "x": 3819,
+      "y": 536,
+      "label": "S1赛季对战 S3-6703795",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703796",
+      "x": 3880,
+      "y": 294,
+      "label": "S1赛季对战 S3-6703796",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703797",
+      "x": 3799,
+      "y": 143,
+      "label": "S1赛季对战 S3-6703797",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703798",
+      "x": 3721,
+      "y": 128,
+      "label": "S1赛季对战 S3-6703798",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703799",
+      "x": 3643,
+      "y": 65,
+      "label": "S1赛季对战 S3-6703799",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703800",
+      "x": 3567,
+      "y": 107,
+      "label": "S1赛季对战 S3-6703800",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703801",
+      "x": 3687,
+      "y": 378,
+      "label": "S1赛季对战 S3-6703801",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703802",
+      "x": 3562,
+      "y": 304,
+      "label": "S1赛季对战 S3-6703802",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703803",
+      "x": 3542,
+      "y": 465,
+      "label": "S1赛季对战 S3-6703803",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703804",
+      "x": 3632,
+      "y": 611,
+      "label": "S1赛季对战 S3-6703804",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703805",
+      "x": 3449,
+      "y": 616,
+      "label": "S1赛季对战 S3-6703805",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703806",
+      "x": 3317,
+      "y": 588,
+      "label": "S1赛季对战 S3-6703806",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703807",
+      "x": 3313,
+      "y": 412,
+      "label": "S1赛季对战 S3-6703807",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703808",
+      "x": 3225,
+      "y": 279,
+      "label": "S1赛季对战 S3-6703808",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703809",
+      "x": 2995,
+      "y": 667,
+      "label": "S1赛季对战 S3-6703809",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "6703810",
+      "x": 3299,
+      "y": 556,
+      "label": "S1赛季对战 S3-6703810",
+      "resource_type_id": "5604",
+      "resource_group_id": "145",
+      "resource_title": "S1赛季对战",
+      "icon_file": "FiqmXN2AwuVCoaTpHlrh-oxwopXY.png"
+    },
+    {
+      "id": "14102009",
+      "x": 886,
+      "y": 2151,
+      "label": "黑衣人 4",
+      "resource_type_id": "5488",
+      "resource_group_id": "145",
+      "resource_title": "黑衣人",
+      "icon_file": "Fs4PJRnT1Ek-9z_hfARfrbn_0ezw.png"
+    }
+  ]
+}

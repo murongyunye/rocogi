@@ -1,0 +1,56 @@
+{
+  "adapter": "balance_lab",
+  "repo": "Pacific-shark-roco-balance-lab",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "Pacific-shark-roco-balance-lab"
+    },
+    {
+      "name": "node",
+      "ok": true,
+      "detail": "C:\\Users\\13005\\Downloads\\work\\rocogi\\.toolchain\\node\\node.exe"
+    },
+    {
+      "name": "engine_import",
+      "ok": true,
+      "detail": "{\"engine_exports\":[\"battle\",\"choose\",\"createFighter\",\"damage\",\"diagnose\",\"evaluate\",\"moveCost\",\"panel\",\"resolveRound\",\"takeAction\",\"validateEnv\",\"validatePatch\"],\"roster\":6,\"moves\":25,\"data_version\":\""
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "language": "JavaScript (ESM) + React",
+    "entrypoints": [
+      "server.mjs",
+      "scripts/experiment.mjs",
+      "src/engine.mjs"
+    ],
+    "engine_exports": [
+      "battle",
+      "choose",
+      "createFighter",
+      "damage",
+      "diagnose",
+      "evaluate",
+      "moveCost",
+      "panel",
+      "resolveRound",
+      "takeAction",
+      "validateEnv",
+      "validatePatch"
+    ],
+    "dataset": {
+      "roster": 6,
+      "moves": 25,
+      "data_version": "S3 公开图鉴快照 · 2026-09-01",
+      "rule_version": "subset-0.1.0"
+    },
+    "build_requirements": [
+      "Node >=22.12",
+      "pnpm 11.25（仅前端）"
+    ],
+    "minimal_run_plan": "模拟可直接 node scripts/experiment.mjs；前端需 pnpm install + vite dev --port 4197"
+  }
+}

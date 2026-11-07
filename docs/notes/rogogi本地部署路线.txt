@@ -1,0 +1,90 @@
+## 四、分阶段路线
+阶段 内容 关键产出 验收标准 预估量 0 骨架 yotta 五层模型落地：Node Contract 注册表、Workflow graph schema、CivetWeb REST+WS、SQLite、SPA 托管 `rocogi.exe` 可启动 `/api/health` 返回`engine:"c"` ；`/api/meta` 结构与 Python 版一致；WS 握手 101；前端经 vite 代理可加载；二进制 < 5 MB C ~2.5K 1 视觉/输入 DXGI 截图、模板匹配、SendInput、Interception 开关、模板缓存 `vision/` 、`input/` 截图 → 模板匹配端到端 < 50ms；匹配位置与 Python`matchTemplate` 偏差 < 1px；键鼠模拟可用 C/C++ ~5K 2 定位 OpenCV SIFT + BFMatcher + RANSAC 单应性；点位索引；SIFT-Tracker v0.10.2 对接（ONNX Runtime C API 或进程调用） `vision/sift.cpp` 、`run/tracker.c` 、`target` 输出`{map_id,x,y,confidence}` ；与`adapters/position.py` 坐标偏差 < 5px；CPU 推理 < 200ms C ~4K 3 对战 效果引擎、MCTS、战斗规则重写；读`nrc.db` `battle/*.c` 给定状态输出`{skill_index,target,score}` ；与 NRC_AI 结果一致（MCTS 随机性内）；1000 次模拟决策 < 100ms C ~8K 4 流编排 compiler / runtime / 表达式 / 节点库 / 运行管理 / 实时捕捉状态机 / 追踪循环 `engine/*` 、`nodes/*` 、`run/*` 3 节点线性流程可执行；if/else 与循环可用；SCAN→THROW→VERIFY mock 跑通；事件序列与 Python 版一致 C ~6K 5 前端联调 18 个 view 对接 C 后端；契约差异修正 全站可用 18 页面无致命错误；工作流可建/存/执行；实时任务可启停；地图追踪显示定位；图鉴/PvP/对战/桌宠正常 JS ~1K 合计 C ~25.5K + JS ~1K
+
+阶段依赖：0 → (1 ∥ 3) → 2 → 4 → 5。阶段 1 与 3 相互独立，可并行。
+
+## 五、复用 vs 必须重写
+可直接复用（零改动或仅格式转换）
+
+- 前端全部代码 （32 文件 / ~15.8K 行）：原样保留，仅调整 API 基址与类型
+- `nrc.db` （1.2 MB）：`sqlite3` 直接读取，表结构不变
+- `data/map/` ：`base_map.jpg` + 4 个 JSON + 35 个图标
+- `data/templates/` ：9 个 PNG 视觉模板
+- SIFT-Map-Tracker v0.10.2 ：ONNX 模型与特征资源（外置，不改二进制）
+- `rocoflow.db` 表结构 ：`storage.py` 建表语句转写
+- 4 个预置工作流 ：`seed.py` 转写为初始化 SQL
+- 工作流 JSON schema 与 Node Contract 语义 ：概念层复用，实现重写
+必须重写
+
+- FastAPI / uvicorn / websockets / numpy / opencv-python / pillow 全部调用层
+- `backend/app/` 全部 Python 模块（含`components.py` 、`sessions.py` 、`api/routes.py` 、`engine/` 、`nodes/` 、`adapters/` 、`hotkeys.py` ）
+- `backend/vendor/nrc_ai/` 全部 Python 逻辑（MCTS、效果引擎、`_monolith.py` 3202 行）， 仅数据复用
+- Windows 专有交互：DXGI 截图、SendInput、RegisterHotKey
+## 六、THIRD_PARTY_NOTICES.md 记录规范
+每个来源必须记录三项： 仓库 URL + 锁定版本（commit/tag）+ 许可证原文标识 。
+
+JSON
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+`// third_party/LOCKFILE.json
+{
+  "sources": [
+    {
+      "name": "yottaapp/yotta",
+      "url": "https://github.com/yottaapp/yotta",
+      "ref": "main@2026-10-30T02:33:08Z (4.0 Alpha)",
+      "license": "source-available (custom, SPDX NOASSERTION)",
+      "usage": "architecture reference only; no code copied"
+    },
+    {
+      "name": "babalae/better-genshin-impact",
+      "url": "https://github.com/babalae/better-genshin-impact",
+      "ref": "<TBD: pin tag/commit>",
+      "license": "GPL-3.0",
+      "usage": "launcher / task schedule architecture"
+    }
+    // ... 其余 11 项同构
+  ]
+}`
+
+`THIRD_PARTY_NOTICES.md` 每项模板：
+
+Markdown
+
+1
+2
+3
+4
+5
+6
+7
+
+`## <owner>/<repo>
+- 来源：https://github.com/<owner>/<repo>
+- 版本：<tag 或 commit SHA>（锁定日期 YYYY-MM-DD）
+- 许可：<SPDX 标识或原文摘要>
+- 用途：<一句话>
+- 本仓库文件：<路径>
+- 修改说明：<无 / 具体改动>`
+
+当前快照说明 ：`rocogi` 是通过 GitHub MCP 逐文件下载的， 本地无`.git` 目录 ，因此现有快照无 commit SHA 可查。方案确认后第一步是补建 git 仓库并把基线提交固定为`v0-baseline` ，后续每个上游在集成时写入`LOCKFILE.json` 的 pinned ref。

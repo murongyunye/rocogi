@@ -1,0 +1,22 @@
+# pets/data.yaml — Ultralytics YOLO 训练配置模板
+# 用法: tools/tsuann/scripts/train_model.py 的 prepare_dataset() 会自动生成正式版到
+#       pets/yolo_format/data.yaml；本模板是手工训练时的参照。
+# 类别冻结规则见 classes.json: id 0-7 = Tsuann V4 原表，8-10 = Makapic 补充。
+
+path: <绝对路径>/rocogi/datasets/pets/yolo_format
+train: images/train
+val: images/val
+
+nc: 11
+names:
+  0: huzhu_quan
+  1: yibei_er
+  2: emo_ding
+  3: juhua_li
+  4: gongping_ge
+  5: ling_hu
+  6: xiao_dujiaoshou
+  7: xiaoye_yifu
+  8: huolong
+  9: youyingshu
+  10: xueren

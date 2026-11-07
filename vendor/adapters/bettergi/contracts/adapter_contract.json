@@ -1,0 +1,106 @@
+{
+  "adapter": "bettergi",
+  "repo": "babalae-better-genshin-impact",
+  "status": "blocked",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "babalae-better-genshin-impact"
+    },
+    {
+      "name": "Fischless.GameCapture",
+      "ok": true,
+      "detail": "17 个公开类型"
+    },
+    {
+      "name": "Fischless.HotkeyCapture",
+      "ok": true,
+      "detail": "4 个公开类型"
+    },
+    {
+      "name": "Fischless.WindowsInput",
+      "ok": true,
+      "detail": "11 个公开类型"
+    },
+    {
+      "name": "main_project",
+      "ok": true,
+      "detail": "1751 个 .cs"
+    },
+    {
+      "name": "viewmodels",
+      "ok": true,
+      "detail": "251 个 ViewModel 文件"
+    },
+    {
+      "name": "solution",
+      "ok": true,
+      "detail": "BetterGenshinImpact.sln"
+    }
+  ],
+  "blockers": [
+    "构建需 .NET 8 SDK + NuGet；本机仅有异常 dotnet，未执行构建，只导出契约"
+  ],
+  "contract": {
+    "language": "C# / .NET 8 / WPF",
+    "projects": [
+      "Fischless.GameCapture",
+      "Fischless.HotkeyCapture",
+      "Fischless.WindowsInput"
+    ],
+    "public_types": {
+      "Fischless.GameCapture": [
+        "class:BitBltCapture",
+        "class:BitBltMat",
+        "class:BitBltRegistryHelper",
+        "class:BitBltSession",
+        "class:CaptureHelper",
+        "class:CaptureModeExtensions",
+        "class:Direct3D11Helper",
+        "class:GameCaptureFactory",
+        "class:GameCaptureFrame",
+        "class:GraphicsCapture",
+        "class:GraphicsCaptureV2",
+        "class:HdrToSdrShader",
+        "class:SharedSurfaceCapture",
+        "class:Texture2DExtensions",
+        "class:WgcBgrMat",
+        "enum:CaptureModes",
+        "interface:IGameCapture"
+      ],
+      "Fischless.HotkeyCapture": [
+        "class:Hotkey",
+        "class:HotkeyHolder",
+        "class:HotkeyHook",
+        "class:KeyPressedEventArgs"
+      ],
+      "Fischless.WindowsInput": [
+        "class:InputBuilder",
+        "class:InputSimulator",
+        "class:KeyboardSimulator",
+        "class:MouseSimulator",
+        "class:WindowsInputDeviceStateAdaptor",
+        "enum:MouseButton",
+        "enum:VK2",
+        "interface:IInputDeviceStateAdaptor",
+        "interface:IInputSimulator",
+        "interface:IKeyboardSimulator",
+        "interface:IMouseSimulator"
+      ]
+    },
+    "entry_project": "BetterGenshinImpact.sln",
+    "reusable_contracts": {
+      "capture": "Fischless.GameCapture 的 BitBlt / WGC / SharedSurface 抓帧",
+      "hotkey": "Fischless.HotkeyCapture 的 RegisterHotKey 封装",
+      "input": "Fischless.WindowsInput 的 SendInput 封装"
+    },
+    "build_requirements": [
+      ".NET 8 SDK",
+      "NuGet 联网还原",
+      "Windows 10/11 + WPF"
+    ],
+    "license": "GPL-3.0",
+    "minimal_run_plan": "不静态链接；以独立进程/独立可执行复用其截图与输入契约，避免 GPL 传染"
+  }
+}

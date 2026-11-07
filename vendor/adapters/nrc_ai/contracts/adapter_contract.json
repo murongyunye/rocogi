@@ -1,0 +1,79 @@
+{
+  "adapter": "nrc_ai",
+  "repo": "ColinHong10-NRC_AI",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "ColinHong10-NRC_AI"
+    },
+    {
+      "name": "nrc_db",
+      "ok": true,
+      "detail": "1216.0 KB"
+    },
+    {
+      "name": "sqlite_readable",
+      "ok": true,
+      "detail": "4 张表"
+    },
+    {
+      "name": "pokemon_count",
+      "ok": true,
+      "detail": "pokemon=461"
+    },
+    {
+      "name": "src_modules",
+      "ok": true,
+      "detail": "14 个模块"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "dataset": {
+      "tables": [
+        "evolution",
+        "pokemon",
+        "pokemon_skill",
+        "skill"
+      ],
+      "counts": {
+        "evolution": 206,
+        "pokemon": 461,
+        "pokemon_skill": 20433,
+        "skill": 491
+      }
+    },
+    "entrypoints": [
+      "start.py",
+      "run_web.py",
+      "src/main.py",
+      "src/server.py"
+    ],
+    "modules": [
+      "__init__",
+      "battle",
+      "effect_data",
+      "effect_engine",
+      "effect_models",
+      "main",
+      "mcts",
+      "models",
+      "pokemon_db",
+      "pokemon_nature_table",
+      "server",
+      "skill_db",
+      "skill_effects_generated",
+      "team_builder"
+    ],
+    "engine": {
+      "battle": "src/battle.py",
+      "mcts": "src/mcts.py",
+      "team_builder": "src/team_builder.py",
+      "damage": "src/effect_engine.py"
+    },
+    "db_path_policy": "sqlite 以只读 URI 打开 vendor/ColinHong10-NRC_AI/data/nrc.db",
+    "rules_dataset": "vendor/Adolph321-Adolph/battle-rules-1-200-20261007/battle-rules-1-200"
+  }
+}

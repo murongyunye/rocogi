@@ -1,0 +1,128 @@
+{
+  "adapter": "roco_map_tracker",
+  "repo": "Wooziii-roco-map-tracker",
+  "status": "adapted",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "Wooziii-roco-map-tracker"
+    },
+    {
+      "name": "import_models",
+      "ok": true,
+      "detail": "tracker.models 导入成功（纯标准库）"
+    },
+    {
+      "name": "import_route_planner",
+      "ok": true,
+      "detail": "route_planner 导入成功，可做最近邻路线"
+    },
+    {
+      "name": "cv2_available",
+      "ok": true,
+      "detail": "SIFTEngine 需要 cv2+numpy"
+    },
+    {
+      "name": "numpy_available",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "import_sift_engine",
+      "ok": true,
+      "detail": "SIFTEngine"
+    },
+    {
+      "name": "affine_calibration",
+      "ok": true,
+      "detail": "{\"a\": 1.3333333333333333, \"b\": 0.0, \"c\": 0.0, \"d\": 0.0, \"e\": 1.391304347826087, \"f\": 0.0}"
+    },
+    {
+      "name": "affine_note",
+      "ok": true,
+      "detail": "平移/旋转场景必须显式给出 3 组物理对应点，不得用单点缩放替代"
+    },
+    {
+      "name": "point_data",
+      "ok": true,
+      "detail": "data/points.normalized.json / 2436 条点位"
+    }
+  ],
+  "blockers": [],
+  "contract": {
+    "entrypoints": [
+      "main.py",
+      "main.pyw",
+      "service_main.py"
+    ],
+    "engine_module": "tracker/engines/sift_engine.py::SIFTEngine",
+    "route_module": "tracker/route_planner.py",
+    "map_spaces": {
+      "main_6144x5888": [
+        6144,
+        5888
+      ],
+      "world_8192x8192": [
+        8192,
+        8192
+      ]
+    },
+    "affine_demo": {
+      "source": "main_6144x5888",
+      "target": "world_8192x8192",
+      "params": {
+        "a": 1.3333333333333333,
+        "b": 0.0,
+        "c": 0.0,
+        "d": 0.0,
+        "e": 1.391304347826087,
+        "f": 0.0
+      }
+    },
+    "sift_settings_fields": [
+      "clahe_limit",
+      "global_downscale",
+      "jitter_jump_count",
+      "jitter_jump_distance_px",
+      "jitter_recovery_match_frames",
+      "jitter_window_length",
+      "local_cache_margin",
+      "local_history_length",
+      "local_lock_fail_threshold",
+      "local_search_expanded_radius",
+      "local_search_radius",
+      "match_ratio",
+      "max_lost_frames",
+      "min_inlier_count",
+      "min_inlier_ratio",
+      "min_match_count",
+      "minimap_mask_inner_ratio",
+      "minimap_mask_outer_ratio",
+      "minimap_visible_keypoint_threshold",
+      "minimap_visible_stddev_threshold",
+      "ransac_threshold",
+      "refresh_rate_ms",
+      "relocate_check_interval_frames",
+      "relocate_confirm_frames",
+      "relocate_confirm_radius_px",
+      "trusted_min_inliers",
+      "trusted_min_match_count"
+    ],
+    "route_config_fields": [
+      "collectible_categories",
+      "collectible_mark_types",
+      "color",
+      "start_mode_default",
+      "view_center_mode"
+    ],
+    "points": 2436,
+    "point_source": "data/points.normalized.json",
+    "legacy_point_json": {
+      "path": "roco-map-tracker/point.json",
+      "usable": false,
+      "reason": "实际是 biligame wiki 的 HTML 页面被错误保存为 .json，不是结构化点位数据"
+    },
+    "path_policy": "logic_map / point.json / hybrid_index.npz 一律从 vendor 内读取"
+  }
+}

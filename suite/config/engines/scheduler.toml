@@ -1,0 +1,64 @@
+[engine]
+name = "scheduler"
+venv = "engines/scheduler/.venv"
+script = "engines/scheduler/engine_main.py"
+action = "fsm"
+interval = 1.0
+startup_timeout_sec = 45
+
+[session]
+interval_ms = 500
+max_steps = 200
+
+# sample graph for compile check; node types come from Rocogi's existing DAG
+[[dag.nodes]]
+id = "start"
+type = "run.start"
+
+[[dag.nodes]]
+id = "locate"
+type = "map.locate"
+
+[[dag.nodes]]
+id = "log"
+type = "flow.log"
+
+[[dag.nodes]]
+id = "stop"
+type = "run.stop"
+
+[[dag.edges]]
+source = "start"
+target = "locate"
+
+[[dag.edges]]
+source = "locate"
+target = "log"
+
+[[dag.edges]]
+source = "log"
+target = "stop"
+
+[[onedragon.tasks]]
+id = "capture_fsm"
+component = "scheduler.capture_fsm"
+order = 1
+enabled = true
+
+[[onedragon.tasks]]
+id = "dag_route"
+component = "scheduler.dag"
+order = 2
+enabled = true
+
+[[onedragon.tasks]]
+id = "battle_decision"
+component = "battle.responder"
+order = 3
+enabled = true
+
+[[onedragon.tasks]]
+id = "offline_replay"
+component = "scheduler.executor"
+order = 4
+enabled = false

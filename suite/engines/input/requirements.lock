@@ -1,0 +1,4 @@
+interception-python==1.13.6
+pynput==1.8.2
+pywin32==312
+six==1.17.0

@@ -1,0 +1,77 @@
+{
+  "adapter": "pets_gen",
+  "repo": "ElliottZhao666666-rocom-codex-pets-gen",
+  "status": "blocked",
+  "checks": [
+    {
+      "name": "repo",
+      "ok": true,
+      "detail": "ElliottZhao666666-rocom-codex-pets-gen"
+    },
+    {
+      "name": "scripts",
+      "ok": true,
+      "detail": "7 个脚本"
+    },
+    {
+      "name": "import_validate_input",
+      "ok": true,
+      "detail": "validate_input 导入成功（纯标准库）"
+    },
+    {
+      "name": "public_functions",
+      "ok": true,
+      "detail": "validate_input/read_glb/require: validate_input, read_glb, require"
+    },
+    {
+      "name": "pillow",
+      "ok": true,
+      "detail": "render_source.py 需要 Pillow"
+    },
+    {
+      "name": "imageio_ffmpeg",
+      "ok": false,
+      "detail": "视频/帧处理可选依赖"
+    },
+    {
+      "name": "tests",
+      "ok": true,
+      "detail": "3 个测试文件"
+    }
+  ],
+  "blockers": [
+    "端到端运行需要外部资源目录 + rocom-pets 渲染器，仓库内不提供"
+  ],
+  "contract": {
+    "source_complete": true,
+    "entrypoints": [
+      "scripts/validate_input.py",
+      "scripts/render_source.py",
+      "scripts/normalize_frames.py"
+    ],
+    "scripts": [
+      "audit_repo.py",
+      "color_appearance.py",
+      "get_pet_description.py",
+      "inspect_actions.py",
+      "normalize_frames.py",
+      "render_source.py",
+      "validate_input.py"
+    ],
+    "docs": [
+      "color-appearance.md",
+      "render-plan.md"
+    ],
+    "tests": [
+      "test_audit_repo.py",
+      "test_color_appearance.py",
+      "test_pet_description.py"
+    ],
+    "external_inputs_required": [
+      "符合 docs/resource-directory.md 的单实体资源目录（模型/贴图/动作/眼口图集）",
+      "兼容离屏渲染器 rocom-pets 1.14.2（仓库不分发）",
+      "Codex 环境 + 已启用 Pets 插件"
+    ],
+    "gap_vs_task_brief": "任务写的是'无源码'，实际有 7 个脚本 + 3 个测试（共 10 个 .py）；缺的是外部资源与渲染器，不是源码"
+  }
+}

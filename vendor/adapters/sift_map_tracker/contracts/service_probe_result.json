@@ -1,0 +1,58 @@
+{
+  "exe": "c:\\Users\\13005\\Downloads\\work\\rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\service\\service.exe",
+  "seconds": 10.0,
+  "exit_code": 1,
+  "killed_after_timeout": true,
+  "stderr_tail": "[sift] loaded feature cache path=C:\\Users\\13005\\Downloads\\work\\rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\assets\\SIFT_features.npz keypoints=148435 descriptors=(148435, 128)\r\n",
+  "message_count": 37,
+  "type_histogram": {
+    "ready": 1,
+    "frame": 34,
+    "log": 2
+  },
+  "ready_payload": {
+    "type": "ready",
+    "refresh_rate_ms": 50,
+    "region": {
+      "top": 0,
+      "left": 0,
+      "width": 255,
+      "height": 235
+    },
+    "route_path": "C:\\Users\\13005\\Downloads\\work\\rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\routes\\default_route.json",
+    "control_path": "C:\\Users\\13005\\Downloads\\work\\rocogi\\vendor\\sift-map-tracker\\sift-map-tracker\\runtime\\control_state.json",
+    "memory_policy": "禁止设计一切读取游戏内存；当前实现仅使用屏幕截图识别与路线 JSON。"
+  },
+  "sample_messages": [
+    {
+      "t": 8.942,
+      "type": "ready",
+      "line": "{\"type\": \"ready\", \"refresh_rate_ms\": 50, \"region\": {\"top\": 0, \"left\": 0, \"width\": 255, \"height\": 235}, \"route_path\": \"C:\\\\Users\\\\13005\\\\Downloads\\\\work\\\\rocogi\\\\vendor\\\\sift-map-tracker\\\\sift-map-tracker\\\\routes\\\\default_route.json\", \"control_path\": \"C:\\\\Users\\\\13005\\\\Downloads\\\\work\\\\rocogi\\\\vendor\\\\sift-map-tracker\\\\sift-map-tracker\\\\runtime\\\\control_state.json\", \"memory_policy\": \"\\u7981\\u6b62\\u8bbe\\u8ba1\\u4e00\\u5207\\u8bfb\\u53d6\\u6e38\\u620f\\u5185\\u5b58\\uff1b\\u5f53\\u524d\\u5b9e\\u73b0\\u4ec5\\u4f7f"
+    },
+    {
+      "t": 8.947,
+      "type": "frame",
+      "line": "{\"type\": \"frame\", \"found\": false, \"inertial\": false, \"tracking_source\": \"searching\", \"minimap_visible\": false, \"center_x\": null, \"center_y\": null, \"raw_center_x\": null, \"raw_center_y\": null, \"frame_ms\": 0, \"image_b64\": \"/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAGQAZADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL"
+    },
+    {
+      "t": 8.956,
+      "type": "log",
+      "line": "{\"type\": \"log\", \"level\": \"error\", \"message\": \"Unable to activate route: default_route.json.\"}"
+    },
+    {
+      "t": 8.956,
+      "type": "log",
+      "line": "{\"type\": \"log\", \"level\": \"error\", \"message\": \"Tracker loop error: Capture region has not been configured. Select the minimap region in the client first.\"}"
+    },
+    {
+      "t": 8.997,
+      "type": "frame",
+      "line": "{\"type\": \"frame\", \"found\": false, \"inertial\": false, \"tracking_source\": \"searching\", \"minimap_visible\": false, \"center_x\": null, \"center_y\": null, \"raw_center_x\": null, \"raw_center_y\": null, \"frame_ms\": 0, \"image_b64\": null, \"minimap_b64\": null, \"detected_items\": [], \"item_status\": {\"enabled\": false}, \"route_name\": null, \"waypoint_index\": null, \"waypoint_total\": 0, \"next_label\": null, \"next_node_type\": null, \"next_edge_type\": null, \"distance_to_next\": null, \"remaining_distance\": null, \"route_pro"
+    },
+    {
+      "t": 9.047,
+      "type": "frame",
+      "line": "{\"type\": \"frame\", \"found\": false, \"inertial\": false, \"tracking_source\": \"searching\", \"minimap_visible\": false, \"center_x\": null, \"center_y\": null, \"raw_center_x\": null, \"raw_center_y\": null, \"frame_ms\": 0, \"image_b64\": null, \"minimap_b64\": null, \"detected_items\": [], \"item_status\": {\"enabled\": false}, \"route_name\": null, \"waypoint_index\": null, \"waypoint_total\": 0, \"next_label\": null, \"next_node_type\": null, \"next_edge_type\": null, \"distance_to_next\": null, \"remaining_distance\": null, \"route_pro"
+    }
+  ]
+}
